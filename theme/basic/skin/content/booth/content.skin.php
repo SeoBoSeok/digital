@@ -58,7 +58,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 	</div>
 </div>                        <div id="inner_wrap">
                             <div class="title_bar">
-    <h2 id="title">행사소개</h2>
+    <h2 id="title">부스배치도</h2>
 </div>
 <!-- 내용 -->
 <div class="sub_con ">
