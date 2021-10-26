@@ -1,16 +1,16 @@
 var App = function() {
     var _gui, _guiFields;
     var _engine;
-    var _currPreset = Utils.getParameterByName("shape") || "bison"; // initial preset
+    var _currPreset = Utils.getParameterByName("shape") || "galaxy"; // initial preset
     var _currSimMode;
     var _uvAnim;
-    var _tourMode = false;
+    var _tourMode = true;
     var _musicElem = document.getElementById("music");
 
     // DEFINES
 
     var _params = {
-        size: 512,
+        size: 1024,
         simMat: createShaderMaterial(SimShader),
         drawMat: createShaderMaterial(ParticleShader),
         update: undefined,  // defined later in the file
@@ -30,7 +30,7 @@ var App = function() {
 
     // must have same name as preset, for async loading to work properly
     var _meshes = {
-        bear:      { scale:0.023, yOffset:-2.30, speed:0.05, url:"models/bear_suksu.json" },
+        bear:      { scale:0.023, yOffset:-2.30, speed:0.05, url:"models/bear_deep_copy.json" },
         bison:     { scale:0.020, yOffset:-2.00, speed:0.10, url:"models/bison.json" },
         // deer:      { scale:0.040, yOffset:-2.00, speed:0.10, url:"models/deer.json" },
         // dog:       { scale:0.040, yOffset:-1.65, speed:0.10, url:"models/retriever.json" },
@@ -119,10 +119,10 @@ var App = function() {
     };
 
     var _tourUpdate = (function() {
-        var SHAPE_DURATION = 25.0;
-        var BETWEEN_DURATION = 15.0;
+        var SHAPE_DURATION = 20.0;
+        var BETWEEN_DURATION = 20.0;
         var BETWEEN_PRESET = "galaxy";
-        var sequence = ["wolf", "petals", "bear", "sphere", "horse", "panther", "plane", "bison"];
+        var sequence = ["bear"];
         var timer = 0.0;
         var seqIdx = 0;
         var seqName;
