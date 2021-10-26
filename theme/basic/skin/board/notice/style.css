@@ -799,6 +799,20 @@ table.comment-list td img {vertical-align:middle;}
 
 .file_area > li .del {position: absolute; right: 5px; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); border: 1px solid #ccc; border-radius:3px; background: #fff; height: 20px; line-height: 18px; min-width: 30px; text-align: center; color: #000;}
 
+.sub_visual {
+  background: url(/img/main/sub_visual.jpg) no-repeat center top;
+}
+.sub_visual {
+  height: 275px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  background-size: cover!important;
+}
+.ctt_admin {
+  display: none;
+}
 
 /* 980px 이하 */
 @media screen and (max-width:980px) {
@@ -997,3 +1011,4 @@ table.comment-list td img {vertical-align:middle;}
     .photo_listW li {width:100% !important; float: none;}
     
 }
+
