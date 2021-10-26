@@ -41,11 +41,11 @@ body {
   width: 585px;
   height: 250px;
   position: absolute;
-  top: 200px;
-  /* top: 0; */
+  top: 0;
+  /* top: 200px; */
   bottom: 0;
-  left: 250px;
-  /* left: 0; */
+  left: 0;
+  /* left: 250px; */
   right: 0;
   margin: auto;
   z-index: 99999999;
