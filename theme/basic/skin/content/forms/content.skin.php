@@ -4,33 +4,6 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
-$_program = array("monday" => "공주근대건축만들기", "tuesday" => "공주문화재야행스트링아트",  "wednesday" => "소원종이등만들기", "thursday" => "가죽그립톡만들기", "friday" => "도자기모빌만들기", "saturday" => "천문대관측프로그램", "sunday" => "1박2일숙박프로그램");
-$_program_detail = $_GET["program"];
-if(empty($_program_detail)) {
-    echo '<script>alert("잘못된 접근입니다"); window.location.href = "/bbs/board.php?bo_table=online&type=forms";</script>';
-}
-$_open = true;
-if ($_program_detail == "monday") {
-    $_open = false;
-}
-if ($_program_detail == "tuesday") {
-    $_open = false;
-}
-if ($_program_detail == "wednesday") {
-    $_open = false;
-}
-if ($_program_detail == "thursday") {
-    $_open = false;
-}
-if ($_program_detail == "friday") {
-    $_open = false;
-}
-if ($_program_detail == "saturday") {
-    $_open = false;
-}
-if ($_program_detail == "sunday") {
-    $_open = false;
-}
 ?>
 <!-- <div class="sub-layout">
     <div class="container">
@@ -43,7 +16,7 @@ if ($_program_detail == "sunday") {
     <div class="row">
         <div class="col" style="padding: 100px 0; text-align: center;">
 
-        <?php if($_open) { ?>
+        <?php if(true) { ?>
 
         <a href="<?php echo G5_URL.'/bbs/content.php?co_id=formscheck'; ?>"><button type="button" class="btn btn-info btn-lg float-right">사전신청확인</button></a>
         
