@@ -62,5 +62,6 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 </div>
 <!-- 내용 -->
 <div class="sub_con ">
+	<iframe src="/booth/index.html" frameborder="0" width="100%" height="700px"></iframe>
 </div>
 <!-- //container -->
