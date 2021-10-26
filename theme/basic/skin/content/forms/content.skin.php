@@ -9,7 +9,7 @@ $_program_detail = $_GET["program"];
 if(empty($_program_detail)) {
     echo '<script>alert("잘못된 접근입니다"); window.location.href = "/bbs/board.php?bo_table=online&type=forms";</script>';
 }
-$_open = false;
+$_open = true;
 if ($_program_detail == "monday") {
     $_open = false;
 }
