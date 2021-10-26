@@ -30,19 +30,19 @@ $(function() {
                <span></span>
 			</address>
             <p class="copy">Copyright ⓒ 2021 공주 디지털 박람회.      All Rights Reserved.</p>
-            <p class="f_logo"><img src="../img/common/f_logo2.png" alt="공주디지털박람회"></p>
-            <p class="go_top"><a href="javascript:void(0);" onclick="goTop();"><img src="../img/common/top.png" alt="top"> </a></p>
+            <!-- <p class="f_logo"><img src="../img/common/f_logo2.png" alt="공주디지털박람회"></p> -->
+            <p class="go_top"><a href="javascript:void(0);" onclick="goTop();"><img src="/img/main/top.png" alt="top"> </a></p>
         </div>
     </div>
 </div>
 
 <div class="quick_wrap">
     <ul>
-        <li><a href="https://www.facebook.com/koreaedu" target="_blank"><img src="../img/main/sns_f.png" alt=""></a></li>
+        <!-- <li><a href="https://www.facebook.com/koreaedu" target="_blank"><img src="../img/main/sns_f.png" alt=""></a></li>
         <li><a href="https://www.instagram.com/educationkorea/" target="_blank"><img src="../img/main/sns_i.png" alt=""></a></li>
         <li><a href="http://edufair.blog.me/" target="_blank"><img src="../img/main/sns_b.png" alt=""></a></li>
         <li><a href="https://www.youtube.com/channel/UCHomuSrZwskuWT_gJxDj9Kg" target="_blank"><img src="../img/main/sns_y.png" alt=""></a></li>
-        <li><a href="javascript:void(0);" onclick="ViewlayerPop(0);"><img src="../img/main/sns_n.png" alt=""></a></li>
+        <li><a href="javascript:void(0);" onclick="ViewlayerPop(0);"><img src="../img/main/sns_n.png" alt=""></a></li> -->
     </ul>
 </div>
 
@@ -92,10 +92,10 @@ $(function() {
     <div class="layerPop_inner">
         <div class="pop_wrap">
             <div class="pop_wrap_in" style="max-width:420px;">
-                <div class="pop_head">
+                <!-- <div class="pop_head">
                     <p class="title tc">뉴스레터 신청</p>
                     <p class="x_btn" onclick="CloselayerPop();"><img src="../img/common/close_bt.png" alt="닫기"></p>
-                </div>
+                </div> -->
                 <div class="pop_body">
                     <ul class="signup">
                         <li><label class="f115 fcor0" for="uid">이름</label>
