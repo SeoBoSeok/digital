@@ -319,11 +319,11 @@ table.board-list td .ico {display: inline-block; color: #fff; font-size: 0.95em;
 /* 페이징 */
 .paging {overflow:hidden; text-align:center; margin:36px 0px 25px 0px; width:100%; font-weight: 500; font-size: 0px;}
 .paging img {vertical-align:top;}
-.paging a {color:#737070; vertical-align: middle; display:inline-block; zoom:1; line-height:26px; *display:inline; width:28px; height:28px; border:1px solid #d1d1d1; font-size:14px; margin: 0px 3px; padding: 8px;}
+.paging a {color:#737070; vertical-align: middle; display:inline-block; zoom:1; line-height:26px; width:46px; height:46px; border:1px solid #d1d1d1; font-size:14px; margin: 0px 3px; padding: 8px;}
 
-.paging a.first, .paging a.last {width:28px; height: 28px;}
-.paging a.next {width: 28px; height:28px; margin-left: 10px;}
-.paging a.prev {width: 28px; height:28px; margin-right:10px;}
+.paging a.first, .paging a.last {width:46px; height: 46px;}
+.paging a.next {width: 46px; height:46px; margin-left: 10px;}
+.paging a.prev {width: 46px; height:46px; margin-right:10px;}
 .paging a.on {color:#fff; background:#333; border:1px solid #333;}
 
 
