@@ -21,3 +21,6 @@
   position: relative;
   background-size: cover!important;
 }
+.ctt_admin {
+  display: none;
+}
