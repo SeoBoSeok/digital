@@ -74,9 +74,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                                             <p class="pic"><img src="../img/introduce/02_img01.jpg" class="" alt="">
 
                                             </p>
-                                            <p class="first first01"><strong>EDUCATION KOREA 2022 </strong><br>
-                                            제 19회 대한민국 교육박람회는?</p>
-                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>대한민국 교육박람회가<br /> EDUCATION KOREA로 새롭게 거듭납니다.</div>
+                                            <p class="first first01"><strong>GONGJU DIGITAL HERITAGE </strong><br>
+                                            제 1회 공주디지털문화박람회</p>
+                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>공주에서<br /> DIGITAL HERITAGE 박람회가 개최됩니다.</div>
 
 										<ul class="edu_ul">
 											<li><span><img src="../img/introduce/02_img02.gif" class="" alt=""></span></li>
@@ -89,9 +89,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                                         <div class="sumW">
 											<ul class="summary_ul">
 												<li>
-													<strong class="txt_t">명 칭</strong> <span class="feb fcor0">제 19회 대한민국 교육박람회<br />
-													Korea Educational Technology & Contents Fair 2022<br />
-													Education Korea 2022</span>
+													<strong class="txt_t">명 칭</strong> <span class="feb fcor0">제 11회 공주 디지털문화박람회<br />
+													GONGJU DIGITAL HERITAGE<br />
+													2022</span>
 												</li>
 												<li>
 													<style>.gigan_hall {font-size:12px; display:inline-block; width:100px; text-align: center; line-height:22px; background:#dbc4ea; color:#000000; margin:0px 8px 0 0; border-radius:6px; vertical-align: middle}
@@ -100,16 +100,16 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 													<!--<p> <span class="gigan_hall"><strong>Public Hall</strong></span>3층 C홀 – 2021. 1. 14(목) ~ 17(일), 4일간</p>-->
 												</li>
 												<li>
-													<strong class="txt_t">장 소</strong> 서울 코엑스
+													<strong class="txt_t">장 소</strong> 공주 반죽동
 												</li>
 												<li>
-													<strong class="txt_t">규 모</strong> 420개사 1,400부스
+													<strong class="txt_t">규 모</strong> 20개사 1,40부스
 												</li>
 												<li>
-													<strong class="txt_t">주 제</strong> <span class="fb" style="color:#875394;">교육이 미래다 “The Future is Education”</span>
+													<strong class="txt_t">주 제</strong> <span class="fb" style="color:#875394;">공주학 연구원</span>
 												</li>
 												<li>
-													<strong class="txt_t">주 최</strong> (사)한국교육녹색환경연구원, 엑스포럼
+													<strong class="txt_t">주 최</strong> 공주시
 												</li>
 												<li>
 													<strong class="txt_t">후 원<br />(예정)</strong> 교육부, 과학기술정보통신부, 중소벤처기업부, 서울특별시교육청 외 16개 시·도교육청 등
