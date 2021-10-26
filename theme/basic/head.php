@@ -70,8 +70,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <li class="gnb_1dep ">
                                         <a href="/newsroom/movie">관람안내</a>
                                         <ul class="gnb_2dep">
-                                            <li class=""><a href="#;">참가업체 등록</a></li>
-                                            <li class=""><a href="#;">사전신청 접수</a></li>
+                                            <li class=""><a href="/bbs/content.php?co_id=forms">참가업체 등록</a></li>
+                                            <li class=""><a href="/bbs/content.php?co_id=forms">사전신청 접수</a></li>
                                             <li class=""><a href="#;">숙박안내</a></li>
                                         </ul>
                                     </li>
