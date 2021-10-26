@@ -54,50 +54,46 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <li class="gnb_1dep ">
                                         <a href="/story/">디지털박람회</a>
                                         <ul class="gnb_2dep">
-                                                <li class=""><a href="/story/">빙그레 소개</a></li>
-                                                <li class=""><a href="/story/history">히스토리</a></li>
-                                                <li class=""><a href="/story/global">글로벌 빙그레</a></li>
-                                                <li class=""><a href="/story/invest">투자정보</a></li>
+                                                <li class=""><a href="#;">행사소개</a></li>
+                                                <li class=""><a href="#;">부스배치도</a></li>
+                                                <li class=""><a href="#;">참가업체 리스트</a></li>
                                         </ul>
                                     </li>
                                     <li class="gnb_1dep ">
                                         <a href="/brand/">참가업체</a>
                                         <ul class="gnb_2dep">
-                                                <li class=""><a href="/brand/icecream">아이스크림</a></li>
-                                                <li class=""><a href="/brand/milk">우유/치즈</a></li>
-                                                <li class=""><a href="/brand/ferment">발효유</a></li>
-                                                <li class=""><a href="/brand/coffee">커피/음료</a></li>
-                                                <li class=""><a href="/brand/desert">스낵/디저트</a></li>
-                                                <li class=""><a href="/brand/export">수출제품</a></li>
+                                            <li class=""><a href="#;">참가안내</a></li>
+                                            <li class=""><a href="#;">온라인 참가신청</a></li>
+                                            <li class=""><a href="#;">참가업체 자료</a></li>
                                         </ul>
                                     </li>
                                     <li class="gnb_1dep ">
                                         <a href="/newsroom/movie">관람안내</a>
                                         <ul class="gnb_2dep">
-                                                <li class=""><a href="/newsroom/movie">빙그레 CF</a></li>
-                                                <li class=""><a href="/newsroom/media_press">보도자료</a></li>
-                                                <li class=""><a href="/newsroom/contribute">사회공헌</a></li>
+                                            <li class=""><a href="#;">참가업체 등록</a></li>
+                                            <li class=""><a href="#;">사전신청 접수</a></li>
+                                            <li class=""><a href="#;">숙박안내</a></li>
                                         </ul>
                                     </li>
                                     <li class="gnb_1dep ">
                                         <a href="/customer/faq">미디어</a>
                                         <ul class="gnb_2dep">
-                                                <li class=""><a href="/customer/faq">고객상담센터</a></li>
-                                                <li class=""><a href="/customer/media_notice">공지사항</a></li>
-                                                <li class=""><a href="/privacy/">개인정보처리방침</a></li>
+                                            <li class=""><a href="#;">공지사항</a></li>
+                                            <li class=""><a href="#;">갤러리</a></li>
+                                            <li class=""><a href="#;">영상자료실</a></li>    
                                         </ul>
                                     </li>
                         </ul>
-                        <div class="gnd_2depth_area">
+                        <!-- <div class="gnd_2depth_area">
                             <div class="inner">
-                                <div class="gnd_banner">
-                                    <div class="slide_item"><a href="http://www.thesoftlab.co.kr/" target="_blank"><img src="/images/img_gnb_bnr07.png?_=2" alt="플래그쉽스토어 소프트랩 바로가기"></a></div>
+                                <div class="gnd_banner"> -->
+                                    <!-- <div class="slide_item"><a href="#;" target="_blank"><img src="/images/img_gnb_bnr07.png?_=2" alt="플래그쉽스토어 소프트랩 바로가기"></a></div> -->
                                     <!--<div class="slide_wrap">
         <div class="slide_item"><a href="/brand/ferment/1391"><img src="/images/img_gnb_bnr07.png" alt="플래그쉽스토어 소프트랩 바로가기"></a></div>
     </div> -->
-                                </div>
+                                <!-- </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

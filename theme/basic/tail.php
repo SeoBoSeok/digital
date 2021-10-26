@@ -16,7 +16,7 @@ if(G5_COMMUNITY_USE === false) {
 </div>
 </div> -->
 <!-- } 콘텐츠 끝 -->
-
+<script src="<?php echo G5_JS_URL; ?>/bin.js"></script>
 <script>
 $(function() {
     // 폰트 리사이즈 쿠키있으면 실행
