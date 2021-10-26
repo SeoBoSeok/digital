@@ -36,208 +36,262 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/animation.css" />
 <!-- <script type="text/javascript" src="../js/jquery.bxslider.min.js"></script> -->
 <!-- <link rel="stylesheet" type="text/css" href="../css/jquery.bxslider.css" /> -->
-<script>
-	var slider = "";
-	var slider2 = "";
-	$(document).ready(function() {
-
-		var muted = 1;
-		var myVideo = document.getElementById("av");
-		var agent = navigator.userAgent.toLowerCase();
-		name = navigator.appName;
-		var browser = '';
-		var visual = '';
-
-		/*if (muted == 1) {
-			myVideo.muted = true;
-			muted = 0;
-			$(this).addClass("on");
-		} else {
-			myVideo.muted = false;
-			muted = 1;
-			$(this).removeClass("on");
-		}*/
-
-		/// 20201207 여기 삭제 ///
-
-		$(window).resize(function() {
-
-		});
-
-		$('#slide_banner').bxSlider({
-			minSlides: 2,
-			maxSlides: 4,
-			infiniteLoop: true,
-			slideWidth: '230px',
-			moveSlides: 1,
-			pager: false,
-			auto: false,
-			slideMargin: 20,
-			nextSelector: '#slide_r',
-			prevSelector: '#slide_l',
-			nextText: '<img src="../img/main/slide_r.gif">',
-			prevText: '<img src="../img/main/slide_l.gif">',
-
-		});
-
-
-
-	});
-
-</script>
-
-	
-    
-	
-
-
-
-<ul id="navigation">
-    <li><a href="#section0">Section 0</a></li>
-    <li><a href="#section1">Section 1</a></li>
-    <li><a href="#section2">Section 2</a></li>
-    <li><a href="#section3">Section 3</a></li>
-    <li><a href="#section4">Section 4</a></li>
-    <li><a href="#section5">Section 5</a></li>
-    <li><a href="#section6">Section 6</a></li>
-</ul>	<div id="wrap" class="main_wrap">
-		<!-- header -->
-		<div id="header">
-
-    <div class="in_header">
-        <h1><a href="main.php.html"><img src="../img/common/logo.png" alt=""></a></h1>
-
-        <!-- <p class="lang"><a href="../eng/main/main.php.html">English</a></p> -->
-        <h2 class="skip">주요 서비스 메뉴</h2>
-
-        <div id="gnbW" class="w_gnb">
-            <div class="gnb">
-    <ul>
-        <li class="gnb01"><a href="/bbs/content.php?co_id=introduction"><span>디지털박람회</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="#;">행사소개</a></li>
-                <li class="lnb2"><a href="#;">부스배치도</a></li>
-				<li class="lnb5"><a href="#;">참가업체리스트</a></li>
-                <li class="lnb3"><a href="#;">주요 프로그램</a></li>
-            </ul>
-        </li>
-		
-		
-		
-		
-        <li class="gnb05"><a href="../introduce/03.php.html"><span>참가업체</span></a>
-            <ul class="sub_menu">
-                <li class="lnb2"><a href="../introduce/03.php%EF%B9%96cate_type=1.html">교사대상</a></li>
-                <li class="lnb3"><a href="../introduce/03.php%EF%B9%96cate_type=2.html">학부모·학생대상</a></li>
-                <li class="lnb4"><a href="../introduce/03.php%EF%B9%96cate_type=3.html">실무자·바이어대상</a></li>
-                <li class="lnb5"><a href="../introduce/03.php%EF%B9%96cate_type=4.html">교박 어워드</a></li>
-            </ul>
-        </li>
-				
-        <li class="gnb02"><a href="../exhibitor/01.php.html"><span>관람안내</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../exhibitor/01.php.html">참가업체</a></li>
-				<li class="lnb3"><a href="../exhibitor/03.php.html">비즈니스매칭</a></li>
-                <li class="lnb2"><a href="../exhibitor/02.php.html">스폰서쉽</a></li>
-            </ul>
-        </li>
-        
-        <li class="gnb04"><a href="../media_center/01.php.html"><span>미디어센터</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../media_center/01.php.html">공지사항</a></li>
-                <li class="lnb2"><a href="../media_center/02.php.html">교육소식</a></li>
-                <li class="lnb3"><a href="../media_center/03.php.html">갤러리</a></li>
-            </ul>
-        </li>
-
-
-    </ul>
-
-</div>
-        </div>
-
-        <div class="m_gnbW">
-            <div class="m_gnb_on bt_all">
-                <div class="menu_btn">
-                    <div class="line-top"></div>
-                    <div class="line-middle"></div>
-                    <div class="line-bottom"></div>
+<div class="header">
+            <div class="header_inner">
+                <h1 class="logo">
+                    <a href="/">
+                        <span class="blind">빙그레</span>
+                    </a>
+                </h1>
+            </div>
+            <!-- pc gnb// -->
+            <div class="gnb_wrap">
+                <h2 class="blind">주메뉴</h2>
+                <div class="gnb_bg"></div>
+                <div class="gnb">
+                    <div class="gnb_box">
+                        <ul class="gnb_inner">
+                                    <li class="gnb_1dep ">
+                                        <a href="/story/">디지털박람회</a>
+                                        <ul class="gnb_2dep">
+                                                <li class=""><a href="/story/">빙그레 소개</a></li>
+                                                <li class=""><a href="/story/history">히스토리</a></li>
+                                                <li class=""><a href="/story/global">글로벌 빙그레</a></li>
+                                                <li class=""><a href="/story/invest">투자정보</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="gnb_1dep ">
+                                        <a href="/brand/">참가업체</a>
+                                        <ul class="gnb_2dep">
+                                                <li class=""><a href="/brand/icecream">아이스크림</a></li>
+                                                <li class=""><a href="/brand/milk">우유/치즈</a></li>
+                                                <li class=""><a href="/brand/ferment">발효유</a></li>
+                                                <li class=""><a href="/brand/coffee">커피/음료</a></li>
+                                                <li class=""><a href="/brand/desert">스낵/디저트</a></li>
+                                                <li class=""><a href="/brand/export">수출제품</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="gnb_1dep ">
+                                        <a href="/newsroom/movie">관람안내</a>
+                                        <ul class="gnb_2dep">
+                                                <li class=""><a href="/newsroom/movie">빙그레 CF</a></li>
+                                                <li class=""><a href="/newsroom/media_press">보도자료</a></li>
+                                                <li class=""><a href="/newsroom/contribute">사회공헌</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="gnb_1dep ">
+                                        <a href="/customer/faq">미디어</a>
+                                        <ul class="gnb_2dep">
+                                                <li class=""><a href="/customer/faq">고객상담센터</a></li>
+                                                <li class=""><a href="/customer/media_notice">공지사항</a></li>
+                                                <li class=""><a href="/privacy/">개인정보처리방침</a></li>
+                                        </ul>
+                                    </li>
+                        </ul>
+                        <div class="gnd_2depth_area">
+                            <div class="inner">
+                                <div class="gnd_banner">
+                                    <div class="slide_item"><a href="http://www.thesoftlab.co.kr/" target="_blank"><img src="/images/img_gnb_bnr07.png?_=2" alt="플래그쉽스토어 소프트랩 바로가기"></a></div>
+                                    <!--<div class="slide_wrap">
+        <div class="slide_item"><a href="/brand/ferment/1391"><img src="/images/img_gnb_bnr07.png" alt="플래그쉽스토어 소프트랩 바로가기"></a></div>
+    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- //pc gnb -->
+            <!-- mobile gnb// -->
+            <div class="mobile_gnb_wrap">
+                <button type="button" class="menu_btn_open"><i></i><span class="blind">모바일 메뉴 열기/닫기</span></button> <!-- 모바일 메뉴 오픈시 menu_btn_open에 close 클래스 추가 -->
+                <div class="mobile_gnb"> <!-- 모바일 메뉴 오픈시 on 클래스 추가 -->
+                    <div class="gnb_tit">
+                        <span></span>
+                    </div>
+                    <div class="gnb_con">
+                        <ul>
+                                    <li>
+                                        <a href="#" onclick="return false;" class="mobile_1depth btn_open ">회사소개<i class="blind">펼치기</i></a> <!-- mobile_1depth 클릭 시 on 클래스 추가 -->
+                                        <ul class="mobile_2depth_box">
+                                            <li>
+                                                    <a href="#" onclick="return false;" class="mobile_2depth btn_open ">빙그레 소개<i class="blind">펼치기</i></a>
+                                                    <ul class="mobile_3depth"> <!-- 3depth 메뉴가 선택되어 있을 시에 li에 on 클래스 추가 -->
+                                                            <li class=""><a href="/story/ceo">CEO인사말</a></li>
+                                                            <li class=""><a href="/story/philosophy">경영이념</a></li>
+                                                            <li class=""><a href="/story/ethics">윤리경영</a></li>
+                                                            <li class=""><a href="/story/business">사업분야</a></li>
+                                                            <li class=""><a href="/story/ci">C.I</a></li>
+                                                            <li class=""><a href="/story/human_rights">인권경영</a></li>
+                                                    </ul>
+                                            </li>
+                                            <li>
+                                                    <a href="/story/history" class="mobile_2depth ">히스토리</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/story/global" class="mobile_2depth ">글로벌 빙그레</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#" onclick="return false;" class="mobile_2depth btn_open ">투자정보<i class="blind">펼치기</i></a>
+                                                    <ul class="mobile_3depth"> <!-- 3depth 메뉴가 선택되어 있을 시에 li에 on 클래스 추가 -->
+                                                            <li class=""><a href="/story/invest_announce">전자공고</a></li>
+                                                            <li class=""><a href="/story/invest_public">공시정보</a></li>
+                                                            <li class=""><a href="/story/invest_politics">경영정보</a></li>
+                                                            <li class=""><a href="/story/invest_indicator">투자지표</a></li>
+                                                            <li class=""><a href="/story/invest_ir">IR자료실</a></li>
+                                                            <li class=""><a href="/story/invest_shareholder">기업지배구조</a></li>
+                                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="return false;" class="mobile_1depth btn_open ">제품소개<i class="blind">펼치기</i></a> <!-- mobile_1depth 클릭 시 on 클래스 추가 -->
+                                        <ul class="mobile_2depth_box">
+                                            <li>
+                                                    <a href="/brand/" class="mobile_2depth ">전체</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/icecream" class="mobile_2depth ">아이스크림</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/milk" class="mobile_2depth ">우유/치즈</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/ferment" class="mobile_2depth ">발효유</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/coffee" class="mobile_2depth ">커피/음료</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/desert" class="mobile_2depth ">스낵/디저트</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/brand/export" class="mobile_2depth ">수출제품</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="return false;" class="mobile_1depth btn_open ">홍보센터<i class="blind">펼치기</i></a> <!-- mobile_1depth 클릭 시 on 클래스 추가 -->
+                                        <ul class="mobile_2depth_box">
+                                            <li>
+                                                    <a href="/newsroom/movie" class="mobile_2depth ">빙그레 CF</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/newsroom/media_press" class="mobile_2depth ">보도자료</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#" onclick="return false;" class="mobile_2depth btn_open ">사회공헌<i class="blind">펼치기</i></a>
+                                                    <ul class="mobile_3depth"> <!-- 3depth 메뉴가 선택되어 있을 시에 li에 on 클래스 추가 -->
+                                                            <li class=""><a href="/newsroom/contribute_picture">어린이 그림잔치</a></li>
+                                                            <li class=""><a href="/newsroom/contribute_font">빙그레 글꼴</a></li>
+                                                            <li class=""><a href="/newsroom/contribute_habitat">해비타트</a></li>
+                                                            <li class=""><a href="/newsroom/contribute_volunte">빙그레 봉사단</a></li>
+                                                            <li class=""><a href="/newsroom/contribute_foundation">재단법인 김구재단</a></li>
+                                                            <li class=""><a href="/newsroom/contribute_soundsource">빙그레 음원</a></li>
+                                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="return false;" class="mobile_1depth btn_open ">고객센터<i class="blind">펼치기</i></a> <!-- mobile_1depth 클릭 시 on 클래스 추가 -->
+                                        <ul class="mobile_2depth_box">
+                                            <li>
+                                                    <a href="#" onclick="return false;" class="mobile_2depth btn_open ">고객상담센터<i class="blind">펼치기</i></a>
+                                                    <ul class="mobile_3depth"> <!-- 3depth 메뉴가 선택되어 있을 시에 li에 on 클래스 추가 -->
+                                                            <li class=""><a href="/customer/faq">자주 묻는 질문</a></li>
+                                                            <li class=""><a href="/customer/inquiry">1:1 이메일 문의</a></li>
+                                                    </ul>
+                                            </li>
+                                            <li>
+                                                    <a href="/customer/media_notice" class="mobile_2depth ">공지사항</a>
+                                            </li>
+                                            <li>
+                                                    <a href="/privacy/" class="mobile_2depth ">개인정보처리방침</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="return false;" class="mobile_1depth btn_open ">플래그십스토어<i class="blind">펼치기</i></a> <!-- mobile_1depth 클릭 시 on 클래스 추가 -->
+                                        <ul class="mobile_2depth_box">
+                                            <li>
+                                                    <a href="/flagship/softlab" class="mobile_2depth ">소프트랩</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                        </ul>
+                    </div>
+                    <div class="link_m_container">
+                        <ul>
+                            <li class="link_m_customer"><a href="/story/ethics_manage">윤리경영</a></li>
+                            <li class="link_m_road"><a href="/support/location">오시는 길</a></li>
+                            <li class="link_m_talent"><a href="https://recruit.bing.co.kr" target="_blank" title="새창열림">인재채용</a></li>
+                            <li class="link_m_buy"><a href="https://srm.bing.co.kr" target="_blank" title="새창열림">구매포탈시스템</a></li>
+                            <li class="link_m_privacy"><a href="/privacy">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+                    <div class="gnb_footer">
+                        <ul>
+                            <li class="mobile_lang sle_box2">
+                                <a href="#" class="slebx_btn">언어선택</a><!-- 2017-11-22 클릭 시 on 클래스 추가 -->
+                                <ul class="link_list">
+                                    <li><a href="#" onclick="return false;" target="_blank" title="새 창 열림">KOR</a></li>
+                                    <li><a href="http://eng.bing.co.kr/" target="_blank" title="새 창 열림">ENG</a></li>
+                                    <li><a href="http://www.bingerui.cn/" target="_blank" title="새 창 열림">CN</a></li>
+                                </ul>
+                            </li>
+                            <li class="mobile_family sle_box2">
+                                <a href="#" class="slebx_btn">패밀리사이트</a><!-- 2017-11-22 클릭시 on 클래스 추가 -->
+                                <ul class="link_list">
+                                    <li><a href="https://www.instagram.com/binggraekorea/" target="_blank" title="새 창 열림">빙그레&nbsp;기업 인스타그램</a></li>
+                                    <li><a href="https://www.youtube.com/bingsmile" target="_blank" title="새 창 열림">빙그레&nbsp;기업 유튜브</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCsCjDynxKUOu7nY6tIXT25Q" target="_blank" title="새 창 열림">빙그레 바나나맛우유&nbsp;유튜브</a></li>
+                                    <li><a href="https://www.instagram.com/bingicecream.official/" target="_blank" title="새 창 열림">빙그레 아이스크림 인스타그램</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCxjERPPVyHbina73g8Grn-g" target="_blank" title="새 창 열림">빙그레 아이스크림 유튜브</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="sns_list">
+                            <!-- <li><a href="https://www.facebook.com/bingsmile" class="link_facebook" target="_blank" title="새 창 열림"><span class="blind">페이스북 바로가기</span></a></li> -->
+                            <li><a href="https://www.instagram.com/binggraekorea/" class="link_insta" target="_blank" title="새 창 열림"><span class="blind">인스타그램 바로가기</span></a></li>
+                            <li><a href="http://www.youtube.com/bingsmile" class="link_youtube" target="_blank" title="새 창 열림"><span class="blind">유튜브 바로가기</span></a></li>
+                            <li><a href="https://www.kicassl.com/cgi-bin/cert-seal4?code=00799a0374e5abdc4a12b8186c73b3" class="link_kica" target="_blank" title="새 창 열림"><span class="blind">한국정보인증 바로가기</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- //mobile gnb -->
+
+            <!-- 171107 수정 : 마크업 수정 (util영역 마크업 위치 변경되었습니다) -->
+            <div class="util">
+                <ul class="util_list">
+                    <li><a href="/story/ethics_manage" target="">로그인</a></li>
+                    <li><a href="https://srm.bing.co.kr" target="_blank">회원가입</a></li>
+                    <!-- <li><a href="https://recruit.bing.co.kr" target="_blank">인재채용</a></li> -->
+                </ul>
+                <!--<div class="custom_select sel_box">
+                    <a href="#" class="selected"><span>고객센터</span><em class="ir">펼침</em></a>
+                    <ul>
+                        <li><a href="/customer/faq" title="새 창 열림"><span>자주 묻는 질문</span></a></li>
+                        <li><a href="/customer/inquiry" title="새 창 열림"><span>1:1 이메일 문의</span></a></li>
+                    </ul>
+                </div>-->
+
+                <div class="head_sns_list">
+                    <ul>
+                        <!--<li><a href="https://www.facebook.com/bingsmile" class="ico_f_facebook" target="_blank" title="새 창 열림"><span class="blind">페이스북 바로가기</span></a></li> -->
+                        <li><a href="https://www.instagram.com/binggraekorea/" class="ico_f_insta" target="_blank" title="새 창 열림"><span class="blind">인스타그램 바로가기</span></a></li>
+                        <li><a href="http://www.youtube.com/bingsmile" class="ico_f_youtube" target="_blank" title="새 창 열림"><span class="blind">유튜브 바로가기</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="lang_select sel_box">
+                    <a href="#" class="selected"><span>KOR</span></a>
+                    <ul>
+                        <li><a href="#" onclick="return false;" title="새 창 열림"><span>KOR</span></a></li>
+                        <li><a href="http://eng.bing.co.kr/" target="_blank" title="새 창 열림"><span>ENG</span></a></li>
+                        <li><a href="http://www.bingerui.cn/" target="_blank" title="새 창 열림"><span>CN</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- // 171107 수정 : 마크업 수정 (util영역 마크업 위치 변경되었습니다) -->
         </div>
-    </div>
-
-    <div id="gnb_bar">
-    </div>
-</div>
-
-<!-- m gnb -->
-
-<div id="slide_menu_wrap" class="slide_menu_wrap ">
-    <div class="slide_menu_inner">
-       
-        <div class="gnb">
-    <ul>
-        <li class="gnb01"><a href="../introduce/01.php.html"><span>행사안내</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../introduce/01.php.html">행사소개</a></li>
-				<li class="lnb6"><a href="../introduce/06.php.html">에듀콘</a></li>
-                <li class="lnb2"><a href="../introduce/02.php.html">부스배치도</a></li>
-				<li class="lnb5"><a href="../introduce/05.php.html">참가업체 리스트</a></li>
-                <!--<li class="lnb3"><a href="../introduce/03.php">주요 프로그램</a></li>-->
-                <li class="lnb4"><a href="../introduce/04.php.html">지난 행사결과</a></li>
-            </ul>
-        </li>
-		
-		
-		
-		
-        <li class="gnb05"><a href="../introduce/03.php.html"><span>주요행사</span></a>
-            <ul class="sub_menu">
-                <!--<li class="lnb1"><a href="../introduce/06.php">에듀콘</a></li>-->
-                <li class="lnb2"><a href="../introduce/03.php%EF%B9%96cate_type=1.html">교사대상</a></li>
-                <li class="lnb3"><a href="../introduce/03.php%EF%B9%96cate_type=2.html">학부모·학생대상</a></li>
-                <li class="lnb4"><a href="../introduce/03.php%EF%B9%96cate_type=3.html">실무자·바이어대상</a></li>
-                <li class="lnb5"><a href="../introduce/03.php%EF%B9%96cate_type=4.html">교박 어워드</a></li>
-            </ul>
-        </li>
-		
-		
-		
-        <li class="gnb02"><a href="../exhibitor/01.php.html"><span>참가안내</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../exhibitor/01.php.html">참가업체</a></li>
-				<li class="lnb3"><a href="../exhibitor/03.php.html">비즈니스매칭</a></li>
-                <li class="lnb2"><a href="../exhibitor/02.php.html">스폰서쉽</a></li>
-                <!--li class="lnb3"><a href="../exhibitor/03.php">온라인 참가신청</a></li-->
-            </ul>
-        </li>
-        <li class="gnb03"><a href="../visit/01.php.html"><span>관람안내</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../visit/01.php.html">참관객</a></li>
-                <li class="lnb2"><a href="../visit/02.php.html">비즈니스매칭</a></li>
-                <li class="lnb3"><a href="../visit/03.php.html">전시장 안내</a></li>
-            </ul>
-        </li>
-        
-        <li class="gnb04"><a href="../media_center/01.php.html"><span>미디어센터</span></a>
-            <ul class="sub_menu">
-                <li class="lnb1"><a href="../media_center/01.php.html">공지사항</a></li>
-                <li class="lnb2"><a href="../media_center/02.php.html">교육소식</a></li>
-                <li class="lnb3"><a href="../media_center/03.php.html">갤러리</a></li>
-            </ul>
-        </li>
-
-
-    </ul>
-
-</div>
-    </div>
-    <div class="all_close">
-        <div class="menu_btn is-open">
-            <div class="line-top"></div>
-            <div class="line-middle"></div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-</div>
