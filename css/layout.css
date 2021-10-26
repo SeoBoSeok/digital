@@ -266,11 +266,11 @@ body.fixe {overflow-x: hidden; overflow-y: scroll; width: 100%; height: 100%; po
 .sub_visual {height:275px; padding: 0px 10px; box-sizing: border-box; overflow: hidden; position: relative; background-size: cover!important}
 .sub_visual .sub_txt {display: table; height: 100%; width: 100%;}
 .sub_visual .sub_txt .cell {display: table-cell; vertical-align: middle; height: 100%; box-sizing: border-box; text-align: center; padding-bottom:55px;}
-.sub_wrap_1 .sub_visual {background: url(../img/introduce/sub_visual.jpg) no-repeat center top;}
-.sub_wrap_2 .sub_visual {background: url(../img/exhibitor/sub_visual.jpg) no-repeat center top;}
-.sub_wrap_3 .sub_visual {background: url(../img/visit/sub_visual.jpg) no-repeat center top;}
-.sub_wrap_4 .sub_visual {background: url(../img/media_center/sub_visual.jpg) no-repeat center top;}
-.sub_wrap_5 .sub_visual {background: url(../img/introduce/sub_visual.jpg) no-repeat center top;}
+.sub_wrap_1 .sub_visual {background: url(/img/main/sub_visual.jpg) no-repeat center top;}
+.sub_wrap_2 .sub_visual {background: url(/img/main/sub_visual.jpg) no-repeat center top;}
+.sub_wrap_3 .sub_visual {background: url(/img/main/sub_visual.jpg) no-repeat center top;}
+.sub_wrap_4 .sub_visual {background: url(/img/main/sub_visual.jpg) no-repeat center top;}
+.sub_wrap_5 .sub_visual {background: url(/img/main/sub_visual.jpg) no-repeat center top;}
 
 
 

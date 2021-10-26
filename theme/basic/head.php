@@ -54,7 +54,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                     <li class="gnb_1dep ">
                                         <a href="/story/">디지털박람회</a>
                                         <ul class="gnb_2dep">
-                                                <li class=""><a href="/bbs/content.php?co_id=intorduction">행사소개</a></li>
+                                                <li class=""><a href="/bbs/content.php?co_id=introduce">행사소개</a></li>
                                                 <li class=""><a href="#;">부스배치도</a></li>
                                                 <li class=""><a href="#;">참가업체 리스트</a></li>
                                         </ul>
