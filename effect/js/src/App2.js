@@ -10,7 +10,7 @@ var App = function() {
     // DEFINES
 
     var _params = {
-        size: 1024,
+        size: 512,
         simMat: createShaderMaterial(SimShader),
         drawMat: createShaderMaterial(ParticleShader),
         update: undefined,  // defined later in the file
