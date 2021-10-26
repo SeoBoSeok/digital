@@ -10,3 +10,14 @@
 #container {width: 100%;}
 #inner_wrap .introduce_box {padding-left: 0;}
 
+.sub_wrap_4 .sub_visual {
+  background: url(../img/media_center/sub_visual.jpg) no-repeat center top;
+}
+.sub_visual {
+  height: 275px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  background-size: cover!important;
+}
