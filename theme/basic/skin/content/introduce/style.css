@@ -10,8 +10,8 @@
 #container {width: 100%;}
 #inner_wrap .introduce_box {padding-left: 0;}
 
-.sub_wrap_4 .sub_visual {
-  background: url(../img/media_center/sub_visual.jpg) no-repeat center top;
+.sub_visual {
+  background: url(/img/main/sub_visual.jpg) no-repeat center top;
 }
 .sub_visual {
   height: 275px;
