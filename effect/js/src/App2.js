@@ -1,7 +1,7 @@
 var App = function() {
     var _gui, _guiFields;
     var _engine;
-    var _currPreset = Utils.getParameterByName("shape") || "bear"; // initial preset
+    var _currPreset = Utils.getParameterByName("shape") || "galaxy"; // initial preset
     var _currSimMode;
     var _uvAnim;
     var _tourMode = false;

@@ -11,10 +11,17 @@ body {
 
 #webgl-container {
   overflow: hidden;
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 0;
   bottom: 0;
+}
+#help-box {
+  display: block;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  background-image: url('/img/main/main_slider_title.png');
 }
 #webgl-container>canvas {
   float: left;
@@ -31,19 +38,21 @@ body {
 }
 
 #help-box {
-  width: 350px;
-  height: 350px;
+  width: 585px;
+  height: 250px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  z-index: 1;
+  z-index: 99999999;
 
   padding: 50px;
   color: white;
-  background: rgba(0,0,0,0.5);
+  /* background: rgba(0,0,0,0.5); */
+  background: url('/img/main/main_slider_title.png') center center no-repeat;
+  background-size: contain;
   text-align: center;
 }
 #help-box img {
@@ -61,7 +70,12 @@ body {
 }
 #help-box.hidden {
   visibility: hidden;
-  opacity: 0.0;
+  /* opacity: 0.0; */
+  /* display: block;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  background-image: url('/img/main/main_slider_title.png'); */
 }
 
 #stats {
