@@ -76,11 +76,11 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                         </ul>
                                     </li>
                                     <li class="gnb_1dep ">
-                                        <a href="/customer/faq">미디어</a>
+                                        <a href="/bbs/board.php?bo_table=notice">미디어</a>
                                         <ul class="gnb_2dep">
-                                            <li class="/bbs/board.php?bo_table=notice"><a href="#;">공지사항</a></li>
-                                            <li class=""><a href="#;">갤러리</a></li>
-                                            <li class=""><a href="#;">영상자료실</a></li>    
+                                            <li class=""><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
+                                            <li class=""><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
+                                            <li class=""><a href="/bbs/board.php?bo_table=youtube">영상자료실</a></li>    
                                         </ul>
                                     </li>
                         </ul>
