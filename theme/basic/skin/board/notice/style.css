@@ -799,6 +799,10 @@ table.comment-list td img {vertical-align:middle;}
 
 .file_area > li .del {position: absolute; right: 5px; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); border: 1px solid #ccc; border-radius:3px; background: #fff; height: 20px; line-height: 18px; min-width: 30px; text-align: center; color: #000;}
 
+#container {
+  width: 1200px;
+}
+
 .sub_visual {
   background: url(/img/main/sub_visual.jpg) no-repeat center top;
 }
