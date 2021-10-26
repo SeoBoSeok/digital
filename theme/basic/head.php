@@ -63,7 +63,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                                         <a href="/brand/">참가업체</a>
                                         <ul class="gnb_2dep">
                                             <li class=""><a href="#;">참가안내</a></li>
-                                            <li class=""><a href="#;">온라인 참가신청</a></li>
+                                            <li class=""><a href="/bbs/content.php?co_id=forms">온라인 참가신청</a></li>
                                             <li class=""><a href="#;">참가업체 자료</a></li>
                                         </ul>
                                     </li>
