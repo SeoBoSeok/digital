@@ -90,13 +90,12 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 											<ul class="summary_ul">
 												<li>
 													<strong class="txt_t">명 칭</strong> <span class="feb fcor0">제 11회 공주 디지털문화박람회<br />
-													GONGJU DIGITAL HERITAGE<br />
-													2022</span>
+													GONGJU DIGITAL HERITAGE 2022<br />
 												</li>
 												<li>
 													<style>.gigan_hall {font-size:12px; display:inline-block; width:100px; text-align: center; line-height:22px; background:#dbc4ea; color:#000000; margin:0px 8px 0 0; border-radius:6px; vertical-align: middle}
 													</style>
-													<p><strong class="txt_t">기 간</strong> <!--<span class="gigan_hall"><strong>Business Hall</strong></span>1층 A, B홀 – 2021. 1. 14(목) ~ 16(토), 3일간-->2022년 1월 13일~15일 </p>
+													<p><strong class="txt_t">기 간</strong> <!--<span class="gigan_hall"><strong>Business Hall</strong></span>1층 A, B홀 – 2021. 1. 14(목) ~ 16(토), 3일간-->2021. 12. 18. (토) ~ 12. 20. (월) 3일간 10:00 ~ 18:00</p>
 													<!--<p> <span class="gigan_hall"><strong>Public Hall</strong></span>3층 C홀 – 2021. 1. 14(목) ~ 17(일), 4일간</p>-->
 												</li>
 												<li>
