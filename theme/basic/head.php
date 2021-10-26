@@ -264,8 +264,8 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <!-- 171107 수정 : 마크업 수정 (util영역 마크업 위치 변경되었습니다) -->
             <div class="util">
                 <ul class="util_list">
-                    <li><a href="/story/ethics_manage" target="">로그인</a></li>
-                    <li><a href="https://srm.bing.co.kr" target="_blank">회원가입</a></li>
+                    <li><a href="#;" target="">로그인</a></li>
+                    <li><a href="#;" target="_blank">회원가입</a></li>
                     <!-- <li><a href="https://recruit.bing.co.kr" target="_blank">인재채용</a></li> -->
                 </ul>
                 <!--<div class="custom_select sel_box">
