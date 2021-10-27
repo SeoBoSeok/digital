@@ -122,7 +122,7 @@ var App = function() {
         var SHAPE_DURATION = 30.0;
         var BETWEEN_DURATION = 15.0;
         var BETWEEN_PRESET = "galaxy";
-        var sequence = ["bear", "sphere"];
+        var sequence = ["bison", "sphere"];
         var timer = 0.0;
         var seqIdx = 0;
         var seqName;
