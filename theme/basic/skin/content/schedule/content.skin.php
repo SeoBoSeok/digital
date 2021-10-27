@@ -64,7 +64,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                                 <!-- 내용 -->
                                
 																<div class="cont">
-		<h2>행사일정표</h2>
+		<!-- <h2>행사일정표</h2> -->
 				
 <div id="txt">
 <!-- content start -->

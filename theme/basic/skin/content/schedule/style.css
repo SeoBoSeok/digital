@@ -94,3 +94,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
 .bg-by-light {background-color: #ffdce7;}
 .bg-is {color: #fff !important;font-size: 14px;background-color: #45ca9a;}
 .bg-is-light {background-color: #b4f5de;}
+.schedule {
+  width: 1200px;
+  margin: 0 auto;
+}
