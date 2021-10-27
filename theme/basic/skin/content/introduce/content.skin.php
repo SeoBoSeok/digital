@@ -85,7 +85,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 											<li><span><img src="../img/introduce/02_img05.gif" class="" alt=""></span></li>
 										</ul>
 
-                                        <h3 class="s_tit">전시회 개요</h3>
+                                        <h3 class="s_tit">박람회 개요</h3>
                                         <div class="sumW">
 											<ul class="summary_ul">
 												<li>
