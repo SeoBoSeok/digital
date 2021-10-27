@@ -290,7 +290,7 @@ body.fixe {overflow-x: hidden; overflow-y: scroll; width: 100%; height: 100%; po
 #lnb_wrap .lnb {max-width: 1200px; margin: 0 auto;}
 #lnb_wrap .lnbs1 {display: none;}
 #lnb_wrap .ico_home {position: absolute; left: 0px; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); border-right: 1px solid #c3a9ca}
-/* #lnb_wrap .ico_home a {display:block; width:80px; height:36px; text-indent:-1000px; font-size:0px; background:url(../img/common/ico_home.png) no-repeat center center; } */
+#lnb_wrap .ico_home a {display:block; width:80px; height:36px; text-indent:-1000px; font-size:0px; background:url(/img/main/ico_home.png) no-repeat center center; }
 .lnbs2 ul {text-align: center; font-size: 0px;}
 .lnbs2 ul li {color:#333; display: inline-block; padding: 0px 30px;}
 
@@ -802,7 +802,7 @@ body.fixe {overflow-x: hidden; overflow-y: scroll; width: 100%; height: 100%; po
     #lnb_wrap .lnb .lnbs .sub_menu {display:none !important;}
     
     #lnb_wrap .ico_home {position: relative; left: auto; top: auto; transform: none; float:left; display: block; border-left:1px solid #e2e2e2; border-right:1px solid #e2e2e2}
-    #lnb_wrap .ico_home a {display:block; width:49px; height:41px; text-indent:-1000px; font-size:0px; background:url(../img/common/ico_home2.gif) no-repeat center center;}
+    #lnb_wrap .ico_home a {display:block; width:49px; height:41px; text-indent:-1000px; font-size:0px; background:url(/img/main/ico_home2.gif) no-repeat center center;}
     .lnb ul li {color:#666666; display: block; padding: 0px;}
     .lnb ul li.on {display:none !important;}
     .lnb ul li a {color:#666666; font-size:13px; display:block; line-height:20px; min-height:20px; padding:10px 0px 10px 25px; border-bottom:1px solid #e2e2e2; box-sizing:border-box; text-align: left; border-top:none; font-weight: 400;}
