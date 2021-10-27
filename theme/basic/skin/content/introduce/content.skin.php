@@ -75,8 +75,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 
                                             </p>
                                             <p class="first first01"><strong>GONGJU DIGITAL HERITAGE </strong><br>
-                                            제 1회 공주디지털문화박람회</p>
-                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>공주에서<br /> DIGITAL HERITAGE 박람회가 개최됩니다.</div>
+                                            2021 공주 디지털문화유산전</p>
+                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>공주에서<br /> 2021 공주 디지털문화유산전이 개최됩니다.</div>
 
 										<ul class="edu_ul">
 											<li><span><img src="../img/introduce/02_img02.gif" class="" alt=""></span></li>
@@ -89,8 +89,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                                         <div class="sumW">
 											<ul class="summary_ul">
 												<li>
-													<strong class="txt_t">명 칭</strong> <span class="feb fcor0">제 11회 공주 디지털문화박람회<br />
-													GONGJU DIGITAL HERITAGE 2022<br />
+													<strong class="txt_t">명 칭</strong> <span class="feb fcor0">제 1회 2021 공주 디지털문화유산전<br />
+													GONGJU DIGITAL HERITAGE 2021<br />
 												</li>
 												<li>
 													<style>.gigan_hall {font-size:12px; display:inline-block; width:100px; text-align: center; line-height:22px; background:#dbc4ea; color:#000000; margin:0px 8px 0 0; border-radius:6px; vertical-align: middle}
