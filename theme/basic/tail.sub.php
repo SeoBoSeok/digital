@@ -29,7 +29,7 @@ $(function() {
                 <span>공주학 연구원</span> <span> Tel : +82-</span> <span> Fax : +82-</span> <span>E-mail : </span><br>
                <span></span>
 			</address>
-            <p class="copy">Copyright ⓒ 2021 공주 디지털 박람회.      All Rights Reserved.</p>
+            <p class="copy">Copyright ⓒ 2021 공주 디지털문화유산전.      All Rights Reserved.</p>
             <!-- <p class="f_logo"><img src="../img/common/f_logo2.png" alt="공주디지털박람회"></p> -->
             <p class="go_top"><a href="javascript:void(0);" onclick="goTop();"><img src="/img/main/top.png" alt="top"> </a></p>
         </div>

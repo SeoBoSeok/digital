@@ -20,7 +20,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
     <div class="sub_txt">
         <div class="cell">
             <p id="sub_tit"></p>
-               <p class="sub_tit_s">제1회 공주디지털문화유산전<br> <span class="small">2021년 12월 18일(토) ~ 20일(월)
+               <p class="sub_tit_s">제1회 공주 디지털문화유산전<br> <span class="small">2021년 12월 18일(토) ~ 20일(월)
 </span></p>
         </div>
     </div>
@@ -76,7 +76,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
                                             </p>
                                             <p class="first first01"><strong>GONGJU DIGITAL HERITAGE </strong><br>
                                             2021 공주 디지털문화유산전</p>
-                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>공주에서<br /> 2021 공주 디지털문화유산전이 개최됩니다.</div>
+                                            <span class="ico"><img src="../img/introduce/ico02.gif" alt=""></span>공주에서<br /> 공주 디지털문화유산전 개최됩니다.</div>
 
 										<ul class="edu_ul">
 											<li><span><img src="../img/introduce/02_img02.gif" class="" alt=""></span></li>
@@ -99,19 +99,22 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 													<!--<p> <span class="gigan_hall"><strong>Public Hall</strong></span>3층 C홀 – 2021. 1. 14(목) ~ 17(일), 4일간</p>-->
 												</li>
 												<li>
-													<strong class="txt_t">장 소</strong> 공주 반죽동
+													<strong class="txt_t">장 소</strong> 공주 아트센터고마
 												</li>
 												<li>
 													<strong class="txt_t">규 모</strong> 20개사 1,40부스
 												</li>
 												<li>
-													<strong class="txt_t">주 제</strong> <span class="fb" style="color:#875394;">공주학 연구원</span>
+													<strong class="txt_t">슬로건</strong> <span class="fb" style="color:#875394;">헤리티지, 디지털과의 융합</span>
 												</li>
 												<li>
 													<strong class="txt_t">주 최</strong> 공주시
 												</li>
 												<li>
-													<strong class="txt_t">후 원<br />(예정)</strong> 교육부, 과학기술정보통신부, 중소벤처기업부, 서울특별시교육청 외 16개 시·도교육청 등
+													<strong class="txt_t">주 관</strong> 국립공주대학교 공주학연구원
+												</li>                                                
+												<li>
+													<strong class="txt_t">후 원</strong> 문화재청
 												</li>
 											</ul>
 											<p class="sum_pic"><img src="../img/introduce/02_img06.gif" class="" alt=""></p>

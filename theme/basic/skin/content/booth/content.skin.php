@@ -20,7 +20,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
     <div class="sub_txt">
         <div class="cell">
             <p id="sub_tit"></p>
-						<p class="sub_tit_s">제1회 공주디지털문화유산전<br> <span class="small">2021년 12월 18일(토) ~ 20일(월)
+						<p class="sub_tit_s">제1회 공주 디지털문화유산전<br> <span class="small">2021년 12월 18일(토) ~ 20일(월)
 </span></p>
         </div>
     </div>

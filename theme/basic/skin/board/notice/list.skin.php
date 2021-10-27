@@ -93,7 +93,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 										<tbody>
 											<tr>
 												<td class="w_cell"><span class="ico">공지</span></td>
-												<td class="subject"><a href="01.php%EF%B9%96admin_mode=read&amp;no=158&amp;make=&amp;search=&amp;notice_type=&amp;page=1.html">[제1회 공주디지털문화산업전] 신청서 양식</a></td>
+												<td class="subject"><a href="01.php%EF%B9%96admin_mode=read&amp;no=158&amp;make=&amp;search=&amp;notice_type=&amp;page=1.html">[제1회 공주 디지털문화유산전] 신청서 양식</a></td>
 												<td>관리자</td>
 												<td>2021-09-17</td>
 												<td class="w_cell">621</td>
