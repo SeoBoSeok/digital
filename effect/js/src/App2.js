@@ -1,7 +1,7 @@
 var App = function() {
     var _gui, _guiFields;
     var _engine;
-    var _currPreset = Utils.getParameterByName("shape") || "bear"; // initial preset
+    var _currPreset = Utils.getParameterByName("shape") || "bison"; // initial preset
     var _currSimMode;
     var _uvAnim;
     var _tourMode = false;
@@ -31,7 +31,7 @@ var App = function() {
     // must have same name as preset, for async loading to work properly
     var _meshes = {
         bear:      { scale:0.023, yOffset:-2.30, speed:0.05, url:"models/bear_deep_suksu.json" },
-        bison:     { scale:0.020, yOffset:-2.00, speed:0.10, url:"models/stork.json" },
+        bison:     { scale:0.020, yOffset:-2.00, speed:0.10, url:"models/bison_suksu.json" },
         // deer:      { scale:0.040, yOffset:-2.00, speed:0.10, url:"models/deer.json" },
         // dog:       { scale:0.040, yOffset:-1.65, speed:0.10, url:"models/retriever.json" },
         // fox:       { scale:0.070, yOffset:-1.50, speed:0.10, url:"models/fox.json" },
