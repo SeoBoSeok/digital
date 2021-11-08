@@ -28,7 +28,7 @@ if(G5_COMMUNITY_USE === false) {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="세계유산도시공주" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="./common/img/sns-thumbnail.jpg" />
+    <meta property="og:image" content="<?php echo G5_THEME_PATH;?>/common/img/sns-thumbnail.jpg" />
     <meta property="og:description" content="세계유산도시공주" />
 
     <!-- <link
@@ -59,18 +59,18 @@ if(G5_COMMUNITY_USE === false) {
       href="./common/img/favicon-16.png"
     /> -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico.html" />
-    <link rel="stylesheet" type="text/css" href="./common/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./common/css/layout.css" />
-    <link rel="stylesheet" href="./common/css/plugin/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./common/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo G5_THEME_PATH;?>/common/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo G5_THEME_PATH;?>/common/css/layout.css" />
+    <link rel="stylesheet" href="<?php echo G5_THEME_PATH;?>/common/css/plugin/slick.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo G5_THEME_PATH;?>/common/css/main.css" />
 
     <script
       type="text/javascript"
-      src="./common/js/jquery-1.11.3.min.js"
+      src="<?php echo G5_THEME_PATH;?>/common/js/jquery-1.11.3.min.js"
     ></script>
-    <script type="text/javascript" src="./common/js/plugin/slick.js"></script>
-    <script type="text/javascript" src="./common/js/common.js"></script>
-    <script type="text/javascript" src="./common/js/main.js"></script>
+    <script type="text/javascript" src="<?php echo G5_THEME_PATH;?>/common/js/plugin/slick.js"></script>
+    <script type="text/javascript" src="<?php echo G5_THEME_PATH;?>/common/js/common.js"></script>
+    <script type="text/javascript" src="<?php echo G5_THEME_PATH;?>/common/js/main.js"></script>
   </head>
   <body class="main">
     <section class="sec1">
