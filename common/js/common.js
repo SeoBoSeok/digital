@@ -59,7 +59,7 @@ $(document).ready(function () {
       if ($.trim($(".search input").val()).length) {
         $(this).parent().submit();
       } else {
-        alert("검색어를 입력해주세요.");
+        alert("寃��됱뼱瑜� �낅젰�댁＜�몄슂.");
       }
     }
     return false;

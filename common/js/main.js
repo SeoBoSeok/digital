@@ -2,8 +2,8 @@ $(document).ready(function () {
   function parallax(e) {
     $(".layer").each(function (index, item) {
       const speed = $(this).attr("data-speed");
-      const x = (window.innerWidth - e.pageX * speed) / 100;
-      const y = (window.innerHeight - e.pageY * speed) / 100;
+      const x = (window.innerWidth - e.pageX * speed) / 400;
+      const y = (window.innerHeight - e.pageY * speed) / 400;
 
       $(this).css({ transform: "translate(" + x + "px," + y + "px)" });
     });
