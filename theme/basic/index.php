@@ -110,41 +110,41 @@ if(G5_COMMUNITY_USE === false) {
             <b>사전예약하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>
-          <img class="img1" src="common/img/main_sec1_img1.png" alt="디지털" />
+          <img class="img1" src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img1.png" alt="디지털" />
           <img
             class="img2"
-            src="common/img/main_sec1_img2.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img2.png"
             alt="문화 2021 공주"
           />
-          <img class="img3" src="common/img/main_sec1_img3.png" alt="유산전" />
+          <img class="img3" src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img3.png" alt="유산전" />
           <img
             class="img4"
-            src="common/img/main_sec1_img4.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img4.png"
             alt="2021. 12. 18. SAT - 12. 20. MON 10:00 ~ 18:00 아트센터고마"
           />
-          <img class="img5" src="common/img/main_sec1_img5.png" alt="" />
+          <img class="img5" src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img5.png" alt="" />
           <img
             class="img6 layer"
             data-speed="-2.2"
-            src="common/img/main_sec1_img6.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img6.png"
             alt=""
           />
           <img
             class="img7 layer"
             data-speed="1.3"
-            src="common/img/main_sec1_img7.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img7.png"
             alt=""
           />
           <img
             class="img8 layer"
             data-speed="-3.5"
-            src="common/img/main_sec1_img8.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img8.png"
             alt=""
           />
           <img
             class="img9 layer"
             data-speed="2.1"
-            src="common/img/main_sec1_img9.png"
+            src="<?php echo G5_THEME_PATH;?>/common/img/main_sec1_img9.png"
             alt=""
           />
         </div>
