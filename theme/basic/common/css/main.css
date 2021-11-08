@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/* sec1 */
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.sec1 {
+  height: 865px;
+  color: #fff;
+  background: linear-gradient(
+    -60deg,
+    #b82700,
+    #ccc3be,
+    #ccc3be,
+    #bbccb5,
+    #ccccbe,
+    #b7c2cb,
+    #ccc3be,
+    #ccc3be,
+    #bbccb5,
+    #e9ebc6
+  );
+  background-size: 700% 700%;
+  animation: gradient 16s ease infinite;
+  -webkit-animation: gradient 16s ease infinite;
+  -moz-animation: gradient 16s ease infinite;
+  -o-animation: gradient 16s ease infinite;
+  animation: gradient 16s ease infinite;
+}
+.sec1 .inner {
+  height: 100%;
+}
+.sec1 .inner .wrap {
+  position: relative;
+  height: 100%;
+}
+.sec1 .inner .wrap h1 {
+  position: absolute;
+  top: 40px;
+  right: 18px;
+  line-height: 0;
+  z-index: 1;
+}
+.sec1 .btn {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  padding: 16px 10px 5px 83px;
+  width: 280px;
+  height: 80px;
+  z-index: 2;
+  background: #18130f;
+  border-radius: 40px;
+}
+.sec1 .btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 31px;
+  margin-top: -18.5px;
+  width: 37px;
+  height: 37px;
+  background: url(../img/main_sec1_icon1.png) no-repeat;
+}
+.sec1 .btn b {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.sec1 .btn span {
+  display: block;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sec1 .inner .wrap > img {
+  position: absolute;
+}
+.sec1 .inner .wrap .img1 {
+  top: 134px;
+  left: 87px;
+  z-index: 1;
+  animation: fadeIn 3s ease both;
+  animation-delay: 0.3s;
+}
+.sec1 .inner .wrap .img2 {
+  top: 334px;
+  left: 87px;
+  z-index: 1;
+  animation: fadeIn 3s ease both;
+  animation-delay: 1.3s;
+}
+.sec1 .inner .wrap .img3 {
+  top: 562px;
+  left: 87px;
+  z-index: 1;
+  animation: fadeIn 3s ease both;
+  animation-delay: 2.3s;
+}
+.sec1 .inner .wrap .img4 {
+  top: 565px;
+  left: 663px;
+  z-index: 1;
+  animation: fadeIn 2.5s ease both;
+  animation-delay: 3.3s;
+}
+.sec1 .inner .wrap .img5 {
+  right: 44px;
+  bottom: 0;
+  z-index: 1;
+}
+.sec1 .inner .wrap .img6 {
+  left: -2px;
+  top: 151px;
+}
+.sec1 .inner .wrap .img7 {
+  left: 622px;
+  bottom: 46px;
+}
+.sec1 .inner .wrap .img8 {
+  right: -83px;
+  bottom: -65px;
+}
+.sec1 .inner .wrap .img9 {
+  top: -165px;
+  right: 423px;
+}
+
+/* sec2 */
+.sec2 {
+  height: 975px;
+}
+.sec2 .half {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.sec2 .inner {
+  height: 100%;
+}
+/* .sec2 .right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c85912;
+} */
