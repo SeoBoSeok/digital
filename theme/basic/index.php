@@ -28,49 +28,49 @@ if(G5_COMMUNITY_USE === false) {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="세계유산도시공주" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content=".../../commonimg/sns-thumbnail.jpg" />
+    <meta property="og:image" content="./common/img/sns-thumbnail.jpg" />
     <meta property="og:description" content="세계유산도시공주" />
 
     <!-- <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="../../commonimg/favicon.ico"
+      href="./common/img/favicon.ico"
     />
     <link
       rel="apple-icon-precomposed"
       sizes="192x192"
-      href="../../commonimg/favicon-192.png"
+      href="./common/img/favicon-192.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="../../commonimg/favicon-114.png"
+      href="./common/img/favicon-114.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../../commonimg/favicon-32.png"
+      href="./common/img/favicon-32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../../commonimg/favicon-16.png"
+      href="./common/img/favicon-16.png"
     /> -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico.html" />
-    <link rel="stylesheet" type="text/css" href="../commoncss/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../commoncss/layout.css" />
-    <link rel="stylesheet" href="../commoncss/plugin/slick.css" />
-    <link rel="stylesheet" type="text/css" href="../commoncss/main.css" />
+    <link rel="stylesheet" type="text/css" href="./common/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./common/css/layout.css" />
+    <link rel="stylesheet" href="./common/css/plugin/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./common/css/main.css" />
 
     <script
       type="text/javascript"
-      src="../commonjs/jquery-1.11.3.min.js"
+      src="./common/js/jquery-1.11.3.min.js"
     ></script>
-    <script type="text/javascript" src="../commonjs/plugin/slick.js"></script>
-    <script type="text/javascript" src="../commonjs/common.js"></script>
-    <script type="text/javascript" src="../commonjs/main.js"></script>
+    <script type="text/javascript" src="./common/js/plugin/slick.js"></script>
+    <script type="text/javascript" src="./common/js/common.js"></script>
+    <script type="text/javascript" src="./common/js/main.js"></script>
   </head>
   <body class="main">
     <section class="sec1">
@@ -96,7 +96,7 @@ if(G5_COMMUNITY_USE === false) {
             <a href="index.html">
               <img
                 class="logo"
-                src="../commonimg/logo.png"
+                src="common/img/logo.png"
                 alt="세계유산도시공주"
               />
             </a>
@@ -110,41 +110,41 @@ if(G5_COMMUNITY_USE === false) {
             <b>사전예약하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>
-          <img class="img1" src="../commonimg/main_sec1_img1.png" alt="디지털" />
+          <img class="img1" src="common/img/main_sec1_img1.png" alt="디지털" />
           <img
             class="img2"
-            src="../commonimg/main_sec1_img2.png"
+            src="common/img/main_sec1_img2.png"
             alt="문화 2021 공주"
           />
-          <img class="img3" src="../commonimg/main_sec1_img3.png" alt="유산전" />
+          <img class="img3" src="common/img/main_sec1_img3.png" alt="유산전" />
           <img
             class="img4"
-            src="../commonimg/main_sec1_img4.png"
+            src="common/img/main_sec1_img4.png"
             alt="2021. 12. 18. SAT - 12. 20. MON 10:00 ~ 18:00 아트센터고마"
           />
-          <img class="img5" src="../commonimg/main_sec1_img5.png" alt="" />
+          <img class="img5" src="common/img/main_sec1_img5.png" alt="" />
           <img
             class="img6 layer"
             data-speed="-2.2"
-            src="../commonimg/main_sec1_img6.png"
+            src="common/img/main_sec1_img6.png"
             alt=""
           />
           <img
             class="img7 layer"
             data-speed="1.3"
-            src="../commonimg/main_sec1_img7.png"
+            src="common/img/main_sec1_img7.png"
             alt=""
           />
           <img
             class="img8 layer"
             data-speed="-3.5"
-            src="../commonimg/main_sec1_img8.png"
+            src="common/img/main_sec1_img8.png"
             alt=""
           />
           <img
             class="img9 layer"
             data-speed="2.1"
-            src="../commonimg/main_sec1_img9.png"
+            src="common/img/main_sec1_img9.png"
             alt=""
           />
         </div>
