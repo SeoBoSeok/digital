@@ -42,9 +42,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
           <nav id="nav">
             <ul>
               <li>
-                <a href="./sub1_1.html">디지털박람회</a>
+                <a href="/bbs/content.php?co_id=introduce">디지털박람회</a>
                 <ul>
-                  <li><a href="./sub1_1.html">행사소개</a></li>
+                  <li><a href="/bbs/content.php?co_id=introduce">행사소개</a></li>
                   <li><a href="#">부스배치도</a></li>
                   <li><a href="#">참가업체리스트</a></li>
                 </ul>
@@ -76,7 +76,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             </ul>
           </nav>
           <h1>
-            <a href="./">
+            <a href="/">
               <img class="logo" src="/common/img/logo.png" alt="세계유산도시공주">
               <img class="logo m" src="/common/img/logo_m.png" alt="세계유산도시공주">
             </a>
