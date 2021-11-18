@@ -20,13 +20,13 @@ if(G5_COMMUNITY_USE === false) {
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>세계유산도시공주</title>
+    <title>2021 공주 디지털 문화 유산전</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
-    <meta name="keywords" content="세계유산도시공주" />
-    <meta name="description" content="세계유산도시공주" />
+    <meta name="keywords" content="2021 공주 디지털 문화 유산전" />
+    <meta name="description" content="2021 공주 디지털 문화 유산전" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="세계유산도시공주" />
+    <meta property="og:title" content="2021 공주 디지털 문화 유산전" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="/common/img/sns-thumbnail.jpg" />
     <meta property="og:description" content="2021 공주 디지털 문화 유산전" />
