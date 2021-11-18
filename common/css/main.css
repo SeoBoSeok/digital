@@ -353,6 +353,12 @@
 .sec2 .slider ul li:hover a .text p, .sec2 .slider ul li:hover a .text .arrow {
   display: block;
 }
+.sec2 .slider ul li:hover a .text {
+  padding: 28px 40px 24px;
+}
+.sec2 .slider ul li:hover a {
+  box-shadow: 0px 30px 15px 0px rgba(4, 0, 0, 0.1);
+}
 .sec2 .slider ul li a {
   width: 100%;
 }
