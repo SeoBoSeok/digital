@@ -15,22 +15,22 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     <meta property="og:type" content="website">
     <meta property="og:title" content="세계유산도시공주">
     <meta property="og:url" content="">
-    <meta property="og:image" content="common/img/sns-thumbnail.jpg">
+    <meta property="og:image" content="/common/img/sns-thumbnail.jpg">
     <meta property="og:description" content="디지털 박람회 - 행사소개">
 
-    <link rel="shortcut icon" type="image/x-icon" href="common/img/favicon.ico">
-    <link rel="apple-icon-precomposed" sizes="192x192" href="common/img/favicon-192.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="common/img/favicon-114.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="common/img/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="common/img/favicon-16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/common/img/favicon.ico">
+    <link rel="apple-icon-precomposed" sizes="192x192" href="/common/img/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/common/img/favicon-114.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/common/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/common/img/favicon-16.png">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" type="text/css" href="common/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="common/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="common/css/sub.css">
+    <link rel="stylesheet" type="text/css" href="/common/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/common/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/common/css/sub.css">
 
-    <script type="text/javascript" src="common/libs/jquery/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="common/libs/jquery/easing/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="common/js/common.js"></script>
+    <script type="text/javascript" src="/common/libs/jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/common/libs/jquery/easing/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/common/js/common.js"></script>
   </head>
   <body>
     <header id="header">
@@ -75,8 +75,8 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
           </nav>
           <h1>
             <a href="./">
-              <img class="logo" src="common/img/logo.png" alt="세계유산도시공주">
-              <img class="logo m" src="common/img/logo_m.png" alt="세계유산도시공주">
+              <img class="logo" src="/common/img/logo.png" alt="세계유산도시공주">
+              <img class="logo m" src="/common/img/logo_m.png" alt="세계유산도시공주">
             </a>
           </h1>
           <div id="menu_btn">
@@ -117,7 +117,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap">
-                <img src="common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -170,7 +170,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
             <ul>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img1.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
                   <div class="text">
                     <span>Program 01</span>
                     <h4>전시콘텐츠</h4>
@@ -179,7 +179,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               </li>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img2.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
                   <div class="text">
                     <span>Program 02</span>
                     <h4>미래교육</h4>
@@ -188,7 +188,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               </li>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img3.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
                   <div class="text">
                     <span>Program 03</span>
                     <h4>문화유산상품</h4>
@@ -197,7 +197,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               </li>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img4.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
                   <div class="text">
                     <span>Program 04</span>
                     <h4>컨퍼런스</h4>
@@ -206,7 +206,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               </li>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img5.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
                   <div class="text">
                     <span>Program 05</span>
                     <h4>미래교육</h4>
@@ -215,7 +215,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               </li>
               <li>
                 <a href="#">
-                  <img src="common/img/digital_sec2_img6.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img6.jpg" alt="">
                   <div class="text">
                     <span>Program 06</span>
                     <h4>문화유산상품</h4>
@@ -249,18 +249,18 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
               <ul>
                 <li>
                   <span>주최.</span>
-                  <img src="common/img/main_sec5_img1.png" alt="공주시">
-                  <img class="mo" src="common/img/main_sec5_img1_m.png" alt="공주시">
+                  <img src="/common/img/main_sec5_img1.png" alt="공주시">
+                  <img class="mo" src="/common/img/main_sec5_img1_m.png" alt="공주시">
                 </li>
                 <li>
                   <span>주관.</span>
-                  <img src="common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
-                  <img class="mo" src="common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
+                  <img src="/common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
+                  <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
                 </li>
                 <li>
                   <span>후원.</span>
-                  <img src="common/img/main_sec5_img3.png" alt="문화재청">
-                  <img class="mo" src="common/img/main_sec5_img3_m.png" alt="문화재청">
+                  <img src="/common/img/main_sec5_img3.png" alt="문화재청">
+                  <img class="mo" src="/common/img/main_sec5_img3_m.png" alt="문화재청">
                 </li>
               </ul>
             </div>
