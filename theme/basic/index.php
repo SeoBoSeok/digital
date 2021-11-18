@@ -88,9 +88,9 @@ if(G5_COMMUNITY_USE === false) {
           <nav id="nav">
             <ul>
               <li>
-                <a href="./sub1_1.html">디지털박람회</a>
+                <a href="/bbs/content.php?co_id=introduce">디지털박람회</a>
                 <ul>
-                  <li><a href="./sub1_1.html">행사소개</a></li>
+                  <li><a href="/bbs/content.php?co_id=introduce">행사소개</a></li>
                   <li><a href="#">부스배치도</a></li>
                   <li><a href="#">참가업체리스트</a></li>
                 </ul>
