@@ -44,7 +44,7 @@ if (G5_IS_MOBILE) {
     echo '<meta http-equiv="imagetoolbar" content="no">'.PHP_EOL;
     echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">'.PHP_EOL;
 }
-
+echo '<meta property="og:image" content="/common/img/sns-thumbnail.jpg">'.PHP_EOL;
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
