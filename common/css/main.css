@@ -350,6 +350,9 @@
   width: 25%;
   font-family: "GmarketSans";
 }
+.sec2 .slider ul li:hover a .text p, .sec2 .slider ul li:hover a .text .arrow {
+  display: block;
+}
 .sec2 .slider ul li a {
   width: 100%;
 }
