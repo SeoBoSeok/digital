@@ -52,7 +52,7 @@ if($config['cf_add_meta'])
 <?php
 $shop_css = '';
 if (defined('_SHOP_')) $shop_css = '_shop';
-echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE?'mobile':'default').$shop_css.'.css?ver='.G5_CSS_VER, G5_THEME_URL).'">'.PHP_EOL;
+// echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE?'mobile':'default').$shop_css.'.css?ver='.G5_CSS_VER, G5_THEME_URL).'">'.PHP_EOL;
 ?>
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>
@@ -91,16 +91,31 @@ add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>
 add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
 add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
 ?>
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/basefont.css"/>
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/base.css"/>
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/import.css"/>
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/layout.css">
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/jquery-ui.css"/>
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/animation.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/jquery.bxslider.css" />
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/basefont.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/base.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/import.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/layout.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/jquery-ui.css"/> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/animation.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo G5_CSS_URL; ?>/jquery.bxslider.css" /> -->
+<link rel="stylesheet" type="text/css" href="/common/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/layout.css" />
+<?php
+    if(defined('_INDEX_')) {
+    ?>
+    <link rel="stylesheet" type="text/css" href="/common/css/main.css" />
+    <?php
+    } else {
+    ?>
+    <link rel="stylesheet" type="text/css" href="/common/css/sub.css" />
+    <?php
+    }
+?>
 <script type="text/javascript" src="<?php echo G5_JS_URL; ?>/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="<?php echo G5_JS_URL; ?>/jquery-migrate-1.4.1.min.js"></script>
 <script type="text/javascript" src="<?php echo G5_JS_URL; ?>/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/common/libs/jquery/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
 <?php
 
 if(G5_IS_MOBILE) {
@@ -118,6 +133,6 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
     else if ($is_admin == 'group') $sr_admin_msg = "그룹관리자 ";
     else if ($is_admin == 'board') $sr_admin_msg = "게시판관리자 ";
 
-    echo '<div id="hd_login_msg">'.$sr_admin_msg.get_text($member['mb_nick']).'님 로그인 중 ';
-    echo '<a href="'.G5_BBS_URL.'/logout.php">로그아웃</a></div>';
+    // echo '<div id="hd_login_msg">'.$sr_admin_msg.get_text($member['mb_nick']).'님 로그인 중 ';
+    // echo '<a href="'.G5_BBS_URL.'/logout.php">로그아웃</a></div>';
 }

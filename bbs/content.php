@@ -33,8 +33,9 @@ $g5['title'] = $co['co_subject'];
 
 if ($co['co_include_head'] && is_include_path_check($co['co_include_head']))
     @include_once($co['co_include_head']);
-else
+else {
     include_once('./_head.php');
+}
 
 // KVE-2019-0828 취약점 내용
 $co['co_tag_filter_use'] = 1;
@@ -81,7 +82,7 @@ $content_skin_url  = get_skin_url('content', $co['co_skin']);
 $skin_file = $content_skin_path.'/content.skin.php';
 
 if ($is_admin)
-    echo '<div class="ctt_admin"><a href="'.G5_ADMIN_URL.'/contentform.php?w=u&amp;co_id='.$co_id.'" class="btn_admin btn"><span class="sound_only">내용 수정</span><i class="fa fa-cog fa-spin fa-fw"></i></a></div>';
+    // echo '<div class="ctt_admin"><a href="'.G5_ADMIN_URL.'/contentform.php?w=u&amp;co_id='.$co_id.'" class="btn_admin btn"><span class="sound_only">내용 수정</span><i class="fa fa-cog fa-spin fa-fw"></i></a></div>';
 ?>
 
 <?php
@@ -101,5 +102,6 @@ if(is_file($skin_file)) {
 
 if ($co['co_include_tail'] && is_include_path_check($co['co_include_tail']))
     @include_once($co['co_include_tail']);
-else
-    include_once('./_tail.php');
+else {
+    //include_once('./_tail.php');
+}

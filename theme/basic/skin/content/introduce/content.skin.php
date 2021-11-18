@@ -4,8 +4,6 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 ?>
-<link rel="stylesheet" type="text/css" href="/common/css/layout.css">
-<link rel="stylesheet" type="text/css" href="/common/css/sub.css">
 <!-- <html lang="ko"><head> -->
     <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -278,6 +276,5 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
         </div>
       </section>
     </footer>
-		<script type="text/javascript" src="/common/js/common.js"></script>
 <!-- </body>
 </html> -->
