@@ -58,7 +58,7 @@ if(G5_COMMUNITY_USE === false) {
       sizes="16x16"
       href="common/img/favicon-16.png"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="common/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="common/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="common/css/layout.css" />
     <link
