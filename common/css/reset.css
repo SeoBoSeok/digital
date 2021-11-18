@@ -64,7 +64,7 @@ html {
   overflow-x: hidden;
   font-size: 16px;
   font-family: "Noto Sans KR", sans-serif;
-  color: #111;
+  color: #323537;
 }
 
 body {
@@ -316,7 +316,7 @@ select {
   appearance: none;
 }
 select:focus {
-  border-color: #111;
+  border-color: #323537;
 }
 select::-ms-expand {
   display: none;
