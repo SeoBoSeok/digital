@@ -4,8 +4,8 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 ?>
-<html lang="ko"><head>
-    <meta charset="UTF-8">
+<!-- <html lang="ko"><head> -->
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>세계유산도시공주 - 디지털 박람회 - 행사소개</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,9 +30,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
     <script type="text/javascript" src="/common/libs/jquery/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="/common/libs/jquery/easing/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="/common/js/common.js"></script>
-  </head>
-  <body>
+    <script type="text/javascript" src="/common/js/common.js"></script> -->
+  <!-- </head> -->
+  <!-- <body> -->
     <header id="header">
       <div class="inner">
         <div class="wrap">
@@ -276,5 +276,5 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
         </div>
       </section>
     </footer>
-</body>
-</html>
+<!-- </body>
+</html> -->
