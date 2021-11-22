@@ -1,10 +1,10 @@
 var App = function() {
     var _gui, _guiFields;
     var _engine;
-    var _currPreset = Utils.getParameterByName("shape") || "bison"; // initial preset
+    var _currPreset = Utils.getParameterByName("shape") || "plane"; // initial preset
     var _currSimMode;
     var _uvAnim;
-    var _tourMode = false;
+    var _tourMode = true;
     var _musicElem = document.getElementById("music");
 
     // DEFINES
@@ -122,7 +122,7 @@ var App = function() {
         var SHAPE_DURATION = 30.0;
         var BETWEEN_DURATION = 15.0;
         var BETWEEN_PRESET = "galaxy";
-        var sequence = ["bison", "sphere"];
+        var sequence = ["sphere", "sphere"];
         var timer = 0.0;
         var seqIdx = 0;
         var seqName;
