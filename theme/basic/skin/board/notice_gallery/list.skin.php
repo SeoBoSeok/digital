@@ -46,10 +46,10 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
               <li>
                 <a href="#">미디어센터</a>
                 <ul>
-                  <li><a href="#">공지사항</a></li>
-                  <li><a href="#">갤러리</a></li>
-                  <li><a href="#">교통안내</a></li>
-                  <li><a href="#">숙박안내</a></li>
+									<li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
+                  <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
+                  <li><a href="/bbs/board.php?bo_table=traffic">교통안내</a></li>
+                  <li><a href="/bbs/board.php?bo_table=accommodations">숙박안내</a></li>
                 </ul>
               </li>
             </ul>
