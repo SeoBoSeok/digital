@@ -23,7 +23,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <a href="#">참가안내</a>
                 <ul>
                   <li><a href="#">참가안내</a></li>
-                  <li><a href="#">온라인참가신청</a></li>
+                  <li><a href="/bbs/content.php?co_id=forms">온라인참가신청</a></li>
                 </ul>
               </li>
               <li>
