@@ -96,7 +96,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2>공지사항</h2>
+                <h2>갤러리</h2>
             </div>
 
 <!-- 게시판 목록 시작 { -->
