@@ -89,14 +89,14 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>미디어센터</li>
-            <li>공지사항</li>
+            <li>교통안내</li>
           </ul>
         </div>
       </section>
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2>공지사항</h2>
+                <h2>교통안내</h2>
             </div>
 
 <!-- 게시판 목록 시작 { -->

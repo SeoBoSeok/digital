@@ -543,6 +543,10 @@ header h1 {
 .digital .sec2.ani.active .reservation_btn {
   animation: posX-40-up 1.8s ease both 1.4s;
 }
+.center {
+  width: 100%;
+  text-align: center;
+}
 @media screen and (max-width: 1900px) {
   .reservation_btn {
     right: 20px;
