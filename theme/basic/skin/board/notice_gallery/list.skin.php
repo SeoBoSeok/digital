@@ -11,6 +11,7 @@ if ($is_nogood) $colspan++;
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
+echo '<link rel="stylesheet" href="'.$board_skin_url.'/bbs.css">';
 ?>
 
 
@@ -190,92 +191,118 @@ jQuery(function($){
 </div>
 <!-- } 게시판 페이지 정보 및 버튼 끝 -->
 			
-<div class="tbl_head01 tbl_wrap">
-		<table>
-		<caption><?php echo $board['bo_subject'] ?> 목록</caption>
-		<thead>
-		<tr>
-				<?php if ($is_checkbox) { ?>
-				<th scope="col" class="all_chk chk_box">
-					<input type="checkbox" id="chkall" onclick="if (this.checked) all_checked(true); else all_checked(false);" class="selec_chk">
-						<label for="chkall">
-							<span></span>
-							<b class="sound_only">현재 페이지 게시물  전체선택</b>
-		</label>
-				</th>
-				<?php } ?>
-				<th scope="col">번호</th>
-				<th scope="col">제목</th>
-				<th scope="col">글쓴이</th>
-				<th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
-				<?php if ($is_good) { ?><th scope="col"><?php echo subject_sort_link('wr_good', $qstr2, 1) ?>추천 </a></th><?php } ?>
-				<?php if ($is_nogood) { ?><th scope="col"><?php echo subject_sort_link('wr_nogood', $qstr2, 1) ?>비추천 </a></th><?php } ?>
-				<th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
-		</tr>
-		</thead>
-		<tbody>
-		<?php
-		for ($i=0; $i<count($list); $i++) {
-			if ($i%2==0) $lt_class = "even";
-			else $lt_class = "";
-?>
-		<tr class="<?php if ($list[$i]['is_notice']) echo "bo_notice"; ?> <?php echo $lt_class ?>">
-				<?php if ($is_checkbox) { ?>
-				<td class="td_chk chk_box">
-		<input type="checkbox" name="chk_wr_id[]" value="<?php echo $list[$i]['wr_id'] ?>" id="chk_wr_id_<?php echo $i ?>" class="selec_chk">
-					<label for="chk_wr_id_<?php echo $i ?>">
-						<span></span>
-						<b class="sound_only"><?php echo $list[$i]['subject'] ?></b>
-					</label>
-				</td>
-				<?php } ?>
-				<td class="td_num2">
-				<?php
-				if ($list[$i]['is_notice']) // 공지사항
-						echo '<strong class="notice_icon">공지</strong>';
-				else if ($wr_id == $list[$i]['wr_id'])
-						echo "<span class=\"bo_current\">열람중</span>";
-				else
-						echo $list[$i]['num'];
-				 ?>
-				</td>
+<div class="sub_con ">                       
 
-				<td class="td_subject" style="padding-left:<?php echo $list[$i]['reply'] ? (strlen($list[$i]['wr_reply'])*10) : '0'; ?>px">
-						<?php
-						if ($is_category && $list[$i]['ca_name']) {
-		?>
-						<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link"><?php echo $list[$i]['ca_name'] ?></a>
-						<?php } ?>
-						<div class="bo_tit">
-								<a href="<?php echo $list[$i]['href'] ?>">
-										<?php echo $list[$i]['icon_reply'] ?>
-										<?php
-												if (isset($list[$i]['icon_secret'])) echo rtrim($list[$i]['icon_secret']);
-										 ?>
-										<?php echo $list[$i]['subject'] ?>
-								</a>
-								<?php
-								if ($list[$i]['icon_new']) echo "<span class=\"new_icon\">N<span class=\"sound_only\">새글</span></span>";
-								// if ($list[$i]['file']['count']) { echo '<'.$list[$i]['file']['count'].'>'; }
-								if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
-								if (isset($list[$i]['icon_file'])) echo rtrim($list[$i]['icon_file']);
-								if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
-								?>
-								<?php if ($list[$i]['comment_cnt']) { ?><span class="sound_only">댓글</span><span class="cnt_cmt"><?php echo $list[$i]['wr_comment']; ?></span><span class="sound_only">개</span><?php } ?>
+
+
+						<div class="bbs_search">
+							<div class="bbs_search_in ">
+<form method="get" action="/media_center/03.php" name="form1">
+									<fieldset>
+										<legend>게시물 검색</legend>
+										<select name="make" class="select">
+										  <option value="title">제목</option>
+										  <option value="content">내용</option>
+										  <option value="all">제목+내용</option>
+										</select>
+										<input type="text" id="searchstr" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요." class="input" name="search">
+										<input class="btn_search" type="button" value="검색" onclick="document.form1.submit();">
+									</fieldset>
+</form>
+							</div>
 						</div>
-				</td>
-				<td class="td_name sv_use"><?php echo $list[$i]['name'] ?></td>
-				<td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td>
-				<?php if ($is_good) { ?><td class="td_num"><?php echo $list[$i]['wr_good'] ?></td><?php } ?>
-				<?php if ($is_nogood) { ?><td class="td_num"><?php echo $list[$i]['wr_nogood'] ?></td><?php } ?>
-				<td class="td_datetime"><?php echo $list[$i]['datetime2'] ?></td>
 
-		</tr>
-		<?php } ?>
-		<?php if (count($list) == 0) { echo '<tr><td colspan="'.$colspan.'" class="empty_table">게시물이 없습니다.</td></tr>'; } ?>
-		</tbody>
-		</table>
-</div>
+					   <div class="photo_listW">
+							<ul class="  ">
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=219&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g1.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2021 제18회 대한민국 공주 디지털 문화산업전</strong>
+											<span class="date tr">2021-08-27</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=78&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g2.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=77&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g1.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=76&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g2.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=75&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g1.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=74&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g2.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=73&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g1.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+								<li>
+									<a href="/media_center/03.php?admin_mode=read&amp;no=72&amp;make=&amp;search=&amp;notice_type=">
+										<span class="pic"><img src="/common/img/g2.jpg"></span>
+										<span class="txtW">
+											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
+											<span class="date tr">2020-11-05</span>
+										</span>
+
+									</a>
+								</li>
+							</ul>
+
+
+
+						</div>
+<div class="paging"><a href="?page=1&amp;make=&amp;search=" class="first"><img src="/common/img/btn_first.gif" alt="처음으로"></a><a class="prev" href="#url"><img src="/common/img/btn_prev2.gif" alt="이전으로"></a><a href="#" class="on">1</a><a href="?page=2&amp;make=&amp;search=">2</a><a class="next" href="#url"><img src="/common/img/btn_next2.gif" alt="다음으로"></a><a href="?page=2&amp;make=&amp;search=" class="last"><img src="/common/img/btn_last.gif" alt="마지막으로"></a></div> 
+
+						</div>
+
 <!-- 페이지 -->
 <?php echo $write_pages; ?>
 <!-- 페이지 -->
