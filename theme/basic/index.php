@@ -19,9 +19,12 @@ if(G5_COMMUNITY_USE === false) {
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="imagetoolbar" content="no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>2021 공주 디지털 문화 유산전</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="keywords" content="2021 공주 디지털 문화 유산전" />
     <meta name="description" content="2021 공주 디지털 문화 유산전" />
