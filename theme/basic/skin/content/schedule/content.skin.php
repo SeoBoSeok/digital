@@ -2,75 +2,58 @@
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
-add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
+// add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
+echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 ?>
-
-<!-- <article id="ctt" class="ctt_<?php //echo $co_id; ?>">
-    <header>
-        <h1><?php//echo $g5['title']; ?></h1>
-    </header>
-
-    <div id="ctt_con">
-        <?php //echo $str; ?>
-    </div>
-
-</article> -->
-
-<div class="sub_visual">
-    <div class="sub_txt">
-        <div class="cell">
-            <p id="sub_tit"></p>
-               <p class="sub_tit_s">제1회 공주 디지털문화유산전<br> <span class="small">2021년 12월 18일(토) ~ 20일(월)
-</span></p>
+    <?php
+      include_once(G5_THEME_PATH.'/header.part.sub.php');
+    ?>
+    <div class="digital">
+      <section class="visual">
+        <div class="inner">
+          <span class="bg_img"></span>
+          <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="wrap">
+            <h2>참여업체</h2>
+            <p>문화유산, 디지털과 만나다.</p>
+          </div>
         </div>
-    </div>
-</div>
- <script>
-       /* $(document).ready(function() {
-            if (oneDepth == 1) {
-                $(".sub_tit_s").html("");
-            } else {
-                $(".sub_tit_s").html("");
-            }
+      </section>
+      <section class="location">
+        <div class="inner">
+          <ul>
+            <li>참여업체</li>
+          </ul>
+        </div>
+      </section>
+      <section class="sec0">
+        <div class="inner">
+          <div class="cont ani">
+          <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
+            <tbody>
+              <tr>
+                <td width="50%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=booth'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">부스배치도</td>
+                <td width="50%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=schedule'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; font-weight:500; cursor:pointer">참여업체</td>
+                <!-- <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_edu'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털유산 미래교육</td> -->
+                <!-- <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">문화 유산상품</td> -->
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+      </section>
+      <section class="sec1">
+        <div class="inner">
+          <div class="cont ani active">
 
-        });*/
-
-    </script>
-
-                <!-- container -->
-                <div id="container">
-                    <div id="lnb_wrap">
-	<div class="lnb">
-	<p class="ico_home"><a href="../main/main.php.html">home</a></p>
-		<div class="lnbs lnbs1">
-			<h2 id="lnb_tit"></h2>
-			<ul class="copy_menu" id="gnb_menu">	
-		    </ul>
-		</div>
-		<div class="lnbs lnbs2">
-			<h3 id="lnb_tit2"></h3>
-			<ul class="copy_menu" id="lnb_menu">
-                <li class="lnb1 on"><a href="#;">행사소개</a></li>
-                <li class="lnb1"><a href="#;">부스배치도</a></li>
-                <li class="lnb1"><a href="#;">참가업체 리스트</a></li>
-			</ul>
-		</div>
-	</div>
-</div>                        <div id="inner_wrap">
-                            <div class="title_bar">
-    <h2 id="title">행사일정표</h2>
-    
-</div>
-                                <!-- 내용 -->
-                               
-																<div class="cont">
-		<!-- <h2>행사일정표</h2> -->
-				
-<div id="txt">
-<!-- content start -->
-
-<div class="schedule">
-	<ul class="tab-schedule">
+          <div class="schedule">
+	<!-- <ul class="tab-schedule">
 		<li class="tab-list on"><a href="./program_0202.html">전체 일정</a></li>
 		<li class="tab-list "><a href="?day=08-13">08.13.(금)</a></li>
 		<li class="tab-list "><a href="?day=08-14">08.14.(토)</a></li>
@@ -89,477 +72,312 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 		<li class="tab-list "><a href="?day=08-27">08.27.(금)</a></li>
 		<li class="tab-list "><a href="?day=08-28">08.28.(토)</a></li>
 		<li class="tab-list "><a href="?day=08-29">08.29.(일)</a></li>
-	</ul><!-- tab-prog -->
+	</ul> -->
 
 
 
-	<h3> 전체일정 </h3>
+	<h3> 1층 컨벤션 홀 </h3>
 	
 	<div class="wrap-tbl-calendar mb-50">
 	<table class="tbl">
 		<caption>
-			<strong>세계유산축전 백제 프로그램 행사일정표</strong>
-			<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p>
+			<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+			<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 		</caption>
 		<colgroup>
-		    <col style="width: 6%;">
-		    <col style="width: 20%;">
-		    <col style="width: 13%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
-		    <col style="width: 3.3%;">
+		    <col style="width: 15%;">
+		    <col style="width: 25%;">
+		    <col style="width: 8%;">
+		    <col style="width: 8%;">
+		    <col style="width: 8%;">
+		    <col style="width: 8%;">
+		    <col style="width: 8%;">
+				<col style="width: 20%;">
 		</colgroup>
 		<thead>
-		    <tr>
+		    <!-- <tr>
 		        <th scope="col" colspan="3" class="point_bg"></th>
 		        <th scope="col" colspan="3" class="point_bg">8월 2주차</th>
 		        <th scope="col" colspan="7" class="point_bg">8월 3주차</th>
 		        <th scope="col" colspan="7" class="point_bg">8월 4주차</th>
-		    </tr>
+		    </tr> -->
 		    <tr>
 		        <th scope="col" class="point_bg">항목</th>
-		        <th scope="col" class="point_bg">세부프로그램명</th>
-		        <th scope="col" class="point_bg">구분</th>
-		        <th scope="col" class="point_bg">13</th>
-		        <th scope="col" class="point_bg">14</th>
-		        <th scope="col" class="point_bg">15</th>
-		        <th scope="col" class="point_bg">16</th>
-		        <th scope="col" class="point_bg">17</th>
-		        <th scope="col" class="point_bg">18</th>
-		        <th scope="col" class="point_bg">19</th>
-		        <th scope="col" class="point_bg">20</th>
-		        <th scope="col" class="point_bg">21</th>
-		        <th scope="col" class="point_bg">22</th>
-		        <th scope="col" class="point_bg">23</th>
-		        <th scope="col" class="point_bg">24</th>
-		        <th scope="col" class="point_bg">25</th>
-		        <th scope="col" class="point_bg">26</th>
-		        <th scope="col" class="point_bg">27</th>
-		        <th scope="col" class="point_bg">28</th>
-		        <th scope="col" class="point_bg">29</th>
+		        <th scope="col" class="point_bg">업체명</th>
+		        <!-- <th scope="col" class="point_bg">구분</th> -->
+		        <th scope="col" class="point_bg">기록·모델링</th>
+		        <th scope="col" class="point_bg">복원·복제</th>
+		        <th scope="col" class="point_bg">소프트웨어</th>
+		        <th scope="col" class="point_bg">솔루션</th>
+		        <th scope="col" class="point_bg">콘텐츠</th>
+		        <th scope="col" class="point_bg">담당자</th>
 		    </tr>
 		</thead>
 		<tbody>
 		    <tr>
-		        <th scope="row" rowspan="5">공통<br>프로<br>그램</th>
-		        <td>2021 AGAIN 백제로(路) 개막식</td>
-		        <td>공주,부여, 익산</td>
-		        <td class="bg-common"></td>
+		        <th scope="row" rowspan="12">디지털<br>유산산업<br>(DH-Industry)</th>
+		        <td>위프코(주)</td>
+		        <td class="bg-common">v</td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
+		        <td class="bg-gj-light">v</td>
+		        <td>유준수 팀장 (010-2036-3037)</td>
 		    </tr>
 		    <tr>
-		        <td>2021 AGAIN 백제로(路) 폐막식</td>
-		        <td>온라인</td>
+						<td>㈜넥스페이스</td>
+		        <td class="bg-common">v</td>
+		        <td class="bg-by-light">v</td>
+		        <td class="bg-is-light">v</td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-common"></td>
+		        <td>오윤석 과장 (010-3346-6710)</td>
 		    </tr>
 		    <tr>
-		        <td>백제로(路) 원정대</td>
-		        <td>온라인</td>
-		        <td colspan="17">7월 10일, 11일 사전진행 (유튜브에서 관람 가능합니다.)</td>
+						<td>㈜스텔라무브</td>
+		        <td></td>
+		        <td class="bg-by-light">v</td>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		        <td>김형권 대표 (010-5293-5249)</td>
 		    </tr>
 		    <tr>
-		        <td>백제로(路) 아트마켓</td>
-		        <td>온라인</td>
+						<td>3D엔터</td>
 		        <td></td>
-		        <td class="bg-common"></td>
-		        <td></td>
+		        <td class="bg-by-light">v</td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-common"></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-common"></td>
-		        <td></td>
+		        <td>박화중 대표 (010-8990-7757)</td>
 		    </tr>
 		    <tr>
-		        <td>백제로(路) 챌린지</td>
-		        <td>온라인</td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
-		        <td class="bg-common"></td>
+						<td>㈜캐럿펀트</td>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		        <td class="bg-is-purple">v</td>
+		        <td class="bg-gj-light">v</td>
+		        <td>이건우 대표 (010-3328-7379)</td>
 		    </tr>
 		    <tr>
-		        <th rowspan="5">가치<br>향유<br>프로<br>그램</th>
-		        <td rowspan="3">다같이 백제로(路)</td>
-		        <td>공주</td>
-		        <td></td>
-		        <td class="bg-gj-light"></td>
+						<td>㈜리하이</td>
 		        <td></td>
 		        <td></td>
+		        <td class="bg-is-light">v</td>
+		        <td class="bg-is-purple">v</td>
+		        <td></td>
+		        <td>추혜성 대표 (010-6568-2429)</td>
+		    </tr>
+				<tr>
+						<td>㈜지오스토리</td>
+		        <td class="bg-common">v</td>
 		        <td></td>
 		        <td></td>
+		        <td class="bg-is-purple">v</td>
+		        <td></td>
+		        <td>조성빈 과장 (010-4056-2557)</td>
+		    </tr>
+				<tr>
+						<td>WaferMasters</td>
+		        <td class="bg-common">v</td>
 		        <td></td>
 		        <td></td>
-		        <td class="bg-gj-light"></td>
+		        <td class="bg-is-purple">v</td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-gj-light"></td>
-		        <td></td>
+		        <td>김정곤 부장 (010-8942-5952)</td>
 		    </tr>
 		    <tr>
-		        <td>부여</td>
-		        <td></td>
-		        <td class="bg-by-light"></td>
+						<td>레이징덕(주)</td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-by-light"></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-by-light"></td>
-		        <td></td>
+		        <td class="bg-gj-light">v</td>
+		        <td>김동혁 팀장 (010-5348-1018)</td>
 		    </tr>
 		    <tr>
-		        <td>익산</td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
-		        <td></td>
+						<td>충남문화교육협동조합 잇다</td>
+		        <td class="bg-common">v</td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
+		        <td class="bg-gj-light">v</td>
+		        <td>김동혁 팀장 (010-5348-1018)</td>
 		    </tr>
 		    <tr>
-		        <td rowspan="2">백제 풍류가(歌) , 풍류방(房)</td>
-		        <td>공주</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj txt-small">풍류방</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj txt-small">풍류방</td>
-		        <td class="bg-gj-light"></td>
+						<td>㈜스쿱</td>
+		        <td class="bg-common">v</td>
+		        <td></td>
+		        <td class="bg-by-light">v</td>
+		        <td></td>
+		        <td class="bg-gj-light">v</td>
+		        <td>이원탁 팀장 (010-2016-8905)</td>
 		    </tr>
 		    <tr>
-		        <td>부여</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by txt-small">풍류방</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by txt-small">풍류방</td>
-		    </tr>
-		    <tr>
-		        <th rowspan="12">가치<br>확산<br>프로<br>그램</th>
-		        <td rowspan="3">백제로(路) 별빛마실</td>
-		        <td>공주</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		    </tr>
-		    <tr>
-		        <td>부여</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		    </tr>
-		    <tr>
-		        <td>익산</td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		    </tr>
-		    <tr>
-		        <td>RPG 미션 고분군 탐험</td>
-		        <td>공주</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td colspan="4">애플리케이션 체험만 가능</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td colspan="4">애플리케이션 체험만 가능</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		    </tr>
-		    <tr>
-		        <td>RPG 미션 고분군 탐험</td>
-		        <td>부여</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td colspan="4">애플리케이션 체험만 가능</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td colspan="4">애플리케이션 체험만 가능</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		    </tr>
-		    <tr>
-		        <td>백제로 RPG</td>
-		        <td>익산</td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is" colspan="2">연극</td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is" colspan="2">연극</td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is" colspan="2">연극</td>
-		    </tr>
-		    <tr>
-		        <td rowspan="3">설치미술 백제의 꿈</td>
-		        <td>공주</td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		        <td class="bg-gj-light"></td>
-		    </tr>
-		    <tr>
-		        <td>부여</td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		        <td class="bg-by-light"></td>
-		    </tr>
-		    <tr>
-		        <td>익산</td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		        <td class="bg-is-light"></td>
-		    </tr>
-		    <tr>
-		        <td rowspan="3">렉처콘서트</td>
-		        <td>공주</td>
-		        <td colspan="17">8월 2일 사전진행 (유튜브에서 관람 가능합니다.)</td>
-		    </tr>
-		    <tr>
-		        <td>부여</td>
-		        <td colspan="17">8월 2일 사전진행 (유튜브에서 관람 가능합니다.)</td>
-		    </tr>
-		    <tr>
-		        <td>익산</td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
+						<td>벤타브이알</td>
+		        <td class="bg-common">v</td>
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light"></td>
-		        <td></td>
+		        <td class="bg-gj-light">v</td>
+		        <td>남종현 실장 (010-5394-6300)</td>
 		    </tr>
 		</tbody>
 	</table>
 </div>
-
-
-
-<!-- content end -->
 </div>
 
-			</div>
-		</div>
-
-                                <!-- //내용 -->
-                        </div>
-                </div>
-                <!-- //container -->
+          </div>
+        </div>
+      </section>
+      <!-- <section class="sec1-1 ani active">
+        <div class="inner">
+          <h2>목적 & 비전</h2>
+          <div class="vision">
+            <ul class="clearfix">
+              <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
+              <li class="right">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
+            </ul>
+            <ul class="clearfix">
+              <li class="left">디바이스 - 솔루션 - 콘텐츠 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
+              <li class="right">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="sec1-1 ani active">
+        <div class="inner">
+          <h2>기대효과</h2>
+          <div class="vision">
+            <ul class="clearfix">
+              <li class="left">문화유산의 새로운 가치 창출 및 비즈니스 모델 구축</li>
+              <li class="right">'문화유산, 디지털 대전환 시대'에 맞는 디지털 헤리티지 문화 형성</li>
+            </ul>
+            <ul class="clearfix">
+              <li class="left">디지털 기술을 이용하여 인간과 문화유산의 초연결성 확대</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="sec2 ani active">
+        <div class="inner">
+          <h2>2021 Gongju<br>Digital Heritage Festival</h2>
+          <p>
+            2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
+            문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
+            <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
+            구축을하고 있습니다
+          </p>
+          <div class="lists">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
+                  <div class="text">
+                    <span>Program 01</span>
+                    <h4>전시콘텐츠</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
+                  <div class="text">
+                    <span>Program 02</span>
+                    <h4>미래교육</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
+                  <div class="text">
+                    <span>Program 03</span>
+                    <h4>문화유산상품</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
+                  <div class="text">
+                    <span>Program 04</span>
+                    <h4>컨퍼런스</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
+                  <div class="text">
+                    <span>Program 05</span>
+                    <h4>미래교육</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img6.jpg" alt="">
+                  <div class="text">
+                    <span>Program 06</span>
+                    <h4>문화유산상품</h4>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="./" class="reservation_btn">
+            <b>사전예약하기</b>
+            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
+          </a>
+        </div>
+      </section> -->
+    </div>
+    <footer>
+      <section class="f_sec1">
+        <div class="inner">
+          <div class="wrap ani active">
+            <div class="contact">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  공주국립대학교 디지털유산전<span></span>TEL. 042-000-0000
+                </li>
+                <li>(32552) 충청남도 공주시 봉황로1 공주시청</li>
+                <li>E-mail. mail@naver.co.kr</li>
+              </ul>
+            </div>
+            <div class="lists">
+              <ul>
+                <li>
+                  <span>주최.</span>
+                  <img src="/common/img/main_sec5_img1.png" alt="공주시">
+                  <img class="mo" src="/common/img/main_sec5_img1_m.png" alt="공주시">
+                </li>
+                <li>
+                  <span>주관.</span>
+                  <img src="/common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
+                  <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
+                </li>
+                <li>
+                  <span>후원.</span>
+                  <img src="/common/img/main_sec5_img3.png" alt="문화재청">
+                  <img class="mo" src="/common/img/main_sec5_img3_m.png" alt="문화재청">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" id="top_btn">
+            <span>TOP</span>
+          </button>
+        </div>
+      </section>
+      <section class="f_sec2">
+        <div class="inner">
+          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
+<!-- </body>
+</html> -->
