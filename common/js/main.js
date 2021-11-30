@@ -2,12 +2,12 @@ $(document).ready(function () {
   function parallax(e) {
     $(".layer").each(function (index, item) {
       var speed = $(this).attr("data-speed");
-      var pageX = (window.innerWidth - e.pageX * speed) / 400;
-      var pageY = (window.innerHeight - e.pageY * speed) / 400;
+      var pageX = (window.innerWidth - e.pageX * speed) / 200;
+      var pageY = (window.innerHeight - e.pageY * speed) / 200;
 
       if (window.innerWidth > 767) {
         $(this).css({
-          transform: "translate(" + pageX + "px," + pageY + "px)",
+          transform: "translate(" + pageX + "px," + pageY + "px)"
         });
       }
     });
@@ -36,10 +36,10 @@ $(document).ready(function () {
         {
           breakpoint: 767,
           settings: {
-            slidesToShow: 2,
-          },
-        },
-      ],
+            slidesToShow: 2
+          }
+        }
+      ]
     });
   });
 });

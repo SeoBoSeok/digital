@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#nav > ul > li > a {
+  color: #fff;
+}
+
 /* common */
 @-webkit-keyframes gradient {
   0% {
@@ -100,21 +104,21 @@
 }
 .sec1 .inner .wrap .img1 {
   top: 134px;
-  left: -8px;
+  left: -2px;
   z-index: 3;
   animation: fadeIn 3s ease both;
   animation-delay: 0.3s;
 }
 .sec1 .inner .wrap .img2 {
-  top: 334px;
-  left: -8px;
+  top: 338px;
+  left: -2px;
   z-index: 3;
   animation: fadeIn 3s ease both;
   animation-delay: 0.8s;
 }
 .sec1 .inner .wrap .img3 {
-  top: 562px;
-  left: -8px;
+  top: 555px;
+  left: -2px;
   z-index: 3;
   animation: fadeIn 3s ease both;
   animation-delay: 1.3s;
@@ -245,7 +249,7 @@
   background: url(../img/main_sec2_text.png) no-repeat;
 }
 .sec2 .inner .wrap {
-  padding-top: 145px;
+  padding-top: 172px;
   position: relative;
 }
 .sec2 .inner .wrap .line span {
@@ -254,28 +258,25 @@
 }
 .sec2 h2 {
   position: relative;
-  font-family: "GmarketSans";
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: 2px;
+  font-family: "GmarketSansBold";
+  font-size: 50px;
+  line-height: 1.45;
+  letter-spacing: 0.8px;
   z-index: 1;
 }
-.sec2 h2 span {
-  display: block;
-  font-size: 25px;
-  letter-spacing: 2.5px;
+.sec2 .ani.active.wrap > h2 {
+  animation: posX-40-up 1.8s ease both 0.2s;
 }
 .sec2 .inner .wrap > p {
   position: relative;
-  margin-top: 18px;
-  font-size: 15px;
+  margin-top: 23px;
+  font-size: 17px;
   color: #666;
-  line-height: 1.9;
-  letter-spacing: -0.1px;
+  line-height: 1.82;
+  letter-spacing: -0.15px;
   z-index: 1;
 }
-.ani.active.wrap > p {
+.sec2 .ani.active.wrap > p {
   animation: posX-40-up 1.8s ease both 0.6s;
 }
 .sec2 .festival_slider {
@@ -295,11 +296,10 @@
 .sec2 .controls button {
   position: relative;
   width: 94px;
-  font-family: "GmarketSans";
+  font-family: "GmarketSansBold";
   font-size: 11px;
   letter-spacing: 0.5px;
   line-height: 11px;
-  font-weight: bold;
   text-align: left;
 }
 .sec2 .controls button:before {
@@ -334,7 +334,7 @@
   right: 0;
 }
 .sec2 .slider {
-  padding-top: 56px;
+  padding-top: 47px;
   display: block;
 }
 .sec2 .slider .slick-list {
@@ -346,9 +346,9 @@
 }
 .sec2 .slider ul li {
   position: relative;
-  padding: 0 24px 106px 0;
+  padding: 0 24px 130px 0;
   width: 25%;
-  font-family: "GmarketSans";
+  font-family: "GmarketSansMedium";
 }
 .sec2 .slider ul li:hover a .text p, .sec2 .slider ul li:hover a .text .arrow {
   display: block;
@@ -358,7 +358,8 @@
 }
 .sec2 .slider ul li:hover a {
   box-shadow: 0px 30px 15px 0px rgba(4, 0, 0, 0.1);
-}
+  font-family: "GmarketSansMedium";
+}    
 .sec2 .slider ul li a {
   width: 100%;
 }
@@ -428,15 +429,15 @@
     padding-top: 100px;
   }
   .sec2 h2 {
-    font-size: 35px;
+    font-size: 39px;
   }
   .sec2 .inner .wrap > p {
     margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.7;
   }
-  .sec2 h2 span {
-    font-size: 23px;
+  .sec2 .inner .wrap > p br {
+    display: none;
   }
   .sec2 .slider {
     margin-top: 30px;
@@ -453,7 +454,7 @@
     margin-right: -14px;
   }
   .sec2 .slider ul li {
-    padding: 0 15px 80px 0;
+    padding: 0 15px 100px 0;
   }
   .sec2 .slider ul li.slick-current a {
     box-shadow: 0px 30px 15px 0px rgba(4, 0, 0, 0.1);
@@ -493,9 +494,6 @@
   .sec2 h2 {
     font-size: 30px;
     line-height: 1.4;
-  }
-  .sec2 h2 span {
-    line-height: 1.6;
   }
   .sec2 .inner .wrap > p {
     font-size: 13px;
@@ -563,7 +561,7 @@
 .sec3 {
   position: relative;
   text-align: right;
-  height: 695px;
+  height: 601px;
 }
 .sec3:before {
   content: "";
@@ -582,9 +580,10 @@
   position: absolute;
   top: 0;
   left: calc(50% + 139px);
-  padding: 153px 80px 93px 113px;
+  padding: 123px 80px 0 113px;
   display: inline-block;
   width: calc(50% - 139px);
+  height: 100%;
   text-align: left;
   color: #18130f;
 }
@@ -592,19 +591,20 @@
   margin: unset;
   padding: 0;
   width: 488px;
+  height: 100%;
   overflow: hidden;
 }
 .sec3 .apply h3 {
-  font-family: "GmarketSans";
+  font-family: "GmarketSansMedium";
   font-size: 30px;
   color: #c85912;
 }
 .sec3 .apply.ani.active h3 {
-  animation: posX-40-up 1.8s ease backwards 0.5s;
+  animation: posX-40-up 1.8s ease backwards 0.2s;
 }
 .sec3 .apply p {
-  margin-top: 13px;
-  font-size: 15px;
+  margin-top: 12px;
+  font-size: 17px;
   line-height: 1.6;
   letter-spacing: -0.15px;
 }
@@ -616,34 +616,43 @@
 }
 .sec3 .apply b {
   display: block;
-  margin: 45px 0 16px;
-  font-size: 18px;
+  margin: 41px 0 14px;
+  font-size: 20px;
 }
 .sec3 .apply dl {
   position: relative;
-  padding: 1.5px 0;
+  padding: 3.5px 0;
   font-size: 15px;
 }
 .sec3 .apply dl dt {
-  position: absolute;
-  left: 0;
-  top: 0;
+  float: left;
   display: inline-block;
-  width: 66px;
+  width: 69px;
   font-weight: bold;
 }
 .sec3 .apply dl dd {
-  padding-left: 66px;
-  display: inline-block;
+  overflow: hidden;
   letter-spacing: -0.3px;
 }
 .sec3 .apply .btn {
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   display: table;
   width: 105px;
   height: 105px;
   text-align: center;
   background: #18130f;
+}
+.sec3 .apply.ani.active .btn {
+  animation: posX-40-up 1.8s ease both 1.5s;
+}
+.sec3 .apply .btn.close {
+  background: #7a7a7a;
+}
+.sec3 .apply .btn.close a span {
+  padding-bottom: 0;
+  background: none;
 }
 .sec3 .apply a {
   display: table-cell;
@@ -659,8 +668,10 @@
   background: url(../img/main_sec3_arrow.png) center 30px no-repeat;
 }
 @media screen and (max-width: 1410px) {
+}
+@media screen and (max-width: 1410px) {
   .sec3 .apply {
-    padding: 153px 4% 93px 5%;
+    padding: 153px 4% 0 5%;
   }
 }
 @media screen and (max-width: 1270px) {
@@ -671,7 +682,7 @@
     width: 50%;
   }
   .sec3 .apply {
-    padding: 120px 4% 60px 5%;
+    padding: 120px 4% 0 5%;
     left: 50%;
     width: 50%;
   }
@@ -704,7 +715,7 @@
     display: block;
   }
   .sec3 .apply {
-    padding: 60px 0;
+    padding: 45px 0;
     position: relative;
     left: 0;
     width: 100%;
@@ -719,16 +730,24 @@
   .sec3 .apply p {
     font-size: 13px;
   }
+  .sec3 .apply b {
+    margin: 25px 0 5px;
+  }
   .sec3 .apply dl {
-    padding: 2.5px 0;
+    padding: 3px 0;
     font-size: 13px;
   }
   .sec3 .apply dl dd {
     line-height: 1.3;
   }
   .sec3 .apply .btn {
-    width: 60px;
-    height: 60px;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 10px;
+    float: right;
+    width: 68px;
+    height: 68px;
   }
   .sec3 .apply a span {
     padding-bottom: 14px;
@@ -789,9 +808,8 @@
   background: #c85912;
 }
 .sec4 .notice h3 {
-  font-family: "GmarketSans";
+  font-family: "GmarketSansBold";
   font-size: 30px;
-  font-weight: bold;
   letter-spacing: -0.8px;
 }
 .sec4 .ani.active .notice h3 {
@@ -825,7 +843,7 @@
   background: rgba(0, 0, 0, 0.1);
 }
 .sec4 .new h4 {
-  font-family: "GmarketSans";
+  font-family: "GmarketSansMedium";
   font-size: 15px;
   letter-spacing: 0.8px;
   color: #b04500;

@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+  /* background: url(../img/main.jpg) center top no-repeat; */
+}
 
 /* common */
 body {
@@ -191,8 +194,7 @@ header .inner {
 }
 header .inner .wrap {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 30px;
+  padding: 0 0 95px;
   height: 100%;
 }
 header.on .inner .wrap {
@@ -208,12 +210,13 @@ header.on .inner .wrap .bg_img:before {
   background: url(../img/haeader_img1.png) left bottom no-repeat;
 }
 #nav {
-  display: none;
   position: relative;
-  padding: 7px 0;
+  display: block;
+  height: 40px;
+  overflow: hidden;
 }
 header.on #nav {
-  display: block;
+  height: auto;
 }
 #nav > ul > li {
   padding: 0 31px;
@@ -225,7 +228,7 @@ header.on #nav {
   position: relative;
   display: block;
   padding: 5px 0;
-  font-family: "GmarketSans";
+  font-family: "GmarketSansMedium";
   font-size: 20px;
   color: #413c38;
   letter-spacing: 2px;
@@ -239,15 +242,23 @@ header.on #nav > ul > li > a {
   color: #fff;
 }
 #nav > ul > li > ul {
-  display: none;
   margin-top: 33px;
 }
 #nav > ul > li > ul > li {
   padding: 7.5px 0;
 }
 #nav > ul > li > ul > li > a {
+  opacity: 0;
   font-size: 17px;
   color: #fff;
+}
+header.on #nav > ul > li > ul > li > a {
+  opacity: 1;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #nav > ul > li > ul > li > a:hover {
   text-decoration: underline;
@@ -451,7 +462,7 @@ footer .f_sec1 .contact {
   height: 100%;
 }
 footer .f_sec1 .contact h3 {
-  font-family: "GmarketSans";
+  font-family: "GmarketSansMedium";
   font-size: 18px;
 }
 footer .f_sec1 .ani.active .contact h3 {
