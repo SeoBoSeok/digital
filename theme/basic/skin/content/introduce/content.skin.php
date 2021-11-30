@@ -3,6 +3,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
+echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 ?>
 <!-- <html lang="ko"><head> -->
     <!-- <meta charset="UTF-8">
@@ -33,60 +34,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     <script type="text/javascript" src="/common/js/common.js"></script> -->
   <!-- </head> -->
   <!-- <body> -->
-    <header id="header">
-      <div class="inner">
-        <div class="wrap">
-          <span class="bg_img"></span>
-          <nav id="nav">
-            <ul>
-              <li>
-                <a href="/bbs/content.php?co_id=introduce">디지털박람회</a>
-                <ul>
-                  <li><a href="/bbs/content.php?co_id=introduce">행사소개</a></li>
-                  <li><a href="#">부스배치도</a></li>
-                  <li><a href="#">참가업체리스트</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">참가안내</a>
-                <ul>
-                  <li><a href="#">참가안내</a></li>
-                  <li><a href="/bbs/content.php?co_id=forms">온라인참가신청</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">프로그램</a>
-                <ul>
-                  <li><a href="#">프로그램안내</a></li>
-                  <li><a href="#">전체일정표</a></li>
-                  <li><a href="#">전시장안내</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">미디어센터</a>
-                <ul>
-                  <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
-                  <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
-                  <li><a href="/bbs/board.php?bo_table=traffic">교통안내</a></li>
-                  <li><a href="/bbs/board.php?bo_table=accommodations">숙박안내</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-          <h1>
-            <a href="/">
-              <img class="logo" src="/common/img/logo.png" alt="세계유산도시공주">
-              <img class="logo m" src="/common/img/logo_m.png" alt="세계유산도시공주">
-            </a>
-          </h1>
-          <div id="menu_btn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-    </header>
+    <?php
+      include_once(G5_THEME_PATH.'/header.part.sub.php');
+    ?>
     <div class="digital">
       <section class="visual">
         <div class="inner">
@@ -154,6 +104,35 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec1-1 ani active">
+        <div class="inner">
+          <h2>목적 & 비전</h2>
+          <div class="vision">
+            <ul class="clearfix">
+              <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
+              <li class="right">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
+            </ul>
+            <ul class="clearfix">
+              <li class="left">디바이스 - 솔루션 - 콘텐츠 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
+              <li class="right">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="sec1-1 ani active">
+        <div class="inner">
+          <h2>기대효과</h2>
+          <div class="vision">
+            <ul class="clearfix">
+              <li class="left">문화유산의 새로운 가치 창출 및 비즈니스 모델 구축</li>
+              <li class="right">'문화유산, 디지털 대전환 시대'에 맞는 디지털 헤리티지 문화 형성</li>
+            </ul>
+            <ul class="clearfix">
+              <li class="left">디지털 기술을 이용하여 인간과 문화유산의 초연결성 확대</li>
+            </ul>
           </div>
         </div>
       </section>
