@@ -33,11 +33,11 @@
         <li>
           <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
           <ul>
-            <li><a href="#">심포지엄</a></li>
-            <li><a href="#">세미나</a></li>
-            <li><a href="#">콜로키움</a></li>
-            <li><a href="#">워크샵</a></li>
-            <li><a href="#">튜토리얼</a></li>
+            <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>
+            <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li>
+            <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li>
+            <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li>
+            <li><a href="/bbs/content.php?co_id=tutorial">튜토리얼</a></li>
           </ul>
         </li>
         <li>
@@ -48,7 +48,7 @@
           </ul>
         </li>              
         <li>
-          <a href="#">미디어센터</a>
+          <a href="/bbs/board.php?bo_table=notice">미디어센터</a>
           <ul>
             <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
             <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
