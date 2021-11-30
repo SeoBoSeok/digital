@@ -214,6 +214,6 @@ section.sec0 .inner table td:hover {
 }
 ::-webkit-scrollbar:vertical { width: 12px; } 
 ::-webkit-scrollbar { -webkit-appearance: none; } 
-::-webkit-scrollbar:horizontal { height: 8px; } 
-::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 2px solid #ffffff; } 
+::-webkit-scrollbar:horizontal { height: 15px; } 
+::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 1px solid #ffffff; } 
 ::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
