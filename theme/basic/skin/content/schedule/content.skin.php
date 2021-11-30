@@ -56,7 +56,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										
 					<h3> 1층 컨벤션 홀 </h3>
 					
-					<div class="wrap-tbl-calendar mb-50">
+					<div class="wrap-tbl-calendar mb-50 table-container">
 					<table class="tbl">
 						<caption>
 							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
@@ -216,7 +216,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 					</table>
 				</div>
 
-				<div class="wrap-tbl-calendar mb-50" style="padding-top: 40px;">
+				<div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
 					<table class="tbl">
 						<caption>
 							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
@@ -288,7 +288,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 					
 <h3> 2층 전시실 </h3>
 
-<div class="wrap-tbl-calendar mb-50">
+<div class="wrap-tbl-calendar mb-50 table-container">
 <table class="tbl">
 						<caption>
 							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
@@ -336,7 +336,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 					
 <h3> 3층 세미나실 </h3>
 
-<div class="wrap-tbl-calendar mb-50">
+<div class="wrap-tbl-calendar mb-50 table-container">
 <table class="tbl">
 						<caption>
 							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
