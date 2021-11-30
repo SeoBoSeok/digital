@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>컨퍼런스</li>
-            <li>세미나</li>
+            <li>튜토리얼</li>
           </ul>
         </div>
       </section>
@@ -53,7 +53,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>세미나</h2>
+          <h2>튜토리얼</h2>
           <p>
             2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
