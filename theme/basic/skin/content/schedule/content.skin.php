@@ -92,7 +92,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		    <col style="width: 8%;">
 		    <col style="width: 8%;">
 		    <col style="width: 8%;">
-				<col style="width: 20%;">
 		</colgroup>
 		<thead>
 		    <!-- <tr>
@@ -110,7 +109,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <th scope="col" class="point_bg">소프트웨어</th>
 		        <th scope="col" class="point_bg">솔루션</th>
 		        <th scope="col" class="point_bg">콘텐츠</th>
-		        <th scope="col" class="point_bg">담당자</th>
 		    </tr>
 		</thead>
 		<tbody>
@@ -122,7 +120,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td class="bg-gj-light">v</td>
-		        <td>유준수 팀장 (010-2036-3037)</td>
 		    </tr>
 		    <tr>
 						<td>㈜넥스페이스</td>
@@ -131,7 +128,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td class="bg-is-light">v</td>
 		        <td></td>
 		        <td></td>
-		        <td>오윤석 과장 (010-3346-6710)</td>
 		    </tr>
 		    <tr>
 						<td>㈜스텔라무브</td>
@@ -140,7 +136,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td>김형권 대표 (010-5293-5249)</td>
 		    </tr>
 		    <tr>
 						<td>3D엔터</td>
@@ -149,7 +144,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td></td>
-		        <td>박화중 대표 (010-8990-7757)</td>
 		    </tr>
 		    <tr>
 						<td>㈜캐럿펀트</td>
@@ -158,7 +152,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td class="bg-is-purple">v</td>
 		        <td class="bg-gj-light">v</td>
-		        <td>이건우 대표 (010-3328-7379)</td>
 		    </tr>
 		    <tr>
 						<td>㈜리하이</td>
@@ -167,7 +160,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td class="bg-is-light">v</td>
 		        <td class="bg-is-purple">v</td>
 		        <td></td>
-		        <td>추혜성 대표 (010-6568-2429)</td>
 		    </tr>
 				<tr>
 						<td>㈜지오스토리</td>
@@ -176,7 +168,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td class="bg-is-purple">v</td>
 		        <td></td>
-		        <td>조성빈 과장 (010-4056-2557)</td>
 		    </tr>
 				<tr>
 						<td>WaferMasters</td>
@@ -185,7 +176,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td class="bg-is-purple">v</td>
 		        <td></td>
-		        <td>김정곤 부장 (010-8942-5952)</td>
 		    </tr>
 		    <tr>
 						<td>레이징덕(주)</td>
@@ -194,7 +184,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td class="bg-gj-light">v</td>
-		        <td>김동혁 팀장 (010-5348-1018)</td>
 		    </tr>
 		    <tr>
 						<td>충남문화교육협동조합 잇다</td>
@@ -203,7 +192,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td class="bg-gj-light">v</td>
-		        <td>김동혁 팀장 (010-5348-1018)</td>
 		    </tr>
 		    <tr>
 						<td>㈜스쿱</td>
@@ -212,7 +200,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td class="bg-by-light">v</td>
 		        <td></td>
 		        <td class="bg-gj-light">v</td>
-		        <td>이원탁 팀장 (010-2016-8905)</td>
 		    </tr>
 		    <tr>
 						<td>벤타브이알</td>
@@ -221,7 +208,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 		        <td></td>
 		        <td></td>
 		        <td class="bg-gj-light">v</td>
-		        <td>남종현 실장 (010-5394-6300)</td>
 		    </tr>
 		</tbody>
 	</table>
