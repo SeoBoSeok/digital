@@ -53,168 +53,310 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
 
           <div class="schedule">
-	<!-- <ul class="tab-schedule">
-		<li class="tab-list on"><a href="./program_0202.html">전체 일정</a></li>
-		<li class="tab-list "><a href="?day=08-13">08.13.(금)</a></li>
-		<li class="tab-list "><a href="?day=08-14">08.14.(토)</a></li>
-		<li class="tab-list "><a href="?day=08-15">08.15.(일)</a></li>
-		<li class="tab-list "><a href="?day=08-16">08.16.(월)</a></li>
-		<li class="tab-list "><a href="?day=08-17">08.17.(화)</a></li>
-		<li class="tab-list "><a href="?day=08-18">08.18.(수)</a></li>
-		<li class="tab-list "><a href="?day=08-19">08.19.(목)</a></li>
-		<li class="tab-list "><a href="?day=08-20">08.20.(금)</a></li>
-		<li class="tab-list "><a href="?day=08-21">08.21.(토)</a></li>
-		<li class="tab-list "><a href="?day=08-22">08.22.(일)</a></li>
-		<li class="tab-list "><a href="?day=08-23">08.23.(월)</a></li>
-		<li class="tab-list "><a href="?day=08-24">08.24.(화)</a></li>
-		<li class="tab-list "><a href="?day=08-25">08.25.(수)</a></li>
-		<li class="tab-list "><a href="?day=08-26">08.26.(목)</a></li>
-		<li class="tab-list "><a href="?day=08-27">08.27.(금)</a></li>
-		<li class="tab-list "><a href="?day=08-28">08.28.(토)</a></li>
-		<li class="tab-list "><a href="?day=08-29">08.29.(일)</a></li>
-	</ul> -->
-
-
-
-	<h3> 1층 컨벤션 홀 </h3>
-	
-	<div class="wrap-tbl-calendar mb-50">
-	<table class="tbl">
-		<caption>
-			<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
-			<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
-		</caption>
-		<colgroup>
-		    <col style="width: 15%;">
-		    <col style="width: 25%;">
-		    <col style="width: 8%;">
-		    <col style="width: 8%;">
-		    <col style="width: 8%;">
-		    <col style="width: 8%;">
-		    <col style="width: 8%;">
-		</colgroup>
-		<thead>
-		    <!-- <tr>
-		        <th scope="col" colspan="3" class="point_bg"></th>
-		        <th scope="col" colspan="3" class="point_bg">8월 2주차</th>
-		        <th scope="col" colspan="7" class="point_bg">8월 3주차</th>
-		        <th scope="col" colspan="7" class="point_bg">8월 4주차</th>
-		    </tr> -->
-		    <tr>
-		        <th scope="col" class="point_bg">항목</th>
-		        <th scope="col" class="point_bg">업체명</th>
-		        <!-- <th scope="col" class="point_bg">구분</th> -->
-		        <th scope="col" class="point_bg">기록·모델링</th>
-		        <th scope="col" class="point_bg">복원·복제</th>
-		        <th scope="col" class="point_bg">소프트웨어</th>
-		        <th scope="col" class="point_bg">솔루션</th>
-		        <th scope="col" class="point_bg">콘텐츠</th>
-		    </tr>
-		</thead>
-		<tbody>
-		    <tr>
-		        <th scope="row" rowspan="12">디지털<br>유산산업<br>(DH-Industry)</th>
-		        <td>위프코(주)</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		    <tr>
-						<td>㈜넥스페이스</td>
-		        <td class="bg-common">v</td>
-		        <td class="bg-by-light">v</td>
-		        <td class="bg-is-light">v</td>
-		        <td></td>
-		        <td></td>
-		    </tr>
-		    <tr>
-						<td>㈜스텔라무브</td>
-		        <td></td>
-		        <td class="bg-by-light">v</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		    </tr>
-		    <tr>
-						<td>3D엔터</td>
-		        <td></td>
-		        <td class="bg-by-light">v</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		    </tr>
-		    <tr>
-						<td>㈜캐럿펀트</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-purple">v</td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		    <tr>
-						<td>㈜리하이</td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-light">v</td>
-		        <td class="bg-is-purple">v</td>
-		        <td></td>
-		    </tr>
-				<tr>
-						<td>㈜지오스토리</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-purple">v</td>
-		        <td></td>
-		    </tr>
-				<tr>
-						<td>WaferMasters</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-is-purple">v</td>
-		        <td></td>
-		    </tr>
-		    <tr>
-						<td>레이징덕(주)</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		    <tr>
-						<td>충남문화교육협동조합 잇다</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		    <tr>
-						<td>㈜스쿱</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td class="bg-by-light">v</td>
-		        <td></td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		    <tr>
-						<td>벤타브이알</td>
-		        <td class="bg-common">v</td>
-		        <td></td>
-		        <td></td>
-		        <td></td>
-		        <td class="bg-gj-light">v</td>
-		    </tr>
-		</tbody>
-	</table>
-</div>
-</div>
+										
+					<h3> 1층 컨벤션 홀 </h3>
+					
+					<div class="wrap-tbl-calendar mb-50">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 15%;">
+								<col style="width: 25%;">
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+								<col style="width: 8%;">
+						</colgroup>
+						<thead>
+								<!-- <tr>
+										<th scope="col" colspan="3" class="point_bg"></th>
+										<th scope="col" colspan="3" class="point_bg">8월 2주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 3주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 4주차</th>
+								</tr> -->
+								<tr>
+										<th scope="col" class="point_bg">항목</th>
+										<th scope="col" class="point_bg">업체명</th>
+										<!-- <th scope="col" class="point_bg">구분</th> -->
+										<th scope="col" class="point_bg">기록·모델링</th>
+										<th scope="col" class="point_bg">복원·복제</th>
+										<th scope="col" class="point_bg">소프트웨어</th>
+										<th scope="col" class="point_bg">솔루션</th>
+										<th scope="col" class="point_bg">콘텐츠</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<th scope="row" rowspan="12">디지털유산<br>연구개발<br>(DH R&D)</th>
+										<td>위프코(주)</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>㈜넥스페이스</td>
+										<td class="bg-common">v</td>
+										<td class="bg-by-light">v</td>
+										<td class="bg-is-light">v</td>
+										<td></td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>㈜스텔라무브</td>
+										<td></td>
+										<td class="bg-by-light">v</td>
+										<td></td>
+										<td></td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>3D엔터</td>
+										<td></td>
+										<td class="bg-by-light">v</td>
+										<td></td>
+										<td></td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>㈜캐럿펀트</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="bg-is-purple">v</td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>㈜리하이</td>
+										<td></td>
+										<td></td>
+										<td class="bg-is-light">v</td>
+										<td class="bg-is-purple">v</td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>㈜지오스토리</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td></td>
+										<td class="bg-is-purple">v</td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>WaferMasters</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td></td>
+										<td class="bg-is-purple">v</td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>레이징덕(주)</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>충남문화교육협동조합 잇다</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>㈜스쿱</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td class="bg-is-light">v</td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>벤타브이알</td>
+										<td class="bg-common">v</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<th scope="row" rowspan="3">디지털유산<br>연구개발<br>(DH R&D)</th>
+										<td>한서대학교<br>문화재보존과학연구센터</td>
+										<td class="bg-common">v</td>
+										<td class="bg-by-light">v</td>
+										<td></td>
+										<td class="bg-is-purple">v</td>
+										<td></td>
+								</tr>
+								<tr>
+										<td>국립공주대학교<br>디지털보존솔루션랩</td>
+										<td class="bg-common">v</td>
+										<td class="bg-by-light">v</td>
+										<td></td>
+										<td class="bg-is-purple">v</td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+								<tr>
+										<td>한국전통문화대학교<br>문화유산산업학과</td>
+										<td></td>
+										<td></td>
+										<td class="bg-is-light">v</td>
+										<td></td>
+										<td class="bg-gj-light">v</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+				</div>
 
           </div>
+
+			<!--테이블2-->
+
+			<!-- <div class="cont ani active">
+
+<div class="schedule">
+					
+<h3> 2층 전시실 </h3>
+
+<div class="wrap-tbl-calendar mb-50">
+<table class="tbl">
+	<caption>
+	</caption>
+	<colgroup>
+			<col style="width: 15%;">
+			<col style="width: 25%;">
+			<col style="width: 8%;">
+			<col style="width: 8%;">
+			<col style="width: 8%;">
+			<col style="width: 8%;">
+			<col style="width: 8%;">
+	</colgroup>
+	<thead>
+			<tr>
+					<th scope="col" class="point_bg">항목</th>
+					<th scope="col" class="point_bg">업체명</th>
+					<th scope="col" class="point_bg">기록·모델링</th>
+					<th scope="col" class="point_bg">복원·복제</th>
+					<th scope="col" class="point_bg">소프트웨어</th>
+					<th scope="col" class="point_bg">솔루션</th>
+					<th scope="col" class="point_bg">콘텐츠</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<th scope="row" rowspan="12">디지털<br>유산산업<br>(DH-Industry)</th>
+					<td>위프코(주)</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+			<tr>
+					<td>㈜넥스페이스</td>
+					<td class="bg-common">v</td>
+					<td class="bg-by-light">v</td>
+					<td class="bg-is-light">v</td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>㈜스텔라무브</td>
+					<td></td>
+					<td class="bg-by-light">v</td>
+					<td></td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>3D엔터</td>
+					<td></td>
+					<td class="bg-by-light">v</td>
+					<td></td>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>㈜캐럿펀트</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="bg-is-purple">v</td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+			<tr>
+					<td>㈜리하이</td>
+					<td></td>
+					<td></td>
+					<td class="bg-is-light">v</td>
+					<td class="bg-is-purple">v</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>㈜지오스토리</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td></td>
+					<td class="bg-is-purple">v</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>WaferMasters</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td></td>
+					<td class="bg-is-purple">v</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>레이징덕(주)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+			<tr>
+					<td>충남문화교육협동조합 잇다</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+			<tr>
+					<td>㈜스쿱</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td class="bg-by-light">v</td>
+					<td></td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+			<tr>
+					<td>벤타브이알</td>
+					<td class="bg-common">v</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="bg-gj-light">v</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+</div> -->
+			<!--테이블2-->
+
         </div>
       </section>
       <!-- <section class="sec1-1 ani active">
