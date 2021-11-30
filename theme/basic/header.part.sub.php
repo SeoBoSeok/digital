@@ -31,7 +31,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">컨퍼런스</a>
+            <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
             <ul>
               <li><a href="#">심포지엄</a></li>
               <li><a href="#">세미나</a></li>
@@ -41,14 +41,14 @@
             </ul>
           </li>
           <li>
-            <a href="#">관람안내</a>
+            <a href="/bbs/content.php?co_id=forms">관람안내</a>
             <ul>
-              <li><a href="#">사전등록</a></li>
+              <li><a href="/bbs/content.php?co_id=forms">사전등록</a></li>
               <li><a href="/bbs/content.php?co_id=forms">온라인참가신청</a></li>
             </ul>
           </li>              
           <li>
-            <a href="#">미디어센터</a>
+            <a href="/bbs/board.php?bo_table=notice">미디어센터</a>
             <ul>
               <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
               <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
