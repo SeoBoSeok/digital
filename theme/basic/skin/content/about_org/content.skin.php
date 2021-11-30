@@ -59,7 +59,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>디지털유산 초청전</h3>
+                <h3>디지털유산 산업</h3>
                 <div class="lists">
                   <p>
                     디지털 헤리티지 초청전은 최신 기술의 변화와
