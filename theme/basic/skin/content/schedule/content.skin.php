@@ -237,39 +237,39 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="9">디지털유산<br>미래교육<br>(DH Education)</th>
-										<td>위프코(주)</td>
+										<td>충남과학협회</td>
 										<td>역사게임 만들기</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>한국인지과학산업협회</td>
 										<td>인공지능 드론 (문화재 도굴)</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>에듀크래프트</td>
 										<td>LED 코딩</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>메타버스</td>
 										<td>역사토론, 퀴즈, 문화재 스피치</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>엘리오 로봇틱스</td>
 										<td>코딩을 통한 전시실 모델링</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>공주대학교 생확과학교실</td>
 										<td>3D 펜을 이용한 문화재 만들기</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>충남SW 미래채움센터</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>다빈치에듀</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
-										<td>위프코(주)</td>
+										<td>다빈치창의융합연구소</td>
 										<td>3D 모델링, AR 콘텐츠 제작</td>
 								</tr>
 						</tbody>
