@@ -15,60 +15,9 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/bbs.css">';
 ?>
 
 
-<header id="header">
-      <div class="inner">
-        <div class="wrap">
-          <span class="bg_img"></span>
-          <nav id="nav">
-            <ul>
-              <li>
-                <a href="/bbs/content.php?co_id=introduce">디지털박람회</a>
-                <ul>
-                  <li><a href="/bbs/content.php?co_id=introduce">행사소개</a></li>
-                  <li><a href="#">부스배치도</a></li>
-                  <li><a href="#">참가업체리스트</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">참가안내</a>
-                <ul>
-                  <li><a href="#">참가안내</a></li>
-                  <li><a href="/bbs/content.php?co_id=forms">온라인참가신청</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">프로그램</a>
-                <ul>
-                  <li><a href="#">프로그램안내</a></li>
-                  <li><a href="#">전체일정표</a></li>
-                  <li><a href="#">전시장안내</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">미디어센터</a>
-                <ul>
-									<li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
-                  <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>
-                  <li><a href="/bbs/board.php?bo_table=traffic">교통안내</a></li>
-                  <li><a href="/bbs/board.php?bo_table=accommodations">숙박안내</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-          <h1>
-            <a href="/">
-              <img class="logo" src="/common/img/logo.png" alt="세계유산도시공주">
-              <img class="logo m" src="/common/img/logo_m.png" alt="세계유산도시공주">
-            </a>
-          </h1>
-          <div id="menu_btn">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-    </header>
+<?php
+	include_once(G5_THEME_PATH.'/header.part.sub.php');
+?>
     <div class="digital">
       <section class="visual">
         <div class="inner">
