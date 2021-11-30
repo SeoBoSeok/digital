@@ -215,13 +215,74 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</tbody>
 					</table>
 				</div>
+
+				<div class="wrap-tbl-calendar mb-50" style="padding-top: 40px;">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 25%;">
+								<col style="width: 25%;">
+								<col style="width: 50%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">항목</th>
+										<th scope="col" class="point_bg">업체명</th>
+										<th scope="col" class="point_bg">교육 내용</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<th scope="row" rowspan="9">디지털유산<br>미래교육<br>(DH Education)</th>
+										<td>위프코(주)</td>
+										<td>역사게임 만들기</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>인공지능 드론 (문화재 도굴)</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>LED 코딩</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>역사토론, 퀴즈, 문화재 스피치</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>코딩을 통한 전시실 모델링</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>3D 펜을 이용한 문화재 만들기</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>로봇코딩</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>로봇코딩</td>
+								</tr>
+								<tr>
+										<td>위프코(주)</td>
+										<td>3D 모델링, AR 콘텐츠 제작</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>				
+
 				</div>
 
           </div>
 
 			<!--테이블2-->
 
-			<!-- <div class="cont ani active">
+			<div class="cont ani active" style="padding-top: 50px;">
 
 <div class="schedule">
 					
@@ -229,238 +290,120 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 
 <div class="wrap-tbl-calendar mb-50">
 <table class="tbl">
-	<caption>
-	</caption>
-	<colgroup>
-			<col style="width: 15%;">
-			<col style="width: 25%;">
-			<col style="width: 8%;">
-			<col style="width: 8%;">
-			<col style="width: 8%;">
-			<col style="width: 8%;">
-			<col style="width: 8%;">
-	</colgroup>
-	<thead>
-			<tr>
-					<th scope="col" class="point_bg">항목</th>
-					<th scope="col" class="point_bg">업체명</th>
-					<th scope="col" class="point_bg">기록·모델링</th>
-					<th scope="col" class="point_bg">복원·복제</th>
-					<th scope="col" class="point_bg">소프트웨어</th>
-					<th scope="col" class="point_bg">솔루션</th>
-					<th scope="col" class="point_bg">콘텐츠</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<th scope="row" rowspan="12">디지털<br>유산산업<br>(DH-Industry)</th>
-					<td>위프코(주)</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-			<tr>
-					<td>㈜넥스페이스</td>
-					<td class="bg-common">v</td>
-					<td class="bg-by-light">v</td>
-					<td class="bg-is-light">v</td>
-					<td></td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>㈜스텔라무브</td>
-					<td></td>
-					<td class="bg-by-light">v</td>
-					<td></td>
-					<td></td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>3D엔터</td>
-					<td></td>
-					<td class="bg-by-light">v</td>
-					<td></td>
-					<td></td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>㈜캐럿펀트</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="bg-is-purple">v</td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-			<tr>
-					<td>㈜리하이</td>
-					<td></td>
-					<td></td>
-					<td class="bg-is-light">v</td>
-					<td class="bg-is-purple">v</td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>㈜지오스토리</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td></td>
-					<td class="bg-is-purple">v</td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>WaferMasters</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td></td>
-					<td class="bg-is-purple">v</td>
-					<td></td>
-			</tr>
-			<tr>
-					<td>레이징덕(주)</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-			<tr>
-					<td>충남문화교육협동조합 잇다</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-			<tr>
-					<td>㈜스쿱</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td class="bg-by-light">v</td>
-					<td></td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-			<tr>
-					<td>벤타브이알</td>
-					<td class="bg-common">v</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="bg-gj-light">v</td>
-			</tr>
-	</tbody>
-</table>
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 25%;">
+								<col style="width: 25%;">
+								<col style="width: 50%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">항목</th>
+										<th scope="col" class="point_bg">기관·대학명</th>
+										<th scope="col" class="point_bg">콘텐츠명</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<th scope="row" rowspan="3">디지털유산<br>초청전<br>(DH Invitation)</th>
+										<td>백제세계유산센터</td>
+										<td>디지털로 만나는 백제역사유적지구</td>
+								</tr>
+								<tr>
+										<td>한국전통문화대학교 <br>IDH연구소</td>
+										<td>정조대왕의 수원화성 야간군사 훈련 VAR 콘텐츠<br>소실된 웅진백제기 공주 정지산 유적 고건축 AR 콘텐츠</td>
+								</tr>
+								<tr>
+										<td>국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
+										<td>청동거울, 과학을 비추다</td>
+								</tr>
+						</tbody>
+					</table>
 </div>
 </div>
 
-</div> -->
+</div>
 			<!--테이블2-->
 
+			<!--테이블3-->
+
+			<div class="cont ani active" style="padding-top: 50px;">
+
+<div class="schedule">
+					
+<h3> 3층 세미나실 </h3>
+
+<div class="wrap-tbl-calendar mb-50">
+<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 35%;">
+								<col style="width: 25%;">
+								<col style="width: 40%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">항목</th>
+										<th scope="col" class="point_bg">발표자</th>
+										<th scope="col" class="point_bg">주제</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<th scope="row" rowspan="10">심포지엄(12월 19일)<br><br>디지털 헤리티지 생태계 : 산업&교육&연구<br>주최 : 공주시<br>주관 : 국립공주대학교 공주학연구원</th>
+										<td colspan="2">기조연설</td>
+								</tr>
+								<tr>
+										<td>리하이 추혜성 대표</td>
+										<td>디지털 헤리티지 스타트업 활성화 방안<br>- 드론 및 인공지능 기술 중심으로</td>
+								</tr>
+								<tr>
+										<td>캐럿펀트 이건우 대표</td>
+										<td>고고 유물의 디지털 기록 및 실측을 위한 디지털 솔루션 개발</td>
+								</tr>
+								<tr>
+										<td>백제세계유산센터 도미솔</td>
+										<td>디지털 백제역사유적지구</td>
+								</tr>
+								<tr>
+										<td>벤타브이알 전우열 대표</td>
+										<td>문화유산 메타버스<br>- 신라에서 백제로</td>
+								</tr>
+								<tr>
+										<td>다빈치창의융합연구소 이수진 소장</td>
+										<td>디지털 문화유산을 이용한 미래교육</td>
+								</tr>
+								<tr>
+										<td>국립공주대학교 조영훈 교수</td>
+										<td>인터랙티브 미디어아트 교육콘텐츠 개발<br>- 청동거울, 과학을 비추다</td>
+								</tr>
+								<tr>
+										<td>한서대학교 오승준 교수</td>
+										<td>3차원 디지털 기술을 활용한 도자기 유물의 보존방안</td>
+								</tr>
+								<tr>
+										<td>전통문화대학교 유정민 교수</td>
+										<td>확장현실 기반 디지털 헤리티지 연구의 발전방향</td>
+								</tr>
+								<tr>
+										<td colspan="2">종합토론</td>
+								</tr>
+						</tbody>
+					</table>
+</div>
+</div>
+
+</div>
+			<!--테이블3-->			
+
         </div>
       </section>
-      <!-- <section class="sec1-1 ani active">
-        <div class="inner">
-          <h2>목적 & 비전</h2>
-          <div class="vision">
-            <ul class="clearfix">
-              <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
-              <li class="right">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
-            </ul>
-            <ul class="clearfix">
-              <li class="left">디바이스 - 솔루션 - 콘텐츠 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
-              <li class="right">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="sec1-1 ani active">
-        <div class="inner">
-          <h2>기대효과</h2>
-          <div class="vision">
-            <ul class="clearfix">
-              <li class="left">문화유산의 새로운 가치 창출 및 비즈니스 모델 구축</li>
-              <li class="right">'문화유산, 디지털 대전환 시대'에 맞는 디지털 헤리티지 문화 형성</li>
-            </ul>
-            <ul class="clearfix">
-              <li class="left">디지털 기술을 이용하여 인간과 문화유산의 초연결성 확대</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="sec2 ani active">
-        <div class="inner">
-          <h2>2021 Gongju<br>Digital Heritage Festival</h2>
-          <p>
-            2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
-            문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
-            <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
-            구축을하고 있습니다
-          </p>
-          <div class="lists">
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
-                  <div class="text">
-                    <span>Program 01</span>
-                    <h4>전시콘텐츠</h4>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
-                  <div class="text">
-                    <span>Program 02</span>
-                    <h4>미래교육</h4>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
-                  <div class="text">
-                    <span>Program 03</span>
-                    <h4>문화유산상품</h4>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
-                  <div class="text">
-                    <span>Program 04</span>
-                    <h4>컨퍼런스</h4>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
-                  <div class="text">
-                    <span>Program 05</span>
-                    <h4>미래교육</h4>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img6.jpg" alt="">
-                  <div class="text">
-                    <span>Program 06</span>
-                    <h4>문화유산상품</h4>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <a href="./" class="reservation_btn">
-            <b>사전예약하기</b>
-            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
-          </a>
-        </div>
-      </section> -->
     </div>
     <footer>
       <section class="f_sec1">
