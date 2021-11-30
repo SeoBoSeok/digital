@@ -211,9 +211,9 @@ section.sec0 .inner table td:hover {
     .table-container table{
       width:auto;
    } 
-   .table-container::-webkit-scrollbar { -webkit-appearance: none; } 
-   .table-container::-webkit-scrollbar:vertical { width: 12px; } 
-   .table-container::-webkit-scrollbar:horizontal { height: 8px; } 
-   .table-container::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 2px solid #ffffff; } 
-   .table-container::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
 }
+::-webkit-scrollbar:vertical { width: 12px; } 
+::-webkit-scrollbar { -webkit-appearance: none; } 
+::-webkit-scrollbar:horizontal { height: 8px; } 
+::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 2px solid #ffffff; } 
+::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
