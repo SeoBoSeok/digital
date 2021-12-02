@@ -37,7 +37,7 @@ section.sec1-1.ani.active .inner h2 {
   animation: posX-40-up 1.8s ease both 0.2s;
 }
 section.sec1-1 .inner {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 130px;
 }
 section.sec1-1 .inner ul {
@@ -52,7 +52,7 @@ section.sec1-1 .inner ul li {
   padding-left: 22px;
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 50%;
+  width: 100%;
   font-weight: 400;
   letter-spacing: -1px;
 }

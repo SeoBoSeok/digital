@@ -99,7 +99,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <dd>문화재청</dd>
                   </dl>
                 </div>
-                <a href="#" class="down">
+                <a href="/common/img/digital_sec1_img1.png" class="down">
                   <span>브로슈어<br>다운로드</span>
                 </a>
               </div>
@@ -113,12 +113,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="vision">
             <ul class="clearfix">
               <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
-              <li class="right">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
-            </ul>
-            <ul class="clearfix">
+              <li class="left">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
               <li class="left">디바이스 - 솔루션 - 콘텐츠 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
-              <li class="right">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
+              <li class="left">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
             </ul>
+            <!-- <ul class="clearfix">
+            </ul> -->
           </div>
         </div>
       </section>
