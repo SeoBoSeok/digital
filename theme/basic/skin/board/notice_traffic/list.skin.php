@@ -99,8 +99,9 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
       </section>
     </footer>
 		<script>
+      var position = new naver.maps.LatLng(36.46655916745191, 127.10766250471471);
 var mapOptions = {
-  center: new naver.maps.LatLng(36.46655916745191, 127.10766250471471), //36.46655916745191, 경도는 127.10766250471471
+  center: position, //36.46655916745191, 경도는 127.10766250471471
   zoom: 15,
   scaleControl: true,
   logoControl: true,
@@ -128,13 +129,13 @@ function initMap() {
         clickable: true
     });
     var markerOptions = {
-      position: new naver.maps.LatLng(36.46655916745191, 127.10766250471471),
+      position: position,
       map: map,
       icon: {
           url: '/common/img/pin_default.png',
           size: new naver.maps.Size(150, 60),
-          // origin: new naver.maps.Point(0, 0),
-          // anchor: new naver.maps.Point(11, 35)
+          origin: new naver.maps.Point(0, 0),
+          anchor: new naver.maps.Point(11, 35)
       }
     };
 
