@@ -42,7 +42,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <td width="25%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 산업</td>
                 <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_dev'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 연구개발</td>
                 <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_edu'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 미래교육</td>
-                <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; font-weight:500; cursor:pointer">문화유산상품</td>
+                <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; font-weight:500; cursor:pointer">문화유산상품 마켓</td>
               </tr>
             </tbody>
           </table>
@@ -59,7 +59,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>문화유산상품</h3>
+                <h3>문화유산상품 마켓</h3>
                 <div class="lists">
                   <p>
                     디지털 헤리티지 초청전은 최신 기술의 변화와
@@ -164,7 +164,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <img src="/common/img/digital_sec2_img3.jpg" alt="">
                   <div class="text">
                     <span>Program 03</span>
-                    <h4>문화유산상품</h4>
+                    <h4>문화유산상품 마켓</h4>
                   </div>
                 </a>
               </li>
@@ -191,7 +191,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <img src="/common/img/digital_sec2_img6.jpg" alt="">
                   <div class="text">
                     <span>Program 06</span>
-                    <h4>문화유산상품</h4>
+                    <h4>문화유산상품 마켓</h4>
                   </div>
                 </a>
               </li>

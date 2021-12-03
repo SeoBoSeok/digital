@@ -239,7 +239,7 @@ if(G5_COMMUNITY_USE === false) {
                     <img src="common/img/digital_sec2_img6.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 06</span>
-                      <h3>문화유산상품</h3>
+                      <h3>문화유산상품 마켓</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
                         ~

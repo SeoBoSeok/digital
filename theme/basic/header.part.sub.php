@@ -18,7 +18,7 @@
               <li><a href="/bbs/content.php?co_id=about_org">디지털문화유산 산업</a></li>
               <li><a href="/bbs/content.php?co_id=about_org_dev">디지털문화유산 연구개발</a></li>
               <li><a href="/bbs/content.php?co_id=about_org_edu">디지털문화유산 미래교육</a></li>
-              <li><a href="/bbs/content.php?co_id=about_org_product">문화유산상품</a></li>
+              <li><a href="/bbs/content.php?co_id=about_org_product">문화유산상품 마켓</a></li>
             </ul>
           </li>
           <li>

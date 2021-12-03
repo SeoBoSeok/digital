@@ -159,7 +159,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <img src="/common/img/digital_sec2_img4.jpg" alt="">
                   <div class="text">
                     <span>백제세계유산센터</span>
-                    <h4>문화유산상품</h4>
+                    <h4>문화유산상품 마켓</h4>
                   </div>
                 </a>
               </li>
