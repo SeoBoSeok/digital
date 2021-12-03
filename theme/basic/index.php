@@ -166,10 +166,25 @@ if(G5_COMMUNITY_USE === false) {
               <ul>
                 <li>
                   <a href="#">
+                    <img src="common/img/digital_sec2_img1.jpg" alt="" />
+                    <div class="text">
+                      <span class="top">Program 01</span>
+                      <h3>산업</h3>
+                      <p>
+                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
+                        ~
+                      </p>
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                <li>
+                  <a href="#">
                     <img src="common/img/main_sec2_slide1.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 01</span>
-                      <h3>전시콘텐츠</h3>
+                      <h3>연구개발</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
                         ~
@@ -211,49 +226,7 @@ if(G5_COMMUNITY_USE === false) {
                     <img src="common/img/main_sec2_slide4.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 04</span>
-                      <h3>컨퍼런스</h3>
-                      <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
-                      </p>
-                      <span class="arrow"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
-                    <div class="text">
-                      <span class="top">Program 01</span>
-                      <h3>전시콘텐츠</h3>
-                      <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
-                      </p>
-                      <span class="arrow"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="common/img/main_sec2_slide2.jpg" alt="" />
-                    <div class="text">
-                      <span class="top">Program 02</span>
-                      <h3>미래교육</h3>
-                      <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
-                      </p>
-                      <span class="arrow"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="common/img/main_sec2_slide3.jpg" alt="" />
-                    <div class="text">
-                      <span class="top">Program 03</span>
-                      <h3>문화유산상품</h3>
+                      <h3>초청전</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
                         ~
@@ -266,8 +239,22 @@ if(G5_COMMUNITY_USE === false) {
                   <a href="#">
                     <img src="common/img/main_sec2_slide4.jpg" alt="" />
                     <div class="text">
-                      <span class="top">Program 04</span>
+                      <span class="top">Program 05</span>
                       <h3>컨퍼런스</h3>
+                      <p>
+                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
+                        ~
+                      </p>
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="common/img/digital_sec2_img6.jpg" alt="" />
+                    <div class="text">
+                      <span class="top">Program 06</span>
+                      <h3>문화유산상품</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
                         ~
