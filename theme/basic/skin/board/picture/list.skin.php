@@ -16,7 +16,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 <div class="sub_visual">
     <div class="sub_txt">
         <div class="cell">
-            <p id="sub_tit"><span>미디어센터</span></p>
+            <p id="sub_tit"><span>공지사항</span></p>
                <p class="sub_tit_s">제19회 대한민국 교육박람회<br> <span class="small">2022년 1월 13일~15일, 서울 코엑스 
 </span></p>
         </div>

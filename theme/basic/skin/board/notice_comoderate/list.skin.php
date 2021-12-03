@@ -30,7 +30,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>미디어센터</h2>
+            <h2>공지사항</h2>
             <p>숙박안내</p>
           </div>
         </div>
@@ -38,7 +38,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
       <section class="location">
         <div class="inner">
           <ul>
-            <li>미디어센터</li>
+            <li>공지사항</li>
             <li>숙박안내</li>
           </ul>
         </div>

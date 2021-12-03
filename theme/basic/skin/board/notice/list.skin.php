@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>미디어센터</h2>
+            <h2>공지사항</h2>
             <p>공지사항</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
       <section class="location">
         <div class="inner">
           <ul>
-            <li>미디어센터</li>
+            <li>공지사항</li>
             <li>공지사항</li>
           </ul>
         </div>

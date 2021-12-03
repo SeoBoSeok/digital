@@ -15,10 +15,10 @@
         <li>
           <a href="/bbs/content.php?co_id=about_org">참여기관</a>
           <ul>
-            <li><a href="/bbs/content.php?co_id=about_org">디지털유산 산업</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_dev">디지털유산 연구개발</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_edu">디지털유산 미래교육</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_product">문화 유산상품</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org">디지털문화유산 산업</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_dev">디지털문화유산 연구개발</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_edu">디지털문화유산 미래교육</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_product">문화유산상품</a></li>
           </ul>
         </li>
         <li>
@@ -48,7 +48,7 @@
           </ul>
         </li>              
         <li>
-          <a href="/bbs/board.php?bo_table=notice">미디어센터</a>
+          <a href="/bbs/board.php?bo_table=notice">공지사항</a>
           <ul>
             <li><a href="/bbs/board.php?bo_table=notice">공지사항</a></li>
             <li><a href="/bbs/board.php?bo_table=gallery">갤러리</a></li>

@@ -152,7 +152,16 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <img src="/common/img/digital_sec2_img1.jpg" alt="">
                   <div class="text">
                     <span>Program 01</span>
-                    <h4>전시콘텐츠</h4>
+                    <h4>산업</h4>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
+                  <div class="text">
+                    <span>Program 02</span>
+                    <h4>연구개발</h4>
                   </div>
                 </a>
               </li>
@@ -160,7 +169,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <a href="#">
                   <img src="/common/img/digital_sec2_img2.jpg" alt="">
                   <div class="text">
-                    <span>Program 02</span>
+                    <span>Program 03</span>
                     <h4>미래교육</h4>
                   </div>
                 </a>
@@ -169,8 +178,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <a href="#">
                   <img src="/common/img/digital_sec2_img3.jpg" alt="">
                   <div class="text">
-                    <span>Program 03</span>
-                    <h4>문화유산상품</h4>
+                    <span>Program 04</span>
+                    <h4>초청전</h4>
                   </div>
                 </a>
               </li>
@@ -178,21 +187,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <a href="#">
                   <img src="/common/img/digital_sec2_img4.jpg" alt="">
                   <div class="text">
-                    <span>Program 04</span>
+                    <span>Program 05</span>
                     <h4>컨퍼런스</h4>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
-                  <div class="text">
-                    <span>Program 05</span>
-                    <h4>미래교육</h4>
-                  </div>
-                </a>
-              </li>
-              <!-- <li>
                 <a href="#">
                   <img src="/common/img/digital_sec2_img6.jpg" alt="">
                   <div class="text">
@@ -200,7 +200,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>문화유산상품</h4>
                   </div>
                 </a>
-              </li> -->
+              </li>
             </ul>
           </div>
           <a href="./" class="reservation_btn">

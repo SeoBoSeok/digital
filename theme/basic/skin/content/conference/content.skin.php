@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>컨퍼런스</li>
-            <!-- <li>디지털유산 산업</li> -->
+            <!-- <li>디지털문화유산 산업</li> -->
           </ul>
         </div>
       </section>
