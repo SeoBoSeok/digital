@@ -100,10 +100,10 @@ if(G5_COMMUNITY_USE === false) {
           <img class="img1" src="common/img/main_sec1_img3_1.png" alt="디지털" />
           <img
             class="img2"
-            src="common/img/main_sec1_img3_1.png"
+            src="common/img/main_sec1_img3_2.png"
             alt="문화 2021 공주"
           />
-          <img class="img3" src="common/img/main_sec1_img3_1.png" alt="유산전" />
+          <img class="img3" src="common/img/main_sec1_img3_3.png" alt="유산전" />
           <img
             class="img4"
             src="common/img/main_sec1_img4.png"
