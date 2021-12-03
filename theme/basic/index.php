@@ -359,7 +359,7 @@ if(G5_COMMUNITY_USE === false) {
                 <li>
                   <span>주관.</span>
                   <img
-                    src="common/img/main_sec5_img2.png"
+                    src="common/img/main_sec5_img2_new.png"
                     alt="국립 공주대학교 공주학연구원"
                   />
                   <img
