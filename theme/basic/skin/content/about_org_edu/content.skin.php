@@ -36,7 +36,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec0">
         <div class="inner">
           <div class="cont ani">
-          <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
+          <table id="header_tabs" border="0" cellpadding="0" cellspacing="0" align="center">
             <tbody>
               <tr>
               <tr>

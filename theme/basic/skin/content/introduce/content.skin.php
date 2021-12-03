@@ -114,7 +114,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul class="clearfix">
               <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
               <li class="left">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
-              <li class="left">디바이스 - 솔루션 - 콘텐츠 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
+              <li class="left">산업 - 연구개발 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
               <li class="left">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
             </ul>
             <!-- <ul class="clearfix">

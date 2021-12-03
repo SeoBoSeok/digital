@@ -92,6 +92,10 @@ section.sec0 .inner table td:hover {
   font-weight: 500;
   border-bottom:solid 2px #101443 !important;
 }
-section.sec0 .inner table tbody tr {
+section.sec0 .inner table {
+  width: 100%;
+}
+section.sec0 .inner table tbody tr td {
   line-height: 18px;
+  padding: 20px 0;
 }
