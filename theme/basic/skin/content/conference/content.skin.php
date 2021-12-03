@@ -143,15 +143,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   </div>
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#">
                   <img src="/common/img/digital_sec2_img3.jpg" alt="">
                   <div class="text">
-                    <!-- <span>한국전통문화대학교IDH연구소</span> -->
+                    <span>한국전통문화대학교IDH연구소</span>
                     <h4>콜로키움</h4>
                   </div>
                 </a>
-              </li>
+              </li> -->
               <li>
                 <a href="#">
                   <img src="/common/img/digital_sec2_img4.jpg" alt="">

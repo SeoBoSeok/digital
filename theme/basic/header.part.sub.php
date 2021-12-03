@@ -44,7 +44,7 @@
             <a href="/bbs/content.php?co_id=forms">관람안내</a>
             <ul>
               <li><a href="/bbs/content.php?co_id=forms">사전등록</a></li>
-              <li><a href="/bbs/content.php?co_id=forms">온라인참가신청</a></li>
+              <li><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li>
             </ul>
           </li>              
           <li>

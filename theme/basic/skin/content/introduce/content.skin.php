@@ -192,7 +192,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   </div>
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#">
                   <img src="/common/img/digital_sec2_img6.jpg" alt="">
                   <div class="text">
@@ -200,7 +200,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>문화유산상품</h4>
                   </div>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <a href="./" class="reservation_btn">
