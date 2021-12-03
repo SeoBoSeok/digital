@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p>미래교육 신청</p>
+            <p>사전신청</p>
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li>미래교육 신청</li>
+            <li>사전신청</li>
           </ul>
         </div>
       </section>
@@ -43,9 +43,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2>미래교육 신청</h2>
+                <h2>사전신청</h2>
                 <p>
-                2021 공주디지털문화유산전 미래교육 신청
+                2021 공주디지털문화유산전 사전신청
                 </p>
             </div>
                 <div class="lists apply">
@@ -198,10 +198,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     </div>
                 </div>
             </div> 
-          <a href="./" class="reservation_btn">
-            <b>사전등록하기</b>
+          <!-- <a href="./" class="reservation_btn">
+            <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
-          </a>
+          </a> -->
         </div>
       </section>
     </div>

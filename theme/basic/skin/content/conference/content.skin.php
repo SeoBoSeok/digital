@@ -173,7 +173,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </ul>
           </div>
           <a href="./" class="reservation_btn">
-            <b>사전등록하기</b>
+            <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>
         </div>
