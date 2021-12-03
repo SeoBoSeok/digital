@@ -111,25 +111,25 @@ if(G5_COMMUNITY_USE === false) {
           />
           <img
             class="img5 layer"
-            data-speed="-2.2"
+            data-speed="-3.2"
             src="common/img/main_sec1_img6.png"
             alt=""
           />
           <img
             class="img6 layer"
-            data-speed="1.3"
+            data-speed="2.3"
             src="common/img/main_sec1_img7.png"
             alt=""
           />
           <img
             class="img7 layer"
-            data-speed="-3.5"
+            data-speed="-5.3"
             src="common/img/main_sec1_img8.png"
             alt=""
           />
           <img
             class="img8 layer"
-            data-speed="2.1"
+            data-speed="3.1"
             src="common/img/main_sec1_img9.png"
             alt=""
           />
