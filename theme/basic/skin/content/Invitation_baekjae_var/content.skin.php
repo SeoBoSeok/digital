@@ -98,7 +98,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
           </div>
           <a href="./" class="reservation_btn">
-            <b>사전예약하기</b>
+            <b>사전등록하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>
         </div>

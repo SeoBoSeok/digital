@@ -67,7 +67,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap">
-                <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/newposter.jpg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -204,7 +204,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </ul>
           </div>
           <a href="./" class="reservation_btn">
-            <b>사전예약하기</b>
+            <b>사전등록하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>
         </div>
