@@ -128,7 +128,7 @@ function initMap() {
         clickable: true
     });
     var markerOptions = {
-      position: position,
+      position: new naver.maps.LatLng(36.46655916745191, 127.10766250471471),
       map: map,
       icon: {
           url: '/common/img/pin_default.png',
