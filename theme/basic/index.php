@@ -222,7 +222,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="#">
-                    <img src="common/img/main_sec2_slide4.jpg" alt="" />
+                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
                       <h3>컨퍼런스</h3>
