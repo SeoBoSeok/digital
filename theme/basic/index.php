@@ -97,13 +97,13 @@ if(G5_COMMUNITY_USE === false) {
           <span></span>
         </div>
         <div class="wrap">
-          <img class="img1" src="common/img/main_sec1_img1.png" alt="디지털" />
+          <img class="img1" src="common/img/main_sec1_img1_1.png" alt="디지털" />
           <img
             class="img2"
-            src="common/img/main_sec1_img2.png"
+            src="common/img/main_sec1_img2_1.png"
             alt="문화 2021 공주"
           />
-          <img class="img3" src="common/img/main_sec1_img3.png" alt="유산전" />
+          <img class="img3" src="common/img/main_sec1_img3_1.png" alt="유산전" />
           <img
             class="img4"
             src="common/img/main_sec1_img4.png"
