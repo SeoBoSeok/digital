@@ -179,7 +179,6 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                <li>
                   <a href="#">
                     <img src="common/img/main_sec2_slide1.jpg" alt="" />
                     <div class="text">
