@@ -100,7 +100,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
     </footer>
 		<script>
 var mapOptions = {
-  center: new naver.maps.LatLng(36.4592626, 127.1198928),
+  center: new naver.maps.LatLng(36.46655916745191, 127.10766250471471), //36.46655916745191, 경도는 127.10766250471471
   zoom: 15,
   scaleControl: true,
   logoControl: true,
@@ -111,21 +111,15 @@ function initMap() {
     var map = new naver.maps.Map('map', mapOptions);
     var polygon = new naver.maps.Polygon({
         map: map,
-        paths: [
-            [
-                new naver.maps.LatLng(36.450661798071515, 127.12065610505286),
-                new naver.maps.LatLng(36.45653253301743, 127.12072200222792),
-                new naver.maps.LatLng(36.45653774203083, 127.1259237240578),
-                new naver.maps.LatLng(36.450642796208626, 127.1259848268245),
-                new naver.maps.LatLng(36.450661798071515, 127.12065610505286),
-                // new naver.maps.LatLng(36.45672660640219, 127.12331310336437),
-                // new naver.maps.LatLng(36.454459578802755, 127.12370806257351),
-                // new naver.maps.LatLng(36.45280619520924, 127.12364522815555),
-                // new naver.maps.LatLng(36.45112389539297, 127.12398632929374),
-                // new naver.maps.LatLng(36.45054627331101, 127.12360034643024),
-                // new naver.maps.LatLng(36.45056320164446, 127.12249547378752)
-            ]
-        ],
+        // paths: [
+        //     [
+        //         new naver.maps.LatLng(36.450661798071515, 127.12065610505286),
+        //         new naver.maps.LatLng(36.45653253301743, 127.12072200222792),
+        //         new naver.maps.LatLng(36.45653774203083, 127.1259237240578),
+        //         new naver.maps.LatLng(36.450642796208626, 127.1259848268245),
+        //         new naver.maps.LatLng(36.450661798071515, 127.12065610505286),
+        //     ]
+        // ],
         fillColor: '#b39fd9',
         fillOpacity: 0.3,
         strokeColor: '#452d9e',
