@@ -180,9 +180,9 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="#">
-                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
+                    <img src="common/img/digital_sec2_img5.jpg" alt="" />
                     <div class="text">
-                      <span class="top">Program 01</span>
+                      <span class="top">Program 02</span>
                       <h3>연구개발</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
@@ -196,22 +196,8 @@ if(G5_COMMUNITY_USE === false) {
                   <a href="#">
                     <img src="common/img/main_sec2_slide2.jpg" alt="" />
                     <div class="text">
-                      <span class="top">Program 02</span>
-                      <h3>미래교육</h3>
-                      <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
-                      </p>
-                      <span class="arrow"></span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="common/img/main_sec2_slide3.jpg" alt="" />
-                    <div class="text">
                       <span class="top">Program 03</span>
-                      <h3>문화유산상품</h3>
+                      <h3>미래교육</h3>
                       <p>
                         &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
                         ~
