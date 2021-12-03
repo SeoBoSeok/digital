@@ -127,5 +127,17 @@ function initMap() {
         strokeWeight: 3,
         clickable: true
     });
+    var markerOptions = {
+      position: position,
+      map: map,
+      icon: {
+          url: '/common/img/pin_default.png',
+          size: new naver.maps.Size(22, 35),
+          origin: new naver.maps.Point(0, 0),
+          anchor: new naver.maps.Point(11, 35)
+      }
+    };
+
+    var marker = new naver.maps.Marker(markerOptions);
 }
 </script>
