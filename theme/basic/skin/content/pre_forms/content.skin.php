@@ -250,3 +250,65 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         </div>
       </section>
     </footer>
+    <script>
+    document.getElementById("reservation_check").addEventListener("click", function(){
+        if(!$('input[name=rsv_name]').val()) {
+            alert('이름을 입력해주세요');
+            $('input[name=rsv_name]').focus();
+            return;
+        }
+        if(!$('input[name=rsv_tel2]').val()) {
+            alert('전화번호를 확인해주세요');
+            $('input[name=rsv_tel2]').focus();
+            return;
+        }
+        if(!$('input[name=rsv_address]').val()) {
+            alert('주소를 입력해주세요');
+            return;
+        }
+        // console.log($('input:checkbox[name=agree]:checked').val());
+        // if ($('input[name=agree]').val())
+        if ($('input:checkbox[name=agree]:checked').val()) {
+            $('.check_name').text($('input[name=rsv_name]').val());
+            $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
+            $('.check_address').text($('#rsv_address').val() + " " + $('#rsv_detailAddress').val());
+            $('.check_count').text($('#ride_adult_cnt').val());
+            $('#exampleModalCenter').modal('show');
+        } else {
+            alert("개인정보 수집 동의에 체크하셔야 합니다");
+        }
+    });
+    $(document).ready(function(){
+        $('#reservation_go').click(function(){   //submit 버튼을 클릭하였을 때
+            $('#exampleModalCenter').modal('hide');
+            // let sendData = "username="+$('input[name=username]').val();   //폼의 이름 값을 변수 안에 담아줌
+            var sendData = $('#reserveForm').serialize();
+            $.ajax({
+                type:'post',   //post 방식으로 전송
+                url:'/api/apply.php',   //데이터를 주고받을 파일 주소
+                data: sendData,   //위의 변수에 담긴 데이터를 전송해준다.
+                dataType:'json',   //html 파일 형식으로 값을 담아온다.
+                success : function(data){   //파일 주고받기가 성공했을 경우. data 변수 안에 값을 담아온다.
+                    // $('#message').html(data);  //현재 화면 위 id="message" 영역 안에 data안에 담긴 html 코드를 넣어준다. 
+                    console.log(data);
+                    if (data.result === "success") {
+                        $('#successModalCenter').modal("show");
+                        $('input[name=rsv_name]').val("");
+                        $('input[name=rsv_tel1]').val("");
+                        $('input[name=rsv_tel2]').val("");
+                        $('input[name=rsv_tel3]').val("");
+                        $('input[name=rsv_address]').val("");
+                        $('input[name=rsv_detailAddress]').val("");
+                        $('input[name=agree]').attr("checked", false);
+                    } else {
+                        if (data.result === "fail") {
+                            $('#failModalCenter').modal("show");
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                }
+            });
+        });
+    });
+</script>    
