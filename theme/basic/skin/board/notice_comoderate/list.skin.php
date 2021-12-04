@@ -241,9 +241,14 @@ jQuery(function($){
 
 	<div class="ui board--card--list type2">
 		<div class="obj col3">			
+				<?php
+				for ($i=0; $i<count($list); $i++) {
+					if ($i%2==0) $lt_class = "even";
+					else $lt_class = "";
+				?>
 				<div class="col">
 					<div class="inner-box">
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=22" class="link">
+						<a href="<?php echo $list[$i]["wr_link1"]; ?>" class="link" target="_blank">
 							<div class="item">
 								<!-- 카테고리 아이콘 -->
 								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
@@ -254,487 +259,38 @@ jQuery(function($){
 								<!-- 카테고리 아이콘 -->
 								<div class="thm--box">
 									<div class="inner">											
-												<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">	
+												<img class="card-img-top" src="<?php echo $list[$i]["wr_3"] ?>" alt="한옥마을">	
 									</div>
 								</div>
 								<div class="card--body">
-									<strong class="tit">한옥마을</strong>
+									<strong class="tit"><?php echo $list[$i]["subject"] ?></strong>
 									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 관광단지길 12 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>041-840-8900</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 단체동(6동 37실), 개별동(16동 19실)</li>
+										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em><?php echo $list[$i]["wr_content"]; ?></li>
+										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em><?php echo $list[$i]["wr_1"]; ?></li>
+										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em><?php echo $list[$i]["wr_2"]; ?></li>
 									</ul>
 								</div>
 							</div>
 						</a>
 					</div>
 				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=361" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">하숙마을</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 당간지주길 21 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>041-852-4747</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 10</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=341" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">공주산림휴양마을</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 수원지공원길 222 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>041-855-0855</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 숙박시설 20개, 야영장 20개</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=524" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">나르빅 민박(펜션)</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 왕촌길 81 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-4132-5210</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 5</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=525" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">무릉(관광)민박(펜션)</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 느랏티길 47-7 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>041-852-1946</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 1</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=526" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">고마게스트하우스</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 백미고을길 5-2 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-5894-3897</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 6</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=527" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">공주공산성게스트하우스</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 백미고을길 5-4 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-8800-3703</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 5</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=528" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">달빛정원</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 백미고을길 14 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-8790-8285</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 8</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=529" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">로컬하우스</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 향교1길 16-8 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-4254-5660</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 4</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=530" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">미나리깡</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 정자방1길 22-13 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>010-8893-8381</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 3</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=531" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">봉황재(모던한옥)</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 큰샘3길 8 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>041-960-5525</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 4</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
-				<div class="col">
-					<div class="inner-box">
-
-						
-							
-							
-								
-							
-						
-
-						<a href="/prog/hotelData/tour/sub05_02/view.do?pageIndex=1&amp;cntNo=615" class="link">
-							<div class="item">
-								<!-- 카테고리 아이콘 -->
-								<span class="tag"> <i> <svg id="svg-bed" viewBox="0 0 800 800" width="100%" height="100%" aria-hidden="true" tabindex="-1" focusable="false">
-			                <path d="M639 212H366v239H93V145H25v510h68V553h614v102h68V349a136 136 0 0 0-135-137h-1z" transform="translate(0 150)" fill="#fff"></path>
-			                <circle cx="231" cy="313" r="103" transform="translate(0 150)" fill="#fff"></circle> </svg>
-								</i>
-								</span>
-								<!-- 카테고리 아이콘 -->
-								<div class="thm--box">
-									<div class="inner">
-										
-											
-											
-									<img class="card-img-top" src="/common/img/getImage.jpg" alt="한옥마을">
-											
-										
-									</div>
-								</div>
-								<div class="card--body">
-									<strong class="tit">한적한가</strong>
-									<ul>
-										<li class="icon_01"><em><i class="fa fa-map-marker"></i> 주소</em>충청남도 공주시 한적2길 47-25 </li>
-										<li class="icon_02"><em><i class="fa fa-phone"></i> 연락처</em>0507-1475-2701</li>
-										<li class="icon_06"><em><i class="fa md-hotel"></i> 객실수</em> 2</li>
-									</ul>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			
+			<?php
+			}
+			?>
 		</div>
 	</div>
 </div>
+
+<div class="text-center">
+		<!--페이징 -->
+		<ul class="pagination">
+			<li class="page-item"><a class="page-link" aria-label="first" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="Previous" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li><li class="page-item active"><a class="page-link" onclick="return false;">1</a></li><li class="page-item"><a class="page-link" href="?pageIndex=2" onclick="linkPage(2);return false; ">2</a></li><li class="page-item"><a class="page-link" href="?pageIndex=3" onclick="linkPage(3);return false; ">3</a></li><li class="page-item"><a class="page-link" href="?pageIndex=4" onclick="linkPage(4);return false; ">4</a></li><li class="page-item"><a class="page-link" href="?pageIndex=5" onclick="linkPage(5);return false; ">5</a></li><li class="page-item"><a class="page-link" href="?pageIndex=6" onclick="linkPage(6);return false; ">6</a></li><li class="page-item"><a class="page-link" href="?pageIndex=7" onclick="linkPage(7);return false; ">7</a></li><li class="page-item"><a class="page-link" href="?pageIndex=8" onclick="linkPage(8);return false; ">8</a></li><li class="page-item"><a class="page-link" href="?pageIndex=9" onclick="linkPage(9);return false; ">9</a></li><li class="page-item"><a class="page-link" href="?pageIndex=10" onclick="linkPage(10);return false; ">10</a></li><li class="page-item"><a class="page-link" aria-label="Next" href="?pageIndex=11" onclick="linkPage(11);return false; "><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="last" href="?pageIndex=22" onclick="linkPage(22);return false; "><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+				<!-- 페이지 -->
+				<?php echo $write_pages; ?>
+				<!-- 페이지 -->
+		</ul>
+	</div>           
+
 
 <script type="text/javascript">
 	function board_photo_list_AC() {
@@ -745,15 +301,6 @@ jQuery(function($){
 	}
 	board_photo_list_AC();
 </script>
-
-
-	<div class="text-center">
-		<!--페이징 -->
-		<ul class="pagination">
-			<li class="page-item"><a class="page-link" aria-label="first" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="Previous" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li><li class="page-item active"><a class="page-link" onclick="return false;">1</a></li><li class="page-item"><a class="page-link" href="?pageIndex=2" onclick="linkPage(2);return false; ">2</a></li><li class="page-item"><a class="page-link" href="?pageIndex=3" onclick="linkPage(3);return false; ">3</a></li><li class="page-item"><a class="page-link" href="?pageIndex=4" onclick="linkPage(4);return false; ">4</a></li><li class="page-item"><a class="page-link" href="?pageIndex=5" onclick="linkPage(5);return false; ">5</a></li><li class="page-item"><a class="page-link" href="?pageIndex=6" onclick="linkPage(6);return false; ">6</a></li><li class="page-item"><a class="page-link" href="?pageIndex=7" onclick="linkPage(7);return false; ">7</a></li><li class="page-item"><a class="page-link" href="?pageIndex=8" onclick="linkPage(8);return false; ">8</a></li><li class="page-item"><a class="page-link" href="?pageIndex=9" onclick="linkPage(9);return false; ">9</a></li><li class="page-item"><a class="page-link" href="?pageIndex=10" onclick="linkPage(10);return false; ">10</a></li><li class="page-item"><a class="page-link" aria-label="Next" href="?pageIndex=11" onclick="linkPage(11);return false; "><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="last" href="?pageIndex=22" onclick="linkPage(22);return false; "><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
-
-		</ul>
-	</div>           
 
 			</div>	
 		
@@ -779,6 +326,8 @@ jQuery(function($){
 <?php } ?>   
 </form>
 </div>
+
+<li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기">글쓰기<i class="fa fa-pencil" aria-hidden="true"></i><span class="sound_only">글쓰기</span></a></li>
 
 <?php if($is_checkbox) { ?>
 <noscript>

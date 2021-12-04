@@ -22,7 +22,7 @@ $(function() {
 
 <?php run_event('tail_sub'); ?>
 <!-- footer-->
-<div id="footerW">
+<!-- <div id="footerW">
     <div id="footer">
         <div class="addressW">
             <address>
@@ -30,21 +30,21 @@ $(function() {
                <span></span>
 			</address>
             <p class="copy">Copyright ⓒ 2021 공주 디지털문화유산전.      All Rights Reserved.</p>
-            <!-- <p class="f_logo"><img src="../img/common/f_logo2.png" alt="공주디지털박람회"></p> -->
+            <p class="f_logo"><img src="../img/common/f_logo2.png" alt="공주디지털박람회"></p>
             <p class="go_top"><a href="javascript:void(0);" onclick="goTop();"><img src="/img/main/top.png" alt="top"> </a></p>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="quick_wrap">
+<!-- <div class="quick_wrap">
     <ul>
-        <!-- <li><a href="https://www.facebook.com/koreaedu" target="_blank"><img src="../img/main/sns_f.png" alt=""></a></li>
+        <li><a href="https://www.facebook.com/koreaedu" target="_blank"><img src="../img/main/sns_f.png" alt=""></a></li>
         <li><a href="https://www.instagram.com/educationkorea/" target="_blank"><img src="../img/main/sns_i.png" alt=""></a></li>
         <li><a href="http://edufair.blog.me/" target="_blank"><img src="../img/main/sns_b.png" alt=""></a></li>
         <li><a href="https://www.youtube.com/channel/UCHomuSrZwskuWT_gJxDj9Kg" target="_blank"><img src="../img/main/sns_y.png" alt=""></a></li>
-        <li><a href="javascript:void(0);" onclick="ViewlayerPop(0);"><img src="../img/main/sns_n.png" alt=""></a></li> -->
+        <li><a href="javascript:void(0);" onclick="ViewlayerPop(0);"><img src="../img/main/sns_n.png" alt=""></a></li>
     </ul>
-</div>
+</div> -->
 
 <script>
 	function newsletter_submit() {
