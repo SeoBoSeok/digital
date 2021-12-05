@@ -205,6 +205,71 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         </div>
       </section>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">예약 내역 확인</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            예약자 : <span class="check_name"></span><br />
+            연락처 : <span class="check_tel"></span><br />
+            주소 : <span class="check_address"></span><br />
+            개인정보 동의 : <span class="check_agree">Y</span><br />
+            참여인원 : <span class="check_count"></span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+            <button type="button" class="btn btn-primary" id="reservation_go">예약하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="successModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">예약 되었습니다</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            예약자 : <span class="check_name"></span><br />
+            연락처 : <span class="check_tel"></span><br />
+            주소 : <span class="check_address"></span><br />
+            개인정보 동의 : <span class="check_agree">Y</span><br />
+            참여인원 : <span class="check_count"></span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="failModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">이미 예약 하셨습니다</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            연락처 : <span class="check_tel"></span> 으로 이미 예약하셨습니다.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL-->
     <footer>
       <section class="f_sec1">
         <div class="inner">

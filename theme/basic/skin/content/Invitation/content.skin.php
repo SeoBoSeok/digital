@@ -54,7 +54,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <div class="cont ani active">
             <div class="img_box">
-              <div class="wrap">
+              <div class="wrap invitation_one">
                 <!-- <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마"> -->
               </div>
             </div>
@@ -129,37 +129,49 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
                   <div class="text">
+                    <h4>디지털로 만나는<br>백제역사유적지구</h4>
                     <span>백제세계유산센터</span>
-                    <h4>디지털로 만나는 백제역사유적지구</h4>
+                    <div class="btn">
+                      <a href="#"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
+                    <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
                     <span>한국전통문화대학교IDH연구소</span>
-                    <h4>정조대왕의 수원화성 야간군사 훈련 VAR</h4>
+                    <div class="btn">
+                      <a href="#"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
+                    <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
                     <span>한국전통문화대학교IDH연구소</span>
-                    <h4>소실된 웅진백제기 공주 정지산 유적 고건축 AR </h4>
+                    <div class="btn">
+                      <a href="#"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
+                    <h4>문화유산상품<br>마켓</h4>
                     <span>백제세계유산센터</span>
-                    <h4>문화유산상품 마켓</h4>
+                    <div class="btn">
+                      <a href="#"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>

@@ -103,3 +103,73 @@ section.sec0 .inner table td:hover {
 .digital .sec2 {
   padding-bottom: 100px;
 }
+
+.digital .sec1 .img_box {
+  box-shadow: 0px 50px 100px 0px rgb(4 0 0 / 30%);
+  position: relative;
+  z-index: 99;
+}
+.digital .sec1 .img_box .wrap {
+  position: relative;
+}
+.digital .sec1 .info {
+  background: #f5f5f5;
+  color: #18130f;
+  box-shadow: none;
+}
+.digital .sec2 .lists ul li {
+  width: 33.33%;
+}
+.btn {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  display: table;
+  width: 79px;
+  height: 79px;
+  text-align: center;
+  background: #18130f;
+}
+.btn {
+  animation: posX-40-up 1.8s ease both 1.5s;
+  background-color: #f5f5f5;
+  margin-top: 47px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #c85912;
+}
+.btn.close {
+  background: #7a7a7a;
+}
+.btn.close a span {
+  padding-bottom: 0;
+  background: none;
+}
+/* .btn span {
+  position: relative;
+  padding-bottom: 28px;
+  display: inline-block;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  background: url(/common/img/main_sec3_arrow.png) center 30px no-repeat;
+} */
+.invitation_one{
+  background: url(/common/img/ventabus.jpg) center center no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+.btn span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  height: 10px;
+  margin: auto;
+  background: url(/common/img/main_sec4_arrow.png) no-repeat;
+}
