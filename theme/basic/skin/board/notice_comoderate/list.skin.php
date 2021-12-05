@@ -63,18 +63,6 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 <?php } ?>
 <!-- } 게시판 카테고리 끝 -->
 
-<form name="fboardlist" id="fboardlist" action="<?php echo G5_BBS_URL; ?>/board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post">
-
-<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
-<input type="hidden" name="sfl" value="<?php echo $sfl ?>">
-<input type="hidden" name="stx" value="<?php echo $stx ?>">
-<input type="hidden" name="spt" value="<?php echo $spt ?>">
-<input type="hidden" name="sca" value="<?php echo $sca ?>">
-<input type="hidden" name="sst" value="<?php echo $sst ?>">
-<input type="hidden" name="sod" value="<?php echo $sod ?>">
-<input type="hidden" name="page" value="<?php echo $page ?>">
-<input type="hidden" name="sw" value="">
-
 <!-- 게시판 검색 시작 { -->
 	<!-- <div class="bo_sch_wrap">
 		<fieldset class="bo_sch">
@@ -98,91 +86,108 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 		<div class="bo_sch_bg"></div>
 	</div> -->
 <script>
-jQuery(function($){
-		// 게시판 검색
-		$(".btn_bo_sch").on("click", function() {
-				$(".bo_sch_wrap").toggle();
-		})
-		$('.bo_sch_bg, .bo_sch_cls').click(function(){
-				$('.bo_sch_wrap').hide();
-		});
-});
+// jQuery(function($){
+// 		// 게시판 검색
+// 		$(".btn_bo_sch").on("click", function() {
+// 				$(".bo_sch_wrap").toggle();
+// 		})
+// 		$('.bo_sch_bg, .bo_sch_cls').click(function(){
+// 				$('.bo_sch_wrap').hide();
+// 		});
+// });
 </script>
 <!-- } 게시판 검색 끝 --> 
 
 <!-- 게시판 페이지 정보 및 버튼 시작 { -->
 	<div id="contens" class="contents_wrap">
-			<!-- title_layout :s -->
-			<div id="location" class="title_wrap">
-	<!-- <h2 class="page__title">숙박정보</h2> -->
-	<!-- 유틸 시작 -->
-	<div class="utile_wrap">
-		<div class="utile_wrap_inner">
-			
-	    	<!-- 프린트 시작 -->
-	        <!-- <ul class="print_wrap setting-box__group">
-	        	
-	        	<li id="sns_layout" class="n1 sns clickOpen">
-	            	<button><span class="tmpl_ir">SNS공유 열림버튼</span></button>
-	                <div class="sns_wrap">
-
-	                	<button class="fa tmpl_ir" data-button="sns_share" data-service="facebook" data-title="페이스북 SNS공유" title="페이스북 공유하기, 새창열림">페이스북</button>
-	                	<button class="tw tmpl_ir" data-button="sns_share" data-service="twitter" data-title="트위터 SNS공유" title="트위터 공유하기, 새창열림">트위터</button>
-	                	<button class="bl tmpl_ir" data-button="sns_share" data-service="naver" data-title="네이버 SNS공유" title="블로그 공유하기, 새창열림">블로그</button>
-	                	<button class="ca tmpl_ir" data-button="sns_share" data-service="kakaostory" data-title="카카오스토리 SNS공유" title="카카오스토리 공유하기, 새창열림">카카오스토리</button>
-	                	<button class="clickClose"><span class="tmpl_ir">SNS공유 닫힘버튼</span></button>
-	                	
-	                </div>
-	            </li>
-	            <li class="n2"><button onclick="CopyUrl(); return false;" title="복사하기" class="copy"><span class="tmpl_ir">복사하기</span></button></li>
-	            <li class="n3" id="print"><button data-print="print"><span class="tmpl_ir">프린트</span></button></li>
-	        </ul> -->
-	    	<!-- 프린트 끝 -->
-    	</div>
-    </div>
-    <!-- 유틸 끝 -->
-	
-			</div>
-			<!-- title_layout :e -->
-			<!-- content :s -->
 			<div id="txt">
 	          
 <script type="text/javascript">
-	function linkPage(pageIndex){
-// 		location.href = "?area=&pageIndex="+pageIndex+"" ;
-		$("#pageIndex").val(pageIndex);
-		$("#searchForm").submit();
-	}
+// 	function linkPage(page){
+// // 		location.href = "?area=&page="+page+"" ;
+// 		$("#page").val(page);
+// 		$("#searchForm").submit();
+// 	}
 	
-	function onSubmit(){
-		$("#pageIndex").val(1);
-	}
+// 	function onSubmit(){
+// 		$("#page").val(1);
+// 	}
 </script>
 
 
 <div class="program--contents">
 		
-	<div class="bo_sch_wrap">
-		<fieldset class="bo_sch">
-				<h3>검색</h3>
-				<form name="fsearch" method="get">
-				<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
-				<input type="hidden" name="sca" value="<?php echo $sca ?>">
-				<input type="hidden" name="sop" value="and">
-				<label for="sfl" class="sound_only">검색대상</label>
-				<select name="sfl" id="sfl">
-						<?php echo get_board_sfl_select_options($sfl); ?>
-				</select>
-				<label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
-				<div class="sch_bar">
-						<input type="text" name="stx" value="<?php echo stripslashes($stx) ?>" required id="stx" class="sch_input" size="25" maxlength="20" placeholder=" 검색어를 입력해주세요">
-						<button type="submit" value="검색" class="sch_btn"><i class="fa fa-search" aria-hidden="true"></i><span class="sound_only">검색</span></button>
+	<form name="fsearch" method="get">
+	<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
+	<input type="hidden" name="sop" value="and">
+	<input type="hidden" name="sfl" value="wr_subject||wr_content">
+	<fieldset>
+		<!-- <legend>게시물 검색</legend> -->
+		<div class="ui program--search">
+			<div class="float-md-left">
+				<div class="ui program--count">
+					<span>총 게시물 <strong>254</strong> 개
+					<!-- </span>, <span class="ui program--division-line">페이지 <strong>1</strong> / 10 -->
+					</span>
 				</div>
-				<button type="button" class="bo_sch_cls" title="닫기"><i class="fa fa-times" aria-hidden="true"></i><span class="sound_only">닫기</span></button>
-				</form>
-		</fieldset>
-		<div class="bo_sch_bg"></div>
-	</div>
+			</div>
+
+			<div class="search_inner clearfix float-md-right">
+				<div class="fieldset">
+					<div class="search--select">
+						<!-- select추가시 -->
+						<span>
+							<select name="sca" title="읍면동을 선택해주세요">
+							<option value="">- 읍면을 선택해 주세요-</option>
+							
+								<option value="yugu">유구읍</option>
+							
+								<option value="einmyun">이인면</option>
+							
+								<option value="tancheon">탄천면</option>
+							
+								<option value="gyeryong">계룡면</option>
+							
+								<option value="banpo">반포면</option>
+							
+								<option value="euidang">의당면</option>
+							
+								<option value="jungan">정안면</option>
+							
+								<option value="woosung">우성면</option>
+							
+								<option value="sagok">사곡면</option>
+							
+								<option value="sinpoong">신풍면</option>
+							
+								<option value="junghak">중학동</option>
+							
+								<option value="ungjin">웅진동</option>
+							
+								<option value="geumhak">금학동</option>
+							
+								<option value="okryong">옥룡동</option>
+							
+								<option value="sinkwan">신관동</option>
+							
+								<option value="wolsong">월송동</option>
+							
+							</select>
+						</span>
+						<!-- select추가시 -->
+					</div>
+					<div class="search--text">
+						<span><input type="text" name="stx" value="" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요" class="form-control"></span>
+					</div>
+					<div class="search--btn">
+						<span class="btn--submit"><input type="submit" value="검색" onclick="onSubmit();"></span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</fieldset>
+	</form>
 
 
 	<div class="ui board--card--list type2">
@@ -230,7 +235,20 @@ jQuery(function($){
 <div class="text-center">
 		<!--페이징 -->
 		<ul class="pagination">
-			<li class="page-item"><a class="page-link" aria-label="first" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="Previous" href="?pageIndex=1" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li><li class="page-item active"><a class="page-link" onclick="return false;">1</a></li><li class="page-item"><a class="page-link" href="?pageIndex=2" onclick="linkPage(2);return false; ">2</a></li><li class="page-item"><a class="page-link" href="?pageIndex=3" onclick="linkPage(3);return false; ">3</a></li><li class="page-item"><a class="page-link" href="?pageIndex=4" onclick="linkPage(4);return false; ">4</a></li><li class="page-item"><a class="page-link" href="?pageIndex=5" onclick="linkPage(5);return false; ">5</a></li><li class="page-item"><a class="page-link" href="?pageIndex=6" onclick="linkPage(6);return false; ">6</a></li><li class="page-item"><a class="page-link" href="?pageIndex=7" onclick="linkPage(7);return false; ">7</a></li><li class="page-item"><a class="page-link" href="?pageIndex=8" onclick="linkPage(8);return false; ">8</a></li><li class="page-item"><a class="page-link" href="?pageIndex=9" onclick="linkPage(9);return false; ">9</a></li><li class="page-item"><a class="page-link" href="?pageIndex=10" onclick="linkPage(10);return false; ">10</a></li><li class="page-item"><a class="page-link" aria-label="Next" href="?pageIndex=11" onclick="linkPage(11);return false; "><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li><li class="page-item"><a class="page-link" aria-label="last" href="?pageIndex=22" onclick="linkPage(22);return false; "><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+			<li class="page-item"><a class="page-link" aria-label="first" href="?page=1&bo_table=accommodations" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li>
+			<li class="page-item"><a class="page-link" aria-label="Previous" href="?page=1&bo_table=accommodations" onclick="linkPage(1);return false; "><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li>
+			<li class="page-item active"><a class="page-link" onclick="return false;">1</a></li>
+			<li class="page-item"><a class="page-link" href="?page=2&bo_table=accommodations" onclick="linkPage(2);return false; ">2</a></li>
+			<li class="page-item"><a class="page-link" href="?page=3&bo_table=accommodations" onclick="linkPage(3);return false; ">3</a></li>
+			<li class="page-item"><a class="page-link" href="?page=4&bo_table=accommodations" onclick="linkPage(4);return false; ">4</a></li>
+			<li class="page-item"><a class="page-link" href="?page=5&bo_table=accommodations" onclick="linkPage(5);return false; ">5</a></li>
+			<li class="page-item"><a class="page-link" href="?page=6&bo_table=accommodations" onclick="linkPage(6);return false; ">6</a></li>
+			<li class="page-item"><a class="page-link" href="?page=7&bo_table=accommodations" onclick="linkPage(7);return false; ">7</a></li>
+			<li class="page-item"><a class="page-link" href="?page=8&bo_table=accommodations" onclick="linkPage(8);return false; ">8</a></li>
+			<li class="page-item"><a class="page-link" href="?page=9&bo_table=accommodations" onclick="linkPage(9);return false; ">9</a></li>
+			<li class="page-item"><a class="page-link" href="?page=10&bo_table=accommodations" onclick="linkPage(10);return false; ">10</a></li>
+			<li class="page-item"><a class="page-link" aria-label="Next" href="?page=11&bo_table=accommodations" onclick="linkPage(11);return false; "><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
+			<li class="page-item"><a class="page-link" aria-label="last" href="?page=22&bo_table=accommodations" onclick="linkPage(22);return false; "><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
 				<!-- 페이지 -->
 				<?php echo $write_pages; ?>
 				<!-- 페이지 -->
@@ -269,8 +287,7 @@ jQuery(function($){
 		</ul>	
 		<?php } ?>
 </div>
-<?php } ?>   
-</form>
+<?php } ?> 
 </div>
 
 <li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기">글쓰기<i class="fa fa-pencil" aria-hidden="true"></i><span class="sound_only">글쓰기</span></a></li>
