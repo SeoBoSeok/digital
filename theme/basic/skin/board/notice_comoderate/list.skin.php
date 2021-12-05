@@ -31,7 +31,7 @@ if($page <= 10) {
 	<li class="page-item '.($page == 9 ? 'active' : '').'"><a class="page-link" href="?page=9&amp;bo_table=accommodations">9</a></li>
 	<li class="page-item '.($page == 10 ? 'active' : '').'"><a class="page-link" href="?page=10&amp;bo_table=accommodations">10</a></li>
 	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="last" href="?page=27&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
 	</ul>';
 } else {
 	$paginationStr .= '<ul class="pagination">
@@ -45,7 +45,7 @@ if($page <= 10) {
 	<li class="page-item '.($page == 16 ? 'active' : '').'"><a class="page-link" href="?page=16&amp;bo_table=accommodations">16</a></li>
 	<li class="page-item '.($page == 17 ? 'active' : '').'"><a class="page-link" href="?page=17&amp;bo_table=accommodations">17</a></li>
 	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="last" href="?page=27&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
 	</ul>';
 }
 // echo $paginationStr;
