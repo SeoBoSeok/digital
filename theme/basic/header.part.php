@@ -45,6 +45,7 @@
           <ul>
             <li><a href="/bbs/content.php?co_id=pre_forms">사전등록</a></li>
             <li><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li>
+            <li><a href="/bbs/content.php?co_id=formschekc">사전등록 확인</a></li>
           </ul>
         </li>              
         <li>

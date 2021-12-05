@@ -676,3 +676,10 @@ label {
     display: none;
   }
 }
+
+#reservation_check {
+  width: 25%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+}
