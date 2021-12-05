@@ -340,7 +340,7 @@ if(G5_COMMUNITY_USE === false) {
               <h3>Contact</h3>
               <ul>
                 <li>
-                  2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>

@@ -111,11 +111,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <div class="contact">
               <h3>Contact</h3>
               <ul>
-                <li>
-                  공주국립대학교 디지털유산전<span></span>TEL. 042-000-0000
+              <li>
+								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
-                <li>(32552) 충청남도 공주시 봉황로1 공주시청</li>
-                <li>E-mail. mail@naver.co.kr</li>
+                <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
             </div>
             <div class="lists">
