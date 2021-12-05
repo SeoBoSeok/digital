@@ -22,7 +22,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p>관람객 사전신청</p>
+            <p>사전신청 확인</p>
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li>관람객 사전신청</li>
+            <li>사전신청 확인</li>
           </ul>
         </div>
       </section>
@@ -41,128 +41,67 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
-      <section class="sec2 ani active" style="padding-top: 100px;">
+      <section class="sec2 ani active" style="">
         <div class="inner">
             <div class="center">
-                <h2>관람객 사전신청</h2>
+                <!-- <h2>사전신청 확인</h2>
                 <p>
-                2021 공주디지털문화유산전 관람객 사전신청
-                </p>
+                2021 공주디지털문화유산전 사전신청 확인
+                </p> -->
             </div>
                 <div class="lists apply">
-                <div class="form_wrap">
-                    <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
-                      <input type="hidden" name="token" value="pre_forms" >
-                        <table>
-                        <tbody>
-                        <tr>
-                            <td class="ttl">프로그램</td>
-                            <td class="box6 ride_count">
-                                <div class="box6_01">
-                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program[$_program_detail]; ?>" readonly />
-                                </div>
-                            </td>
-                        </tr>             
-                        <tr>
-                            <td class="ttl">예약자 정보</td>
-                            <td class="box5">
-                                <div class="box5_02">
-                                    <span>예약자명</span>
-                                    <input type="text" name="rsv_name" placeholder="예약자명을 입력해 주세요.">
-                                </div>
-                                <div class="box5_03">
-                                    <span>예약자 연락처</span>
-                                    <div class="tel1">
-                                        <!-- <input type="text" class="tel1_01" name="rsv_tel1" maxlength="3" onkeyup="numChk(this)" placeholder="연락처를 입력해 주세요."> -->
-                                        <select name="rsv_tel1">
-                                            <option value="010">010</option>
-                                        </select>
-                                        <span>-</span>
-                                        <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4">
-                                        <span>-</span>
-                                        <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4">
-                                    </div>
-                                </div>
-                                <div class="box5_02">
-                                    <span>소속</span>
-                                    <input type="text" name="rsv_group" placeholder="소속">
-                                </div>
-                                <div class="box5_02">
-                                    <span>직책</span>
-                                    <input type="text" name="rsv_position" placeholder="직책">
-                                </div>
-                                <div class="box5_02">
-                                    <span>이메일</span>
-                                    <input type="text" name="rsv_email" placeholder="이메일">
-                                </div>                                
-                                <div class="box7">
-                                    <!-- <span>주소</span> -->
-                                    <!-- <input type="text" id="sample6_postcode" placeholder="우편번호"> -->
-                                    <!-- <input type="text" id="rsv_address" name="rsv_address" placeholder="주소" readonly onclick="sample6_execDaumPostcode()"><br>
-                                    <input type="text" id="rsv_detailAddress" name="rsv_detailAddress" placeholder="상세주소" style="margin-top: 5px;">
-                                    <input type="button" onclick="sample6_execDaumPostcode()" value="주소 찾기"><br> -->
-                                    <!-- <input type="text" id="sample6_extraAddress" placeholder="참고항목"> -->
-                                    <!-- <input type="text" id="rsv_address" name="rsv_address">
-                                    <button type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">주소검색</button> -->
-                                <!-- </div> -->
-                                <!-- s:개인정보처리방침 -->
-                                    <span>유형</span>
-                                    <div>
-                                        <label><input type="radio" name="rsv_types" value="개인">개인</label>
-                                        <label><input type="radio" name="rsv_types" value="단체">단체</label>
-                                    </div>
-                                <div>
-                                <fieldset>
-                                <!-- <legend>개인정보처리방침</legend> -->
-                                <div class="privacy"><span class="agr-tit1">제1조 (개인정보 수집에 대한 동의)</span><strong></strong>(이하 회사)는 이용자들이 회사의 개인정보취급방침 또는 이용약관의 내용에 대하여 “동의”버튼 또는 “취소”버튼을 클릭할 수 있는 절차를 마련하여, “동의”버튼을 클릭하면 개인정보 수집에 대해 동의한 것으로 봅니다. <span class="agr-tit1">제2조 (개인정보 수집항목)</span> 온라인 문의를 통한 상담을 위해 처리하는 개인정보 항목은 아래와 같습니다.<br>
-                                수집항목 : 성명, 주소, 전화번호 <span class="agr-tit1">제3조 (개인정보의 이용목적)</span> 회사는 이용자의 사전 동의 없이는 이용자의 개인 정보를 공개하지 않으며, 원활한 고객상담, 각종 서비스의 제공을 위해 아래와 같이 개인정보를 수집하고 있습니다. 모든 정보는 상기 목적에 필요한 용도 이외로는 사용되지 않으며 수집 정보의 범위나 사용 목적, 용도가 변경될 시에는 반드시 사전 동의를 구할 것입니다.<br>
-                                <br>
-                                - 성명 : 제품상담에 따른 본인 확인<br>
-                                - 이메일, 전화번호 : 제품상담 및 이벤트 관련 고지사항 전달, 새로운 서비스 및 신상품 정보 제공(DM, SMS, 이메일 등 이용)<br>
-                                <br>
-                                이용자는 개인정보의 수집/이용에 대한 동의를 거부할 수 있습니다. 다만, 동의를 거부하는 경우 온라인 문의를 통한 상담은 불가하며 서비스 이용 및 혜택 제공에 제한을 받을 수 있습니다. <span class="agr-tit1">제4조 (개인정보의 보유 및 이용기간)</span> 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.<br>
-                                그리고 상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법렵의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 정보를 보관합니다.<br>
-                                이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.<br>
-                                <br>
-                                - 계약 또는 청약철회 등에 관한 기록 : 5년(전자상거래등에서의 소비자보호에 관한 법률)<br>
-                                - 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년(전자상거래등에서의 소비자 보호에 관한 법률)<br>
-                                - 시용정보의 수집/처리 및 이용 등에 관한 기록 : 3년(신용정보의 이용 및 보호에 관한 법률)<br>
-                                - 회사는 귀중한 이용자의 개인정보를 안전하게 처리하며, 유출의 방지를 위하여 다음과 같은 방법을 통하여 개인정보를 파기합니다.<br>
-                                - 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.<br>
-                                - 전자적 파일 형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다
-                                <style type="text/css">.agr-tit1{display: block;margin: 15px 0 10px 0;font-size: 13px;color: #666;font-weight:bold;border-bottom: 1px solid #ddd;padding-bottom:13px;}
-                                input[type=submit] {width: 200px; padding: 10px 0;}
-                                @media screen and (max-width: 750px){
-                                .agr-tit1{margin: 15px 0 10px 0;font-size: 13px;padding-left: 15px;}
-                                .agr-tit2{margin: 20px 0;font-size: 13px;}
-                                .agr-tit3{margin: 20px 0;font-size: 13px;}
-                                }
-                                </style>
-                                </fieldset>
-                                </div>
-                                <div class="box5_05">
-                                    <label><input type="checkbox" name="agree" id="agree" /> 개인정보 수집 동의</label>
-                                </div>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                    <div class="bottom_txt" style="padding-right: 20px;">
-                    ※ 전화번호당 한번만 참여 가능합니다.<br />
-                    ※ 연락처 및 주소 오기로 인한 미수령시에는 책임지지 않습니다.<br />
-                    </div>
+                  <div class="form_wrap">
+                    
+                  <div id="contents">
+        <div class="rv_check">
+            <div class="inner_box">
+                <h3 class="dep_name type2 mt-5">사전신청 확인</h3>
+                <div class="txt_box">2021 공주디지털문화유산전 <br class="m_show"><span>신청자 정보를 입력</span>하시면 <br class="pc_show"> 상세정보를 확인해 볼 수 있습니다.</div>
+                <div class="info_chk">
+                    <form action="check_view.php" method="POST" id="rsvForm" autocomplete="off">
+                        <div class="info_form">
+                            <div class="title">예약자 이름</div>
+                            <div class="name_box">
+                                <input type="text" class="name" name="rsv_name">
+                                <!-- <div><input type="radio" id="p1" name="rsv_region" value="1" checked=""><label for="p1">내국인</label></div>
+                                <div><input type="radio" id="p2" name="rsv_region" value="2"><label for="p2">외국인</label></div> -->
+                            </div>
+                            <div class="title">연락처</div>
+                            <div class="tel_box">
+                                <!-- <input type="text" class="tel1" name="rsv_tel1" maxlength="3">
+                                <span>-</span>
+                                <input type="text" class="tel2" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
+                                <span>-</span>
+                                <input type="text" class="tel3" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                <select name="rsv_tel1">
+                                    <option value="010">010</option>
+                                </select>
+                                <span>-</span>
+                                <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4">
+                                <span>-</span>
+                                <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4">
+                            </div>
+                            <div class="title">신청 프로그램</div>
+                            <select name="program" id="program">
+                                <!-- <option>공주근대건축만들기</option>
+                                <option>공주문화재야행스트링아트</option>
+                                <option>소원종이등만들기</option>
+                                <option>가죽그립톡만들기</option>
+                                <option>도자기모빌만들기</option>
+                                <option>천문대관측프로그램</option>
+                                <option>1박2일숙박프로그램</option> -->
+                            </select>
+                        </div>
                         <div class="btn_box">
-                        <!-- <button class="rv_btn hidden" type="submit">예약하기</button> -->
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" id="reservation_check">
-                        예약 하러가기
-                        </button>
-                    </div>
-
+                            <a class="chk_btn" id="chk_btn"><span>예약확인</span></a>
+                            <a class="reset_btn" id="reset_btn"><span>초기화</span></a>
+                        </div>
                     </form>
-
-                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                  </div>
                 </div>
             </div> 
           <!-- <a href="./" class="reservation_btn">
