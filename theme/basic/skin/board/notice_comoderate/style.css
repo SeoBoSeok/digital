@@ -1460,3 +1460,5 @@ table.comment-list td img {vertical-align:middle;}
     border: 0;
     clip: rect(0,0,0,0);
 }
+
+.float-md-left { float: left; }

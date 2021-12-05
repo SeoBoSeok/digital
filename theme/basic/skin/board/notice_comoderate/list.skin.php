@@ -76,7 +76,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 <input type="hidden" name="sw" value="">
 
 <!-- 게시판 검색 시작 { -->
-	<div class="bo_sch_wrap">
+	<!-- <div class="bo_sch_wrap">
 		<fieldset class="bo_sch">
 				<h3>검색</h3>
 				<form name="fsearch" method="get">
@@ -96,7 +96,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 				</form>
 		</fieldset>
 		<div class="bo_sch_bg"></div>
-</div>
+	</div> -->
 <script>
 jQuery(function($){
 		// 게시판 검색
@@ -120,7 +120,7 @@ jQuery(function($){
 		<div class="utile_wrap_inner">
 			
 	    	<!-- 프린트 시작 -->
-	        <ul class="print_wrap setting-box__group">
+	        <!-- <ul class="print_wrap setting-box__group">
 	        	
 	        	<li id="sns_layout" class="n1 sns clickOpen">
 	            	<button><span class="tmpl_ir">SNS공유 열림버튼</span></button>
@@ -136,7 +136,7 @@ jQuery(function($){
 	            </li>
 	            <li class="n2"><button onclick="CopyUrl(); return false;" title="복사하기" class="copy"><span class="tmpl_ir">복사하기</span></button></li>
 	            <li class="n3" id="print"><button data-print="print"><span class="tmpl_ir">프린트</span></button></li>
-	        </ul>
+	        </ul> -->
 	    	<!-- 프린트 끝 -->
     	</div>
     </div>
@@ -162,81 +162,27 @@ jQuery(function($){
 
 <div class="program--contents">
 		
-			<form id="searchForm" name="searchForm" method="post" action="/prog/hotelData/tour/sub05_02/list.do">
-	
-	<fieldset>
-		<legend>게시물 검색</legend>
-		<input type="hidden" name="pageUnit" value="10"> <input type="hidden" name="pageIndex" id="pageIndex" value="1"> <input type="hidden" name="pageSize" value="10">
-		<div class="ui program--search">
-			<div class="float-md-left">
-				<div class="ui program--count">
-					<span>총 게시물 <strong>254</strong> 개
-					</span>, <span class="ui program--division-line">페이지 <strong>1</strong> / 10
-					</span>
+	<div class="bo_sch_wrap">
+		<fieldset class="bo_sch">
+				<h3>검색</h3>
+				<form name="fsearch" method="get">
+				<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
+				<input type="hidden" name="sca" value="<?php echo $sca ?>">
+				<input type="hidden" name="sop" value="and">
+				<label for="sfl" class="sound_only">검색대상</label>
+				<select name="sfl" id="sfl">
+						<?php echo get_board_sfl_select_options($sfl); ?>
+				</select>
+				<label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+				<div class="sch_bar">
+						<input type="text" name="stx" value="<?php echo stripslashes($stx) ?>" required id="stx" class="sch_input" size="25" maxlength="20" placeholder=" 검색어를 입력해주세요">
+						<button type="submit" value="검색" class="sch_btn"><i class="fa fa-search" aria-hidden="true"></i><span class="sound_only">검색</span></button>
 				</div>
-			</div>
-
-			<div class="search_inner clearfix float-md-right">
-				<div class="fieldset">
-					<div class="search--select">
-						<!-- select추가시 -->
-						<span>
-							<select name="searchCondition2" title="읍면동을 선택해주세요">
-							<option value="">- 읍면을 선택해 주세요-</option>
-							
-								<option value="yugu">유구읍</option>
-							
-								<option value="einmyun">이인면</option>
-							
-								<option value="tancheon">탄천면</option>
-							
-								<option value="gyeryong">계룡면</option>
-							
-								<option value="banpo">반포면</option>
-							
-								<option value="euidang">의당면</option>
-							
-								<option value="jungan">정안면</option>
-							
-								<option value="woosung">우성면</option>
-							
-								<option value="sagok">사곡면</option>
-							
-								<option value="sinpoong">신풍면</option>
-							
-								<option value="junghak">중학동</option>
-							
-								<option value="ungjin">웅진동</option>
-							
-								<option value="geumhak">금학동</option>
-							
-								<option value="okryong">옥룡동</option>
-							
-								<option value="sinkwan">신관동</option>
-							
-								<option value="wolsong">월송동</option>
-							
-							</select>
-						</span>
-						<span>
-							<select name="searchCondition" title="검색어를 선택해주세요">
-								<option value="SUBJECT">업소명</option>
-							</select>
-						</span>
-						<!-- select추가시 -->
-					</div>
-					<div class="search--text">
-						<span><input type="text" name="searchKeyword" value="" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요" class="form-control"></span>
-					</div>
-					<div class="search--btn">
-						<span class="btn--submit"><input type="submit" value="검색" onclick="onSubmit();"></span>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</fieldset>
-	</form>
+				<button type="button" class="bo_sch_cls" title="닫기"><i class="fa fa-times" aria-hidden="true"></i><span class="sound_only">닫기</span></button>
+				</form>
+		</fieldset>
+		<div class="bo_sch_bg"></div>
+	</div>
 
 
 	<div class="ui board--card--list type2">
