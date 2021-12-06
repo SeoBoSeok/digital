@@ -62,7 +62,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </p>
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/AKR2021.jpg" alt="정지산 유적">
+              <img src="/common/img/tutorial.jpg" alt="정지산 유적">
             </div>
             <div class="right">
               <h3>
