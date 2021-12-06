@@ -72,10 +72,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dt>기관·대학명</dt>
                 <dd>백제세계유산센터</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>담당자</dt>
                 <dd>도미솔 팀장 (010-8704-2070)</dd>
-              </dl>
+              </dl> -->
               <!-- <dl>
                 <dt>장소</dt>
                 <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>

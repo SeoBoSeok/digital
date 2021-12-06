@@ -51,7 +51,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
 
           <div class="schedule">
-					<img src="/common/img/booth_plan_3.jpg" alt="부스배치도" />
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
 					<h3> 1층 컨벤션 홀 </h3>
           <span class="right"><span class="ki">기</span>&nbsp;기록·모델링&nbsp;&nbsp;<span class="bok">복</span>&nbsp;복원·복제&nbsp;&nbsp;<span class="so">소</span>&nbsp;소프트웨어&nbsp;&nbsp;<span class="sol">솔</span>&nbsp;솔루션&nbsp;&nbsp;<span class="con">콘</span>&nbsp;콘텐츠</span>
 					
@@ -170,52 +170,63 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 						</caption>
 						<colgroup>
-								<col style="width: 25%;">
-								<col style="width: 25%;">
-								<col style="width: 50%;">
+              <col style="width: 20%;">
+              <col style="width: 10%;">
+              <col style="width: 40%;">
+              <col style="width: 30%;">
 						</colgroup>
 						<thead>
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
+                    <th scope="col" class="point_bg">부스</th>
 										<th scope="col" class="point_bg">업체명</th>
 										<th scope="col" class="point_bg">교육 내용</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
-										<th scope="row" rowspan="9">디지털유산<br>미래교육<br>(DH Education)</th>
+                  <th scope="row" rowspan="9">디지털유산<br>미래교육<br>(DH Education)</th>
+                  <td></td>
 										<td>충남과학협회</td>
 										<td>역사게임 만들기</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>한국인지과학산업협회</td>
 										<td>인공지능 드론 (문화재 도굴)</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>에듀크래프트</td>
 										<td>LED 코딩</td>
 								</tr>
 								<tr>
-										<td>메타버스</td>
+                  <td></td>
+                  <td>메타버스</td>
 										<td>역사토론, 퀴즈, 문화재 스피치</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>엘리오 로봇틱스</td>
 										<td>코딩을 통한 전시실 모델링</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>공주대학교 생확과학교실</td>
 										<td>3D 펜을 이용한 문화재 만들기</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>충남SW 미래채움센터</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>다빈치에듀</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>다빈치창의융합연구소</td>
 										<td>3D 모델링, AR 콘텐츠 제작</td>
 								</tr>
@@ -242,28 +253,33 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 						</caption>
 						<colgroup>
-								<col style="width: 25%;">
-								<col style="width: 25%;">
-								<col style="width: 50%;">
+              <col style="width: 20%;">
+              <col style="width: 10%;">
+              <col style="width: 40%;">
+              <col style="width: 30%;">
 						</colgroup>
 						<thead>
 								<tr>
-										<th scope="col" class="point_bg">항목</th>
-										<th scope="col" class="point_bg">기관·대학명</th>
-										<th scope="col" class="point_bg">콘텐츠명</th>
+                  <th scope="col" class="point_bg">항목</th>
+                  <th scope="col" class="point_bg">부스</th>
+                  <th scope="col" class="point_bg">기관·대학명</th>
+                  <th scope="col" class="point_bg">콘텐츠명</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="3">디지털유산<br>초청전<br>(DH Invitation)</th>
+                    <td></td>
 										<td>백제세계유산센터</td>
 										<td>디지털로 만나는 백제역사유적지구</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>한국전통문화대학교 <br>IDH연구소</td>
 										<td>정조대왕의 수원화성 야간군사 훈련 VAR 콘텐츠<br>소실된 웅진백제기 공주 정지산 유적 고건축 AR 콘텐츠</td>
 								</tr>
 								<tr>
+                  <td></td>
 										<td>국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
 										<td>청동거울, 과학을 비추다</td>
 								</tr>
