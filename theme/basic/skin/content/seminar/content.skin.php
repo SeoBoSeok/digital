@@ -62,7 +62,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </p>
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/semina.jpg" alt="세미나">
+              <img src="/common/img/semina.png" alt="세미나">
             </div>
             <div class="right">
               <h3>
