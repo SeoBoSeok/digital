@@ -298,3 +298,17 @@ section.sec0 .inner table {
 .schedule .so {padding: 0px 5px; border-radius: 50%; background-color: #4485ba; display: inline-block; color: white;}
 .schedule .sol {padding: 0px 5px; border-radius: 50%; background-color: #c55b22; display: inline-block; color: white;}
 .schedule .con {padding: 0px 5px; border-radius: 50%; background-color: #534742; display: inline-block; color: white;}
+
+.modal-dialog {
+  max-width: 1200px;
+  margin: 1.75rem auto;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-content {
+  border: 0;
+}
+.modal.show .modal-dialog {
+  height: 80vh;
+}

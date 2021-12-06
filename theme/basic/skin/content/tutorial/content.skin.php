@@ -66,36 +66,97 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+                문화재 분야에서의 이미지 분석과 활용
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>목적</dt>
+                <dd>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</dd>
               </dl>
-              <!-- <dl>
-                <dt>담당자</dt>
-                <dd>도미솔 팀장 (010-8704-2070)</dd>
-              </dl> -->
-              <!-- <dl>
+              <dl>
+                <dt>대상</dt>
+                <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
+              </dl>
+              <dl>
+                <dt>일시</dt>
+                <dd>12월 18일(토) 15:00~17:00</dd>
+              </dl>
+              <dl>
+                <dt>준비물</dt>
+                <dd>개인 노트북 지참(필수사항 아님), 테스트 이미지는<br>튜토리얼 시작 시 USB 배포 or 사전 배포</dd>
+              </dl>
+              <dl>
                 <dt>장소</dt>
-                <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>
+                <dd>아트센터고마 3F, 세미나실 307</dd>
               </dl>
-              <dl>
-                <dt>주최</dt>
-                <dd>공주시</dd>
-              </dl>
-              <dl>
-                <dt>주관</dt>
-                <dd>국립공주대학교 공주학연구원</dd>
-              </dl>
-              <dl>
-                <dt>후원</dt>
-                <dd>문화재청</dd>
-              </dl> -->
             </div>
           </div>
-          <div class="video_contents">
+          <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          </div> -->
+          <div class="details">
+          <div class="schedule">
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
+					<h3>12월 18일(토) 15:00~17:00</h3>
+					
+					<div class="wrap-tbl-calendar mb-50 table-container">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 40%;">
+								<col style="width: 60%;">
+						</colgroup>
+						<thead>
+								<!-- <tr>
+										<th scope="col" colspan="3" class="point_bg"></th>
+										<th scope="col" colspan="3" class="point_bg">8월 2주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 3주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 4주차</th>
+								</tr> -->
+								<tr>
+										<th scope="col" class="point_bg">시 간</th>
+										<th scope="col" class="point_bg">프로그램</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<td><span>09:30 - 15:00</span></td>
+										<td><span>등  록</span></td>
+								</tr>
+								<tr>
+										<td><span>15:00 - 15:40</span></td>
+										<td><span>- 아날로그 신호와 디지털 신호<br>
+- 아날로그 이미지와 디지털 이미지<br>
+- 색공간과 파장<br>
+- 형태 심리학</span></td>
+								</tr>
+								<tr>
+										<td class="gray"><span>15:40 - 15:45</span></td>
+										<td class="gray"><span>휴  식</span></td>
+								</tr>
+								<tr>
+										<td><span>15:45 - 16:20</span></td>
+										<td><span>- 디지털 이미지의 촬영과 구조<br>
+- 초분광 이미지와 3차원 이미지<br>
+- 이미지를 통한 정량해석</span></td>
+								</tr>
+								<tr>
+										<td class="gray"><span>16:20 - 16:25</span></td>
+										<td class="gray"><span>휴  식</span></td>
+								</tr>  
+								<tr>
+										<td><span>16:25 - 15:00</span></td>
+										<td><span>- 문화재 분석 및 데이터베이스화<br>
+- 이미지 프로세싱 소프트웨어(PicMan) 시연<br>
+- 질의 응답</span></td>
+								</tr>                                                               								
+						</tbody>
+					</table>
+				</div>				
+
+				</div>
           </div>
           <a href="./" class="reservation_btn">
             <b>사전신청하기</b>

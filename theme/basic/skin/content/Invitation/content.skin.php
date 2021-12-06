@@ -33,7 +33,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </ul>
         </div>
       </section>
-      <section class="sec0">
+      <!-- <section class="sec0">
         <div class="inner">
           <div class="cont ani">
           <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
@@ -49,7 +49,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </table>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="sec1">
         <div class="inner">
           <div class="cont ani active">
@@ -134,7 +134,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>디지털로 만나는<br>백제역사유적지구</h4>
                     <span>백제세계유산센터</span>
                     <div class="btn">
-                      <a href="#"><span></span></a>
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae"><span></span></a>
                     </div>
                   </div>
                 </a>
@@ -146,7 +146,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
-                      <a href="#"><span></span></a>
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
                     </div>
                   </div>
                 </a>
@@ -158,7 +158,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
-                      <a href="#"><span></span></a>
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>
                     </div>
                   </div>
                 </a>
@@ -170,7 +170,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <h4>문화유산상품<br>마켓</h4>
                     <span>백제세계유산센터</span>
                     <div class="btn">
-                      <a href="#"><span></span></a>
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
                     </div>
                   </div>
                 </a>

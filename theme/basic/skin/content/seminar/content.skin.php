@@ -62,40 +62,178 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </p>
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/AKR2021.jpg" alt="정지산 유적">
+              <img src="/common/img/semina.jpg" alt="세미나">
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+              문화자원과 디지털 아카이브
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>목적</dt>
+                <dd>
+지역에 전해지고 있는 유·무형 문화유산의 디지털 아카이브 구축을 통해 
+이용자가 편리하게 이용할 수 있는 시스템 구축에 대한 요구가 이어지고 있음 
+역사문화도시 공주에서 수 많은 문화유산을 대상으로 체계적이고 효율적인   
+디지털 아카이브 구축 방안을 모색할 기회를 마련하고자 함</dd>
               </dl>
-              <!-- <dl>
-                <dt>담당자</dt>
-                <dd>도미솔 팀장 (010-8704-2070)</dd>
-              </dl> -->
-              <!-- <dl>
+              <dl>
+                <dt>대상</dt>
+                <dd>문화재 관련 연구자 및 공무원, 아카이브 구축 전문가, 공주시민 등</dd>
+              </dl>
+              <dl>
+                <dt>일시</dt>
+                <dd>12월 19일(일) 16:00~18:00 | 12월 20일(월) 14:00~17:20</dd>
+              </dl>
+              <dl>
                 <dt>장소</dt>
-                <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>
+                <dd>아트센터고마 3F, 세미나실 303</dd>
               </dl>
-              <dl>
-                <dt>주최</dt>
-                <dd>공주시</dd>
-              </dl>
-              <dl>
-                <dt>주관</dt>
-                <dd>국립공주대학교 공주학연구원</dd>
-              </dl>
-              <dl>
-                <dt>후원</dt>
-                <dd>문화재청</dd>
-              </dl> -->
             </div>
           </div>
-          <div class="video_contents">
+          <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          </div> -->
+          <div class="details">
+          <div class="schedule">
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
+					<h3>12월 19일(일) 16:00~18:00</h3>
+					
+					<div class="wrap-tbl-calendar mb-50 table-container">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 20%;">
+								<col style="width: 50%;">
+                <col style="width: 30%;">
+						</colgroup>
+						<thead>
+								<!-- <tr>
+										<th scope="col" colspan="3" class="point_bg"></th>
+										<th scope="col" colspan="3" class="point_bg">8월 2주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 3주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 4주차</th>
+								</tr> -->
+								<tr>
+										<th scope="col" class="point_bg">시 간</th>
+										<th scope="col" class="point_bg">프로그램</th>
+                    <th scope="col" class="point_bg">연 사</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<td><span>09:30 - 10:00</span></td>
+										<td><span>등  록</span></td>
+                    <td><span></span></td>
+								</tr>
+								<tr>
+										<td><span>10:00 - 10:20</span></td>
+										<td><span>개  회</span></td>
+                    <td><span></span></td>
+								</tr>
+								<tr>
+										<td><span>10:20 - 11:00</span></td>
+										<td><span>문화유산과 디지털아카이브</span></td>
+                    <td><span>최연규 사무관</span></td>
+								</tr>
+								<tr>
+										<td><span>11:00 - 11:30</span></td>
+										<td><span>문화자원 디지털 아카이빙 통합관리 방안</span></td>
+                    <td><span>추혜성 대표 (리하이)</span></td>
+								</tr>
+								<tr>
+										<td><span>11:30 - 12:00</span></td>
+										<td><span>디지털 공주, 공주학 아카이브 만들기</span></td>
+                    <td><span>이건우 대표 (캐럿펀트)</span></td>
+								</tr>
+								<tr>
+										<td><span>12:00 -13:00</span></td>
+										<td><span>패널 토론</span></td>
+                    <td><span>문경호 교수 (국립공주대학교 역사교육과)</span></td>
+								</tr>                                               								                                                           								
+						</tbody>
+					</table>
+				</div>				
+
+				</div>
+
+        <div class="schedule">
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
+					<h3>12월 20일(월) 14:00~17:20</h3>
+					
+					<div class="wrap-tbl-calendar mb-50 table-container">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 20%;">
+								<col style="width: 50%;">
+                <col style="width: 30%;">
+						</colgroup>
+						<thead>
+								<!-- <tr>
+										<th scope="col" colspan="3" class="point_bg"></th>
+										<th scope="col" colspan="3" class="point_bg">8월 2주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 3주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 4주차</th>
+								</tr> -->
+								<tr>
+										<th scope="col" class="point_bg">시 간</th>
+										<th scope="col" class="point_bg">프로그램</th>
+                    <th scope="col" class="point_bg">연 사</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<td><span>13:30 - 14:00</span></td>
+										<td><span>등  록</span></td>
+                    <td><span></span></td>
+								</tr>
+								<tr>
+										<td><span>14:00 - 14:10</span></td>
+										<td><span>개  회</span></td>
+                    <td><span></span></td>
+								</tr>
+								<tr>
+										<td><span>14:10 - 14:40</span></td>
+										<td><span>원격탐사기술의 고고학적 활용 방안</span></td>
+                    <td><span>유재형 교수(충남대학교 지질환경과학과)</span></td>
+								</tr>
+								<tr>
+										<td><span>14:40 - 15:10</span></td>
+										<td><span>수중고고학의 연구방법과 탐사모델</span></td>
+                    <td><span>양기홍 학예사(국립해양문화재연구소)</span></td>
+								</tr>
+								<tr>
+										<td class="grap"><span>15:10 - 15:30</span></td>
+										<td class="grap"><span>휴  식</span></td>
+                    <td class="grap"><span></span></td>
+								</tr>     
+								<tr>
+										<td><span>15:30 - 16:00</span></td>
+										<td><span>고고학 조사현장의 디지털분석 적용과 해석</span></td>
+                    <td><span>천승현 연구원(국립공주대학교 역사박물관)</span></td>
+								</tr>  
+								<tr>
+										<td><span>15:30 - 16:00</span></td>
+										<td><span>천부 지층구조 디지털 영상 융합 매장유적 탐사모델 구축</span></td>
+                    <td><span>이찬희 원장(국립공주대학교 공주학연구원)</span></td>
+								</tr>
+								<tr>
+										<td><span>15:30 - 16:00</span></td>
+										<td><span>패널토론</span></td>
+                    <td><span></span></td>
+								</tr>                                                                                        								                                                           								
+						</tbody>
+					</table>
+				</div>				
+
+				</div>
+
           </div>
           <a href="./" class="reservation_btn">
             <b>사전신청하기</b>

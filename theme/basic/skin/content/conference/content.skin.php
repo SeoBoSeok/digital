@@ -52,7 +52,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <div class="cont ani active">
             <div class="img_box">
-              <div class="wrap">
+              <div class="wrap invitation_one">
                 <!-- <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마"> -->
               </div>
             </div>
@@ -127,46 +127,45 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
                   <div class="text">
-                    <!-- <span>백제세계유산센터</span> -->
                     <h4>심포지엄</h4>
+                    <div class="btn">
+                      <a href="/bbs/content.php?co_id=symposium"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
-                    <!-- <span>한국전통문화대학교IDH연구소</span> -->
                     <h4>세미나</h4>
+                    <div class="btn">
+                      <a href="/bbs/content.php?co_id=seminar"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
-              <!-- <li>
-                <a href="#">
-                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
-                  <div class="text">
-                    <span>한국전통문화대학교IDH연구소</span>
-                    <h4>콜로키움</h4>
-                  </div>
-                </a>
-              </li> -->
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
-                    <!-- <span>백제세계유산센터</span> -->
                     <h4>워크샵</h4>
+                    <div class="btn">
+                      <a href="/bbs/content.php?co_id=workshop"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img5.jpg" alt="">
+                  <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
-                    <!-- <span>백제세계유산센터</span> -->
                     <h4>튜토리얼</h4>
+                    <div class="btn">
+                      <a href="/bbs/content.php?co_id=tutorial"><span></span></a>
+                    </div>
                   </div>
                 </a>
               </li>
