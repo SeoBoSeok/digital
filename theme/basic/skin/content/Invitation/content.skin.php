@@ -128,7 +128,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="lists">
             <ul>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
                   <div class="text">
                     <h4>디지털로 만나는<br>백제역사유적지구</h4>
@@ -137,10 +137,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=Invitation_baekjae"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
                     <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
@@ -149,10 +149,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>              
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
                     <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
@@ -161,10 +161,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
                     <h4>문화유산상품<br>마켓</h4>
@@ -173,7 +173,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
             </ul>
           </div>
