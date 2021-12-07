@@ -141,21 +141,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </li>
               <li>
                 <a href="#">
-                  <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
+                  <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
-                    <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
+                    <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
                     </div>
                   </div>
                 </a>
-              </li>
+              </li>              
               <li>
                 <a href="#">
-                  <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
+                  <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
-                    <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
+                    <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>

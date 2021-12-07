@@ -192,7 +192,7 @@ section.sec0 .inner table td:hover {
   border-bottom:solid 2px #101443 !important;
 }
 section.sec0 .inner table {
-  width: 100%;
+  /* width: 100%; */
 }
 
 section.sec1-1 .inner h2 {
@@ -289,7 +289,7 @@ section.sec0 .inner table td:hover {
 ::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 1px solid #ffffff; } 
 ::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
 section.sec0 .inner table {
-  width: 100%;
+  /* width: 100%; */
 }
 .schedule img {width: 100%;}
 .schedule .right {float: right; margin-bottom: 10px;}
