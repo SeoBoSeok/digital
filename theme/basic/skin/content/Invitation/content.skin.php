@@ -167,7 +167,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
-                    <h4>문화유산상품<br>마켓</h4>
+                    <h4>청동거울, <br>과학을 비추다</h4>
                     <span>백제세계유산센터</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
