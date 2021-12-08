@@ -111,7 +111,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">㈜리하이</td>
+                  <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
                   <td><span class="so">소</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
