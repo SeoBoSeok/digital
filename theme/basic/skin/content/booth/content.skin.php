@@ -131,7 +131,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">충남문화교육협동조합 잇다</td>
+                  <td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
