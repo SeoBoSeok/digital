@@ -733,4 +733,4 @@ main {
   padding: 80px;
 }
 main .inner .slider .imgWrap {height: 600px; width: 100%; display: block;}
-.contents {display: flex}
+.contents {display: flex; justify-content: center; align-items: center;}
