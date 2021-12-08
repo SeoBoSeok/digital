@@ -136,7 +136,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">㈜스쿱</td>
+                  <td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
                   <td><span class="ki">기</span>&nbsp;<span class="so">소</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
