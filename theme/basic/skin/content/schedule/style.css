@@ -61,7 +61,7 @@
 table caption {text-indent:-100000px;font-size:0;line-height:0}
 table caption p{margin: 0;line-height:0;font-size:0;}
 .wrap-tbl {margin-bottom: 40px;}
-.tbl {display:table;margin-bottom:10px;width:100%;border-top:1px solid #121212;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;}
+.tbl {display:table;margin-bottom:10px;width:100%;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;}
 .tbl th, .tbl td {padding:12px 20px;border-left:1px solid transparent;border-bottom:1px solid transparent;margin-left:-1px;vertical-align:middle;word-wrap:break-word;word-break:keep-all;color:#555}
 .tbl th:first-child, .tbl td:first-child {border-left:none}
 .tbl tbody th, .tbl thead th {vertical-align:middle}
@@ -83,9 +83,9 @@ table caption p{margin: 0;line-height:0;font-size:0;}
 .tbl_type1 span.tag.type1{background-position: 0;}
 .tbl_type1 span.tag.type2{background-position: -60px;}
 .wrap-tbl-calendar .tbl th{padding: 8px 5px;}
-.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #479796;color:#fff;border-left-color: #6ab7b6;border-bottom-color: #6ab7b6;}
+.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #4485ba;color:#fff;border-top-color: #4485ba;border-bottom-color: #4485ba;}
 
-.wrap-tbl-calendar .tbl td {padding: 5px;}
+.wrap-tbl-calendar .tbl td {padding: 10px 5px;}
 .wrap-tbl-calendar .tbl td.bg-common {background-color: #fff6b6 !important;}
 .txt-small {padding: 0!important;font-size: 13px;}
 .bg-gj {color: #fff !important;font-size: 14px;background-color: #73aff9;}
