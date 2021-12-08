@@ -116,7 +116,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">㈜지오스토리</td>
+                  <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
