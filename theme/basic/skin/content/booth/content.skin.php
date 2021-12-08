@@ -121,7 +121,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">WaferMasters</td>
+                  <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
