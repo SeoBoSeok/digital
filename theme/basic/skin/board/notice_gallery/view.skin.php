@@ -245,7 +245,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
     // include_once(G5_BBS_PATH.'/view_comment.php');
 	?>
     <div class="apply">
-        <a href="/bbs/board.php?bo_table=notice">
+        <a href="/bbs/board.php?bo_table=gallery">
             <div class="btn">
             <span>목 록</span>
             </div>
