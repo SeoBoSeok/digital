@@ -63,8 +63,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 				$(".btn_more_opt.is_view_btn").on("click", function(e) {
                     e.stopPropagation();
 				    $(".more_opt.is_view_btn").toggle();
-				})
-;
+				});
                 $(document).on("click", function (e) {
                     if(!$(e.target).closest('.is_view_btn').length) {
                         $(".more_opt.is_view_btn").hide();

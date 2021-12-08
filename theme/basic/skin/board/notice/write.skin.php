@@ -6,6 +6,43 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
 
 ?>
 
+<!-- 게시물 읽기 시작 { -->
+    <section class="visual">
+        <div class="inner">
+          <span class="bg_img"></span>
+          <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="wrap">
+            <h2>공지사항</h2>
+            <p>공지사항</p>
+          </div>
+        </div>
+      </section>
+<section class="location">
+    
+<div class="inner">
+    <ul>
+    <li>공지사항</li>
+    <li>공지사항</li>
+    </ul>
+</div>
+</section>
+<section class="sec2 ani active">
+    <div class="inner">
+        <h2>
+            <?php if ($category_name) { ?>
+            <span class="bo_v_cate"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span> 
+            <?php } ?>
+            <span class="bo_v_tit">
+            <?php
+            echo cut_str(get_text($view['wr_subject']), 70); // 글제목 출력
+            ?></span>
+        </h2>
 <section id="bo_w">
     <h2 class="sound_only"><?php echo $g5['title'] ?></h2>
 
@@ -254,3 +291,50 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
     </script>
 </section>
 <!-- } 게시물 작성/수정 끝 -->
+</div>
+</section>
+
+<footer>
+      <section class="f_sec1">
+        <div class="inner">
+          <div class="wrap ani active">
+            <div class="contact">
+              <h3>Contact</h3>
+              <ul>
+							<li>
+								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+                </li>
+                <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
+              </ul>
+            </div>
+            <div class="lists">
+              <ul>
+                <li>
+                  <span>주최.</span>
+                  <img src="/common/img/main_sec5_img1.png" alt="공주시">
+                  <img class="mo" src="/common/img/main_sec5_img1_m.png" alt="공주시">
+                </li>
+                <li>
+                  <span>주관.</span>
+                  <img src="/common/img/main_sec5_img2_new.png" alt="국립 공주대학교 공주학연구원">
+                  <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
+                </li>
+                <li>
+                  <span>후원.</span>
+                  <img src="/common/img/main_sec5_img3.png" alt="문화재청">
+                  <img class="mo" src="/common/img/main_sec5_img3_m.png" alt="문화재청">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" id="top_btn">
+            <span>TOP</span>
+          </button>
+        </div>
+      </section>
+      <section class="f_sec2">
+        <div class="inner">
+          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
