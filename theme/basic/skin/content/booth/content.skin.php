@@ -141,7 +141,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">벤타브이알</td>
+                  <td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
