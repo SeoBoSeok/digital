@@ -2,17 +2,42 @@
 if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가
 include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 
+include_once(G5_THEME_PATH.'/header.part.sub.php');
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
-add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
+echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
 ?>
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
 <!-- 게시물 읽기 시작 { -->
-
-<article id="bo_v" style="width:<?php echo $width; ?>">
-    <header>
-        <h2 id="bo_v_title">
+    <section class="visual">
+        <div class="inner">
+          <span class="bg_img"></span>
+          <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="wrap">
+            <h2>공지사항</h2>
+            <p>공지사항</p>
+          </div>
+        </div>
+      </section>
+<section class="location">
+    
+<div class="inner">
+    <ul>
+    <li>공지사항</li>
+    <li>공지사항</li>
+    </ul>
+</div>
+</section>
+<section class="sec2 ani active">
+    <div class="inner">
+        <h2>
             <?php if ($category_name) { ?>
             <span class="bo_v_cate"><?php echo $view['ca_name']; // 분류 출력 끝 ?></span> 
             <?php } ?>
@@ -21,8 +46,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             echo cut_str(get_text($view['wr_subject']), 70); // 글제목 출력
             ?></span>
         </h2>
-    </header>
 
+        <article id="bo_v" style="width:<?php echo $width; ?>">
     <section id="bo_v_info">
         <h2>페이지 정보</h2>
         <div class="profile_info">
@@ -205,6 +230,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     </section>
     <!-- } 관련링크 끝 -->
     <?php } ?>
+
+
     
     <?php if ($prev_href || $next_href) { ?>
     <ul class="bo_v_nb">
@@ -215,10 +242,20 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
     <?php
     // 코멘트 입출력
-    include_once(G5_BBS_PATH.'/view_comment.php');
+    // include_once(G5_BBS_PATH.'/view_comment.php');
 	?>
+    <div class="apply">
+        <a href="/bbs/board.php?bo_table=notice">
+            <div class="btn">
+                <span>목 록</span>
+            </div>
+        </a>
+    </div>
 </article>
-<!-- } 게시판 읽기 끝 -->
+<!-- } 게시판 읽기 끝 -->        
+
+    </div>
+</section>
 
 <script>
 <?php if ($board['bo_download_point'] < 0) { ?>
@@ -298,3 +335,47 @@ function excute_good(href, $el, $tx)
 }
 </script>
 <!-- } 게시글 읽기 끝 -->
+<footer>
+      <section class="f_sec1">
+        <div class="inner">
+          <div class="wrap ani active">
+            <div class="contact">
+              <h3>Contact</h3>
+              <ul>
+							<li>
+								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+                </li>
+                <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
+              </ul>
+            </div>
+            <div class="lists">
+              <ul>
+                <li>
+                  <span>주최.</span>
+                  <img src="/common/img/main_sec5_img1.png" alt="공주시">
+                  <img class="mo" src="/common/img/main_sec5_img1_m.png" alt="공주시">
+                </li>
+                <li>
+                  <span>주관.</span>
+                  <img src="/common/img/main_sec5_img2_new.png" alt="국립 공주대학교 공주학연구원">
+                  <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
+                </li>
+                <li>
+                  <span>후원.</span>
+                  <img src="/common/img/main_sec5_img3.png" alt="문화재청">
+                  <img class="mo" src="/common/img/main_sec5_img3_m.png" alt="문화재청">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" id="top_btn">
+            <span>TOP</span>
+          </button>
+        </div>
+      </section>
+      <section class="f_sec2">
+        <div class="inner">
+          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
