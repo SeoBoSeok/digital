@@ -308,7 +308,6 @@ if($page <= 10) {
 </div>
 <?php } ?> 
 </div>
-
 <!-- <li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기">글쓰기<i class="fa fa-pencil" aria-hidden="true"></i><span class="sound_only">글쓰기</span></a></li> -->
 
 <?php if($is_checkbox) { ?>

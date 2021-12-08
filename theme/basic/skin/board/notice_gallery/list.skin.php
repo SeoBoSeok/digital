@@ -270,6 +270,15 @@ jQuery(function($){
 </form>
 </div>
 
+<?php
+	if($is_admin == 'super') {
+?>
+	<li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기"><i class="fa fa-pencil" aria-hidden="true"></i><span class="">글쓰기</span></a></li>
+
+<?php
+	}
+?>
+
 <?php if($is_checkbox) { ?>
 <noscript>
 <p>자바스크립트를 사용하지 않는 경우<br>별도의 확인 절차 없이 바로 선택삭제 처리하므로 주의하시기 바랍니다.</p>
