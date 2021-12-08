@@ -86,62 +86,62 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<th scope="row" rowspan="12">디지털유산<br>연구개발<br>(DH R&D)</th>
 										<td></td>
-										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
+										<td><span>위프코(주)</span></td>
 										<td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
+                  <td>㈜넥스페이스</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="so">소</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
+                  <td>㈜스텔라무브</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
+                  <td>3D엔터</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
+                  <td>㈜캐럿펀트</td>
                   <td><span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
+                  <td>㈜리하이</td>
                   <td><span class="so">소</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
+                  <td>㈜지오스토리</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
+                  <td>WaferMasters</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
+                  <td>레이징덕(주)</td>
                   <td><span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
+                  <td>충남문화교육협동조합 잇다</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
+                  <td>㈜스쿱</td>
                   <td><span class="ki">기</span>&nbsp;<span class="so">소</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
+                  <td>벤타브이알</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>

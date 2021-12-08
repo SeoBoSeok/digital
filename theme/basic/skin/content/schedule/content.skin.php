@@ -92,7 +92,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="12">디지털유산<br>연구개발<br>(DH R&D)</th>
-										<td>위프코(주)</td>
+										<td class="link" onclick="go_open('/list/wepco.html');">위프코(주)</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td></td>
@@ -100,7 +100,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td class="bg-gj-light">v</td>
 								</tr>
 								<tr>
-										<td>㈜넥스페이스</td>
+										<td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
 										<td class="bg-common">v</td>
 										<td class="bg-by-light">v</td>
 										<td class="bg-is-light">v</td>
@@ -108,7 +108,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>㈜스텔라무브</td>
+										<td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
 										<td></td>
 										<td class="bg-by-light">v</td>
 										<td></td>
@@ -116,7 +116,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>3D엔터</td>
+										<td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
 										<td></td>
 										<td class="bg-by-light">v</td>
 										<td></td>
@@ -124,7 +124,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>㈜캐럿펀트</td>
+										<td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -132,7 +132,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td class="bg-gj-light">v</td>
 								</tr>
 								<tr>
-										<td>㈜리하이</td>
+										<td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
 										<td></td>
 										<td></td>
 										<td class="bg-is-light">v</td>
@@ -140,7 +140,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>㈜지오스토리</td>
+										<td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td></td>
@@ -148,7 +148,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>WaferMasters</td>
+										<td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td></td>
@@ -156,7 +156,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td></td>
 								</tr>
 								<tr>
-										<td>레이징덕(주)</td>
+										<td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -164,7 +164,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td class="bg-gj-light">v</td>
 								</tr>
 								<tr>
-										<td>충남문화교육협동조합 잇다</td>
+										<td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td></td>
@@ -172,7 +172,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td class="bg-gj-light">v</td>
 								</tr>
 								<tr>
-										<td>㈜스쿱</td>
+										<td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td class="bg-is-light">v</td>
@@ -180,7 +180,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td class="bg-gj-light">v</td>
 								</tr>
 								<tr>
-										<td>벤타브이알</td>
+										<td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
 										<td class="bg-common">v</td>
 										<td></td>
 										<td></td>
