@@ -244,7 +244,7 @@ jQuery(function($){
 </form>
 </div>
 <?php
-if(true) {
+if($is_admin == 'super') {
 	?>
 	<li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기"><i class="fa fa-pencil" aria-hidden="true"></i><span class="">글쓰기</span></a></li>
 
