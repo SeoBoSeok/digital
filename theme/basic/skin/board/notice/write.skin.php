@@ -1,6 +1,7 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
+include_once(G5_THEME_PATH.'/header.part.sub.php');
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
 
@@ -165,7 +166,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
         
     </div>
 
-    <?php for ($i=1; $is_link && $i<=G5_LINK_COUNT; $i++) { ?>
+    <?php for ($i=1; $is_link && $i<=0; $i++) { ?>
     <div class="bo_w_link write_div">
         <label for="wr_link<?php echo $i ?>"><i class="fa fa-link" aria-hidden="true"></i><span class="sound_only"> 링크  #<?php echo $i ?></span></label>
         <input type="text" name="wr_link<?php echo $i ?>" value="<?php if($w=="u"){ echo $write['wr_link'.$i]; } ?>" id="wr_link<?php echo $i ?>" class="frm_input full_input" size="50">

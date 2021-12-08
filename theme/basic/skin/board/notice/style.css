@@ -1353,7 +1353,7 @@ box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1)}
 #bo_w .bo_w_tit #btn_autosave {position:absolute;top:5px;right:5px;line-height:30px;height:30px}
 #bo_w .bo_w_link label {position:absolute;top:1px;left:1px;border-radius:3px 0 0 3px;height:38px;line-height:38px;width:40px;font-size:1.2em;text-align:center;color:#b2b2b2}
 #bo_w .bo_w_link .frm_input {padding-left:50px}
-#bo_w .bo_w_flie .lb_icon {position:absolute;top:0px;left:0px;border-radius:3px 0 0 3px;height:38px;line-height:38px;width:40px;font-size:1.2em;text-align:center;color:#b2b2b2}
+#bo_w .bo_w_flie .lb_icon {position:absolute;top:0px;left:0px;border-radius:3px 0 0 3px;height:38px;line-height:38px;width:40px;font-size:1.2em;text-align:center;color:#b2b2b2;}
 #bo_w .bo_w_flie .frm_file {padding-left:50px;margin-top:3px}
 #bo_w .bo_w_flie .file_wr {position:relative;border:1px solid #ccc;background:#fff;color:#000;vertical-align:middle;border-radius:3px;padding:5px;height:40px;margin:0}
 #bo_w .bo_w_flie .frm_input {margin:10px 0 0}
@@ -1938,3 +1938,23 @@ section.sec2 {
     width: 100%;
     height: 100%;
 }
+#bo_w .btn_confirm.write_div {
+    display: block;
+    text-align: center;
+}
+#bo_w .bo_w_flie .file_wr {
+    display: inline-block;
+}
+#bo_w .btn_cancel, #bo_w .btn_submit {
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    min-width: 200px;
+}
+#bo_w .btn_cancel {background: #b04500}
+#bo_w .btn_submit {background: #2b81c6}
+#bo_w .file_wr.write_div label {display: none;}
+#bo_w .file_wr.write_div input[type="file"] {padding-left: 0;}
+#bo_w .bo_w_tit .frm_input {padding: 5px; border: 1px solid #ccc;}
+#bo_w .bo_w_tit #btn_autosave {background-color: white;}

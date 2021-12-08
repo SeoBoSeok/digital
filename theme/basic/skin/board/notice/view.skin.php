@@ -247,7 +247,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
     <div class="apply">
         <a href="/bbs/board.php?bo_table=notice">
             <div class="btn">
-                <span>목 록</span>
+            <span>목 록</span>
             </div>
         </a>
     </div>
