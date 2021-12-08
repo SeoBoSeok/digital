@@ -1958,3 +1958,4 @@ section.sec2 {
 #bo_w .file_wr.write_div input[type="file"] {padding-left: 0;}
 #bo_w .bo_w_tit .frm_input {padding: 5px; border: 1px solid #ccc;}
 #bo_w .bo_w_tit #btn_autosave {background-color: white;}
+.cke_sc {display: none;}
