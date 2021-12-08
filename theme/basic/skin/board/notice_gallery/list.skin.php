@@ -1,6 +1,6 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
+include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 // 선택옵션으로 인해 셀합치기가 가변적으로 변함
 $colspan = 5;
 
@@ -163,89 +163,40 @@ jQuery(function($){
 
 					   <div class="photo_listW">
 							<ul class="  ">
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=219&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g1.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2021 제18회 대한민국 공주 디지털 문화산업전</strong>
-											<span class="date tr">2021-08-27</span>
-										</span>
+								
+							<?php
+							for ($i=0; $i<count($list); $i++) {
+								if ($i%2==0) $lt_class = "even";
+								else $lt_class = "";
+								// print_r($list[$i]);
+							?>
 
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=78&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g2.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
+														<li>
+                            <a href="<?php echo $list[$i]['href'] ?>">
+                                  <?php
+                                  $thumb = get_list_thumbnail($board['bo_table'], $list[$i]['wr_id'], $board['bo_gallery_width'], 300, false, true);
 
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=77&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g1.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
+                                  if($thumb['src']) {
+                                      $img_content = '<img src="'.$thumb['src'].'" alt="'.$thumb['alt'].'" >';
+                                  } else {
+                                      $img_content = '<span class="no_image" style="'.$line_height_style.'">no image</span>';
+                                  }
+      
+                                  // echo run_replace('thumb_image_tag', $img_content, $thumb);
+                                  ?>
+                                <span class="pic" style="background: url(<?php echo $thumb['src']?>) center center no-repeat; background-size: contain;">
+                                    <!-- <img src="/_files/board/20210621/thumb/54433d6d22da10f6a1d85a872fd776b2_crop_auto_fix_600_866.88.png" alt=""> -->
+                                </span>
+                                <span class="txtW">
+                                    <strong class="txt_t"><?php echo $list[$i]['subject'] ?></strong>
+                                    <span class="date tr"><b>작성일</b> <?php echo $list[$i]['datetime2'] ?></span>
+                                </span>
+                            </a>
+                          </li>
+                          <?php } ?>
+                          <?php if (count($list) == 0) { echo '<li><a colspan="'.$colspan.'" class="empty_table">게시물이 없습니다.</a></li>'; } ?>
 
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=76&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g2.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
-
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=75&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g1.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
-
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=74&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g2.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
-
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=73&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g1.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
-
-									</a>
-								</li>
-								<li>
-									<a href="/media_center/03.php?admin_mode=read&amp;no=72&amp;make=&amp;search=&amp;notice_type=">
-										<span class="pic"><img src="/common/img/g2.jpg"></span>
-										<span class="txtW">
-											<strong class="txt_t">2020 제17회 대한민국 공주 디지털 문화산업전 현장</strong>
-											<span class="date tr">2020-11-05</span>
-										</span>
-
-									</a>
-								</li>
 							</ul>
-
-
 
 						</div>
 <div class="paging"><a href="?page=1&amp;make=&amp;search=" class="first"><img src="/common/img/btn_first.gif" alt="처음으로"></a><a class="prev" href="#url"><img src="/common/img/btn_prev2.gif" alt="이전으로"></a><a href="#" class="on">1</a><a href="?page=2&amp;make=&amp;search=">2</a><a class="next" href="#url"><img src="/common/img/btn_next2.gif" alt="다음으로"></a><a href="?page=2&amp;make=&amp;search=" class="last"><img src="/common/img/btn_last.gif" alt="마지막으로"></a></div> 

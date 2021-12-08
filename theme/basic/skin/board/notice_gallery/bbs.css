@@ -188,7 +188,7 @@ table.board-list td .ico {display: inline-block; color: #fff; font-size: 0.95em;
 .photo_listW > ul {overflow: hidden; margin: -12px;}
 .photo_listW > ul > li {float: left; width:25%; box-sizing: border-box; padding:12px;}
 .photo_listW > ul > li > a {display: block; color: #333333; border: 1px solid #cccccc; position: relative;}
-.photo_listW > ul > li > a .pic {display: block; box-sizing: border-box; width:100%; padding-bottom:67%; position: relative; overflow: hidden;}
+.photo_listW > ul > li > a .pic {display: block; box-sizing: border-box; width:100%; padding-bottom:100%; position: relative; overflow: hidden;}
 .photo_listW > ul > li > a .pic img {max-width:100%; max-height: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);}
 .photo_listW > ul > li > a .pic img.no_img {max-width:none; max-height:none;}
 .photo_listW > ul > li > a .pic .type {max-width:26px; max-height:26px; position: absolute; left:100%; top:100%; transform:none; -webkit-transform:none; margin: -40px 0px 0px -40px;}
