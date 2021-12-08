@@ -101,7 +101,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">3D엔터</td>
+                  <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
