@@ -144,7 +144,7 @@ jQuery(function($){
 		<caption><?php echo $board['bo_subject'] ?> 목록</caption>
 		<thead>
 		<tr>
-				<?php if ($is_checkbox) { ?>
+				<?php if (false) { ?>
 				<th scope="col" class="all_chk chk_box">
 					<input type="checkbox" id="chkall" onclick="if (this.checked) all_checked(true); else all_checked(false);" class="selec_chk">
 						<label for="chkall">
