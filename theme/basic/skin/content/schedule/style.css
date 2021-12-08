@@ -291,3 +291,8 @@ section.sec0 .inner table td:hover {
 section.sec0 .inner table {
   /* width: 100%; */
 }
+td.link:hover {
+  background-color: #4485ba;
+  color: white;
+  cursor: pointer;
+}
