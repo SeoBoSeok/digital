@@ -106,7 +106,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">㈜캐럿펀트</td>
+                  <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
                   <td><span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
