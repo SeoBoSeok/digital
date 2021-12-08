@@ -91,7 +91,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜넥스페이스</td>
+                  <td onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="so">소</span></td>
 								</tr>
 								<tr>
