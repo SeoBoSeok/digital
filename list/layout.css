@@ -326,7 +326,7 @@ header h1 .m {
 }
 @media screen and (max-width: 1600px) {
   header .inner {
-    padding-top: 15px;
+    /* padding-top: 15px; */
   }
   header.on {
     /* height: 300px; */
