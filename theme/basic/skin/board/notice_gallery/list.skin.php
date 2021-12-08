@@ -184,7 +184,7 @@ jQuery(function($){
       
                                   // echo run_replace('thumb_image_tag', $img_content, $thumb);
                                   ?>
-                                <span class="pic" style="background: url(<?php echo $thumb['src']?>) center center no-repeat; background-size: contain;">
+                                <span class="pic" style="background: url(<?php echo $thumb['src']?>) center center no-repeat; background-size: cover;">
                                     <!-- <img src="/_files/board/20210621/thumb/54433d6d22da10f6a1d85a872fd776b2_crop_auto_fix_600_866.88.png" alt=""> -->
                                 </span>
                                 <span class="txtW">
