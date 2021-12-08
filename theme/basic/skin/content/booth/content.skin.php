@@ -126,7 +126,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">레이징덕(주)</td>
+                  <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
                   <td><span class="con">콘</span></td>
 								</tr>
 								<tr>
