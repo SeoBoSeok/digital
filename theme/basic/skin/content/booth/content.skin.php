@@ -96,7 +96,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td class="link">㈜스텔라무브</td>
+                  <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
