@@ -86,62 +86,62 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<th scope="row" rowspan="12">디지털유산<br>연구개발<br>(DH R&D)</th>
 										<td></td>
-										<td onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
+										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
 										<td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
+                  <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="so">소</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜스텔라무브</td>
+                  <td class="link">㈜스텔라무브</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>3D엔터</td>
+                  <td class="link">3D엔터</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜캐럿펀트</td>
+                  <td class="link">㈜캐럿펀트</td>
                   <td><span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜리하이</td>
+                  <td class="link">㈜리하이</td>
                   <td><span class="so">소</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜지오스토리</td>
+                  <td class="link">㈜지오스토리</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>WaferMasters</td>
+                  <td class="link">WaferMasters</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>레이징덕(주)</td>
+                  <td class="link">레이징덕(주)</td>
                   <td><span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>충남문화교육협동조합 잇다</td>
+                  <td class="link">충남문화교육협동조합 잇다</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>㈜스쿱</td>
+                  <td class="link">㈜스쿱</td>
                   <td><span class="ki">기</span>&nbsp;<span class="so">소</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
                   <td></td>
-                  <td>벤타브이알</td>
+                  <td class="link">벤타브이알</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
