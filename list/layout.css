@@ -683,7 +683,7 @@ body {
 .contents_left ul {padding-left: 0; list-style: none;}
 .contents_left .sector { padding: 5px; border: 1px solid white; margin-bottom: 20px; display: inline-block; letter-spacing: 2.7px;}
 .contents_left .contents_title {font-size: 30px; font-weight: 500;;}
-.contents_right {width: 50%; float: right;}
+.contents_right {width: 50%; float: right; display: flex; justify-content: center; align-items: center;}
 .contents_right img {width: 100%;}
 .lists {
   margin-top: 36px;
