@@ -143,7 +143,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul>
               <li>
                 <!-- <a href="#"> -->
-                  <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
+                  <!-- <img src="/common/img/digital_sec2_img1.png" alt=""> -->
                   <div class="text">
                     <h4>디지털로 만나는<br>백제역사유적지구</h4>
                     <span>백제세계유산센터</span>

@@ -166,7 +166,7 @@ if(G5_COMMUNITY_USE === false) {
               <ul>
                 <li>
                   <a href="#">
-                    <img src="common/img/digital_sec2_img1.jpg" alt="" />
+                    <img src="common/img/digital_sec2_img1.png" alt="" />
                     <div class="text">
                       <span class="top">Program 01</span>
                       <h3>산업</h3>

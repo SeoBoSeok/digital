@@ -167,7 +167,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul>
               <li>
                 <a href="#">
-                  <img src="/common/img/digital_sec2_img1.jpg" alt="">
+                  <img src="/common/img/digital_sec2_img1.png" alt="">
                   <div class="text">
                     <span>Program 01</span>
                     <h4>전시콘텐츠</h4>

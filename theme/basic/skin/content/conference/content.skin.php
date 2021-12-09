@@ -110,7 +110,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <ul>
               <li>
                 <!-- <a href="#"> -->
-                  <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
+                  <!-- <img src="/common/img/digital_sec2_img1.png" alt=""> -->
                   <div class="text">
                     <h4>심포지엄</h4>
                     <div class="btn">
