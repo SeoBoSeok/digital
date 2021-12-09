@@ -231,9 +231,13 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 					<div class="search--text">
 						<span><input type="text" name="stx" value="" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요" class="form-control"></span>
 					</div>
-					<div class="search--btn">
-						<span class="btn--submit"><input type="submit" value="검색" onclick="onSubmit();"></span>
-					</div>
+					<button class="btn bd_srch_btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="23.999" height="24" viewBox="0 0 23.999 24">
+								<g id="ic_search" transform="translate(-216 15)">
+									<path id="패스_2066" data-name="패스 2066" d="M11.142,0a11.142,11.142,0,1,0,7.243,19.6l4.15,4.15a.858.858,0,0,0,1.212-1.213L19.6,18.386A11.132,11.132,0,0,0,11.142,0Zm0,1.714a9.428,9.428,0,1,1-9.428,9.428,9.415,9.415,0,0,1,9.428-9.428Z" transform="translate(216 -15)"></path>
+								</g>
+							</svg>
+					</button>
 
 				</div>
 			</div>
