@@ -290,7 +290,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="#"><span>사전 예약</span></a>
+              <a href="/bbs/content.php?co_id=pre_forms"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
