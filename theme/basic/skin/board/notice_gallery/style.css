@@ -148,7 +148,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 #bo_v_title .bo_v_cate {display:inline-block;line-height:20px;background:#e2eaf6;color:#3a8afd;padding:0 10px;border-radius:3px;}
 #bo_v_title .bo_v_tit {display:block;font-size:2em;margin:5px 0 0;word-break:break-all}
 
-#bo_v_info {margin:0;border-bottom:1px solid #f1f1f1;color:#666}
+#bo_v_info {margin:0;}
 #bo_v_info:after {display:block;visibility:hidden;clear:both;content:""} 
 #bo_v_info h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 
@@ -211,8 +211,8 @@ box-shadow:1px 1px 5px 0px hsl(232, 36%, 96%)}
 
 .bo_v_nb {position:relative;margin:20px 0;clear:both;text-align:left}
 .bo_v_nb:after {display:block;visibility:hidden;clear:both;content:""}
-.bo_v_nb li {border-top:1px solid #f1f1f1;padding:13px}
-.bo_v_nb li:last-child {border-bottom:1px solid #f1f1f1}
+.bo_v_nb li {border-top:1px solid #ccc;padding:13px}
+.bo_v_nb li:last-child {border-bottom:1px solid #ccc}
 .bo_v_nb li:hover {background:#f6f6f6}
 .bo_v_nb li i {font-size:13px;color:#b3b3b3}
 .bo_v_nb li .nb_tit {display:inline-block;padding-right:20px;color:#b3b3b3}
@@ -226,7 +226,7 @@ box-shadow:1px 1px 5px 0px hsl(232, 36%, 96%)}
 #bo_v_img a.view_image {display:block}
 #bo_v_img img {margin-bottom:20px;max-width:100%;height:auto}
 
-#bo_v_con {margin:10px 0 30px;width:100%;line-height:1.7em;min-height:200px;word-break:break-all;overflow:hidden}
+#bo_v_con {margin:10px 0 30px;width:100%;line-height:1.7em;word-break:break-all;overflow:hidden}
 #bo_v_con a {color:#000;text-decoration:underline}
 #bo_v_con img {max-width:100%;height:auto}
 
@@ -1033,7 +1033,7 @@ section.sec2 {
 }
 .apply .btn {
     padding: 15px 70px;
-    background: #4485ba;
+    background: #000;
     color: white;
     display: inline-block
 }
@@ -1063,3 +1063,21 @@ section.sec2 {
 #bo_w .bo_w_tit .frm_input {padding: 5px; border: 1px solid #ccc;}
 #bo_w .bo_w_tit #btn_autosave {background-color: white;}
 .cke_sc {display: none;}
+.text-center {
+    width: 100%;
+    padding: 2.25rem 1rem;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #cccccc;
+  }
+  #bo_v_info .profile_info, #bo_v_share {
+      display: none;
+  }
+  .bo_v_tit {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 0.4rem;
+  }
+  .if_date {color: #666666;}
+  .pg_wrap {text-align: center; margin-top: 40px;}
+  #bo_v_atc {padding: 1.875rem 1.25rem;width:100%;line-height:1.7em;min-height:200px;word-break:break-all;overflow:hidden}

@@ -212,7 +212,7 @@ echo '<link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css"';
     </div>
 </article>
 <!-- } 게시판 읽기 끝 -->        
-
+<?php if ($update_href) { ?><li><a href="<?php echo $update_href ?>">수정<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li><?php } ?>
     </div>
 </section>
 
@@ -265,7 +265,7 @@ $(function() {
     });
 
     // 이미지 리사이즈
-    $("#bo_v_atc").viewimageresize();
+    // $("#bo_v_atc").viewimageresize();
 });
 
 function excute_good(href, $el, $tx)
