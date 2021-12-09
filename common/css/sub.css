@@ -593,3 +593,88 @@ header h1 {
     transform: none;
   }
 }
+
+.subpage-more-wrap{
+  margin-top: 2.5rem;
+
+  text-align: center;
+}
+
+.subpage-item-lists,
+.subpage-item-lists .subpage-item,
+.subpage-item-lists .subpage-link{
+  display: inline-block;
+}
+
+.subpage-item-lists .subpage-link{
+  padding: 1.25rem 1.875rem;
+
+  font-weight: 600;
+  color: #aaaaaa;
+}
+
+.subpage-item-lists .each-line:not(:last-child):after {
+  height: 1.563rem;
+
+  background-color: #cccccc;
+}
+
+/*****#####===== active =====#####*****/
+.subpage-item-lists .subpage-item.active .subpage-link{
+  font-weight: 700;
+  color: #000000;
+}
+
+/*****#####===== ë¯¸ë””ì–´ ì¿¼ë¦¬ =====#####*****/
+/***** lg ~ *****/
+@media (min-width: 992px) {
+  .subpage-item-lists{
+      padding: 0 0.938rem;
+
+      background-color: #ffffff;
+      border-radius: 2.188rem;
+      box-shadow: 0 0 20px 0 rgba(0, 74, 123, 0.2);
+  }
+}
+
+/***** ~ md *****/
+@media (max-width: 991.98px){
+  .subpage-more-wrap{
+      margin-left: -15px;
+      margin-right: -15px;
+
+      text-align: left;
+  }
+
+  .subpage-item-lists {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+  }
+
+  .subpage-item-lists::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera*/
+  }
+
+  .subpage-item-lists .subpage-item{
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%;
+  }
+
+  /*****##### active #####*****/
+  .subpage-item-lists .subpage-item.active .subpage-link-text{
+      display: inline-block;
+
+      padding-bottom: 0.5rem;
+
+      border-bottom: 2px solid #000000;
+  }
+}

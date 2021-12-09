@@ -50,7 +50,30 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
-      
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=symposium">
+                  <span class="subpage-link-text">심포지엄</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=seminar">
+                  <span class="subpage-link-text">세미나</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=workshop">
+                  <span class="subpage-link-text">워크샵</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
+                  <span class="subpage-link-text">튜토리얼</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>      
       <section class="sec2 ani active">
         <div class="inner">
           <h2>심포지엄</h2>

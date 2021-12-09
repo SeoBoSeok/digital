@@ -50,7 +50,30 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
-      
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae">
+                  <span class="subpage-link-text">백제역사유적지구</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_a">
+                  <span class="subpage-link-text">공주 정지산 유적 고건축 AR</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_v">
+                  <span class="subpage-link-text">야간군사 훈련 VAR</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_m">
+                  <span class="subpage-link-text">청동거울, 과학을 비추다</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>
       <section class="sec2 ani active">
         <div class="inner">
           <h2>정조대왕의 수원화성 야간군사 훈련 VAR</h2>
