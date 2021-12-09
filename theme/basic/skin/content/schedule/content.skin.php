@@ -33,7 +33,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </ul>
         </div>
       </section>
-      <section class="sec0">
+      <!-- <section class="sec0">
         <div class="inner">
           <div class="cont ani">
           <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
@@ -41,14 +41,28 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <tr>
                 <td width="50%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=booth'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">부스배치도</td>
                 <td width="50%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=schedule'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; font-weight:500; cursor:pointer">참여업체</td>
-                <!-- <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_edu'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 미래교육</td> -->
-                <!-- <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">문화유산상품 마켓</td> -->
+                <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_edu'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 미래교육</td>
+                <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">문화유산상품 마켓</td>
               </tr>
             </tbody>
           </table>
           </div>
         </div>
-      </section>
+      </section> -->
+			<div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=booth">
+                  <span class="subpage-link-text">부스배치도</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=schedule">
+                  <span class="subpage-link-text">참여업체</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>
       <section class="sec1">
         <div class="inner">
           <div class="cont ani active">
