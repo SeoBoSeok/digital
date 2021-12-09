@@ -51,6 +51,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=about">
+                  <span class="subpage-link-text">참여기관</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation">
                   <span class="subpage-link-text">초청전</span>
               </a>
