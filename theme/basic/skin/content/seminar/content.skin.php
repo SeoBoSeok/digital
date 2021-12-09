@@ -77,12 +77,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec2 ani active">
         <div class="inner">
           <h2>세미나</h2>
-          <p>
+          <!-- <p>
             2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
-          </p>
+          </p> -->
           <div class="lists clearfix">
             <div class="left">
               <img src="/common/img/semina.png" alt="세미나">
@@ -232,9 +232,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <td><span>양기홍 학예사(국립해양문화재연구소)</span></td>
 								</tr>
 								<tr>
-										<td class="grap"><span>15:10 - 15:30</span></td>
-										<td class="grap"><span>휴  식</span></td>
-                    <td class="grap"><span></span></td>
+										<td class="gray"><span>15:10 - 15:30</span></td>
+										<td class="gray"><span>휴  식</span></td>
+                    <td class="gray"><span></span></td>
 								</tr>     
 								<tr>
 										<td><span>15:30 - 16:00</span></td>

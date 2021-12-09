@@ -256,6 +256,7 @@ header h1 {
 }
 .digital .sec1 .ani.active .info {
   animation: posX-40-up 1.8s ease both 0.6s;
+  background: #f5f5f5 url(/common/img/bg_section.png) right bottom no-repeat;
 }
 .digital .sec1 .info .wrap {
   display: table-cell;

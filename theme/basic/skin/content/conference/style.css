@@ -156,7 +156,7 @@ section.sec0 .inner table td:hover {
   background: url(/common/img/main_sec3_arrow.png) center 30px no-repeat;
 } */
 .invitation_one{
-  background: url(/common/img/ventabus.jpg) center center no-repeat;
+  background: url(/common/img/conference2.jpg) center center no-repeat;
   background-size: cover;
   z-index: 99;
 }
@@ -258,3 +258,5 @@ section.sec0 .inner table td:hover {
       border-bottom: 2px solid #000000;
   }
 }
+.digital .sec1 .inner:after {display: none;}
+.digital .sec1 .inner:before {display: none;}

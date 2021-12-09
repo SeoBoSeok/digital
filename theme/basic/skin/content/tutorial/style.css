@@ -98,11 +98,11 @@ section.sec0 .inner table td:hover {
 }
 .digital .sec2 .lists {
   padding-top: 66px;
-  border-top: 1px solid #e2d6cf;
-  margin-top: 66px;
+  border-top: 1px solid #121212;
+  margin-top: 10px;
   padding-bottom: 66px;
   margin-bottom: 66px;
-  border-bottom: 1px solid #e2d6cf;
+  border-bottom: 1px solid #121212;
 }
 .digital .sec2 {
   padding-top: 99px;
@@ -165,7 +165,7 @@ section.sec0 .inner table td:hover {
 
 .sec2 .lists .right h3 {
   font-size: 27px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
@@ -212,7 +212,8 @@ section.sec0 .inner table td:hover {
 table caption {text-indent:-100000px;font-size:0;line-height:0}
 table caption p{margin: 0;line-height:0;font-size:0;}
 .wrap-tbl {margin-bottom: 40px;}
-.tbl {display:table;margin-bottom:10px;width:100%;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;}
+.tbl {display:table;margin-bottom:10px;width:100%;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;font-size: 1.1rem;font-weight: 300;}
+.tbl th {font-size: 1.2rem; font-weight: 500;}
 .tbl th, .tbl td {padding:12px 20px;border-left:1px solid transparent;border-bottom:1px solid transparent;margin-left:-1px;vertical-align:middle;word-wrap:break-word;word-break:keep-all;color:#555}
 .tbl th:first-child, .tbl td:first-child {border-left:none}
 .tbl tbody th, .tbl thead th {vertical-align:middle}
@@ -234,7 +235,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
 .tbl_type1 span.tag.type1{background-position: 0;}
 .tbl_type1 span.tag.type2{background-position: -60px;}
 .wrap-tbl-calendar .tbl th{padding: 8px 5px;}
-.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #4485ba;color:#fff;border-top-color: #4485ba;border-bottom-color: #4485ba;}
+.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #4485ba;color:#fff;border-top-color: #4485ba;border-bottom-color: #4485ba; font-size: 1.2rem;}
 
 .wrap-tbl-calendar .tbl td {padding: 20px;}
 .wrap-tbl-calendar .tbl td.bg-common {background-color: #fff6b6 !important;}
@@ -248,5 +249,6 @@ table caption p{margin: 0;line-height:0;font-size:0;}
 .schedule {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .wrap-tbl-calendar .tbl td.gray {background-color: #f5f5f5;}
