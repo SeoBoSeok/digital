@@ -109,7 +109,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="lists">
             <ul>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img1.jpg" alt=""> -->
                   <div class="text">
                     <h4>심포지엄</h4>
@@ -117,10 +117,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=symposium"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
                     <h4>세미나</h4>
@@ -128,10 +128,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=seminar"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
                     <h4>워크샵</h4>
@@ -139,10 +139,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=workshop"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
               <li>
-                <a href="#">
+                <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
                     <h4>튜토리얼</h4>
@@ -150,7 +150,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=tutorial"><span></span></a>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </li>
             </ul>
           </div>
