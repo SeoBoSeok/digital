@@ -11,6 +11,7 @@ if ($is_nogood) $colspan++;
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
+// echo '<link rel="stylesheet" href="'.$board_skin_url.'/helper.css">';
 ?>
 
 
@@ -42,11 +43,14 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
           </ul>
         </div>
       </section>
+
+
+
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
-            <div class="center">
+            <!-- <div class="center">
                 <h2>공지사항</h2>
-            </div>
+            </div> -->
 
 <!-- 게시판 목록 시작 { -->
 	<div id="bo_list" style="width:<?php echo $width; ?>">
@@ -61,6 +65,27 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
 </nav>
 <?php } ?>
 <!-- } 게시판 카테고리 끝 -->
+
+<!-- 검 색 -->
+<div class="bd-srch-wrap srch_wrap">
+	<div class="row row-5 align-items-center">
+		<div class="search_box">
+			<div class="col">
+					<input class="form-control d-block display-3 srch_val" data-key="bc_title|bc_datas_content|bc_datas_writer_name" placeholder="검색어를 입력해 주세요." value="">
+			</div><!--/.col-->
+			<div class="col col-auto">
+					<button class="btn bd_srch_btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="23.999" height="24" viewBox="0 0 23.999 24">
+								<g id="ic_search" transform="translate(-216 15)">
+									<path id="패스_2066" data-name="패스 2066" d="M11.142,0a11.142,11.142,0,1,0,7.243,19.6l4.15,4.15a.858.858,0,0,0,1.212-1.213L19.6,18.386A11.132,11.132,0,0,0,11.142,0Zm0,1.714a9.428,9.428,0,1,1-9.428,9.428,9.415,9.415,0,0,1,9.428-9.428Z" transform="translate(216 -15)"></path>
+								</g>
+							</svg>
+					</button>
+			</div><!--/.col-->
+		</div>
+	</div>
+	<!-- 검 색 -->	
+</div>						
 
 <form name="fboardlist" id="fboardlist" action="<?php echo G5_BBS_URL; ?>/board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post">
 
@@ -111,10 +136,10 @@ jQuery(function($){
 
 <!-- 게시판 페이지 정보 및 버튼 시작 { -->
 <div id="bo_btn_top">
-		<div id="bo_list_total">
+		<!-- <div id="bo_list_total">
 				<span>Total <?php echo number_format($total_count) ?>건</span>
 				<?php echo $page ?> 페이지
-		</div>
+		</div> -->
 
 		<ul class="btn_bo_user" style="display: none;">
 			<?php if ($admin_href) { ?><li><a href="<?php echo $admin_href ?>" class="btn_admin btn" title="관리자"><i class="fa fa-cog fa-spin fa-fw"></i><span class="sound_only">관리자</span></a></li><?php } ?>
@@ -138,7 +163,11 @@ jQuery(function($){
 		</ul>
 </div>
 <!-- } 게시판 페이지 정보 및 버튼 끝 -->
-			
+
+<!-- 검색 -->
+
+<!-- 검색 -->
+
 <div class="tbl_head01 tbl_wrap">
 		<table>
 		<caption><?php echo $board['bo_subject'] ?> 목록</caption>
@@ -153,13 +182,13 @@ jQuery(function($){
 		</label>
 				</th>
 				<?php } ?>
-				<th scope="col">번호</th>
-				<th scope="col">제목</th>
-				<th scope="col">글쓴이</th>
-				<th scope="col"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
+				<th scope="col num" data-type="num">번호</th>
+				<th scope="col title" data-type="title">제목</th>
+				<!-- <th scope="col ">글쓴이</th> -->
+				<th scope="col date" data-type="date"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
+				<th scope="col width-7" data-type="count"><?php echo subject_sort_link('wr_hit', $qstr2, 1) ?>조회 </a></th>
 				<?php if ($is_good) { ?><th scope="col"><?php echo subject_sort_link('wr_good', $qstr2, 1) ?>추천 </a></th><?php } ?>
 				<?php if ($is_nogood) { ?><th scope="col"><?php echo subject_sort_link('wr_nogood', $qstr2, 1) ?>비추천 </a></th><?php } ?>
-				<th scope="col"><?php echo subject_sort_link('wr_datetime', $qstr2, 1) ?>날짜  </a></th>
 		</tr>
 		</thead>
 		<tbody>
@@ -169,7 +198,7 @@ jQuery(function($){
 			else $lt_class = "";
 ?>
 		<tr class="<?php if ($list[$i]['is_notice']) echo "bo_notice"; ?> <?php echo $lt_class ?>">
-				<?php if ($is_checkbox) { ?>
+				<?php if (false) { ?>
 				<td class="td_chk chk_box">
 		<input type="checkbox" name="chk_wr_id[]" value="<?php echo $list[$i]['wr_id'] ?>" id="chk_wr_id_<?php echo $i ?>" class="selec_chk">
 					<label for="chk_wr_id_<?php echo $i ?>">
@@ -213,11 +242,11 @@ jQuery(function($){
 								<?php if ($list[$i]['comment_cnt']) { ?><span class="sound_only">댓글</span><span class="cnt_cmt"><?php echo $list[$i]['wr_comment']; ?></span><span class="sound_only">개</span><?php } ?>
 						</div>
 				</td>
-				<td class="td_name sv_use"><?php echo $list[$i]['name'] ?></td>
+				<!-- <td class="td_name sv_use"><?php echo $list[$i]['name'] ?></td> -->
+				<td class="td_datetime"><?php echo $list[$i]['datetime2'] ?></td>
 				<td class="td_num"><?php echo $list[$i]['wr_hit'] ?></td>
 				<?php if ($is_good) { ?><td class="td_num"><?php echo $list[$i]['wr_good'] ?></td><?php } ?>
 				<?php if ($is_nogood) { ?><td class="td_num"><?php echo $list[$i]['wr_nogood'] ?></td><?php } ?>
-				<td class="td_datetime"><?php echo $list[$i]['datetime2'] ?></td>
 
 		</tr>
 		<?php } ?>
