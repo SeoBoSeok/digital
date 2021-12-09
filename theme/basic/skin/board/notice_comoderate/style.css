@@ -1325,7 +1325,7 @@ table.comment-list td img {vertical-align:middle;}
 .program--search .search--btn span{display:inline-block;width:95px;height:34px;}
 .program--search .search--btn input{height:100%;padding:0 15px;border-radius:0;line-height:100%;}
 .program--search .search--btn .btn--submit{background-color:#33353a;text-align:center;}
-.program--search .search--btn input[type="submit"]{width: 100%;padding:0 30px 0 5px;background: #33353a url(/pcms/common/images/ir/program--search--icon.png) no-repeat 80% 48%;color:#fff;text-shadow:0 0 1px #000;}
+/* .program--search .search--btn input[type="submit"]{width: 100%;padding:0 30px 0 5px;background: #33353a url(/pcms/common/images/ir/program--search--icon.png) no-repeat 80% 48%;color:#fff;text-shadow:0 0 1px #000;} */
 .program--search .search--btn{display:inline-block;height:100%;border-radius:0;color:#fff;line-height:100%;}
 .program--search .search--btn button{padding:7px 14px 6px}
 .program--search .program--count{margin-top: 3px;}

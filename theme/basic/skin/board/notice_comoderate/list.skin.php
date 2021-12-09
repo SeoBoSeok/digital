@@ -12,42 +12,42 @@ if ($is_nogood) $colspan++;
 // add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
 echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
-$paginationStr = '';
-if (empty($page)) $page = 1;
-$prevPage = $page == 1 ? 1 : $page - 1;
-$nextPage = $page == 17 ? 17 : $page + 1;
-if($page <= 10) {
-	$paginationStr .= '<ul class="pagination">
-	<li class="page-item"><a class="page-link" aria-label="first" href="?page=1&amp;bo_table=accommodations"><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="Previous" href="?page='.$prevPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li>
-	<li class="page-item '.($page == 1 ? 'active' : '').'"><a class="page-link" href="?page=1&amp;bo_table=accommodations">1</a></li>
-	<li class="page-item '.($page == 2 ? 'active' : '').'"><a class="page-link" href="?page=2&amp;bo_table=accommodations">2</a></li>
-	<li class="page-item '.($page == 3 ? 'active' : '').'"><a class="page-link" href="?page=3&amp;bo_table=accommodations">3</a></li>
-	<li class="page-item '.($page == 4 ? 'active' : '').'"><a class="page-link" href="?page=4&amp;bo_table=accommodations">4</a></li>
-	<li class="page-item '.($page == 5 ? 'active' : '').'"><a class="page-link" href="?page=5&amp;bo_table=accommodations">5</a></li>
-	<li class="page-item '.($page == 6 ? 'active' : '').'"><a class="page-link" href="?page=6&amp;bo_table=accommodations">6</a></li>
-	<li class="page-item '.($page == 7 ? 'active' : '').'"><a class="page-link" href="?page=7&amp;bo_table=accommodations">7</a></li>
-	<li class="page-item '.($page == 8 ? 'active' : '').'"><a class="page-link" href="?page=8&amp;bo_table=accommodations">8</a></li>
-	<li class="page-item '.($page == 9 ? 'active' : '').'"><a class="page-link" href="?page=9&amp;bo_table=accommodations">9</a></li>
-	<li class="page-item '.($page == 10 ? 'active' : '').'"><a class="page-link" href="?page=10&amp;bo_table=accommodations">10</a></li>
-	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
-	</ul>';
-} else {
-	$paginationStr .= '<ul class="pagination">
-	<li class="page-item"><a class="page-link" aria-label="first" href="?page=1&amp;bo_table=accommodations"><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="Previous" href="?page='.$prevPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li>
-	<li class="page-item '.($page == 11 ? 'active' : '').'"><a class="page-link" href="?page=11&amp;bo_table=accommodations">11</a></li>
-	<li class="page-item '.($page == 12 ? 'active' : '').'"><a class="page-link" href="?page=12&amp;bo_table=accommodations">12</a></li>
-	<li class="page-item '.($page == 13 ? 'active' : '').'"><a class="page-link" href="?page=13&amp;bo_table=accommodations">13</a></li>
-	<li class="page-item '.($page == 14 ? 'active' : '').'"><a class="page-link" href="?page=14&amp;bo_table=accommodations">14</a></li>
-	<li class="page-item '.($page == 15 ? 'active' : '').'"><a class="page-link" href="?page=15&amp;bo_table=accommodations">15</a></li>
-	<li class="page-item '.($page == 16 ? 'active' : '').'"><a class="page-link" href="?page=16&amp;bo_table=accommodations">16</a></li>
-	<li class="page-item '.($page == 17 ? 'active' : '').'"><a class="page-link" href="?page=17&amp;bo_table=accommodations">17</a></li>
-	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
-	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
-	</ul>';
-}
+// $paginationStr = '';
+// if (empty($page)) $page = 1;
+// $prevPage = $page == 1 ? 1 : $page - 1;
+// $nextPage = $page == 17 ? 17 : $page + 1;
+// if($page <= 10) {
+// 	$paginationStr .= '<ul class="pagination">
+// 	<li class="page-item"><a class="page-link" aria-label="first" href="?page=1&amp;bo_table=accommodations"><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="Previous" href="?page='.$prevPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li>
+// 	<li class="page-item '.($page == 1 ? 'active' : '').'"><a class="page-link" href="?page=1&amp;bo_table=accommodations">1</a></li>
+// 	<li class="page-item '.($page == 2 ? 'active' : '').'"><a class="page-link" href="?page=2&amp;bo_table=accommodations">2</a></li>
+// 	<li class="page-item '.($page == 3 ? 'active' : '').'"><a class="page-link" href="?page=3&amp;bo_table=accommodations">3</a></li>
+// 	<li class="page-item '.($page == 4 ? 'active' : '').'"><a class="page-link" href="?page=4&amp;bo_table=accommodations">4</a></li>
+// 	<li class="page-item '.($page == 5 ? 'active' : '').'"><a class="page-link" href="?page=5&amp;bo_table=accommodations">5</a></li>
+// 	<li class="page-item '.($page == 6 ? 'active' : '').'"><a class="page-link" href="?page=6&amp;bo_table=accommodations">6</a></li>
+// 	<li class="page-item '.($page == 7 ? 'active' : '').'"><a class="page-link" href="?page=7&amp;bo_table=accommodations">7</a></li>
+// 	<li class="page-item '.($page == 8 ? 'active' : '').'"><a class="page-link" href="?page=8&amp;bo_table=accommodations">8</a></li>
+// 	<li class="page-item '.($page == 9 ? 'active' : '').'"><a class="page-link" href="?page=9&amp;bo_table=accommodations">9</a></li>
+// 	<li class="page-item '.($page == 10 ? 'active' : '').'"><a class="page-link" href="?page=10&amp;bo_table=accommodations">10</a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+// 	</ul>';
+// } else {
+// 	$paginationStr .= '<ul class="pagination">
+// 	<li class="page-item"><a class="page-link" aria-label="first" href="?page=1&amp;bo_table=accommodations"><span aria-hidden="true">&lt;&lt;</span><span class="sr-only">첫번째페이지</span></a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="Previous" href="?page='.$prevPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&lt;</span><span class="sr-only">이전페이지</span></a></li>
+// 	<li class="page-item '.($page == 11 ? 'active' : '').'"><a class="page-link" href="?page=11&amp;bo_table=accommodations">11</a></li>
+// 	<li class="page-item '.($page == 12 ? 'active' : '').'"><a class="page-link" href="?page=12&amp;bo_table=accommodations">12</a></li>
+// 	<li class="page-item '.($page == 13 ? 'active' : '').'"><a class="page-link" href="?page=13&amp;bo_table=accommodations">13</a></li>
+// 	<li class="page-item '.($page == 14 ? 'active' : '').'"><a class="page-link" href="?page=14&amp;bo_table=accommodations">14</a></li>
+// 	<li class="page-item '.($page == 15 ? 'active' : '').'"><a class="page-link" href="?page=15&amp;bo_table=accommodations">15</a></li>
+// 	<li class="page-item '.($page == 16 ? 'active' : '').'"><a class="page-link" href="?page=16&amp;bo_table=accommodations">16</a></li>
+// 	<li class="page-item '.($page == 17 ? 'active' : '').'"><a class="page-link" href="?page=17&amp;bo_table=accommodations">17</a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="Next" href="?page='.$nextPage.'&amp;bo_table=accommodations"><span aria-hidden="true">&gt;</span><span class="sr-only">다음페이지</span></a></li>
+// 	<li class="page-item"><a class="page-link" aria-label="last" href="?page=17&amp;bo_table=accommodations"><span aria-hidden="true">&gt;&gt;</span><span class="sr-only">마지막페이지</span></a></li>
+// 	</ul>';
+// }
 // echo $paginationStr;
 ?>
 
@@ -286,7 +286,8 @@ if($page <= 10) {
 
 <div class="text-center">
 		<!--페이징 -->
-	<?php echo $paginationStr; ?>
+	<?php // echo $paginationStr; ?>
+	<?php echo $write_pages; ?>
 </div>           
 
 
