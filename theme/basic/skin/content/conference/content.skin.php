@@ -118,6 +118,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <!-- <img src="/common/img/digital_sec2_img1.png" alt=""> -->
                   <div class="text">
                     <h4>심포지엄</h4>
+                    <span>디지털 문화유산 생태계 : 산업&교육&연구</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=symposium"><span></span></a>
                     </div>
@@ -129,6 +130,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
                     <h4>세미나</h4>
+                    <span>문화자원과 디지털 아카이브</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=seminar"><span></span></a>
                     </div>
@@ -140,6 +142,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
                     <h4>워크샵</h4>
+                    <span>디지털 헤리티지 전문가 워크숍 : 원형DB 고도화 방안</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=workshop"><span></span></a>
                     </div>
@@ -151,6 +154,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
                     <h4>튜토리얼</h4>
+                    <span>문화재 분야에서의 이미지 분석과 활용</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=tutorial"><span></span></a>
                     </div>

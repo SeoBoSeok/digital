@@ -77,15 +77,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec2 ani active">
         <div class="inner">
           <h2>소실된 웅진백제기 공주 정지산 유적 고건축 AR</h2>
-          <p>
+          <!-- <p>
             2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
-          </p>
+          </p> -->
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/AKR2021.jpg" alt="정지산 유적">
+              <img src="/common/img/cc2.jpg" alt="정지산 유적">
             </div>
             <div class="right">
               <h3>

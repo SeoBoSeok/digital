@@ -98,11 +98,11 @@ section.sec0 .inner table td:hover {
 }
 .digital .sec2 .lists {
   padding-top: 66px;
-  border-top: 1px solid #e2d6cf;
-  margin-top: 66px;
+  border-top: 1px solid #121212;
+  margin-top: 10px;
   padding-bottom: 66px;
   margin-bottom: 66px;
-  border-bottom: 1px solid #e2d6cf;
+  border-bottom: 1px solid #121212;
 }
 .digital .sec2 {
   padding-top: 99px;
@@ -146,7 +146,7 @@ section.sec0 .inner table td:hover {
   margin-top: -5px;
   width: 12px;
   height: 12px;
-  border: 4px solid #b04500;
+  border: 4px solid #4485ba;
   border-radius: 100%;
 }
 .sec2 .lists .right dl dd {
@@ -165,7 +165,7 @@ section.sec0 .inner table td:hover {
 
 .sec2 .lists .right h3 {
   font-size: 27px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
@@ -176,3 +176,79 @@ section.sec0 .inner table td:hover {
 .sec2 .lists .right dl dd {
   padding-left: 130px;
 }
+
+.details {
+  padding: 0 0 100px;
+}
+
+/*0202 - 행사일정표*/
+.schedule .tab-schedule {display: -ms-grid;display: grid;-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;-ms-grid-row:  1fr 1fr 1fr;grid-template-rows:  1fr 1fr 1fr;border-width: 0 1px 1px 0;border-style: solid;border-color: #ccc;-webkit-box-shadow: 4px 4px 10px 2px rgb(0 0 0 / 6%);box-shadow: 4px 4px 10px 2px rgb(0 0 0 / 6%);}
+.schedule .tab-schedule>*:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}
+.schedule .tab-schedule>*:nth-child(2) {-ms-grid-row: 1;-ms-grid-column: 2;}
+.schedule .tab-schedule>*:nth-child(3) {-ms-grid-row: 1;-ms-grid-column: 3;}
+.schedule .tab-schedule>*:nth-child(4) {-ms-grid-row: 1;-ms-grid-column: 4;}
+.schedule .tab-schedule>*:nth-child(5) {-ms-grid-row: 1;-ms-grid-column: 5;}
+.schedule .tab-schedule>*:nth-child(6) {-ms-grid-row: 1;-ms-grid-column: 6;}
+.schedule .tab-schedule>*:nth-child(7) {-ms-grid-row: 2;-ms-grid-column: 1;}
+.schedule .tab-schedule>*:nth-child(8) {-ms-grid-row: 2;-ms-grid-column: 2;}
+.schedule .tab-schedule>*:nth-child(9) {-ms-grid-row: 2;-ms-grid-column: 3;}
+.schedule .tab-schedule>*:nth-child(10) {-ms-grid-row: 2;-ms-grid-column: 4;}
+.schedule .tab-schedule>*:nth-child(11) {-ms-grid-row: 2;-ms-grid-column: 5;}
+.schedule .tab-schedule>*:nth-child(12) {-ms-grid-row: 2;-ms-grid-column: 6;}
+.schedule .tab-schedule>*:nth-child(13) {-ms-grid-row: 3;-ms-grid-column: 1;}
+.schedule .tab-schedule>*:nth-child(14) {-ms-grid-row: 3;-ms-grid-column: 2;}
+.schedule .tab-schedule>*:nth-child(15) {-ms-grid-row: 3;-ms-grid-column: 3;}
+.schedule .tab-schedule>*:nth-child(16) {-ms-grid-row: 3;-ms-grid-column: 4;}
+.schedule .tab-schedule>*:nth-child(17) {-ms-grid-row: 3;-ms-grid-column: 5;}
+.schedule .tab-schedule>*:nth-child(18) {-ms-grid-row: 3;-ms-grid-column: 6;}
+.schedule .tab-schedule .tab-list {border: 1px solid #ccc;border-bottom: 0;border-right: 0;}
+.schedule .tab-schedule .tab-list a {display: block;width: 100%;height: 100%;padding: 15px;text-align: center;}
+.schedule .tab-schedule .tab-list a:hover {background: #333;color: #fff;}
+.schedule .tab-schedule .tab-list.on a {background: #333;color: #fff;}
+
+.schedule h3 {padding: 90px 0 20px 0;font-size: 24px;color: #000;}
+.schedule h3:first-child {padding-top: 0;}
+
+table caption {text-indent:-100000px;font-size:0;line-height:0}
+table caption p{margin: 0;line-height:0;font-size:0;}
+.wrap-tbl {margin-bottom: 40px;}
+.tbl {display:table;margin-bottom:10px;width:100%;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;font-size: 1.1rem;font-weight: 300;}
+.tbl th {font-size: 1.2rem; font-weight: 500;}
+.tbl th, .tbl td {padding:12px 20px;border-left:1px solid transparent;border-bottom:1px solid transparent;margin-left:-1px;vertical-align:middle;word-wrap:break-word;word-break:keep-all;color:#555}
+.tbl th:first-child, .tbl td:first-child {border-left:none}
+.tbl tbody th, .tbl thead th {vertical-align:middle}
+.tbl tbody th, .tbl tfoot th {background-image:none}
+.tbl tbody th {color:#333;background-color:#fafbfc}
+.tbl thead th {color:#333;font-size:15px;background-color:#f6f6f6;font-size:15px;font-family:'nsr','Malgun Gothic';color:#121212}
+.tbl th[rowspan], .tbl td[rowspan] {border-right:1px solid #ccc}
+.tbl th:last-child, .tbl td:last-child {border-right:0}
+.tbl th, .tbl td {border-left-color:#ccc;border-bottom-color:#ccc;line-height: 1.6;}
+.tbl td img {vertical-align:middle}
+.tbl ul li {font-size: 15px;}
+.tbl ul li:before {content: '';display: inline-block;width: 3px;height: 3px;margin: 4px;background: #777;border-radius: 50%;}
+.tbl_type1 {border-top:1px solid #4485ba;}
+.tbl_type1 thead th{background-color: #4485ba;color: #fff;}
+.tbl_type1 td a {font-size: 18px;color: #000;line-height: 24px; word-break: keep-all;}
+.tbl_type1 td a:hover{text-decoration: underline;}
+.tbl_type1 td p.c_text {font-size: 16px;}
+.tbl_type1 span.tag{width: 50px;height: 50px;display: block;font-size: 0;margin: 0 auto;padding: 0; background: url(/images/festival/main/ir_tag_prog.png) no-repeat;}
+.tbl_type1 span.tag.type1{background-position: 0;}
+.tbl_type1 span.tag.type2{background-position: -60px;}
+.wrap-tbl-calendar .tbl th{padding: 8px 5px;}
+.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #4485ba;color:#fff;border-top-color: #4485ba;border-bottom-color: #4485ba; font-size: 1.2rem;}
+
+.wrap-tbl-calendar .tbl td {padding: 20px;}
+.wrap-tbl-calendar .tbl td.bg-common {background-color: #fff6b6 !important;}
+.txt-small {padding: 0!important;font-size: 15px;}
+.bg-gj {color: #fff !important;font-size: 16px;background-color: #73aff9;}
+.bg-gj-light {background-color: #c1ddff;}
+.bg-by {color: #fff !important;font-size: 16px;background-color: #ff7ca8;}
+.bg-by-light {background-color: #ffdce7;}
+.bg-is {color: #fff !important;font-size: 16px;background-color: #45ca9a;}
+.bg-is-light {background-color: #b4f5de;}
+.schedule {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wrap-tbl-calendar .tbl td.gray {background-color: #f5f5f5;}
