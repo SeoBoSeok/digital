@@ -1467,3 +1467,5 @@ table.comment-list td img {vertical-align:middle;}
     border: 1px solid #aaa;
     padding: 3px 5px;
 }
+.pg_wrap {margin-top: 40px; text-align: center;}
+.pg_wrap .pg a, .pg_wrap .pg strong {display: inline-block; padding: 5px;}
