@@ -51,12 +51,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section> -->
 			<div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
+            <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=booth">
                   <span class="subpage-link-text">부스배치도</span>
               </a>
             </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item active">
+            <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=schedule">
                   <span class="subpage-link-text">참여업체</span>
               </a>
