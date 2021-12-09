@@ -45,9 +45,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
             <div class="center">
                 <h2>관람객 사전신청</h2>
-                <p>
+                <!-- <p>
                 2021 공주디지털문화유산전 관람객 사전신청
-                </p>
+                </p> -->
             </div>
                 <div class="lists apply">
                 <div class="form_wrap">
