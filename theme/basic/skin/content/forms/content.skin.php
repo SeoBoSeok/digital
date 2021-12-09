@@ -22,7 +22,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p>미래교육 신청</p>
+            <p>미래교육 사전신청</p>
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li>미래교육 신청</li>
+            <li>미래교육 사전신청</li>
           </ul>
         </div>
       </section>
@@ -41,13 +41,32 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
+                  <span class="subpage-link-text">관람객 사전신청</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=forms">
+                  <span class="subpage-link-text">미래교육 사전신청</span>
+              </a>
+            </span>            
+            <span class="subpage-item each-line subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=formscheck">
+                  <span class="subpage-link-text">사전신청 확인</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2>미래교육 신청</h2>
-                <p>
-                2021 공주디지털문화유산전 미래교육 신청
-                </p>
+                <h2>미래교육 사전신청</h2>
+                <!-- <p>
+                2021 공주디지털문화유산전 미래교육 사전신청
+                </p> -->
             </div>
                 <div class="lists apply">
                 <div class="form_wrap">
