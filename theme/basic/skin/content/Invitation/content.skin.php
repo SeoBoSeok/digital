@@ -50,7 +50,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
-      .
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item active">
