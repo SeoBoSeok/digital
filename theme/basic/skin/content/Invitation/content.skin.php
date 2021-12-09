@@ -50,6 +50,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
+      .
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation">
+                  <span class="subpage-link-text">초청전</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=conference">
+                  <span class="subpage-link-text">컨퍼런스</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>      
       <section class="sec1">
         <div class="inner">
           <div class="cont ani active">

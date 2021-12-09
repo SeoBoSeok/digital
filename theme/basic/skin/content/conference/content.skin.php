@@ -48,6 +48,20 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation">
+                  <span class="subpage-link-text">초청전</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=conference">
+                  <span class="subpage-link-text">컨퍼런스</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>
       <section class="sec1">
         <div class="inner">
           <div class="cont ani active">
@@ -61,40 +75,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3>컨퍼런스</h3>
                 <div class="lists">
                   <p>
-                    디지털 헤리티지 초청전은 최신 기술의 변화와
-                    트렌드 이해를 통해 디지털 문화형성을 보여주고자합니다.
-                    다양한 전시로 디지털헤리티지의 가치를 대중과 공유합니다.  
-                    디지털 헤리티지 초청전은 최신 기술의 변화와
-                    트렌드 이해를 통해 디지털 문화형성을 보여주고자합니다.
+                  2021 공주 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘이미지 분석과 활용 튜토리얼‘, ‘디지털 문화유산 생태계 심포지엄’, ‘문화자원과 디지털아카이브 세미나’, ‘디지털 고고학 세미나’, ‘디지털 헤리티지 전문가 워크숍’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
                   </p>
-                  <!-- <dl>
-                    <dt>관람기간</dt>
-                    <dd>12.18(토) ~ 12.20(월), 3일간</dd>
-                  </dl>
-                  <dl>
-                    <dt>관람시간</dt>
-                    <dd>10:00 ~ 18:00</dd>
-                  </dl>
-                  <dl>
-                    <dt>장소</dt>
-                    <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>
-                  </dl>
-                  <dl>
-                    <dt>주최</dt>
-                    <dd>공주시</dd>
-                  </dl>
-                  <dl>
-                    <dt>주관</dt>
-                    <dd>국립공주대학교 공주학연구원</dd>
-                  </dl>
-                  <dl>
-                    <dt>후원</dt>
-                    <dd>문화재청</dd>
-                  </dl> -->
                 </div>
-                <!-- <a href="#" class="down">
-                  <span>브로슈어<br>다운로드</span>
-                </a> -->
               </div>
             </div>
           </div>
