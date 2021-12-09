@@ -33,7 +33,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </ul>
         </div>
       </section>
-      <section class="sec0">
+      <!-- <section class="sec0">
         <div class="inner">
           <div class="cont ani">
           <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
@@ -48,7 +48,31 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </table>
           </div>
         </div>
-      </section>
+      </section> -->
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=about_org">
+                  <span class="subpage-link-text">디지털문화유산 산업</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=about_org_dev">
+                  <span class="subpage-link-text">디지털문화유산 연구개발</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=about_org_edu">
+                  <span class="subpage-link-text">디지털문화유산 미래교육</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
+                  <span class="subpage-link-text">문화유산상품 마켓</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div> 
       <section class="sec1">
         <div class="inner">
           <div class="cont ani active">
