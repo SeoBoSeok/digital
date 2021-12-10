@@ -69,7 +69,7 @@ if (!empty($_REQUEST['program'])) {
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2>관람객 사전신청</h2>
+                <h2><?php echo $_program; ?> 사전신청</h2>
                 <!-- <p>
                 2021 공주디지털문화유산전 관람객 사전신청
                 </p> -->
