@@ -113,7 +113,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>사전신청</dt>
-                <dd><a href="/bbs/content.php?co_id=pre_forms">사전신청하기</a></dd>
+                <dd><a href="/bbs/content.php?co_id=pre_forms" target="_blank">사전신청하기</a></dd>
               </dl>
             </div>
           </div>
