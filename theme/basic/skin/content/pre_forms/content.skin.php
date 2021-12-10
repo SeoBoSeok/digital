@@ -4,6 +4,12 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
+$_program = "";
+if (!empty($_REQUEST['program'])) {
+  $_program = "튜토리얼";
+} else {
+  $_program = "관람객";
+}
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
@@ -22,7 +28,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p>관람객 사전신청</p>
+            <p><?php echo $_program; ?> 사전신청</p>
           </div>
         </div>
       </section>
@@ -30,7 +36,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li>관람객 사전신청</li>
+            <li><?php echo $_program; ?> 사전신청</li>
           </ul>
         </div>
       </section>
@@ -45,7 +51,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
-                  <span class="subpage-link-text">관람객 사전신청</span>
+                  <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
               </a>
             </span>
             <span class="subpage-item each-line subpage_nav_item ">
@@ -78,7 +84,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <td class="ttl">프로그램</td>
                             <td class="box6 ride_count">
                                 <div class="box6_01">
-                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program[$_program_detail]; ?>" readonly />
+                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program; ?>" readonly />
                                 </div>
                             </td>
                         </tr>             
