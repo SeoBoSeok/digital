@@ -93,7 +93,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </h3>
               <dl>
                 <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dd>한국전통문화대학교</dd>
+              </dl>
+              <dl>
+                <dt>소개</dt>
+                <dd>한국전통문화대학교(총장 김영모)는 조선 시대 기록화인 <화성원행도병(華城園幸圖屛)>의 8폭 병풍 중 군사훈련이 표현된 <서장대야조도(西將臺夜操圖)>를 바탕으로 복식·기물·지형·건축·훈련 절차를 고증하고 이를 3차원 입체(이하 3D)로 시각화한 증강현실(Augmented Reality, AR) 실감 콘텐츠를 개발하였다.</dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -118,7 +122,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
           </div>
           <div class="video_contents">
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/rnBv9CnKMto' frameborder='0' allowfullscreen></iframe></div>
           </div>
           <a href="./" class="reservation_btn">
             <b>사전신청하기</b>

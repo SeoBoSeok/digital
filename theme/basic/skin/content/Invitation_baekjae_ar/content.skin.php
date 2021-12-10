@@ -89,11 +89,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+                문화재청
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>소개</dt>
+                <dd>문화재청 한국전통문화대학교(총장 김영모)는 소실된 정지산 유적지의 제의시설 건물(기와건물지 1동, 벽주건물지 2동)을 야외 유적지 현장에서 실제 크기로 관람할 수 있도록 3차원 입체(3D) 가상복원과 증강현실(Augmented Reality, AR)로 개발·구현하였다.<br>
+정지산 유적지는 충남 공주시에 있는 삼국 시대 백제 왕실의 제의시설로 현재 터만 남아 있으며 사적으로 지정되어 있다. 이번 증강현실 복원은 관람객이 직접 건축물의 단계별 고증안을 선택하여 다양한 고증 복원안을 야외 유적지 현장에서 체험할 수 있도록 연구개발 되었다. 소실된 고건축 문화재를 디지털로 구현한 사례는 이전에도 몇 차례 있었으나 건축물의 여러 부위별 복원안을 가상 재조립하여 야외 증강현실로 시각화한 사례는 이번 정지산 유적지 복원이 최초다.</dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -118,7 +119,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
           </div>
           <div class="video_contents">
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/hBT4slTIXR4' frameborder='0' allowfullscreen></iframe></div>
           </div>
           <a href="./" class="reservation_btn">
             <b>사전등록하기</b>

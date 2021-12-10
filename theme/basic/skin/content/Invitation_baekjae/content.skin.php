@@ -92,8 +92,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 한국전통문화대학교 IDH연구소
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>소개</dt>
+                <dd>백제역사유적지구이 국내외 연구기반 확대를 위해서 백제문화와 관련한 종합적인 학술자료들을 제공하고 있습니다. 또한 백제역사유적지구의 세계유산적 가치 및 우수성을 홍보하고, 유산의 대중적 향유를 위한 연구성과 체계를 구축하였습니다.</dd>
+              </dl>
+              <dl>
+                <dt>홈페이지</dt>
+                <dd><a href="http://archive.baekje-heritage.or.kr/site/kr/" target="_blank">http://archive.baekje-heritage.or.kr/site/kr/</a></dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -118,7 +122,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
           </div>
           <div class="video_contents">
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/chrhW2ebCkg' frameborder='0' allowfullscreen></iframe></div>
           </div>
           <a href="./" class="reservation_btn">
             <b>사전신청하기</b>

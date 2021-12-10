@@ -89,11 +89,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+                공주대학교 문화재보존과학과
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>소개</dt>
+                <dd>박물관에 전시된 청동거울은 대부분 부식으로 인해 색상 과 형태 등이 변형되어 있고, 주로 문양 면을 중심으로 전 시되어 있어 관람객들이 거울로서의 용도와 기능을 인식 하지 못하는 경우가 많다. 따라서 청동거울의 제작과 원 형을 회복하는 과정은 전통과학기술과 현대보존과학을 이해하는 중요한 콘텐츠이다. 청동거울의 과학, 기술, 공 학, 수학, 예술 등 융합적 요소를 미디어아트 전시에 적극 적으로 활용할 수 있도록 다양한 전시효과 및 인터랙션 기술을 개발하였다. 특히 과학문화유산인 청동거울의 제 작 과정, 부식 메커니즘, 과학적 분석 및 진단, 보존처리 등 전통제작기술부터 현대보존과학까지 이해할 수 있는 미디어아트 기반의 체험형 전시플랫폼을 구축하였다.</dd>
+              </dl>
+              <dl>
+                <dt>홈페이지</dt>
+                <dd><a href="https://munbo.kongju.ac.kr/ZC0200/index.do" target="_blank">https://munbo.kongju.ac.kr/ZC0200/index.do</a></dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -118,7 +122,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
           </div>
           <div class="video_contents">
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/9m52o3a8788' frameborder='0' allowfullscreen></iframe></div>
           </div>
           <a href="./" class="reservation_btn">
             <b>사전신청하기</b>
