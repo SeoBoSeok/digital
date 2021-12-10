@@ -77,7 +77,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <td class="ttl">프로그램</td>
                             <td class="box6 ride_count">
                                 <div class="box6_01">
-                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program[$_program_detail]; ?>" readonly />
+                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="미래교육" readonly />
                                 </div>
                             </td>
                         </tr>             
