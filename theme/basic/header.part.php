@@ -8,12 +8,12 @@
           <a href="/bbs/content.php?co_id=introduce">전시소개</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=introduce">전시소개</a></li>
-            <li><a href="/bbs/content.php?co_id=booth">공간배치</a></li>
+            <li><a href="/bbs/content.php?co_id=booth">부스배치도</a></li>
             <li><a href="/bbs/content.php?co_id=schedule">참가업체리스트</a></li>
           </ul>
         </li>
         <li>
-          <a href="/bbs/content.php?co_id=about">참여기관</a>
+          <a href="/bbs/content.php?co_id=about_org">참여기관</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=about_org">디지털문화유산 산업</a></li>
             <li><a href="/bbs/content.php?co_id=about_org_dev">디지털문화유산 연구개발</a></li>

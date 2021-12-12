@@ -254,6 +254,9 @@ header h1 {
   background: url(../img/digital_sec1_img3.jpg) left top #c85912 no-repeat;
   box-shadow: 0px 50px 100px 0px rgba(4, 0, 0, 0.3);
 }
+.digital .sec1 .info.orange {
+  background: url(../img/digital_sec1_img3.jpg) left top #c85912 no-repeat !important;
+}
 .digital .sec1 .ani.active .info {
   animation: posX-40-up 1.8s ease both 0.6s;
   background: #f5f5f5 url(/common/img/bg_section.png) right bottom no-repeat;

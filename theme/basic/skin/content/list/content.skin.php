@@ -51,7 +51,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 			<h3 id="lnb_tit2"></h3>
 			<ul class="copy_menu" id="lnb_menu">
                 <li class="lnb1 on"><a href="#;">행사소개</a></li>
-                <li class="lnb1"><a href="#;">공간배치</a></li>
+                <li class="lnb1"><a href="#;">부스배치도</a></li>
                 <li class="lnb1"><a href="#;">참가업체 리스트</a></li>
 			</ul>
 		</div>
