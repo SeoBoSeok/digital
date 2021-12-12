@@ -310,7 +310,7 @@ section.sec0 .inner table {
   border: 0;
 }
 .modal.show .modal-dialog {
-  height: 80vh;
+  height: 90vh;
 }
 td.link:hover {
   background-color: #4485ba;
