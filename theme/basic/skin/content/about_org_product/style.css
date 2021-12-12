@@ -156,7 +156,7 @@ section.sec0 .inner table td:hover {
   background: url(/common/img/main_sec3_arrow.png) center 30px no-repeat;
 } */
 .invitation_one{
-  background: url(/common/img/ventabus.jpg) center center no-repeat;
+  background: url(/common/img/about_org_market.png) center center no-repeat;
   background-size: cover;
   z-index: 99;
 }

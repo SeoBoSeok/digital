@@ -165,7 +165,7 @@ if(G5_COMMUNITY_USE === false) {
             <div class="slider">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="/bbs/content.php?co_id=about_org">
                     <img src="common/img/digital_sec2_img1.png" alt="" />
                     <div class="text">
                       <span class="top">Program 01</span>
@@ -179,8 +179,8 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src="common/img/digital_sec2_img5.jpg" alt="" />
+                  <a href="/bbs/content.php?co_id=about_org_dev">
+                    <img src="common/img/about_org_dev.png" alt="" />
                     <div class="text">
                       <span class="top">Program 02</span>
                       <h3>연구개발</h3>
@@ -193,8 +193,8 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src="common/img/main_sec2_slide2.jpg" alt="" />
+                  <a href="/bbs/content.php?co_id=about_org_edu">
+                    <img src="common/img/about_org_edu.png" alt="" />
                     <div class="text">
                       <span class="top">Program 03</span>
                       <h3>미래교육</h3>
@@ -207,7 +207,7 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/bbs/content.php?co_id=Invitation">
                     <img src="common/img/main_sec2_slide4.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 04</span>
@@ -221,7 +221,7 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/bbs/content.php?co_id=conference">
                     <img src="common/img/main_sec2_slide1.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
@@ -235,8 +235,8 @@ if(G5_COMMUNITY_USE === false) {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <img src="common/img/digital_sec2_img6.jpg" alt="" />
+                  <a href="/bbs/content.php?co_id=about_org_product">
+                    <img src="common/img/about_org_market.png" alt="" />
                     <div class="text">
                       <span class="top">Program 06</span>
                       <h3>문화유산상품 마켓</h3>

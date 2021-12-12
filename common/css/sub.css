@@ -398,6 +398,7 @@ header h1 {
   .digital .sec1 .img_box {
     float: none;
     width: 100%;
+    min-height: 400px;
     height: auto;
     padding: 50px 5%;
   }
