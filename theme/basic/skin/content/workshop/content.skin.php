@@ -98,20 +98,20 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 스캐닝 결과 주요 이슈 공유 및 고도화 방안 협의</dd>
               </dl>
               <dl>
-                <dt>담당자</dt>
-                <dd>도미솔 팀장 (010-8704-2070)</dd>
+                <dt>주최</dt>
+                <dd>문화재청 디지털문화유산팀</dd>
               </dl>
               <dl>
-                <dt>대상</dt>
-                <dd>문화재청 디지털문화유산팀, NDS컨소시엄, 사업 참여기관 등</dd>
-              </dl>
+                <dt>주관</dt>
+                <dd>국립공주대학교·한국전통문화대학교·NDS컨소시엄</dd>
+              </dl>              
               <dl>
                 <dt>일시</dt>
                 <dd>12월 20일(월) 10:00~15:00</dd>
               </dl>
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 3F, 세미나실 303</dd>
+                <dd>아트센터고마 3F 세미나실 3</dd>
               </dl>
               <!-- <dl>
                 <dt>후원</dt>
@@ -156,35 +156,38 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<td><span>09:50 - 10:00</span></td>
-										<td><span>사  회</span></td>
+										<td><span>등  록</span></td>
                     <td><span></span></td>
 								</tr>
 								<tr>
 										<td><span>10:00 - 10:20</span></td>
 										<td><span>개  회</span></td>
-                    <td><span></span></td>
+                    <td><span>개회사:안 호(문화재청 디지털문화유산팀장)<br>환영사:이찬희(국립공주대학교 공주학연구원장)</span></td>
 								</tr>
 								<tr>
 										<td><span>10:20 - 11:00</span></td>
-										<td><span>문화유산과 디지털아카이브</span></td>
-                    <td><span>배민준 대표 (헤리티지 스튜디오 깃)</span></td>
+										<td><span>근대문화유산 유형별 기록화 방안 및 이슈</span></td>
+                    <td><span>[발제1] 배민준(헤리티지 스튜디오 깃 대표)</span></td>
 								</tr>
 								<tr>
 										<td><span>11:00 - 11:40</span></td>
-										<td><span>문화자원 디지털 아카이빙 통합관리 방안</span></td>
-                    <td><span>오정은 실장<br>
-(한국전통문화대학교 산학협력단)</span></td>
+										<td><span>자연유산 유형별 기록화 방안 및 이슈</span></td>
+                    <td><span>[발제2] 오정은(한국전통문화대학교 산학협력단 실장)</span></td>
 								</tr>
+                <tr>
+										<td class="gray"><span>11:40 - 13:00</span></td>
+										<td class="gray"><span>중  식</span></td>
+                    <td class="gray"><span></span></td>
+								</tr>                
 								<tr>
 										<td><span>13:00 - 13:40</span></td>
-										<td><span>디지털 공주, 공주학 아카이브 만들기</span></td>
-                    <td><span>이건우 대표 (캐럿펀트)</span></td>
+										<td><span>유적·건조물문화재 원형DB 구축 이슈 및 워크·검수시트 파일럿 결과</span></td>
+                    <td><span>조영훈(국립공주대학교 문화재보존과학과 교수)</span></td>
 								</tr>
 								<tr>
 										<td><span>13:40 - 15:00</span></td>
-										<td><span>패널 토론</span></td>
-                    <td><span>조영훈 교수<br>
-(국립공주대학교 문화재보존과학과)</span></td>
+										<td><span>종합 질의 및 토론</span></td>
+                    <td><span>안재홍(한국과학기술원 문화기술대학원 초빙교수)</span><br><span>김충식(한국전통문화대학교 전통조경학과 교수)</span><br><span>조영훈(국립공주대학교 문화재보존과학과 교수)</span></td>
 								</tr>                                               								                                                           								
 						</tbody>
 					</table>

@@ -94,18 +94,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <dl>
                 <dt>목적</dt>
                 <dd>
- 디지털 문화유산 분야 최신 기술 및 관련 산업 소개<br>
- 디지털 문화유산 산업-교육-연구개발 생태계 구축 <br>
- 문화유산의 보존·활용과 디지털 대전환 촉진 환경 마련
+ 디지털 문화유산 분야 최신 기술(디바이스·솔루션·콘텐츠 등) 및 관련 사례 소개<br>
+ 디지털 문화유산 산업·교육·연구개발 생태계 구축 및 문화유산 디지털 대전환 촉진 환경 마련
 </dd>
               </dl>
               <dl>
-                <dt>대상</dt>
+                <dt>주최</dt>
+                <dd>공주시</dd>
+              </dl>              
+              <dl>
+                <dt>주관</dt>
                 <dd>국립공주대학교 공주학연구원</dd>
               </dl>
               <dl>
                 <dt>일시</dt>
-                <dd>12월 18일(토) 15:00~17:00</dd>
+                <dd>12월 19일(일) 10:00~17:40</dd>
               </dl>
               <!-- <dl>
                 <dt>준비물</dt>
@@ -133,8 +136,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
 								<col style="width: 20%;">
-								<col style="width: 50%;">
-                <col style="width: 30%;">
+								<col style="width: 40%;">
+                <col style="width: 40%;">
 						</colgroup>
 						<thead>
 								<!-- <tr>
@@ -153,28 +156,27 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<td><span>09:30 - 10:00</span></td>
 										<td><span>등  록</span></td>
-                    <td><span></span></td>
+                    <td><span>사회:박진호(문화재디지털복원가)</span></td>
 								</tr>
 								<tr>
 										<td><span>10:00 - 10:20</span></td>
 										<td><span>개  회</span></td>
-                    <td><span></span></td>
+                    <td><span>개회사:이찬희(국립공주대학교 공주학연구원장)<br>축 사:김정섭(공주시장)</span></td>
 								</tr>
 								<tr>
 										<td><span>10:20 - 11:00</span></td>
-										<td><span>문화재청 디지털문화유산팀의 비전과 전략</span></td>
-                    <td><span>최연규 사무관<br>
-(문화재청 디지털문화유산팀)</span></td>
+										<td><span>문화재청, 디지털문화유산 비전과 전략</span></td>
+                    <td><span>[기조강연] 최연규(문화재청 디지털문화유산팀 사무관)</span></td>
 								</tr>
 								<tr>
 										<td><span>11:00 - 11:30</span></td>
-										<td><span>디지털 문화유산 스타트업 활성화 방안 : 드론 및 인공지능 기술 중심으로</span></td>
-                    <td><span>추혜성 대표 (리하이)</span></td>
+										<td><span>디지털 문화유산 스타트업 활성화 방안 : 4차산업 기술 중심으로</span></td>
+                    <td><span>[발제1] 추혜성((주)리하이 대표)</span></td>
 								</tr>
 								<tr>
 										<td><span>11:30 - 12:00</span></td>
 										<td><span>고고 유물의 디지털 기록 및 실측을 위한 디지털 솔루션 개발</span></td>
-                    <td><span>이건우 대표 (캐럿펀트)</span></td>
+                    <td><span>[발제2] 이건우((주)캐럿펀트 대표)</span></td>
 								</tr>
 								<tr>
 										<td class="gray"><span>12:00 -13:00</span></td>
@@ -183,62 +185,53 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
                 <tr>
 										<td><span>13:00-13:30</span></td>
-										<td><span>디지털 백제역사유적지구</span></td>
-                    <td><span>도미솔 학예사 (백제세계유산센터)</span></td>
-								</tr>
-								<tr>
-										<td><span>10:00 - 10:20</span></td>
-										<td><span>개  회</span></td>
-                    <td><span></span></td>
+										<td><span>세계유산 백제역사유적지구의 디지털 콘텐츠</span></td>
+                    <td><span>[발제3] 도미솔((재)백제세계유산센터 학예연구사)</span></td>
 								</tr>
 								<tr>
 										<td><span>13:30-14:00</span></td>
 										<td><span>문화유산 메타버스</span></td>
-                    <td><span>전우열 대표 (벤타브이알)</span></td>
+                    <td><span>[발제4] 전우열((주)벤타브이알 대표)</span></td>
 								</tr>
 								<tr>
 										<td><span>14:00-14:30</span></td>
 										<td><span>디지털 문화유산을 이용한 미래 교육</span></td>
-                    <td><span>이수진 소장 (다빈치창의융합연구소)</span></td>
+                    <td><span>[발제5] 이수진(다빈치창의융합연구소장)</span></td>
 								</tr>
 								<tr>
-										<td class="gray"><span>14:30-14:40</span></td>
+										<td><span>14:30-15:00</span></td>
+										<td><span>과학문화유산의 체험형 미디어아트 교육콘텐츠 개발 : 청동거울, 과학을 비추다</span></td>
+                    <td><span>[발제6] 조영훈(국립공주대학교 문화재보존과학과 교수)</span></td>
+								</tr>                
+                <tr>
+										<td class="gray"><span>15:00-15:10</span></td>
 										<td class="gray"><span>휴 식</span></td>
                     <td class="gray"></td>
 								</tr> 
-                <tr>
-										<td><span>14:40-15:10</span></td>
-										<td><span>과학문화유산의 인터랙티브 미디어아트 콘텐츠 개발 : 청동거울, 과학을 비추다</span></td>
-                    <td><span>오승준 교수 (한서대학교 문화재보존학과)</span></td>
-								</tr>
 								<tr>
 										<td><span>15:10-15:40</span></td>
-										<td><span>3차원 디지털 기술을 활용한 도자기 유물의 보존방안</span></td>
-                    <td><span>유정민 교수<br>
-(전통문화대학교 문화유산산업학과)</span></td>
+										<td><span>훼손 도자기 보존을 위한 3차원 디지털 기술의 적용</span></td>
+                    <td><span>[발제7] 오승준(한서대학교 문화재보존과학연구센터 연구교수)</span></td>
 								</tr>
 								<tr>
 										<td><span>15:40-16:10</span></td>
-										<td><span>확장현실 기반 디지털 헤리티지 연구의 발전방향 </span></td>
-                    <td><span>남상민<br>
-((사)한국문화재디지털보존협회 회장)</span></td>
-								</tr>
+										<td><span>확장현실 기반 디지털 헤리티지 연구의 발전방향</span></td>
+                    <td><span>[발제8] 유정민(한국전통문화대학교 문화유산산업학과 교수)</span></td>
+								</tr>	
 								<tr>
 										<td><span>16:10-16:40</span></td>
-										<td><span>세계유산 미디어아트와 실경 미디어퍼포먼스<br>
-  -수원화성 미디어아트쇼 연출을 중심으로</span></td>
-                    <td><span>안지형 감독<br>
-(수원화성 미디어아트쇼 콘텐츠 디렉터)</span></td>
-								</tr>
+										<td><span>해외 유출 문화재의 디지털 귀향 캠페인</span></td>
+                    <td><span>[발제9] 남상민((사)한국문화재디지털보존협회장)</span></td>
+								</tr>    
                 <tr>
-										<td><span>16:40-17:10</span></td>
-										<td><span>경원(들꽃공예)</span></td>
-                    <td><span> 이찬희 원장 (국립공주대학교 공주학연구원)</span></td>
-								</tr>
+										<td><span>16:10-16:40</span></td>
+										<td><span>세계유산 수원화성 미디어아트쇼와 실경 미디어 퍼포먼스</span></td>
+                    <td><span>[발제10] 안지형(세컨드윈드 스테이지 예술감독, 수원화성 미디어아트쇼 콘텐츠디렉터)</span></td>
+								</tr>                            							
 								<tr>
-										<td><span>17:10-17:50</span></td>
+										<td><span>17:00-17:40</span></td>
 										<td><span>패널 토론</span></td>
-                    <td><span></span></td>
+                    <td><span>이찬희(국립공주대학교 공주학연구원장)</span></td>
 								</tr>                                                                            								                                                           								
 						</tbody>
 					</table>

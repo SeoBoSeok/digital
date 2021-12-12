@@ -100,16 +100,28 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
               </dl>
               <dl>
+                <dt>주최</dt>
+                <dd>(사)한국문화재보존과학회</dd>
+              </dl>
+              <dl>
+                <dt>주관</dt>
+                <dd>웨이퍼마스터즈</dd>
+              </dl>                            
+              <dl>
                 <dt>일시</dt>
-                <dd>12월 18일(토) 15:00~17:00</dd>
+                <dd>12월 18일(토) 15:00~17:50</dd>
               </dl>
               <dl>
                 <dt>준비물</dt>
                 <dd>개인 노트북 지참(필수사항 아님), 테스트 이미지는<br>튜토리얼 시작 시 USB 배포 or 사전 배포</dd>
               </dl>
               <dl>
+                <dt>진행</dt>
+                <dd>김정곤(웨이퍼마스터즈 부장)</dd>
+              </dl>              
+              <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 3F, 세미나실 307</dd>
+                <dd>아트센터고마 3F 세미나실 7</dd>
               </dl>
               <dl>
                 <dt>사전신청</dt>
@@ -123,7 +135,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="details">
           <div class="schedule">
 					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
-					<h3>12월 18일(토) 15:00~17:00</h3>
+					<h3>12월 18일(토) 15:00~17:50</h3>
 					
 					<div class="wrap-tbl-calendar mb-50 table-container">
 					<table class="tbl">
@@ -149,36 +161,44 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<td><span>09:30 - 15:00</span></td>
+										<td><span>14:50 - 15:00</span></td>
 										<td><span>등  록</span></td>
 								</tr>
 								<tr>
-										<td><span>15:00 - 15:40</span></td>
+										<td><span>15:00 - 15:50</span></td>
 										<td><span>- 아날로그 신호와 디지털 신호<br>
 - 아날로그 이미지와 디지털 이미지<br>
 - 색공간과 파장<br>
 - 형태 심리학</span></td>
 								</tr>
 								<tr>
-										<td class="gray"><span>15:40 - 15:45</span></td>
+										<td class="gray"><span>15:50 - 16:00</span></td>
 										<td class="gray"><span>휴  식</span></td>
 								</tr>
 								<tr>
-										<td><span>15:45 - 16:20</span></td>
+										<td><span>16:00 - 16:40</span></td>
 										<td><span>- 디지털 이미지의 촬영과 구조<br>
 - 초분광 이미지와 3차원 이미지<br>
 - 이미지를 통한 정량해석</span></td>
 								</tr>
 								<tr>
-										<td class="gray"><span>16:20 - 16:25</span></td>
+										<td class="gray"><span>16:40 - 16:50</span></td>
 										<td class="gray"><span>휴  식</span></td>
 								</tr>  
 								<tr>
-										<td><span>16:25 - 15:00</span></td>
+										<td><span>16:50 - 17:30</span></td>
 										<td><span>- 문화재 분석 및 데이터베이스화<br>
 - 이미지 프로세싱 소프트웨어(PicMan) 시연<br>
 - 질의 응답</span></td>
-								</tr>                                                               								
+								</tr>
+								<tr>
+										<td class="gray"><span>17:30 - 17:40</span></td>
+										<td class="gray"><span>휴  식</span></td>
+								</tr>  
+								<tr>
+										<td><span>17:40 - 17:50</span></td>
+										<td><span>[시상]위광철((사)한국문화재보존과학회장)<br>* 우수 교육생 시상</span></td>
+								</tr>                                                                                             								
 						</tbody>
 					</table>
 				</div>				
