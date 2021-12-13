@@ -174,33 +174,33 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                     </div>
                                     <div class="program_row">
                                       <span style="padding-right: 10px;">[에듀크래프트(유료)]</span>
-                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
-                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
-                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
-                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
-                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
-                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
-                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="edu17">17시</label>
                                     </div>
                                     <div class="program_row">
                                       <span style="padding-right: 10px;">[다빈치창의융합연구소]</span>
-                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
-                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
-                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
-                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
-                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
-                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
-                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="davin17">17시</label>
                                     </div>
                                     <div class="program_row">
                                       <span style="padding-right: 10px;">[생활과학교실]</span>
-                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
-                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
-                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
-                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
-                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
-                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
-                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                      <label><input type="radio" name="rsv_time" value="science10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="science11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="science13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="science14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="science15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="science16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="science17">17시</label>
                                     </div>
                                 </div>
                                 <div class="box5_03">
@@ -218,15 +218,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                 </div>
                                 <div class="box5_02">
                                     <span>소속</span>
-                                    <input type="text" name="rsv_name" placeholder="소속">
+                                    <input type="text" name="rsv_group" placeholder="소속">
                                 </div>
                                 <div class="box5_02">
                                     <span>직책</span>
-                                    <input type="text" name="rsv_name" placeholder="직책">
+                                    <input type="text" name="rsv_position" placeholder="직책">
                                 </div>
                                 <div class="box5_02">
                                     <span>이메일</span>
-                                    <input type="text" name="rsv_name" placeholder="이메일">
+                                    <input type="text" name="rsv_email" placeholder="이메일">
                                 </div>                                
                                 <div class="box7">
                                     <!-- <span>주소</span> -->
@@ -241,8 +241,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                 <!-- s:개인정보처리방침 -->
                                     <span>유형</span>
                                     <div>
-                                        <label><input type="radio" name="types">개인</label>
-                                        <label><input type="radio" name="types">단체</label>
+                                        <label><input type="radio" name="rsv_types" value="개인">개인</label>
+                                        <label><input type="radio" name="rsv_types" value="단체">단체</label>
                                         <span style="display: block; color: #007bff;">단체의 경우, 공지사항-단체참관 양식을 작성하여 이메일(kjhak@kongju.ac.kr)로 제출 부탁드립니다.</span>
                                     </div>
                                 <div>

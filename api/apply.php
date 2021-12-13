@@ -62,6 +62,7 @@ $rsv_tel .= "-";
 $rsv_tel .= strval($_POST['rsv_tel3']);
 $rsv_email = $_POST['rsv_email'];
 $rsv_group = $_POST['rsv_group'];
+$rsv_time = $_POST['rsv_time'];
 $rsv_position = $_POST['rsv_position'];
 $rsv_types = $_POST['rsv_types'];
 $rsv_address = $_POST['rsv_address'];
@@ -129,6 +130,7 @@ insert into apply
     rsv_group    = '$rsv_group',
     rsv_position    = '$rsv_position',
     rsv_types    = '$rsv_types',
+    rsv_time    = '$rsv_time',
     rsv_address  = '$rsv_address',
     rsv_detailAddress  = '$rsv_detailAddress',
     ride_adult_cnt		= '$ride_adult_cnt',

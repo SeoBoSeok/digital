@@ -74,9 +74,64 @@ if (!empty($_REQUEST['program'])) {
                 2021 공주디지털문화유산전 관람객 사전신청
                 </p> -->
             </div>
+            <?php
+              if(!empty($_REQUEST['program'])) {
+              ?>
+<div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+              <col style="width: 12%;">
+              <col style="width: 20%;">
+              <col style="width: 35%;">
+              <col style="width: 5%;">
+              <col style="width: 20%;">
+              <col style="width: 5%;">
+              <col style="width: 5%;">
+              <col style="width: 5%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">기업명</th>
+                    <th scope="col" class="point_bg">체험명</th>
+										<th scope="col" class="point_bg">체험내용</th>
+										<th scope="col" class="point_bg">체험비</th>
+                    <th scope="col" class="point_bg">운영기간</th>
+                    <th scope="col" class="point_bg">소요시간</th>
+                    <th scope="col" class="point_bg">체험인원</th>
+                    <th scope="col" class="point_bg">대상</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+                  <td>웨이퍼마스터즈</td>
+                  <td>웨이퍼마스터즈</td>
+                  <td>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</td>
+                  <td>무료</td>
+                  <td>2021. 12. 18. (토) 15:00~17:00</td>
+                  <td>2시간</td>
+                  <td>20명</td>
+                  <td>디지털문화유산분야 전문가</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>                 
+              <?php
+              }
+              ?>
                 <div class="lists apply">
                 <div class="form_wrap">
                     <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
+                    <?php
+                    if(!empty($_REQUEST['program'])) {
+                    ?>
+                    <input type="hidden" name="rsv_time" value="tutorial" >
+                    <?php
+                    }
+                    ?>
                       <input type="hidden" name="token" value="pre_forms" >
                         <table>
                         <tbody>
@@ -209,7 +264,7 @@ if (!empty($_REQUEST['program'])) {
 * 관람객 간 최대 2M 거리를 유지하며 관람해 주세요.<br>
 * 최근 14일 이내 해외 혹은 확진자 발생 지역을 다녀오신 경험이 있으시거나 37.5도 이상의 발열, 기침, 가래, 인후통과 같은 호흡기 증상이 있으신 분은 방문을 자제해 주세요.<br>
 * 코로나바이러스감염증-19 확산 예방을 위하여 모든 직원은 마스크와 장갑을 착용하고 근무하며, 정기적으로 방역을 진행합니다.<br>
-* 플래시, 삼각대 및 셀카봉을 이용한 촬영, 상업적 용도의 촬영, 동영상 촬영은 불가합니다.
+* 플래시, 삼각대 및 셀카봉을 이용한 촬영, 상업적 용도의 촬영, 동영상 촬영은 불가합니다.<br>
 * 예약정보 오기로 인한 사전신청 오류시에는 책임지지 않습니다.
                     </div>
                         <div class="btn_box">

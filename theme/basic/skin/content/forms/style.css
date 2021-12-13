@@ -678,7 +678,8 @@ label {
 }
 
 #reservation_check {
-  width: 25%;
+  /* width: 25%; */
+  padding: 10px 50px;
   height: 50px;
   font-size: 18px;
   border-radius: 10px;

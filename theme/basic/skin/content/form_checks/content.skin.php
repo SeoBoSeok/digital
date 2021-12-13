@@ -83,13 +83,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             </div>
                             <div class="title">신청 프로그램</div>
                             <select name="program" id="program">
-                                <!-- <option>공주근대건축만들기</option>
-                                <option>공주문화재야행스트링아트</option>
-                                <option>소원종이등만들기</option>
-                                <option>가죽그립톡만들기</option>
-                                <option>도자기모빌만들기</option>
-                                <option>천문대관측프로그램</option>
-                                <option>1박2일숙박프로그램</option> -->
+                                <option>관람객</option>
+                                <option>튜토리얼</option>
+                                <option>미래교육</option>
                             </select>
                         </div>
                         <div class="btn_box">
@@ -225,64 +221,90 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section>
     </footer>
     <script>
-    document.getElementById("reservation_check").addEventListener("click", function(){
-        if(!$('input[name=rsv_name]').val()) {
-            alert('이름을 입력해주세요');
-            $('input[name=rsv_name]').focus();
-            return;
-        }
-        if(!$('input[name=rsv_tel2]').val()) {
-            alert('전화번호를 확인해주세요');
-            $('input[name=rsv_tel2]').focus();
-            return;
-        }
-
-        // console.log($('input:checkbox[name=agree]:checked').val());
-        // if ($('input[name=agree]').val())
-        if ($('input:checkbox[name=agree]:checked').val()) {
-            $('.check_name').text($('input[name=rsv_name]').val());
-            $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
-            $('.check_group').text($('input[name=rsv_group]').val());
-            $('.check_position').text($('input[name=rsv_position]').val());
-            $('.check_email').text($('input[name=rsv_email]').val());
-            $('.check_types').text($('input[name=rsv_types]:checked').val());
-            $('#exampleModalCenter').modal('show');
-        } else {
-            alert("개인정보 수집 동의에 체크하셔야 합니다");
-        }
-    });
     $(document).ready(function(){
-        $('#reservation_go').click(function(){   //submit 버튼을 클릭하였을 때
-            $('#exampleModalCenter').modal('hide');
-            // let sendData = "username="+$('input[name=username]').val();   //폼의 이름 값을 변수 안에 담아줌
-            var sendData = $('#reserveForm').serialize();
-            // console.log(sendData);
+        $('#chk_btn').click(function(){
+            var sendData = $('#rsvForm').serialize();
             $.ajax({
                 type:'post',   //post 방식으로 전송
-                url:'/api/apply.php',   //데이터를 주고받을 파일 주소
+                url:'/api/check.php',   //데이터를 주고받을 파일 주소
                 data: sendData,   //위의 변수에 담긴 데이터를 전송해준다.
                 dataType:'json',   //html 파일 형식으로 값을 담아온다.
                 success : function(data){   //파일 주고받기가 성공했을 경우. data 변수 안에 값을 담아온다.
                     // $('#message').html(data);  //현재 화면 위 id="message" 영역 안에 data안에 담긴 html 코드를 넣어준다. 
-                    console.log(data);
+                    // console.log(data.data.program);
                     if (data.result === "success") {
-                        $('#successModalCenter').modal("show");
-                        $('input[name=rsv_name]').val("");
-                        $('input[name=rsv_tel1]').val("");
-                        $('input[name=rsv_tel2]').val("");
-                        $('input[name=rsv_tel3]').val("");
-                        $('input[name=agree]').attr("checked", false);
-                    } else {
-                        if (data.result === "fail") {
-                            $('#failModalCenter').modal("show");
-                        } else {
-                            alert(data.msg);
+                        $('.check_program').text(data.data.program);
+                        $('.check_name').text(data.data.rsv_name);
+                        $('.check_tel').text(data.data.rsv_tel);
+                        $('#id').val(data.data.id);
+                        $('#check_address').val(data.data.rsv_address);
+                        $('#check_address_detail').val(data.data.rsv_detailAddress);
+                        $('.check_cnt').text(data.data.ride_adult_cnt);
+                        if (data.data.id > 446) {
+                          $('#successModalCenter .modal-footer').append('<button type="button" class="btn btn-danger" id="address_fix" onclick="fixAddress();">주소 수정</button>');
                         }
+                        $('#successModalCenter').modal("show");
+                    } else {
+                        $('#failModalCenter').modal("show");
                     }
                 }
             });
+            // $('#successModalCenter').modal("show");
+        });
+        $('#reset_btn').click(function(){
+            location.reload();
         });
     });
+    $('#address_fix').click(function(){
+      var sendData = {
+        'id': $('#id').val(),
+        'rsv_address': $('#check_address').val(),
+        'rsv_detailAddress': $('#check_address_detail').val()
+      }
+      $.ajax({
+            type:'post',   //post 방식으로 전송
+            url:'/api/modify.php',   //데이터를 주고받을 파일 주소
+            data: sendData,   //위의 변수에 담긴 데이터를 전송해준다.
+            dataType:'json',   //html 파일 형식으로 값을 담아온다.
+            success : function(data){   //파일 주고받기가 성공했을 경우. data 변수 안에 값을 담아온다.
+                // $('#message').html(data);  //현재 화면 위 id="message" 영역 안에 data안에 담긴 html 코드를 넣어준다. 
+                // console.log(data.data.program);
+                if (data.result === "success") {
+                    alert('주소가 수정되었습니다.');
+                    location.reload();
+                } else {
+                  alert(data.msg);
+                  location.reload();
+                }
+            }
+        });
+        // $('#successModalCenter').modal("show");
+    });
+    function fixAddress() {
+      var sendData = {
+        'id': $('#id').val(),
+        'rsv_address': $('#check_address').val(),
+        'rsv_detailAddress': $('#check_address_detail').val()
+      }
+      $.ajax({
+            type:'post',   //post 방식으로 전송
+            url:'/api/modify.php',   //데이터를 주고받을 파일 주소
+            data: sendData,   //위의 변수에 담긴 데이터를 전송해준다.
+            dataType:'json',   //html 파일 형식으로 값을 담아온다.
+            success : function(data){   //파일 주고받기가 성공했을 경우. data 변수 안에 값을 담아온다.
+                // $('#message').html(data);  //현재 화면 위 id="message" 영역 안에 data안에 담긴 html 코드를 넣어준다. 
+                // console.log(data.data.program);
+                if (data.result === "success") {
+                    alert('주소가 수정되었습니다.');
+                    location.reload();
+                } else {
+                  alert(data.msg);
+                  location.reload();
+                }
+            }
+        });
+        // $('#successModalCenter').modal("show");
+    }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
