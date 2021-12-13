@@ -33,7 +33,7 @@ if(G5_COMMUNITY_USE === false) {
     <meta property="og:url" content="" />
     <meta property="og:image" content="/common/img/sns-thumbnail.jpg" />
     <meta property="og:description" content="2021 공주 디지털 문화 유산전" />
-
+    <link rel="canonical" href="https://gongju-digitage.co.kr/">
     <link
       rel="shortcut icon"
       type="image/x-icon"
