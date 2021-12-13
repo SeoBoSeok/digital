@@ -75,11 +75,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 						</caption>
 						<colgroup>
-              <col style="width: 10%;">
+              <col style="width: 12%;">
               <col style="width: 20%;">
-              <col style="width: 30%;">
+              <col style="width: 35%;">
               <col style="width: 5%;">
-              <col style="width: 30%;">
+              <col style="width: 20%;">
               <col style="width: 5%;">
               <col style="width: 5%;">
               <col style="width: 5%;">
@@ -100,7 +100,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <td>다빈치에듀</td>
                   <td>나도 게임기획자! 문화유산 게임 만들기 </td>
-                  <td>게임 메이커 어플리케이션을 활용한 문화유산 게임을 직접 만들어보고 체험해본다.</td>
+                  <td>게임 메이커 어플리케이션을 활용한 문화유산 게임 체험</td>
                   <td>무료</td>
                   <td>10시/11시/13시/14시/15시/16시/17시</td>
                   <td>45분</td>
