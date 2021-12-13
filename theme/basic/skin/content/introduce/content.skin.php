@@ -176,7 +176,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=Invitation">
-                  <img src="/common/img/digital_sec2_img3.jpg" alt="">
+                  <img src="/common/img/ccmain.jpg" alt="">
                   <div class="text">
                     <span>Program 04</span>
                     <h4>초청전</h4>
@@ -185,7 +185,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=conference">
-                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
+                  <img src="/common/img/conference2.jpg" alt="">
                   <div class="text">
                     <span>Program 05</span>
                     <h4>컨퍼런스</h4>

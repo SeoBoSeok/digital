@@ -208,7 +208,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=Invitation">
-                    <img src="common/img/main_sec2_slide4.jpg" alt="" />
+                    <img src="common/img/ccmain.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
@@ -222,7 +222,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=conference">
-                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
+                    <img src="common/img/conference2.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
                       <h3>컨퍼런스</h3>
