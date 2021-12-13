@@ -686,3 +686,43 @@ label {
 .digital .sec2 .lists {
   margin-top: 30px;
 }
+table caption {text-indent:-100000px;font-size:0;line-height:0}
+table caption p{margin: 0;line-height:0;font-size:0;}
+.wrap-tbl {margin-bottom: 40px;}
+.tbl {display:table;margin-bottom:10px;width:100%;border-bottom:1px solid transparent;border-collapse:separate;border-collapse:collapse;text-align: center;}
+.tbl th, .tbl td {padding:12px 20px;border-left:1px solid transparent;border-bottom:1px solid transparent;margin-left:-1px;vertical-align:middle;word-wrap:break-word;word-break:keep-all;color:#555}
+.tbl th:first-child, .tbl td:first-child {border-left:none}
+.tbl tbody th, .tbl thead th {vertical-align:middle}
+.tbl tbody th, .tbl tfoot th {background-image:none}
+.tbl tbody th {color:#333;background-color:#fafbfc}
+.tbl thead th {color:#333;font-size:15px;background-color:#f6f6f6;font-size:15px;font-family:'nsr','Malgun Gothic';color:#121212}
+.tbl th[rowspan], .tbl td[rowspan] {border-right:1px solid #ccc}
+.tbl th:last-child, .tbl td:last-child {border-right:0}
+.tbl th, .tbl td {border-left-color:#ccc;border-bottom-color:#ccc;line-height: 1.6;}
+.tbl td img {vertical-align:middle}
+.tbl ul li {font-size: 15px;}
+.tbl ul li:before {content: '';display: inline-block;width: 3px;height: 3px;margin: 4px;background: #777;border-radius: 50%;}
+.tbl_type1 {border-top:1px solid #479796;}
+.tbl_type1 thead th{background-color: #479796;color: #fff;}
+.tbl_type1 td a {font-size: 18px;color: #000;line-height: 24px; word-break: keep-all;}
+.tbl_type1 td a:hover{text-decoration: underline;}
+.tbl_type1 td p.c_text {font-size: 14px;}
+.tbl_type1 span.tag{width: 50px;height: 50px;display: block;font-size: 0;margin: 0 auto;padding: 0; background: url(/images/festival/main/ir_tag_prog.png) no-repeat;}
+.tbl_type1 span.tag.type1{background-position: 0;}
+.tbl_type1 span.tag.type2{background-position: -60px;}
+.wrap-tbl-calendar .tbl th{padding: 8px 5px;}
+.wrap-tbl-calendar .tbl th.point_bg{padding: 10px 5px;background-color: #4485ba;color:#fff;border-top-color: #4485ba;border-bottom-color: #4485ba;}
+
+.wrap-tbl-calendar .tbl td {padding: 10px 5px;}
+.wrap-tbl-calendar .tbl td.bg-common {background-color: #fff6b6 !important;}
+.txt-small {padding: 0!important;font-size: 13px;}
+.bg-gj {color: #fff !important;font-size: 14px;background-color: #73aff9;}
+.bg-gj-light {background-color: #c1ddff;}
+.bg-by {color: #fff !important;font-size: 14px;background-color: #ff7ca8;}
+.bg-by-light {background-color: #ffdce7;}
+.bg-is {color: #fff !important;font-size: 14px;background-color: #45ca9a;}
+.bg-is-light {background-color: #b4f5de;}
+.schedule {
+  width: 1200px;
+  margin: 0 auto;
+}

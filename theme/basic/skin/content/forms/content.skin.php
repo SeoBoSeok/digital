@@ -68,6 +68,78 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 2021 공주디지털문화유산전 미래교육 사전신청
                 </p> -->
             </div>
+            <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+              <col style="width: 10%;">
+              <col style="width: 20%;">
+              <col style="width: 30%;">
+              <col style="width: 5%;">
+              <col style="width: 30%;">
+              <col style="width: 5%;">
+              <col style="width: 5%;">
+              <col style="width: 5%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">기업명</th>
+                    <th scope="col" class="point_bg">체험명</th>
+										<th scope="col" class="point_bg">체험내용</th>
+										<th scope="col" class="point_bg">체험비</th>
+                    <th scope="col" class="point_bg">운영기간(3일간)</th>
+                    <th scope="col" class="point_bg">소요시간</th>
+                    <th scope="col" class="point_bg">체험인원</th>
+                    <th scope="col" class="point_bg">대상</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+                  <td>다빈치에듀</td>
+                  <td>나도 게임기획자! 문화유산 게임 만들기 </td>
+                  <td>게임 메이커 어플리케이션을 활용한 문화유산 게임을 직접 만들어보고 체험해본다.</td>
+                  <td>무료</td>
+                  <td>10:00/11:00/13:00/14:00/15:00/16:00/17:00</td>
+                  <td>45분</td>
+                  <td>2~3</td>
+                  <td>초중등학생</td>
+								</tr>
+								<tr>
+                  <td>에듀크래프트</td>
+                  <td>공예와 SW코딩을 결합한 메이커 체험</td>
+                  <td>나만의 백제 유물 캔들 받침대 만들기</td>
+                  <td>5000</td>
+                  <td>10:00/11:00/13:00/14:00/15:00/16:00/17:00</td>
+                  <td>45분</td>
+                  <td>2~3</td>
+                  <td>초중등학생</td>
+								</tr>
+                <tr>
+                  <td>다빈치창의융합연구소</td>
+                  <td>지역연계 로봇 코딩교육 </td>
+                  <td>로봇 코딩을 이용한 지역연계 교육 체험</td>
+                  <td>무료</td>
+                  <td>10:00/11:00/13:00/14:00/15:00/16:00/17:00</td>
+                  <td>45분</td>
+                  <td>2~8</td>
+                  <td>초중등학생</td>
+								</tr>
+                <tr>
+                  <td>생활과학교실</td>
+                  <td>3D펜 전통문양 악세서리 만들기 </td>
+                  <td>3D펜을 활용해 전통문양 악세서리를 만들어 본다. </td>
+                  <td>무료</td>
+                  <td>10:00/11:00/13:00/14:00/15:00/16:00/17:00</td>
+                  <td>45분</td>
+                  <td>2~4</td>
+                  <td>초중등학생</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>            
                 <div class="lists apply">
                 <div class="form_wrap">
                     <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
@@ -87,6 +159,49 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                 <div class="box5_02">
                                     <span>예약자명</span>
                                     <input type="text" name="rsv_name" placeholder="예약자명을 입력해 주세요.">
+                                </div>
+                                <div class="box5_02">
+                                    <span>프로그램 & 시간선택</span>
+                                    <div>
+                                      <span style="padding-right: 10px;">[다빈치에듀]</span>
+                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                    </div>
+                                    <div>
+                                      <span style="padding-right: 10px;">[에듀크래프트]</span>
+                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                    </div>
+                                    <div>
+                                      <span style="padding-right: 10px;">[다빈치창의융합연구소]</span>
+                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                    </div>
+                                    <div>
+                                      <span style="padding-right: 10px;">[생활과학교실]</span>
+                                      <label><input type="radio" name="rsv_time" value="da10">10시</label>
+                                      <label><input type="radio" name="rsv_time" value="da11">11시</label>
+                                      <label><input type="radio" name="rsv_time" value="da13">13시</label>
+                                      <label><input type="radio" name="rsv_time" value="da14">14시</label>
+                                      <label><input type="radio" name="rsv_time" value="da15">15시</label>
+                                      <label><input type="radio" name="rsv_time" value="da16">16시</label>
+                                      <label><input type="radio" name="rsv_time" value="da17">17시</label>
+                                    </div>
                                 </div>
                                 <div class="box5_03">
                                     <span>예약자 연락처</span>
