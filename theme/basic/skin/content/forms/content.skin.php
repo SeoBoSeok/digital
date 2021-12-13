@@ -128,6 +128,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                     <div>
                                         <label><input type="radio" name="types">개인</label>
                                         <label><input type="radio" name="types">단체</label>
+                                        <span style="display: block; color: #007bff;">단체의 경우, 공지사항-단체참관 양식을 작성하여 이메일(kjhak@kongju.ac.kr)로 제출 부탁드립니다.</span>
                                     </div>
                                 <div>
                                 <fieldset>
@@ -201,21 +202,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     </table>
 
                     <div class="bottom_txt" style="padding-right: 20px;">
-                    <?php
-                    if ($_program_detail == "saturday" || $_program_detail == "sunday") {
-                    ?>
-                    ※ 예약 확정되신 분에 한하여 11.02.(화)부터 문자 안내드립니다. <br />
-                    <?php
-                    if ($_program_detail == "sunday") {
-                        echo '(여행자보험 가입 문의 등 상세 내용 안내 연락이 취해짐)';
-                        echo '<br />';
-                    }
-                    ?>
-                    <?php
-                    }
-                    ?>
-                    ※ 전화번호당 한번만 참여 가능합니다.<br />
-                    ※ 연락처 및 주소 오기로 인한 미수령시에는 책임지지 않습니다.<br />
+* 관람객 여러분 모두의 건강과 안전을 위하여 마스크 착용을 의무화 하고 있습니다. 마스크를 착용하지 않은 분들은 전시 관람이 불가 하오니, 꼭 마스크를 쓰고 방문해 주세요.<br>
+* 관람객 간 최대 2M 거리를 유지하며 관람해 주세요.<br>
+* 최근 14일 이내 해외 혹은 확진자 발생 지역을 다녀오신 경험이 있으시거나 37.5도 이상의 발열, 기침, 가래, 인후통과 같은 호흡기 증상이 있으신 분은 방문을 자제해 주세요.<br>
+* 코로나바이러스감염증-19 확산 예방을 위하여 모든 직원은 마스크와 장갑을 착용하고 근무하며, 정기적으로 방역을 진행합니다.<br>
+* 플래시, 삼각대 및 셀카봉을 이용한 촬영, 상업적 용도의 촬영, 동영상 촬영은 불가합니다.
+* 예약정보 오기로 인한 사전신청 오류시에는 책임지지 않습니다.
                     </div>
                         <div class="btn_box">
                         <!-- <button class="rv_btn hidden" type="submit">예약하기</button> -->
