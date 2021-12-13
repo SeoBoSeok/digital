@@ -66,7 +66,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec1">
         <div class="inner">
 
-          <div class="cont ani active">
+          <div class="cont ani active schedule">
 					<div class="booth_tite">
 						<h2>부스배치도</h2>
 					</div>
