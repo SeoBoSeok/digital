@@ -162,7 +162,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                 </div>
                                 <div class="box5_02">
                                     <span>프로그램 & 시간선택</span>
-                                    <div>
+                                    <div class="program_row">
                                       <span style="padding-right: 10px;">[다빈치에듀]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
@@ -172,7 +172,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                       <label><input type="radio" name="rsv_time" value="da16">16시</label>
                                       <label><input type="radio" name="rsv_time" value="da17">17시</label>
                                     </div>
-                                    <div>
+                                    <div class="program_row">
                                       <span style="padding-right: 10px;">[에듀크래프트(유료)]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
@@ -182,7 +182,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                       <label><input type="radio" name="rsv_time" value="da16">16시</label>
                                       <label><input type="radio" name="rsv_time" value="da17">17시</label>
                                     </div>
-                                    <div>
+                                    <div class="program_row">
                                       <span style="padding-right: 10px;">[다빈치창의융합연구소]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
@@ -192,7 +192,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                       <label><input type="radio" name="rsv_time" value="da16">16시</label>
                                       <label><input type="radio" name="rsv_time" value="da17">17시</label>
                                     </div>
-                                    <div>
+                                    <div class="program_row">
                                       <span style="padding-right: 10px;">[생활과학교실]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
