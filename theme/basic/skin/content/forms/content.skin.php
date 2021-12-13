@@ -173,7 +173,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                       <label><input type="radio" name="rsv_time" value="da17">17시</label>
                                     </div>
                                     <div>
-                                      <span style="padding-right: 10px;">[에듀크래프트]</span>
+                                      <span style="padding-right: 10px;">[에듀크래프트(유료)]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
                                       <label><input type="radio" name="rsv_time" value="da13">13시</label>
