@@ -79,7 +79,7 @@
 /* .apply .form_wrap table tr td.box5 input {max-width: 120px; width: 100%;} */
 .apply .form_wrap table tr td.box5 > div {padding-left: 156px; position: relative;}
 .apply .form_wrap table tr td.box5 > div {margin-top: 8px;}
-.apply .form_wrap table tr td.box5 > div > div {display: inline-block;}
+.apply .form_wrap table tr td.box5 > div > div {display: block;}
 .apply .form_wrap table tr td.box5 > div > span {position: absolute; left: 0px; top: 13px;}
 .apply .form_wrap table tr td.box5 > div.box5_01 {padding-bottom: 14px;}
 .apply .form_wrap table tr td.box5 > div.box5_01 > span {top: 2px;}
