@@ -167,7 +167,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-                  <td>국립공주대학교<br>디지털보존솔루션랩</td>
+                  <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
@@ -296,7 +296,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-										<td>국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
+										<td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
 										<td>청동거울, 과학을 비추다</td>
 								</tr>
 						</tbody>
