@@ -726,3 +726,14 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 765px) and (min-width: 300px){
+  .table-container{
+     width:100%;	
+     overflow-x:auto;
+    white-space: nowrap;
+    }
+     
+    .table-container table{
+      width:auto;
+   } 
+}
