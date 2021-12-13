@@ -88,6 +88,9 @@ if (!empty($_REQUEST['program'])) {
                                 </div>
                             </td>
                         </tr> 
+                        <?php
+                        if(empty($_REQUEST['program'])) {
+                        ?>
                         <tr>
                             <td class="ttl">참관일시</td>
                             <td class="box6 ride_count">
@@ -99,7 +102,10 @@ if (!empty($_REQUEST['program'])) {
                                     </select>
                                 </div>
                             </td>
-                        </tr>                                    
+                        </tr>
+                        <?php
+                        }
+                        ?>
                         <tr>
                             <td class="ttl">예약자 정보</td>
                             <td class="box5">
