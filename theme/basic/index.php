@@ -82,6 +82,14 @@ if(G5_COMMUNITY_USE === false) {
     <script type="text/javascript" src="common/libs/slick/slick.js"></script>
     <script type="text/javascript" src="common/js/common.js"></script>
     <script type="text/javascript" src="common/js/main.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDQ06J075Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KDQ06J075Y');
+    </script>
   </head>
   <body>
     <?php
