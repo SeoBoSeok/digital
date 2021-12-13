@@ -171,8 +171,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 01</span>
                       <h3>산업</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        3D스캐너·프린터,소프트웨어<br>
+                        디지털솔루션·콘텐츠, 메타버스등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -185,8 +185,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 02</span>
                       <h3>연구개발</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        디지털 기록 모델링,콘텐츠 기획·제작<br>
+                        형상분석, 복원·복제
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -199,8 +199,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 03</span>
                       <h3>미래교육</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        가상·증강현실 교육컨텐츠, 로봇코딩<br>
+                        게임 메이킹, 드론코딩
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -213,8 +213,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        백제역사유적지구,수원화성,공주정지산유적,
+                        청동거울
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -227,8 +227,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 05</span>
                       <h3>컨퍼런스</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        심포지엄, 세미나<br>
+                        워크샵, 튜토리얼
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -241,8 +241,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 06</span>
                       <h3>문화유산상품 마켓</h3>
                       <p>
-                        &lt;개막식&gt; 무령왕릉미디어아트 2021. 12. 18(토) 14:00
-                        ~
+                        3D프린터와 수공예품
+                        문화유산상품 및 지역예술품 판매
                       </p>
                       <span class="arrow"></span>
                     </div>
