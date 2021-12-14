@@ -219,7 +219,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 	?>
 </article>
 <!-- } 게시판 읽기 끝 -->
-
+<?php if ($update_href) { ?><li><a href="<?php echo $update_href ?>">수정<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li><?php } ?>
 <script>
 <?php if ($board['bo_download_point'] < 0) { ?>
 $(function() {
