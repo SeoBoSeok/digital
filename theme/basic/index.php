@@ -110,7 +110,7 @@ if(G5_COMMUNITY_USE === false) {
       if(defined('_INDEX_')) { // index에서만 실행
           // include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     ?>
-    <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
+    <!-- <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
         <div class="hd_pops_con" style="width:400px;height:420px">
             <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div>
         <div class="hd_pops_footer">
@@ -125,7 +125,7 @@ if(G5_COMMUNITY_USE === false) {
             <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
             <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
         </div>
-    </div>
+    </div> -->
     <?php
       }
     ?>    
