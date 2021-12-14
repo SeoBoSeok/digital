@@ -689,7 +689,7 @@ header h1 {
 
   .subpage-item-lists {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       flex-wrap: nowrap;
       overflow-x: scroll;
       overflow-y: hidden;
