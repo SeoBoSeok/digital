@@ -49,6 +49,11 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                   <span class="subpage-link-text">관람객 사전신청</span>
               </a>
             </span>
+            <span class="subpage-item each-line subpage_nav_item">
+              <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
+                  <span class="subpage-link-text">튜토리얼 사전신청</span>
+              </a>
+            </span>            
             <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
                   <span class="subpage-link-text">미래교육 사전신청</span>

@@ -4,12 +4,6 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
-$_program = "";
-if (!empty($_REQUEST['program'])) {
-  $_program = "튜토리얼";
-} else {
-  $_program = "관람객";
-}
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
@@ -28,7 +22,7 @@ if (!empty($_REQUEST['program'])) {
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p><?php echo $_program; ?> 사전신청</p>
+            <p>튜토리얼 사전신청</p>
           </div>
         </div>
       </section>
@@ -36,7 +30,7 @@ if (!empty($_REQUEST['program'])) {
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li><?php echo $_program; ?> 사전신청</li>
+            <li>튜토리얼 사전신청</li>
           </ul>
         </div>
       </section>
@@ -49,16 +43,16 @@ if (!empty($_REQUEST['program'])) {
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line subpage_nav_item active">
+            <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
-                  <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
+                  <span class="subpage-link-text">관람객 사전신청</span>
               </a>
             </span>
-            <span class="subpage-item each-line subpage_nav_item">
+            <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
                   <span class="subpage-link-text">튜토리얼 사전신청</span>
               </a>
-            </span>            
+            </span>
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
                   <span class="subpage-link-text">미래교육 사전신청</span>
@@ -74,14 +68,11 @@ if (!empty($_REQUEST['program'])) {
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
             <div class="center">
-                <h2><?php echo $_program; ?> 사전신청</h2>
+                <h2>튜토리얼 사전신청</h2>
                 <!-- <p>
                 2021 공주디지털문화유산전 관람객 사전신청
                 </p> -->
             </div>
-            <?php
-              if(!empty($_REQUEST['program'])) {
-              ?>
 <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
 					<table class="tbl">
 						<caption>
@@ -124,33 +115,22 @@ if (!empty($_REQUEST['program'])) {
 						</tbody>
 					</table>
 				</div>                 
-              <?php
-              }
-              ?>
+
                 <div class="lists apply">
                 <div class="form_wrap">
                     <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
-                    <?php
-                    if(!empty($_REQUEST['program'])) {
-                    ?>
                     <input type="hidden" name="rsv_time" value="tutorial" >
-                    <?php
-                    }
-                    ?>
-                      <input type="hidden" name="token" value="<?php if(!empty($_REQUEST['program'])) {echo 'tutorial';} else {echo 'basic';} ?>" >
+                      <input type="hidden" name="token" value="tutorial" >
                         <table>
                         <tbody>
                         <tr>
                             <td class="ttl">프로그램</td>
                             <td class="box6 ride_count">
                                 <div class="box6_01">
-                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program; ?>" readonly />
+                                    <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="튜토리얼" readonly />
                                 </div>
                             </td>
                         </tr> 
-                        <?php
-                        if(empty($_REQUEST['program'])) {
-                        ?>
                         <tr>
                             <td class="ttl">참관일시</td>
                             <td class="box6 ride_count">
@@ -163,9 +143,6 @@ if (!empty($_REQUEST['program'])) {
                                 </div>
                             </td>
                         </tr>
-                        <?php
-                        }
-                        ?>
                         <tr>
                             <td class="ttl">예약자 정보</td>
                             <td class="box5">

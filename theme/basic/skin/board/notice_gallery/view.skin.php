@@ -337,4 +337,4 @@ function excute_good(href, $el, $tx)
           <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
-    </footer>
+    </footer> 
