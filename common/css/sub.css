@@ -432,6 +432,16 @@ header h1 {
     background: url(../img/digital_sec1_icon1_m.png) center bottom no-repeat;
     background-size: 12px auto;
   }
+  .digital .sec2 .lists {
+    display: block !important;
+  }
+  .sec2 .lists .left {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+  .sec2 .lists .right {
+    width: 100% !important;
+  }
 }
 
 /* .digital .sec2 */
