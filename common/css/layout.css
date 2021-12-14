@@ -334,7 +334,7 @@ header h1 .m {
     padding: 0 7px;
   }
   #nav > ul > li > a {
-    font-size: 17px;
+    font-size: 15px;
   }
   #nav > ul > li > ul {
     margin-top: 14px;
@@ -348,7 +348,7 @@ header h1 .m {
   header h1 {
     top: -8px;
     right: 12px;
-    width: 90px;
+    width: 60px;
   }
   #menu_btn {
     right: -28px;
