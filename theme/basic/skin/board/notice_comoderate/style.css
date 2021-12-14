@@ -1302,7 +1302,7 @@ table.comment-list td img {vertical-align:middle;}
 .program--search *{vertical-align:middle}
 
 .program--search .search_inner{width:auto;}
-.program--search .fieldset{display:inline-block;width:auto;}
+.program--search .fieldset{display:inline-block;width:300px;}
 .program--search .search_inner.float-md-right{text-align:right;}
 .program--search .search_inner.float-md-right .fieldset{text-align:right}
 .program--search .fieldset:after{display:block;content:'';clear:both}

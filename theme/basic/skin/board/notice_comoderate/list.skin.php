@@ -188,7 +188,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 				<div class="fieldset">
 					<div class="search--select">
 						<!-- select추가시 -->
-						<span>
+						<!-- <span>
 							<select name="sca" title="읍면동을 선택해주세요">
 							<option value="">- 읍면을 선택해 주세요-</option>
 							
@@ -225,7 +225,7 @@ echo '<link rel="stylesheet" href="'.$board_skin_url.'/board.min.css">';
 								<option value="wolsong">월송동</option>
 							
 							</select>
-						</span>
+						</span> -->
 						<!-- select추가시 -->
 					</div>
 					<div class="search--text">
