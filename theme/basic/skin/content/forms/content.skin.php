@@ -4,6 +4,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
+$da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' AND rsv_time = '$rsv_time'");
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
@@ -151,6 +152,18 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <td class="box6 ride_count">
                                 <div class="box6_01">
                                     <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="미래교육" readonly />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ttl">참관일시</td>
+                            <td class="box6 ride_count">
+                                <div class="box6_01">
+                                    <select name="rsv_date" id="rsv_date">
+                                      <option value="2021-12-18">2021-12-18</option>
+                                      <option value="2021-12-19">2021-12-19</option>
+                                      <option value="2021-12-20">2021-12-20</option>
+                                    </select>
                                 </div>
                             </td>
                         </tr>             
