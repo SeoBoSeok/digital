@@ -123,7 +123,7 @@ if ($token == "education") {
   };
   if($rsv_time == "da10" || $rsv_time == "da11" || $rsv_time == "da13" || $rsv_time == "da14" || $rsv_time == "da15" || $rsv_time == "da16" || $rsv_time == "da17" || $rsv_time == "edu10" || $rsv_time == "edu11" || $rsv_time == "edu13" || $rsv_time == "edu14" || $rsv_time == "edu15" || $rsv_time == "edu16" || $rsv_time == "edu17") {
     $cnt31 = sql_fetch("
-      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time' AND rsv_date = '$rsv_date'
     ");
     if($cnt31['cnt'] > 3) {
       $return["result"] = "full";
@@ -134,7 +134,7 @@ if ($token == "education") {
   }
   if($rsv_time == "davin10" || $rsv_time == "davin11" || $rsv_time == "davin13" || $rsv_time == "davin14" || $rsv_time == "davin15" || $rsv_time == "davin16" || $rsv_time == "davin17") {
     $cnt32 = sql_fetch("
-      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time' AND rsv_date = '$rsv_date'
     ");
     if($cnt32['cnt'] > 8) {
       $return["result"] = "full";
@@ -145,7 +145,7 @@ if ($token == "education") {
   }
   if($rsv_time == "science10" || $rsv_time == "science11" || $rsv_time == "science13" || $rsv_time == "science14" || $rsv_time == "science15" || $rsv_time == "science16" || $rsv_time == "science17") {
     $cnt32 = sql_fetch("
-      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time' AND rsv_date = '$rsv_date'
     ");
     if($cnt32['cnt'] > 4) {
       $return["result"] = "full";
