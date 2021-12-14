@@ -404,6 +404,12 @@ header h1 {
   .sec2 .lists .right {
     width: 100% !important;
   }
+  .subpage-item-lists .subpage-link {
+    padding: 1rem 0.8rem !important;
+  }
+  .digital .sec2 {
+    padding-top: 50px !important;
+  }
 }
 @media screen and (max-width: 767px) {
   .digital .sec1 {
@@ -679,6 +685,7 @@ header h1 {
 
   .subpage-item-lists {
       display: flex;
+      justify-content: center;
       flex-wrap: nowrap;
       overflow-x: scroll;
       overflow-y: hidden;
