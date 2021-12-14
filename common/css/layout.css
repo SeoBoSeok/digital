@@ -368,6 +368,9 @@ header h1 .m {
   #nav > ul > li > ul > li > a {
     font-size: 11px;
   }
+  #nav > ul > li {
+    padding: 0 3px;
+  }
 }
 @media screen and (max-width: 767px) {
   header.on {
