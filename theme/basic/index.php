@@ -129,6 +129,13 @@ if(G5_COMMUNITY_USE === false) {
           </div>
       </div>
     </div>
+    <script>
+      if ($(window).innerWidth() > 769) {
+        $('#hd_pops_1').css('left', '10px');
+        $('#hd_pops_2').css('left', '10px');
+        $('#hd_pops_2').css('top', '500px');
+      }
+    </script>
     <?php
       }
     ?>    
