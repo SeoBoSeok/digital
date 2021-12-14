@@ -110,22 +110,25 @@ if(G5_COMMUNITY_USE === false) {
       if(defined('_INDEX_')) { // index에서만 실행
           // include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     ?>
-    <!-- <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
-        <div class="hd_pops_con" style="width:400px;height:420px">
-            <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div>
-        <div class="hd_pops_footer">
-            <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
-            <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
-        </div>
+    <div id="hd_pop">
+      <h2>팝업레이어</h2>
+      <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
+      <a href="/bbs/content.php?co_id=tutorial_forms"><div class="hd_pops_con" style="width:400px;height:400px">
+              <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div></a>
+          <div class="hd_pops_footer">
+              <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+              <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
+          </div>
+      </div>
+      <div id="hd_pops_2" class="hd_pops" style="top:100px;left:500px">
+          <a href="/bbs/content.php?co_id=forms"><div class="hd_pops_con" style="width:400px;height:400px">
+              <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
+          <div class="hd_pops_footer">
+              <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+              <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
+          </div>
+      </div>
     </div>
-    <div id="hd_pops_2" class="hd_pops" style="top:100px;left:500px">
-        <div class="hd_pops_con" style="width:400px;height:420px">
-            <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div>
-        <div class="hd_pops_footer">
-            <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
-            <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
-        </div>
-    </div> -->
     <?php
       }
     ?>    
@@ -435,6 +438,23 @@ if(G5_COMMUNITY_USE === false) {
           <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
+      <script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+    $("#hd").css("z-index", 1000);
+});
+</script>
+<!-- } 팝업레이어 끝 -->      
     </footer>
   </body>
 </html>
