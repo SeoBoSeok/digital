@@ -417,7 +417,7 @@ header h1 {
 }
 @media screen and (max-width: 767px) {
   .digital .sec1 {
-    padding: 40px 0 100px;
+    padding: 40px 0 100px !important;
   }
   .digital .sec1 .img_box {
     float: none;
@@ -435,7 +435,7 @@ header h1 {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 50px 5% 100px;
+    padding: 50px 5% 100px !important;
     box-shadow: 0px 20px 40px 0px rgba(4, 0, 0, 0.3);
   }
   .digital .sec1 .info .wrap {
