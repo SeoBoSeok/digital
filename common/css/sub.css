@@ -399,6 +399,7 @@ header h1 {
     width: 100% !important;
     margin-bottom: 40px;
     text-align: center !important;
+    padding-right: 0 !important;
   }
   .sec2 .lists .right {
     width: 100% !important;
@@ -451,6 +452,8 @@ header h1 {
   .sec2 .lists .left {
     width: 100% !important;
     margin-bottom: 40px;
+    text-align: center !important;
+    padding-right: 0 !important;
   }
   .sec2 .lists .right {
     width: 100% !important;
