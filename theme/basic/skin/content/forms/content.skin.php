@@ -356,7 +356,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                     </div>
                 </div>
             </div> 
-          <!-- <a href="./" class="reservation_btn">
+          <!-- <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a> -->
