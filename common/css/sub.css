@@ -720,6 +720,11 @@ header h1 {
       border-bottom: 2px solid #000000;
   }
 }
+@media (max-width: 568px){
+  .subpage-item-lists {
+    justify-content: space-around;
+  }
+}
 .subpage-item-lists, .subpage-item-lists .subpage-item, .subpage-item-lists .subpage-link {
   position: relative;
 }
