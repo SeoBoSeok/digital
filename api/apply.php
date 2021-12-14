@@ -60,11 +60,12 @@ $rsv_tel .= "-";
 $rsv_tel .= strval($_POST['rsv_tel2']);
 $rsv_tel .= "-";
 $rsv_tel .= strval($_POST['rsv_tel3']);
-$rsv_email = $_POST['rsv_email'];
-$rsv_group = $_POST['rsv_group'];
-$rsv_time = $_POST['rsv_time'];
+$rsv_email = trim($_POST['rsv_email']);
+$rsv_group = trim($_POST['rsv_group']);
+$rsv_time = trim($_POST['rsv_time']);
+$rsv_date = trim($_POST['rsv_date']);
 $rsv_position = $_POST['rsv_position'];
-$rsv_types = $_POST['rsv_types'];
+$rsv_types = trim($_POST['rsv_types']);
 $rsv_address = $_POST['rsv_address'];
 $rsv_detailAddress = $_POST['rsv_detailAddress'];
 $ride_adult_cnt = $_POST['ride_adult_cnt'];
@@ -73,20 +74,95 @@ $agree = $_POST['agree'];
 
 $return = array();
 
-$cnt1 = sql_fetch("
-  SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_tel = '$rsv_tel'
-");
-$cnt2 = sql_fetch("
-SELECT sum(ride_adult_cnt) as cnt FROM apply WHERE token = '$token'
-");
-$cnt3 = sql_fetch("
-SELECT count(id) as cnt FROM apply WHERE token = '$token'
-");
-if($cnt1['cnt'] > 0) {
-  $return["result"] = "fail";
-  echo json_encode( $return );
-  exit;
-};
+if ($token == "basic") {
+  $cnt1 = sql_fetch("
+    SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_tel = '$rsv_tel' AND rsv_date = '$rsv_date'
+  ");
+  if($cnt1['cnt'] > 0) {
+    $return["result"] = "fail";
+    echo json_encode( $return );
+    exit;
+  };
+  $cnt11 = sql_fetch("
+  SELECT count(id) as cnt FROM apply WHERE token = '$token'
+  ");
+  if($cnt11['cnt'] > 99) {
+    $return["result"] = "full";
+    $return["msg"] = "참여 제한 인원 100명 초과로 예약이 마감되었습니다.";
+    echo json_encode( $return );
+    exit;
+  }
+}
+if ($token == "tutorial") {
+  $cnt2 = sql_fetch("
+    SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_tel = '$rsv_tel'
+  ");
+  if($cnt2['cnt'] > 0) {
+    $return["result"] = "fail";
+    echo json_encode( $return );
+    exit;
+  };
+  $cnt21 = sql_fetch("
+  SELECT count(id) as cnt FROM apply WHERE token = '$token'
+  ");
+  if($cnt21['cnt'] > 19) {
+    $return["result"] = "full";
+    $return["msg"] = "참여 제한 인원 20명 초과로 예약이 마감되었습니다.";
+    echo json_encode( $return );
+    exit;
+  }
+}
+if ($token == "education") {
+  $cnt3 = sql_fetch("
+    SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_tel = '$rsv_tel' AND rsv_time = '$rsv_time' 
+  ");
+  if($cnt3['cnt'] > 0) {
+    $return["result"] = "fail";
+    echo json_encode( $return );
+    exit;
+  };
+  if($rsv_time == "da10" || $rsv_time == "da11" || $rsv_time == "da13" || $rsv_time == "da14" || $rsv_time == "da15" || $rsv_time == "da16" || $rsv_time == "da17" || $rsv_time == "edu10" || $rsv_time == "edu11" || $rsv_time == "edu13" || $rsv_time == "edu14" || $rsv_time == "edu15" || $rsv_time == "edu16" || $rsv_time == "edu17") {
+    $cnt31 = sql_fetch("
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+    ");
+    if($cnt31['cnt'] > 3) {
+      $return["result"] = "full";
+      $return["msg"] = "참여 제한 인원 3명 초과로 예약이 마감되었습니다.";
+      echo json_encode( $return );
+      exit;
+    }
+  }
+  if($rsv_time == "davin10" || $rsv_time == "davin11" || $rsv_time == "davin13" || $rsv_time == "davin14" || $rsv_time == "davin15" || $rsv_time == "davin16" || $rsv_time == "davin17") {
+    $cnt32 = sql_fetch("
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+    ");
+    if($cnt32['cnt'] > 8) {
+      $return["result"] = "full";
+      $return["msg"] = "참여 제한 인원 8명 초과로 예약이 마감되었습니다.";
+      echo json_encode( $return );
+      exit;
+    }
+  }
+  if($rsv_time == "science10" || $rsv_time == "science11" || $rsv_time == "science13" || $rsv_time == "science14" || $rsv_time == "science15" || $rsv_time == "science16" || $rsv_time == "science17") {
+    $cnt32 = sql_fetch("
+      SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time'
+    ");
+    if($cnt32['cnt'] > 4) {
+      $return["result"] = "full";
+      $return["msg"] = "참여 제한 인원 4명 초과로 예약이 마감되었습니다.";
+      echo json_encode( $return );
+      exit;
+    }
+  }
+}
+// $cnt2 = sql_fetch("
+// SELECT sum(ride_adult_cnt) as cnt FROM apply WHERE token = '$token'
+// ");
+// $cnt3 = sql_fetch("
+// SELECT count(id) as cnt FROM apply WHERE token = '$token'
+// ");
+
+
 // if($cnt2['cnt'] > 99) {
 //   $return["result"] = "full";
 //   $return["msg"] = "참여 제한 인원 100명 초과로 예약이 마감되었습니다.";
@@ -131,6 +207,7 @@ insert into apply
     rsv_position    = '$rsv_position',
     rsv_types    = '$rsv_types',
     rsv_time    = '$rsv_time',
+    rsv_date    = '$rsv_date',
     rsv_address  = '$rsv_address',
     rsv_detailAddress  = '$rsv_detailAddress',
     ride_adult_cnt		= '$ride_adult_cnt',

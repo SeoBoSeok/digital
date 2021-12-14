@@ -132,7 +132,7 @@ if (!empty($_REQUEST['program'])) {
                     <?php
                     }
                     ?>
-                      <input type="hidden" name="token" value="pre_forms" >
+                      <input type="hidden" name="token" value="<?php if(!empty($_REQUEST['program'])) {echo 'tutorial';} else {echo 'basic';} ?>" >
                         <table>
                         <tbody>
                         <tr>

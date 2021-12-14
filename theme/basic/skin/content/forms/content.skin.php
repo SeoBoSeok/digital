@@ -143,6 +143,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <div class="lists apply">
                 <div class="form_wrap">
                     <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="token" value="education" >
                         <table>
                         <tbody>
                         <tr>
