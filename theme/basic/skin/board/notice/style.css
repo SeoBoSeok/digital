@@ -2004,3 +2004,8 @@ section.sec2 {
 }
 .if_date {color: #666666;}
 .pg_wrap {text-align: center; margin-top: 40px;}
+@media (max-width: 768px){
+  .bo_v_tit {
+    font-size: 1.5rem;
+  }
+}
