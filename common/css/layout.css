@@ -360,7 +360,8 @@ header h1 .m {
 }
 @media screen and (max-width: 1270px) {
   header h1 {
-    right: 42px;
+    /* right: 42px; */
+    left: 0;
   }
   #menu_btn {
     right: 0;
