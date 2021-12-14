@@ -199,13 +199,11 @@ jQuery(function($){
 							</ul>
 
 						</div>
-<div class="paging"><a href="?page=1&amp;make=&amp;search=" class="first"><img src="/common/img/btn_first.gif" alt="처음으로"></a><a class="prev" href="#url"><img src="/common/img/btn_prev2.gif" alt="이전으로"></a><a href="#" class="on">1</a><a href="?page=2&amp;make=&amp;search=">2</a><a class="next" href="#url"><img src="/common/img/btn_next2.gif" alt="다음으로"></a><a href="?page=2&amp;make=&amp;search=" class="last"><img src="/common/img/btn_last.gif" alt="마지막으로"></a></div> 
-
+						<!-- 페이지 -->
+						<?php echo $write_pages; ?>
+						<!-- 페이지 -->
 						</div>
 
-<!-- 페이지 -->
-<?php echo $write_pages; ?>
-<!-- 페이지 -->
 
 <?php if ($list_href || $is_checkbox || $write_href) { ?>
 <div class="bo_fx">
