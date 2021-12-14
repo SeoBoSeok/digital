@@ -92,9 +92,23 @@ if(G5_COMMUNITY_USE === false) {
     </script>
   </head>
   <body>
+    <style>
+
+/* 팝업레이어 */
+#hd_pop {z-index:1000;position:relative;margin:0 auto;height:0}
+#hd_pop h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+.hd_pops {position:absolute;border:1px solid #e9e9e9;background:#fff}
+.hd_pops img {max-width:100%}
+.hd_pops_con {}
+.hd_pops_footer {padding:0;background:#000;color:#fff;text-align:left;position:relative}
+.hd_pops_footer:after {display:block;visibility:hidden;clear:both;content:""}
+.hd_pops_footer button {padding:10px;border:0;color:#fff}
+.hd_pops_footer .hd_pops_reject {background:#000;text-align:left}
+.hd_pops_footer .hd_pops_close {background:#393939;position:absolute;top:0;right:0}
+    </style>
     <?php
       if(defined('_INDEX_')) { // index에서만 실행
-          // include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
+          include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
       }
     ?>    
     <?php
