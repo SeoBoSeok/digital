@@ -134,7 +134,7 @@ if(G5_COMMUNITY_USE === false) {
         $('#hd_pops_1').css('left', '10px');
         $('#hd_pops_1').css('top', '10px');
         $('#hd_pops_2').css('left', '10px');
-        $('#hd_pops_2').css('top', '600px');
+        $('#hd_pops_2').css('top', '490px');
       }
     </script>
     <?php
