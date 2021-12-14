@@ -391,6 +391,18 @@ header h1 {
     background-size: 12px auto;
   }
 }
+@media screen and (max-width: 1025px) {
+  .digital .sec2 .lists {
+    display: block !important;
+  }
+  .sec2 .lists .left {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+  .sec2 .lists .right {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 767px) {
   .digital .sec1 {
     padding: 40px 0 100px;
