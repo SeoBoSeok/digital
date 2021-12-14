@@ -365,6 +365,9 @@ header h1 .m {
   #menu_btn {
     right: 0;
   }
+  #nav > ul > li > ul > li > a {
+    font-size: 11px;
+  }
 }
 @media screen and (max-width: 767px) {
   header.on {
