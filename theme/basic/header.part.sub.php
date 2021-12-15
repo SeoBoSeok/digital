@@ -27,7 +27,7 @@
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae">백제역사유적지구</a></li>
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">정지산유적</a></li>
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">정조대왕 수원화성</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">청동거울(국보 잔무늬거울)</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">청동거울<br>(국보 잔무늬거울)</a></li>
             </ul>
           </li>
           <li>
