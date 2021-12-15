@@ -223,6 +223,7 @@ header.on #nav {
   display: inline-block;
   vertical-align: top;
   text-align: left;
+  width: 12%;
 }
 #nav > ul > li > a {
   position: relative;
