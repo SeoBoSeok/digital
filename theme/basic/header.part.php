@@ -9,25 +9,25 @@
           <ul>
             <li><a href="/bbs/content.php?co_id=introduce">전시소개</a></li>
             <li><a href="/bbs/content.php?co_id=booth">부스배치도</a></li>
-            <li><a href="/bbs/content.php?co_id=schedule">참여기관</a></li>
+            <!-- <li><a href="/bbs/content.php?co_id=schedule">참여기관</a></li> -->
           </ul>
         </li>
         <li>
           <a href="/bbs/content.php?co_id=about_org">참여기관</a>
           <ul>
-            <li><a href="/bbs/content.php?co_id=about_org">디지털문화유산 산업</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_dev">디지털문화유산 연구개발</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_edu">디지털문화유산 미래교육</a></li>
-            <li><a href="/bbs/content.php?co_id=about_org_product">문화유산상품 마켓</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org">산업</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_dev">연구개발</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_edu">미래교육</a></li>
+            <li><a href="/bbs/content.php?co_id=about_org_product">상품 마켓</a></li>
           </ul>
         </li>
         <li>
           <a href="/bbs/content.php?co_id=Invitation">초청전</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae">백제역사유적지구</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">정지산유적고건축AR콘텐츠</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">야간군사 훈련 VAR 콘텐츠</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">청동거울, 과학을 비추다</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">정지산유적</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">정조대왕 수원화성</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">청동거울</a></li>
           </ul>
         </li>
         <li>
