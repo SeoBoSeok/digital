@@ -5,6 +5,38 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 ?>
+<script>
+  var program_detail = {
+    "da10": "다빈치에듀 10시",
+    "da11": "다빈치에듀 11시",
+    "da13": "다빈치에듀 13시",
+    "da14": "다빈치에듀 14시",
+    "da15": "다빈치에듀 15시",
+    "da16": "다빈치에듀 16시",
+    "da17": "다빈치에듀 17시",
+    "edu10": "에듀크래프트(유료) 10시",
+    "edu11": "에듀크래프트(유료) 11시",
+    "edu13": "에듀크래프트(유료) 13시",
+    "edu14": "에듀크래프트(유료) 14시",
+    "edu15": "에듀크래프트(유료) 15시",
+    "edu16": "에듀크래프트(유료) 16시",
+    "edu17": "에듀크래프트(유료) 17시",
+    "davin10": "다빈치창의융합연구소 10시",
+    "davin11": "다빈치창의융합연구소 11시",
+    "davin13": "다빈치창의융합연구소 13시",
+    "davin14": "다빈치창의융합연구소 14시",
+    "davin15": "다빈치창의융합연구소 15시",
+    "davin16": "다빈치창의융합연구소 16시",
+    "davin17": "다빈치창의융합연구소 17시",
+    "science10": "생활과학교실 10시",
+    "science11": "생활과학교실 11시",
+    "science13": "생활과학교실 13시",
+    "science14": "생활과학교실 14시",
+    "science15": "생활과학교실 15시",
+    "science16": "생활과학교실 16시",
+    "science17": "생활과학교실 17시",
+  }
+</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
       include_once(G5_THEME_PATH.'/header.part.sub.php');
@@ -145,8 +177,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
-            연락처 : <span class="check_date"></span><br />
-            연락처 : <span class="check_time"></span><br />
+            날짜 : <span class="check_date"></span><br />
+            시간 : <span class="check_time"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -268,7 +300,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                         $('.check_tel').text(data.data.rsv_tel);
                         $('#id').val(data.data.id);
                         $('.check_date').text(data.data.rsv_date);
-                        $('.check_time').text(data.data.rsv_time);
+                        if (data.data.program == "미래교육") {
+                          $('.check_time').text(program_detail[data.data.rsv_time]);
+                        }
                         $('.check_email').text(data.data.rsv_email);
                         $('.check_group').text(data.data.rsv_group);
                         $('.check_position').text(data.data.rsv_position);
