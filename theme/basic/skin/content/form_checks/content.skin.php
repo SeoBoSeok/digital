@@ -114,7 +114,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                                 <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4">
                             </div>
                             <div class="title">신청 프로그램</div>
-                            <select name="program" id="program">
+                            <select class="minimal" name="program" id="program">
                                 <option>관람객</option>
                                 <option>튜토리얼</option>
                                 <option>미래교육</option>
