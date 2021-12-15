@@ -378,7 +378,7 @@ if(G5_COMMUNITY_USE === false) {
                   $content = get_text($content, 1);
                   $content = strip_tags($content);
                   $content = str_replace('&nbsp;', '', $content);
-                  $content = cut_str($content, 100, "…");
+                  $content = cut_str($content, 80, "…");
                   ?>
                   <p><?php echo $content; ?></p>
                 </a>
