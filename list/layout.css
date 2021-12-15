@@ -744,4 +744,14 @@ main .inner .slider .imgWrap {width: 100%; display: block; min-height: 500px;}
   .contents_left {
     width: 100%;
   }
+  .contents {
+    padding: 20px 10px;
+  }
+  .contents_left .sector {
+    margin-bottom: 10px;
+  }
+  .lists dl {
+    padding: 10px 0;
+    margin: 0;
+  }
 }
