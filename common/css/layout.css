@@ -392,16 +392,17 @@ header h1 .m {
     display: none;
   }
   #nav {
-    padding: 75px 0 0 0;
+    padding: 50px 0 0 0;
   }
   #nav > ul > li {
     padding: 0;
     width: 100%;
     text-align: center;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
   #nav > ul > li:first-child {
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
   }
   #nav > ul > li > a {
     padding: 13px 15px;
@@ -411,14 +412,16 @@ header h1 .m {
     margin-top: 5px;
   }
   header.on #nav > ul > li > ul {
-    display: none;
+    /* display: none; */
     margin-bottom: -1px;
     text-align: left;
     padding: 8px 15px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
   }
   #nav > ul > li > ul > li {
     padding: 2.5px 0;
+    width: 50%;
+    float: left;
   }
   #nav > ul > li > ul > li > a {
     font-size: 14px;

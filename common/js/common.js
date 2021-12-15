@@ -15,11 +15,11 @@ $(document).ready(function () {
   }
 
   function menuEventForMobile() {
-    $("#nav>ul>li>a").click(function (e) {
-      e.preventDefault();
-      $(this).siblings("ul").slideToggle(200);
-      $(this).parent("li").siblings().find("ul").slideUp(200);
-    });
+    // $("#nav>ul>li>a").click(function (e) {
+    //   e.preventDefault();
+    //   $(this).siblings("ul").slideToggle(200);
+    //   $(this).parent("li").siblings().find("ul").slideUp(200);
+    // });
   }
 
   var header_flag = true;
