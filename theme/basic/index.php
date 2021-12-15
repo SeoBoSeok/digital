@@ -365,24 +365,20 @@ if(G5_COMMUNITY_USE === false) {
           <div class="new">
             <h4>NEWS</h4>
             <ul>
+            <?php
+              $sql = " SELECT wr_id, wr_subject, wr_content, wr_datetime FROM g5_write_notice ORDER BY wr_datetime DESC LIMIT 0, 3 ";
+              $result = sql_query($sql);
+              for ($i=0; $row=sql_fetch_array($result); $i++) {
+            ?>
               <li>
-                <a href="#">
-                  <h5>코로나로 인해 사전예약을 진행하고 있습니다.</h5>
-                  <p>코로나로 인해 사전예약을 진행하고 있습니다.</p>
+                <a href="<?php echo G5_URL.'/bbs/board.php?bo_table=notice&wr_id='.$row["wr_id"]; ?>">
+                  <h5><?php echo $row["wr_subject"]; ?></h5>
+                  <p><?php echo $row["wr_content"]; ?></p>
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <h5>코로나로 인해 사전예약을 진행하고 있습니다.</h5>
-                  <p>코로나로 인해 사전예약을 진행하고 있습니다.</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <h5>코로나로 인해 사전예약을 진행하고 있습니다.</h5>
-                  <p>코로나로 인해 사전예약을 진행하고 있습니다.</p>
-                </a>
-              </li>
+              <?php
+              }
+              ?>
             </ul>
           </div>
         </div>
