@@ -79,7 +79,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
 								<col style="width: 20%;">
-								<col style="width: 10%;">
+								<!-- <col style="width: 10%;"> -->
 								<col style="width: 40%;">
 								<col style="width: 30%;">
 						</colgroup>
@@ -92,7 +92,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
-										<th scope="col" class="point_bg">부스넘버</th>
+										<!-- <th scope="col" class="point_bg">부스넘버</th> -->
 										<th scope="col" class="point_bg">참여기관명</th>
 										<th scope="col" class="point_bg">해당분야</th>
 								</tr>
@@ -100,78 +100,78 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="12">디지털문화유산<br>산업</th>
-										<td>A11</td>
+										<!-- <td>A11</td> -->
 										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
 										<td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td>A12</td>
+                  <!-- <td>A12</td> -->
                   <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="so">소</span></td>
 								</tr>
 								<tr>
-                  <td>A09</td>
+                  <!-- <td>A09</td> -->
                   <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
-                  <td>A03</td>
+                  <!-- <td>A03</td> -->
                   <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
                   <td><span class="bok">복</span>&nbsp;</td>
 								</tr>
 								<tr>
-                  <td>A10</td>
+                  <!-- <td>A10</td> -->
                   <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
                   <td><span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td>A01</td>
+                  <!-- <td>A01</td> -->
                   <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
                   <td><span class="so">소</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
-                  <td>A08</td>
+                  <!-- <td>A08</td> -->
                   <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
-                  <td>A02</td>
+                  <!-- <td>A02</td> -->
                   <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
                   <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
-                  <td>A13</td>
+                  <!-- <td>A13</td> -->
                   <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
                   <td><span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td>A05</td>
+                  <!-- <td>A05</td> -->
                   <td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td>A04</td>
+                  <!-- <td>A04</td> -->
                   <td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
                   <td><span class="ki">기</span>&nbsp;<span class="so">소</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td>A14</td>
+                  <!-- <td>A14</td> -->
                   <td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>연구개발</th>
-										<td></td>
+										<!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
 										<td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span></td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
                   <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
                   <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
                   <td class="link" onclick="go_open('/list/hmd.html');">한국전통문화대학교<br>문화유산산업학과</td>
                   <td><span class="so">소</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
@@ -187,14 +187,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
               <col style="width: 20%;">
-              <col style="width: 10%;">
+              <!-- <col style="width: 10%;"> -->
               <col style="width: 40%;">
               <col style="width: 30%;">
 						</colgroup>
 						<thead>
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
-                    <th scope="col" class="point_bg">부스</th>
+                    <!-- <th scope="col" class="point_bg">부스</th> -->
 										<th scope="col" class="point_bg">기관명</th>
 										<th scope="col" class="point_bg">교육 내용</th>
 								</tr>
@@ -202,7 +202,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
                   <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/csa.html');">충남과학협회</td>
 										<td>역사게임 만들기</td>
 								</tr>
@@ -212,7 +212,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>인공지능 드론 (문화재 도굴)</td>
 								</tr> -->
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/edu.html');">에듀크래프트</td>
 										<td>LED 코딩</td>
 								</tr>
@@ -222,12 +222,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>역사토론, 퀴즈, 문화재 스피치</td>
 								</tr> -->
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/robot.html');">엘리오 로봇틱스</td>
 										<td>코딩을 통한 전시실 모델링</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/gongju.html');">국립 공주대학교 생확과학교실</td>
 										<td>3D 펜을 이용한 문화재 만들기</td>
 								</tr>
@@ -237,12 +237,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>로봇코딩</td>
 								</tr> -->
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/davinci.html');">다빈치에듀</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/davinci2.html');">다빈치창의융합연구소</td>
 										<td>3D 모델링, AR 콘텐츠 제작</td>
 								</tr>
@@ -270,14 +270,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
               <col style="width: 20%;">
-              <col style="width: 10%;">
+              <!-- <col style="width: 10%;"> -->
               <col style="width: 40%;">
               <col style="width: 30%;">
 						</colgroup>
 						<thead>
 								<tr>
                   <th scope="col" class="point_bg">항목</th>
-                  <th scope="col" class="point_bg">부스</th>
+                  <!-- <th scope="col" class="point_bg">부스</th> -->
                   <th scope="col" class="point_bg">기관·대학명</th>
                   <th scope="col" class="point_bg">콘텐츠명</th>
 								</tr>
@@ -285,17 +285,17 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>초청전</th>
-                    <td></td>
+                    <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/baekjae.html');">백제세계유산센터</td>
 										<td>디지털로 만나는 백제역사유적지구</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/IDH.html');">한국전통문화대학교 <br>IDH연구소</td>
 										<td>정조대왕의 수원화성 야간군사 훈련 VAR 콘텐츠<br>소실된 웅진백제기 공주 정지산 유적 고건축 AR 콘텐츠</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
 										<td>청동거울, 과학을 비추다</td>
 								</tr>
