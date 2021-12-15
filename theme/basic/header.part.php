@@ -13,7 +13,7 @@
           </ul>
         </li>
         <li>
-          <a href="/bbs/content.php?co_id=about_org">참여기관</a>
+          <a href="/bbs/content.php?co_id=about_org">전시구성</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=about_org">산업</a></li>
             <li><a href="/bbs/content.php?co_id=about_org_dev">연구개발</a></li>

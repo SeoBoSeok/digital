@@ -20,7 +20,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>참여기관</h2>
+            <h2>전시구성</h2>
             <p>문화유산, 디지털과 만나다</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="location">
         <div class="inner">
           <ul>
-            <li>참여기관</li>
+            <li>전시구성</li>
             <!-- <li>디지털문화유산 산업</li> -->
           </ul>
         </div>
@@ -52,7 +52,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation">
-                  <span class="subpage-link-text">참여기관</span>
+                  <span class="subpage-link-text">전시구성</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
@@ -77,7 +77,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>참여기관</h3>
+                <h3>전시구성</h3>
                 <div class="lists">
                   <p>
                   2021 공주 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘디지털문화유산 산업‘, ‘디지털문화유산 연구개발’, ‘디지털문화유산 미래교육', ‘문화유산상품 마켓’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
