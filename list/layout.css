@@ -677,6 +677,9 @@ main .inner .slider .imgWrap {width: 100%; display: block;}
     overflow-y: hidden;
     overflow-x: scroll;
   } */
+  main {
+    padding: 30px 10px;
+  }
   .contents_right {
     display: none;
   }
