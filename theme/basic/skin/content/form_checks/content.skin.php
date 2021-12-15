@@ -145,6 +145,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
+            연락처 : <span class="check_date"></span><br />
+            연락처 : <span class="check_time"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -167,7 +169,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </button>
           </div>
           <div class="modal-body">
-            <span class="check_tel"></span>예약 내역을 찾을 수 없습니다.
+            예약 내역을 찾을 수 없습니다.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -265,8 +267,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                         $('.check_name').text(data.data.rsv_name);
                         $('.check_tel').text(data.data.rsv_tel);
                         $('#id').val(data.data.id);
-                        $('#check_address').val(data.data.rsv_address);
-                        $('#check_address_detail').val(data.data.rsv_detailAddress);
+                        $('.check_date').text(data.data.rsv_date);
+                        $('.check_time').text(data.data.rsv_time);
+                        $('.check_email').text(data.data.rsv_email);
+                        $('.check_group').text(data.data.rsv_group);
+                        $('.check_position').text(data.data.rsv_position);
+                        $('.check_types').text(data.data.rsv_types);
                         $('.check_cnt').text(data.data.ride_adult_cnt);
                         if (data.data.id > 446) {
                           $('#successModalCenter .modal-footer').append('<button type="button" class="btn btn-danger" id="address_fix" onclick="fixAddress();">주소 수정</button>');

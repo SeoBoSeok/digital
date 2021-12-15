@@ -43,7 +43,7 @@ $cnt1 = sql_fetch ("
 if($cnt1['cnt'] > 0) {
   $return["result"] = "success";
   $sql = "
-    SELECT id, program, rsv_name, rsv_address, rsv_detailAddress, rsv_tel, ride_adult_cnt FROM apply WHERE rsv_name = '$rsv_name' AND rsv_tel = '$rsv_tel' AND program = '$program'
+    SELECT id, program, rsv_name, rsv_date, rsv_time, rsv_types, rsv_email, rsv_group, rsv_position, rsv_address, rsv_detailAddress, rsv_tel, ride_adult_cnt FROM apply WHERE rsv_name = '$rsv_name' AND rsv_tel = '$rsv_tel' AND program = '$program'
   ";
   $result = sql_query( $sql );
   for ($i=0; $row=sql_fetch_array($result); $i++) {
@@ -51,6 +51,12 @@ if($cnt1['cnt'] > 0) {
       "id" => $row['id'],
       "program" => $row['program'],
       "rsv_name" => $row['rsv_name'],
+      "rsv_date" => $row['rsv_date'],
+      "rsv_time" => $row['rsv_time'],
+      "rsv_group" => $row['rsv_group'],
+      "rsv_email" => $row['rsv_email'],
+      "rsv_types" => $row['rsv_types'],
+      "rsv_position" => $row['rsv_position'],
       "rsv_address" => $row['rsv_address'],
       "rsv_detailAddress" => $row['rsv_detailAddress'],
       "rsv_tel" => $row['rsv_tel'],
