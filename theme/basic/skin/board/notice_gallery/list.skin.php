@@ -146,18 +146,21 @@ jQuery(function($){
 
 						<div class="bbs_search">
 							<div class="bbs_search_in ">
-<form method="get" action="/" name="form1">
+								<form method="get" action="/" name="form1">
+								<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
+								<input type="hidden" name="sop" value="and">
+								<!-- <input type="hidden" name="sfl" value="wr_subject||wr_content"> -->
 									<fieldset>
 										<legend>게시물 검색</legend>
-										<select name="make" class="select">
-										  <option value="title">제목</option>
-										  <option value="content">내용</option>
-										  <option value="all">제목+내용</option>
+										<select name="sfl" class="select">
+										  <option value="wr_subject">제목</option>
+										  <option value="wr_content">내용</option>
+										  <option value="wr_subject||wr_content">제목+내용</option>
 										</select>
-										<input type="text" id="searchstr" name="stx" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요." class="input" name="search">
+										<input type="text" id="searchstr" name="stx" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요.">
 										<input class="btn_search" type="button" value="검색" onclick="document.form1.submit();">
 									</fieldset>
-</form>
+								</form>
 							</div>
 						</div>
 
