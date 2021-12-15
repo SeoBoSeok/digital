@@ -8,8 +8,8 @@
             <a href="/bbs/content.php?co_id=introduce">전시소개</a>
             <ul>
               <li><a href="/bbs/content.php?co_id=introduce">전시소개</a></li>
-              <li><a href="/bbs/content.php?co_id=booth">부스배치도</a></li>
-              <!-- <li><a href="/bbs/content.php?co_id=schedule">참여기관</a></li> -->
+              <li><a href="/bbs/content.php?co_id=booth">전시배치</a></li>
+              <li><a href="/bbs/content.php?co_id=schedule">전시구성</a></li>
             </ul>
           </li>
           <li>

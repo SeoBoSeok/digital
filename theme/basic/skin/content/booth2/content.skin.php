@@ -30,7 +30,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>부스배치도</li>
+            <li>전시배치</li>
           </ul>
         </div>
       </section>
@@ -40,7 +40,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <table width="750" border="0" cellpadding="0" cellspacing="0" align="center">
             <tbody>
               <tr>
-                <td width="50%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=booth'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">부스배치도</td>
+                <td width="50%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=booth'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">전시배치</td>
                 <td width="50%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=schedule'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; font-weight:500; cursor:pointer">참여기관</td>
                 <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_edu'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">디지털문화유산 미래교육</td>
                 <td width="25%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=about_org_product'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">문화유산상품 마켓</td>
@@ -54,7 +54,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=booth">
-                  <span class="subpage-link-text">부스배치도</span>
+                  <span class="subpage-link-text">전시배치</span>
               </a>
             </span>
             <span class="subpage-item each-line subpage_nav_item ">
@@ -69,22 +69,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 
           <div class="cont ani active schedule">
 					<div class="booth_tite">
-						<h2>부스배치도</h2>
+						<h2>전시배치</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth003.png" alt="부스배치도">
+						<img src="/common/img/booth003.png" alt="전시배치">
 					</div>
 					<div class="booth_tite second">
 						<h2>층별 상세 안내도</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth002.png" alt="부스배치도">
+						<img src="/common/img/booth002.png" alt="전시배치">
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth001.png" alt="부스배치도">
+						<img src="/common/img/booth001.png" alt="전시배치">
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth004.png" alt="부스배치도">
+						<img src="/common/img/booth004.png" alt="전시배치">
 					</div>										
           </div>	
 

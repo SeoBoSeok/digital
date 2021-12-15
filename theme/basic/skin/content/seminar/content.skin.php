@@ -119,7 +119,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div> -->
           <div class="details">
           <div class="schedule">
-					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
 					<h3>12월 19일(일) 16:00~18:00</h3>
 					
 					<div class="wrap-tbl-calendar mb-50 table-container">
@@ -216,7 +216,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>        
 
         <div class="schedule">
-					<!-- <img src="/common/img/booth_plan_3.jpg" alt="부스배치도" /> -->
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
 					<h3>12월 20일(월) 14:00~17:20</h3>
 					
 					<div class="wrap-tbl-calendar mb-50 table-container">
