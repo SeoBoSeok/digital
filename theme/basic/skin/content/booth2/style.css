@@ -309,8 +309,8 @@ td.link:hover {
   color: white;
   cursor: pointer;
 }
-.booth_tite {width: 100%;padding: 20px; background-color: #b04500; color: white}
-.booth_tite h2 {font-size: 1.5rem; margin-bottom: 0;
+.booth_tite {width: 100%;padding: 10px 20px; background-color: #4485ba; color: white}
+.booth_tite h2 {font-size: 15px; margin-bottom: 0;
 }
 .booth_tite.second {margin-top: 100px;}
 .digital .sec1 .inner:after {display: none!important}
