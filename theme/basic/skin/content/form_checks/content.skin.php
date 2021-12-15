@@ -178,7 +178,34 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
             날짜 : <span class="check_date"></span><br />
-            시간 : <span class="check_time"></span><br />
+            소속 : <span class="check_group"></span><br />
+            직책 : <span class="check_position"></span><br />
+            이메일 : <span class="check_email"></span><br />
+            유형 : <span class="check_types"></span><br />
+            개인정보 동의 : <span class="check_agree">Y</span><br />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="successModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">예약 되었습니다</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            예약자 : <span class="check_name"></span><br />
+            연락처 : <span class="check_tel"></span><br />
+            예약내역<br>
+            <div id="datails_info">
+
+            </div>
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -295,23 +322,48 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     // $('#message').html(data);  //현재 화면 위 id="message" 영역 안에 data안에 담긴 html 코드를 넣어준다. 
                     // console.log(data.data.program);
                     if (data.result === "success") {
-                        $('.check_program').text(data.data.program);
-                        $('.check_name').text(data.data.rsv_name);
-                        $('.check_tel').text(data.data.rsv_tel);
-                        $('#id').val(data.data.id);
-                        $('.check_date').text(data.data.rsv_date);
-                        if (data.data.program == "미래교육") {
-                          $('.check_time').text(program_detail[data.data.rsv_time]);
+                        if (data.array.length >= 2) {
+                          var h = "";
+                          $('.check_program').text(data.data.program);
+                          $('.check_name').text(data.data.rsv_name);
+                          $('.check_tel').text(data.data.rsv_tel);
+                          $('#id').val(data.data.id);
+                          $('.check_date').text(data.data.rsv_date);
+                          // if (data.data.program == "미래교육") {
+                          //   $('.check_time').text(program_detail[data.data.rsv_time]);
+                          // }
+                          console.log(data.array);
+                          data.array.forEach(function(e){
+                            h += "<span>";
+                            h += e.rsv_date;
+                            h += " | ";
+                            h += program_detail[e.rsv_time];
+                            h == "</span>";
+                            h += "<br>";
+                          });
+                          console.log(h);
+                          $('#datails_info').html(h);
+                          $('.check_email').text(data.data.rsv_email);
+                          $('.check_group').text(data.data.rsv_group);
+                          $('.check_position').text(data.data.rsv_position);
+                          $('.check_types').text(data.data.rsv_types);
+                          $('.check_cnt').text(data.data.ride_adult_cnt);
+
+                          $('#successModalCenter2').modal("show");
+                        } else {
+                          $('.check_program').text(data.data.program);
+                          $('.check_name').text(data.data.rsv_name);
+                          $('.check_tel').text(data.data.rsv_tel);
+                          $('#id').val(data.data.id);
+                          $('.check_date').text(data.data.rsv_date);
+                          $('.check_email').text(data.data.rsv_email);
+                          $('.check_group').text(data.data.rsv_group);
+                          $('.check_position').text(data.data.rsv_position);
+                          $('.check_types').text(data.data.rsv_types);
+                          $('.check_cnt').text(data.data.ride_adult_cnt);
+  
+                          $('#successModalCenter').modal("show");
                         }
-                        $('.check_email').text(data.data.rsv_email);
-                        $('.check_group').text(data.data.rsv_group);
-                        $('.check_position').text(data.data.rsv_position);
-                        $('.check_types').text(data.data.rsv_types);
-                        $('.check_cnt').text(data.data.ride_adult_cnt);
-                        if (data.data.id > 446) {
-                          $('#successModalCenter .modal-footer').append('<button type="button" class="btn btn-danger" id="address_fix" onclick="fixAddress();">주소 수정</button>');
-                        }
-                        $('#successModalCenter').modal("show");
                     } else {
                         $('#failModalCenter').modal("show");
                     }
