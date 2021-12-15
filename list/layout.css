@@ -666,7 +666,7 @@ main {
 main .inner .slider .imgWrap {
   width: 100%;
   display: block;
-  min-height: 350px;
+  min-height: 420px;
   display: flex;
   justify-content: center;
   align-items: center;
