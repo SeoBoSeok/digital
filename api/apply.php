@@ -136,7 +136,7 @@ if ($token == "education") {
     $cnt32 = sql_fetch("
       SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time' AND rsv_date = '$rsv_date'
     ");
-    if($cnt32['cnt'] > 8) {
+    if($cnt32['cnt'] > 7) {
       $return["result"] = "full";
       $return["msg"] = "참여 제한 인원 8명 초과로 예약이 마감되었습니다.";
       echo json_encode( $return );
@@ -147,7 +147,7 @@ if ($token == "education") {
     $cnt32 = sql_fetch("
       SELECT count(id) as cnt FROM apply WHERE token = '$token' AND rsv_time = '$rsv_time' AND rsv_date = '$rsv_date'
     ");
-    if($cnt32['cnt'] > 4) {
+    if($cnt32['cnt'] > 3) {
       $return["result"] = "full";
       $return["msg"] = "참여 제한 인원 4명 초과로 예약이 마감되었습니다.";
       echo json_encode( $return );

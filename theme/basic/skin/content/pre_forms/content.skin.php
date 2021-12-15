@@ -305,6 +305,7 @@ if (!empty($_REQUEST['program'])) {
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
+            날짜 : <span class="check_date"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -330,6 +331,7 @@ if (!empty($_REQUEST['program'])) {
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
+            날짜 : <span class="check_date"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -438,6 +440,7 @@ if (!empty($_REQUEST['program'])) {
             $('.check_name').text($('input[name=rsv_name]').val());
             $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
             $('.check_group').text($('input[name=rsv_group]').val());
+            $('.check_date').text($('#rsv_date').val());
             $('.check_position').text($('input[name=rsv_position]').val());
             $('.check_email').text($('input[name=rsv_email]').val());
             $('.check_types').text($('input[name=rsv_types]:checked').val());
