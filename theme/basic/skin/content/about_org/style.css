@@ -239,7 +239,8 @@ section.sec0 .inner table td:hover {
   }
 
   .subpage-item-lists::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera*/
+      /* display: none;  */
+      /* Chrome, Safari, Opera*/
   }
 
   .subpage-item-lists .subpage-item{
