@@ -725,6 +725,9 @@ header h1 {
     justify-content: initial;
     padding: 0 1.1rem;
   }
+  .digital .sec1 {
+
+  }
 }
 .subpage-item-lists, .subpage-item-lists .subpage-item, .subpage-item-lists .subpage-link {
   position: relative;
@@ -732,7 +735,7 @@ header h1 {
 .each-line:not(:last-child):after {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 44%;
   right: 0;
   width: 1px;
   height: 0.625rem;
@@ -740,6 +743,6 @@ header h1 {
   transform: translateY(-50%);
 }
 .subpage-item-lists .each-line:not(:last-child):after {
-  height: 1.563rem;
+  height: 1.4rem;
   background-color: #cccccc;
 }
