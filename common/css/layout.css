@@ -595,6 +595,14 @@ footer .f_sec2 {
     padding: 25px 0;
     font-size: 13px;
   }
+  #header #nav {
+    /* display: none; */
+    visibility: hidden;
+  }
+  #header.on #nav {
+    /* display: block; */
+    visibility: visible;
+  }
 }
 @media screen and (max-width: 767px) {
   footer .f_sec1 .inner .wrap {
