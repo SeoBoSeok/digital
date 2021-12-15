@@ -260,7 +260,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                 <!-- s:개인정보처리방침 -->
                                     <span>유형</span>
                                     <div>
-                                        <label><input type="radio" name="rsv_types" value="개인">개인</label>
+                                        <label><input type="radio" name="rsv_types" value="개인" checked="checked">개인</label>
                                         <label><input type="radio" name="rsv_types" value="단체">단체</label>
                                         <span style="display: block; color: #007bff;">단체의 경우, 공지사항-단체참관 양식을 작성하여 이메일(kjhak@kongju.ac.kr)로 제출 부탁드립니다.</span>
                                     </div>
