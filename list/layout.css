@@ -750,6 +750,9 @@ main .inner .slider .imgWrap {width: 100%; display: block; min-height: 500px;}
   .contents_left .sector {
     margin-bottom: 10px;
   }
+  .lists {
+    margin-top: 15px;
+  }
   .lists dl {
     padding: 10px 0;
     margin: 0;
