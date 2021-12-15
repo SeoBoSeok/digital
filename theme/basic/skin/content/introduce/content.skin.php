@@ -49,8 +49,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>디지털 박람회</h2>
-            <p>문화유산, 디지털과 만나다.</p>
+            <h2>문화유산, 디지털과 만나다</h2>
           </div>
         </div>
       </section>

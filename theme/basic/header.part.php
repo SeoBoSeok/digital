@@ -9,7 +9,7 @@
           <ul>
             <li><a href="/bbs/content.php?co_id=introduce">전시소개</a></li>
             <li><a href="/bbs/content.php?co_id=booth">부스배치도</a></li>
-            <li><a href="/bbs/content.php?co_id=schedule">참가업체리스트</a></li>
+            <li><a href="/bbs/content.php?co_id=schedule">참여기관</a></li>
           </ul>
         </li>
         <li>

@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>참여업체</h2>
+            <h2>참여기관</h2>
             <p>문화유산, 디지털과 만나다.</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>전시소개</li>
-            <li>참여업체</li>
+            <li>참여기관</li>
           </ul>
         </div>
       </section>
@@ -43,7 +43,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=schedule">
-                  <span class="subpage-link-text">참여업체</span>
+                  <span class="subpage-link-text">참여기관</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -55,7 +55,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <tbody>
               <tr>
                 <td width="50%" height="55" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=booth'" align="center" style="border-bottom:solid 2px #101443; border-top:solid 1px #efefef; font-size:18px; cursor:pointer; font-weight:500;">부스배치도</td>
-                <td width="50%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=schedule'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">참여업체</td>
+                <td width="50%" bgcolor="#ffffff" onclick="location.href='/bbs/content.php?co_id=schedule'" align="center" style="border-bottom:solid 1px #efefef; border-top:solid 1px #efefef; font-size:18px; cursor:pointer">참여기관</td>
               </tr>
             </tbody>
           </table>
