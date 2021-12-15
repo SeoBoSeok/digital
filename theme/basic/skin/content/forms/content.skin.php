@@ -6,6 +6,38 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' AND rsv_time = '$rsv_time'");
 ?>
+<script>
+  var program_detail = {
+    "da10": "다빈치에듀 10시",
+    "da11": "다빈치에듀 11시",
+    "da13": "다빈치에듀 13시",
+    "da14": "다빈치에듀 14시",
+    "da15": "다빈치에듀 15시",
+    "da16": "다빈치에듀 16시",
+    "da17": "다빈치에듀 17시",
+    "edu10": "에듀크래프트(유료) 10시",
+    "edu11": "에듀크래프트(유료) 11시",
+    "edu13": "에듀크래프트(유료) 13시",
+    "edu14": "에듀크래프트(유료) 14시",
+    "edu15": "에듀크래프트(유료) 15시",
+    "edu16": "에듀크래프트(유료) 16시",
+    "edu17": "에듀크래프트(유료) 17시",
+    "davin10": "다빈치창의융합연구소 10시",
+    "davin11": "다빈치창의융합연구소 11시",
+    "davin13": "다빈치창의융합연구소 13시",
+    "davin14": "다빈치창의융합연구소 14시",
+    "davin15": "다빈치창의융합연구소 15시",
+    "davin16": "다빈치창의융합연구소 16시",
+    "davin17": "다빈치창의융합연구소 17시",
+    "science10": "생활과학교실 10시",
+    "science11": "생활과학교실 11시",
+    "science13": "생활과학교실 13시",
+    "science14": "생활과학교실 14시",
+    "science15": "생활과학교실 15시",
+    "science16": "생활과학교실 16시",
+    "science17": "생활과학교실 17시",
+  }
+</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
       include_once(G5_THEME_PATH.'/header.part.sub.php');
@@ -180,7 +212,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                     <input type="text" name="rsv_name" placeholder="예약자명을 입력해 주세요.">
                                 </div>
                                 <div class="box5_02">
-                                    <span>프로그램 & 시간선택</span>
+                                    <span>[프로그램] 시간선택</span>
                                     <div class="program_row">
                                       <span style="padding-right: 10px;">[다빈치에듀]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
@@ -376,6 +408,8 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
+            날짜 : <span class="check_date"></span><br />
+            시간(프로그램) : <span class="check_time"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -401,6 +435,8 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
           <div class="modal-body">
             예약자 : <span class="check_name"></span><br />
             연락처 : <span class="check_tel"></span><br />
+            날짜 : <span class="check_date"></span><br />
+            시간(프로그램) : <span class="check_time"></span><br />
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
@@ -498,6 +534,11 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
         //     $('input[name=rsv_position]').focus();
         //     return;
         // }
+        if(!$('input[name=rsv_time]:checked').val()) {
+          alert('시간을 선택해주세요');
+          $('input[name=rsv_time]').focus();
+          return;
+        }
         if(!$('input[name=rsv_email]').val()) {
             alert('이메일을 입력해주세요');
             $('input[name=rsv_email]').focus();
@@ -508,6 +549,8 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
         if ($('input:checkbox[name=agree]:checked').val()) {
             $('.check_name').text($('input[name=rsv_name]').val());
             $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
+            $('.check_date').text($('#rsv_date').val());
+            $('.check_time').text(program_detail[$('input[name=rsv_time]:checked').val()]);
             $('.check_group').text($('input[name=rsv_group]').val());
             $('.check_position').text($('input[name=rsv_position]').val());
             $('.check_email').text($('input[name=rsv_email]').val());
