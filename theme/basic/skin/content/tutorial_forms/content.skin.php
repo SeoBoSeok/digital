@@ -135,7 +135,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <td class="ttl">참관일시</td>
                             <td class="box6 ride_count">
                                 <div class="box6_01">
-                                    <select name="rsv_date" id="rsv_date">
+                                    <select class="minimal" name="rsv_date" id="rsv_date">
                                       <option value="2021-12-18">2021-12-18</option>
                                       <option value="2021-12-19">2021-12-19</option>
                                       <option value="2021-12-20">2021-12-20</option>
