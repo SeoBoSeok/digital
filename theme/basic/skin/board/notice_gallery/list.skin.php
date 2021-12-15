@@ -157,7 +157,7 @@ jQuery(function($){
 										  <option value="wr_content">내용</option>
 										  <option value="wr_subject||wr_content">제목+내용</option>
 										</select>
-										<input type="text" id="searchstr" name="stx" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요.">
+										<input type="text" id="searchstr" class="input" name="stx" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요.">
 										<input class="btn_search" type="submit" value="검색">
 									</fieldset>
 								</form>
