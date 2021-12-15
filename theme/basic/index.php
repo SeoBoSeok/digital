@@ -373,7 +373,14 @@ if(G5_COMMUNITY_USE === false) {
               <li>
                 <a href="<?php echo G5_URL.'/bbs/board.php?bo_table=notice&wr_id='.$row["wr_id"]; ?>">
                   <h5><?php echo $row["wr_subject"]; ?></h5>
-                  <p><?php echo $row["wr_content"]; ?></p>
+                  <?php
+                  $content = strip_tags($row['wr_content']);
+                  $content = get_text($content, 1);
+                  $content = strip_tags($content);
+                  $content = str_replace('&nbsp;', '', $content);
+                  $content = cut_str($content, 100, "…");
+                  ?>
+                  <p><?php echo $content; ?></p>
                 </a>
               </li>
               <?php
