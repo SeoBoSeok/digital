@@ -360,7 +360,7 @@ header h1 {
   }
   .digital .sec1 .info.orange {
     margin: 50px 0 0 -50px;
-    padding: 0 6% !important;
+    padding: 0 6%;
   }
   .digital .sec1 .info h3 {
     font-size: 30px;
@@ -434,7 +434,7 @@ header h1 {
     float: none;
     width: 100%;
     height: auto;
-    margin: 0;
+    margin: 0 !important;
     padding: 50px 5% 100px !important;
     box-shadow: 0px 20px 40px 0px rgba(4, 0, 0, 0.3);
   }
