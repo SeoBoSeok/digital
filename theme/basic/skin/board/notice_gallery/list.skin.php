@@ -146,7 +146,7 @@ jQuery(function($){
 
 						<div class="bbs_search">
 							<div class="bbs_search_in ">
-								<form method="get" action="/" name="form1">
+								<form method="get" name="fsearch">
 								<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
 								<input type="hidden" name="sop" value="and">
 								<!-- <input type="hidden" name="sfl" value="wr_subject||wr_content"> -->
@@ -158,7 +158,7 @@ jQuery(function($){
 										  <option value="wr_subject||wr_content">제목+내용</option>
 										</select>
 										<input type="text" id="searchstr" name="stx" style="width:320px;" value="" title="검색어를 입력하세요." placeholder="검색어를 입력하세요.">
-										<input class="btn_search" type="button" value="검색" onclick="document.form1.submit();">
+										<input class="btn_search" type="submit" value="검색">
 									</fieldset>
 								</form>
 							</div>
