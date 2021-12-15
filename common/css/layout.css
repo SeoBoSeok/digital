@@ -379,6 +379,7 @@ header h1 .m {
   header.on {
     position: fixed;
     height: 100%;
+    z-index: 9999;
   }
   header.on .inner {
     padding: 15px;
