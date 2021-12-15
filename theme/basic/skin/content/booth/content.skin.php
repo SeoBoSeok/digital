@@ -160,7 +160,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-										<th scope="row" rowspan="3">디지털유산<br>연구개발</th>
+										<th scope="row" rowspan="3">디지털문화유산<br>연구개발</th>
 										<td></td>
 										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
 										<td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span></td>
