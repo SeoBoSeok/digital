@@ -22,7 +22,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>참여기관</h2>
-            <p>문화유산, 디지털과 만나다.</p>
+            <p>디지털 문화유산 생태계 : 산업&교육&연구</p>
           </div>
         </div>
       </section>

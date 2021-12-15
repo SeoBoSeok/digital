@@ -93,13 +93,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
 										<th scope="col" class="point_bg">부스넘버</th>
-										<th scope="col" class="point_bg">참가업체(기관)명</th>
+										<th scope="col" class="point_bg">참여기관명</th>
 										<th scope="col" class="point_bg">해당분야</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
-										<th scope="row" rowspan="12">디지털유산<br>연구개발<br>(DH R&D)</th>
+										<th scope="row" rowspan="12">디지털문화유산<br>산업</th>
 										<td></td>
 										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
 										<td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
@@ -160,7 +160,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
 								</tr>
 								<tr>
-										<th scope="row" rowspan="3">디지털유산<br>연구개발<br>(DH R&D)</th>
+										<th scope="row" rowspan="3">디지털유산<br>연구개발</th>
 										<td></td>
 										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
 										<td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span></td>
@@ -195,13 +195,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
                     <th scope="col" class="point_bg">부스</th>
-										<th scope="col" class="point_bg">업체명</th>
+										<th scope="col" class="point_bg">기관명</th>
 										<th scope="col" class="point_bg">교육 내용</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
-                  <th scope="row" rowspan="9">디지털유산<br>미래교육<br>(DH Education)</th>
+                  <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
                   <td></td>
 										<td class="link" onclick="go_open('/list/csa.html');">충남과학협회</td>
 										<td>역사게임 만들기</td>
@@ -228,7 +228,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td></td>
-										<td class="link" onclick="go_open('/list/gongju.html');">공주대학교 생확과학교실</td>
+										<td class="link" onclick="go_open('/list/gongju.html');">국립 공주대학교 생확과학교실</td>
 										<td>3D 펜을 이용한 문화재 만들기</td>
 								</tr>
 								<!-- <tr>
@@ -284,7 +284,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<th scope="row" rowspan="3">디지털유산<br>초청전<br>(DH Invitation)</th>
+										<th scope="row" rowspan="3">디지털문화유산<br>초청전</th>
                     <td></td>
 										<td class="link" onclick="go_open('/list/baekjae.html');">백제세계유산센터</td>
 										<td>디지털로 만나는 백제역사유적지구</td>
