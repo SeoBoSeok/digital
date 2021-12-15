@@ -105,7 +105,7 @@ if ($token == "tutorial") {
   $cnt21 = sql_fetch("
   SELECT count(id) as cnt FROM apply WHERE token = '$token'
   ");
-  if($cnt21['cnt'] > 9) {
+  if($cnt21['cnt'] > 14) {
     $return["result"] = "full";
     $return["msg"] = "참여 제한 인원 10명 초과로 예약이 마감되었습니다.";
     echo json_encode( $return );

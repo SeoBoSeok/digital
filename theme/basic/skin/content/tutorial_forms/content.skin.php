@@ -109,7 +109,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <td>무료</td>
                   <td>2021. 12. 18. (토) 15:00~17:00</td>
                   <td>2시간</td>
-                  <td>10명</td>
+                  <td>15명</td>
                   <td>디지털문화유산분야 전문가</td>
 								</tr>
 						</tbody>
