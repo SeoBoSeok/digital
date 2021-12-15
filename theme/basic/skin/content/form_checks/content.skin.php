@@ -241,6 +241,16 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
     <script>
     $(document).ready(function(){
         $('#chk_btn').click(function(){
+          if(!$('input[name=rsv_name]').val()) {
+            alert('이름을 입력해주세요');
+            $('input[name=rsv_name]').focus();
+            return;
+          }
+          if(!$('input[name=rsv_tel2]').val() || !$('input[name=rsv_tel3]').val()) {
+              alert('전화번호를 확인해주세요');
+              $('input[name=rsv_tel2]').focus();
+              return;
+          }
             var sendData = $('#rsvForm').serialize();
             $.ajax({
                 type:'post',   //post 방식으로 전송

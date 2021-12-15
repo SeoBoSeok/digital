@@ -488,7 +488,21 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
             $('input[name=rsv_tel2]').focus();
             return;
         }
-
+        // if(!$('input[name=rsv_group]').val()) {
+        //     alert('소속을 입력해주세요');
+        //     $('input[name=rsv_group]').focus();
+        //     return;
+        // }
+        // if(!$('input[name=rsv_position]').val()) {
+        //     alert('직책을 확인해주세요');
+        //     $('input[name=rsv_position]').focus();
+        //     return;
+        // }
+        if(!$('input[name=rsv_email]').val()) {
+            alert('이메일을 입력해주세요');
+            $('input[name=rsv_email]').focus();
+            return;
+        }
         // console.log($('input:checkbox[name=agree]:checked').val());
         // if ($('input[name=agree]').val())
         if ($('input:checkbox[name=agree]:checked').val()) {
