@@ -241,6 +241,7 @@ header.on #nav {
 }
 header.on #nav > ul > li > a {
   color: #fff;
+  text-align: left;
 }
 #nav > ul > li > ul {
   margin-top: 33px;
@@ -384,6 +385,7 @@ header h1 .m {
     height: 100%;
     overflow-y: hidden;
     overflow-x: scroll;
+    z-index: 99999;
   }
   header.on .inner .wrap {
     padding-bottom: 0;
@@ -405,7 +407,7 @@ header h1 .m {
     /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
   }
   #nav > ul > li > a {
-    padding: 13px 15px;
+    padding: 13px 15px 0;
     color: #fff;
   }
   #nav > ul > li > ul {
