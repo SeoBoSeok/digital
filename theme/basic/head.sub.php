@@ -102,7 +102,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font
     <?php
     } else {
     ?>
-    <link rel="stylesheet" type="text/css" href="/common/css/sub.css" />
+    <link rel="stylesheet" type="text/css" href="/common/css/sub.css?1" />
     <?php
     }
 ?>
