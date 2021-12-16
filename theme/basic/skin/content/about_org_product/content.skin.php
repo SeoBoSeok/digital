@@ -86,7 +86,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3>상품 마켓</h3>
                 <div class="lists">
                   <p>
-                  
+                  3D프린터와 수공예를 이용한 문화유산 상품 및 지역계술품 전시 판매
                   </p>
                 </div>
               </div>
