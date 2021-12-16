@@ -49,21 +49,21 @@ if (!empty($_REQUEST['program'])) {
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <!-- <span class="subpage-item each-line subpage_nav_item active">
+            <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
+                  <span class="subpage-link-text"><del><?php echo $_program; ?> 사전신청(마감)</del></span>
               </a>
-            </span> -->
+            </span>
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
                   <span class="subpage-link-text">튜토리얼 사전신청</span>
               </a>
             </span>            
-            <!-- <span class="subpage-item each-line subpage_nav_item ">
+            <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
-                  <span class="subpage-link-text">미래교육 사전신청</span>
+                  <span class="subpage-link-text"><del>미래교육 사전신청(마감)</del></span>
               </a>
-            </span>             -->
+            </span>            
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=formscheck">
                   <span class="subpage-link-text">사전신청 확인</span>
@@ -73,11 +73,19 @@ if (!empty($_REQUEST['program'])) {
       </div>
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
-            <div class="center">
+          <div class="magam center">
+            <div class="magam_image">
+              <img src="/common/img/magam1.png" alt="사전신청 마감" >
+            </div>
+            <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록가능합나다)</div>
+            <div class="magam_txt2 magam_image2">
+              <img src="/common/img/magam2.png" alt="사전신청 마감" >
+            </div>
+            <div class="magam_txt3">12월 18일 (토)부터 적용되는 강력한 거리두기 방안이 시행됨에 따라 전시장 박람회 관람시에도 방역패스가 적용됩니다.<br>
+이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div>
+          </div>
+            <!-- <div class="center">
                 <h2><?php echo $_program; ?> 사전신청</h2>
-                <!-- <p>
-                2021 공주디지털문화유산전 관람객 사전신청
-                </p> -->
             </div>
             <?php
               if(!empty($_REQUEST['program'])) {
@@ -85,8 +93,6 @@ if (!empty($_REQUEST['program'])) {
 <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
 					<table class="tbl">
 						<caption>
-							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
-							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 						</caption>
 						<colgroup>
               <col style="width: 12%;">
@@ -176,7 +182,6 @@ if (!empty($_REQUEST['program'])) {
                                 <div class="box5_03">
                                     <span>예약자 연락처</span>
                                     <div class="tel1">
-                                        <!-- <input type="text" class="tel1_01" name="rsv_tel1" maxlength="3" onkeyup="numChk(this)" placeholder="연락처를 입력해 주세요."> -->
                                         <select name="rsv_tel1">
                                             <option value="010">010</option>
                                         </select>
@@ -199,16 +204,6 @@ if (!empty($_REQUEST['program'])) {
                                     <input type="text" name="rsv_email" placeholder="이메일">
                                 </div>                                
                                 <div class="box7">
-                                    <!-- <span>주소</span> -->
-                                    <!-- <input type="text" id="sample6_postcode" placeholder="우편번호"> -->
-                                    <!-- <input type="text" id="rsv_address" name="rsv_address" placeholder="주소" readonly onclick="sample6_execDaumPostcode()"><br>
-                                    <input type="text" id="rsv_detailAddress" name="rsv_detailAddress" placeholder="상세주소" style="margin-top: 5px;">
-                                    <input type="button" onclick="sample6_execDaumPostcode()" value="주소 찾기"><br> -->
-                                    <!-- <input type="text" id="sample6_extraAddress" placeholder="참고항목"> -->
-                                    <!-- <input type="text" id="rsv_address" name="rsv_address">
-                                    <button type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">주소검색</button> -->
-                                <!-- </div> -->
-                                <!-- s:개인정보처리방침 -->
                                     <span>참가인원</span>
                                     <div>
                                         <label><input type="radio" name="rsv_types" value="개인" checked="checked">개인</label>
@@ -217,7 +212,6 @@ if (!empty($_REQUEST['program'])) {
                                     </div>
                                 <div>
                                 <fieldset>
-                                <!-- <legend>개인정보처리방침</legend> -->
                                 <div class="privacy">
                                 공주 디지털 문화 유산전은 본 전시회 진행 및 전시회 참관 편의를 위하여 아래와 같이 개인정보를 위탁 수집하고 있습니다. <br>
 <br>
@@ -273,8 +267,6 @@ if (!empty($_REQUEST['program'])) {
 * 예약정보 오기로 인한 사전신청 오류시에는 책임지지 않습니다.
                     </div>
                         <div class="btn_box">
-                        <!-- <button class="rv_btn hidden" type="submit">예약하기</button> -->
-                        <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" id="reservation_check">
                         예약 하러가기
                         </button>
@@ -284,11 +276,7 @@ if (!empty($_REQUEST['program'])) {
 
                     </div>
                 </div>
-            </div> 
-          <!-- <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
-            <b>사전신청하기</b>
-            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
-          </a> -->
+            </div>  -->
         </div>
       </section>
     </div>
