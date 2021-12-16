@@ -375,7 +375,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
 
                     </div>
                 </div>
-            </div> 
+            </div> --> 
         </div>
       </section>
     </div>
@@ -487,7 +487,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
           </div>
           <button type="button" id="top_btn">
             <span>TOP</span>
-          </button> -->
+          </button>
         </div>
       </section>
       <section class="f_sec2">
