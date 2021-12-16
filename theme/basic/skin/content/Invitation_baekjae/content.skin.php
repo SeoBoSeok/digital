@@ -89,7 +89,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+                백제세계유산센터
               </h3>
               <dl>
                 <dt>소개</dt>
