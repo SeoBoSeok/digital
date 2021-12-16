@@ -164,6 +164,14 @@ section.sec0 .inner table td:hover {
 .digital .sec2 {
   padding-bottom: 100px;
 }
+@media (max-width: 1025px){
+  .digital .sec2 .lists {
+    padding-bottom: 24px;
+  }
+  .sec2 .lists .right {
+    padding-left: 0;
+  }
+}
 @media (max-width: 768px){
   .sec2 .lists .right dl dd {
     padding-left: 100px;
