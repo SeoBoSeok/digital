@@ -6,7 +6,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 $_program = "";
 if (!empty($_REQUEST['program'])) {
-  $_program = "튜토리얼";
+  $_program = "관람객";
 } else {
   $_program = "관람객";
 }
