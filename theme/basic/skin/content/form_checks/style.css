@@ -922,6 +922,13 @@ color: #3c4552; font-weight: 500; margin-top: 21px; margin-bottom: 11px;}
   .rv_check .info_chk form .info_form select {
     padding: 10px;
   }
+  .digital .sec2 {
+    padding-top: 0 !important;
+  }
+  .digital .sec2 .lists {
+    margin-top: 0;
+    padding-top: 0!important;
+  }
 }
 select.minimal {
   background-image: linear-gradient(
