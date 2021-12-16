@@ -469,7 +469,7 @@ header h1 {
     width: 100% !important;
     padding-left: 0 !important;
   }
-  .digital .sec1 .info .lists {
+  .digital .sec1 .info .lists p {
     font-size: 15px;
     line-height: 21px;
     color: #666666;
