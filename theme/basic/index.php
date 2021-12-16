@@ -120,14 +120,14 @@ if(G5_COMMUNITY_USE === false) {
               <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
       </div>
-      <div id="hd_pops_2" class="hd_pops" style="top:100px;left:420px">
+      <!-- <div id="hd_pops_2" class="hd_pops" style="top:100px;left:420px">
           <a href="/bbs/content.php?co_id=forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:400px">
               <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
           <div class="hd_pops_footer">
               <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
               <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
-      </div>
+      </div> -->
     </div>
     <script>
       if ($(window).innerWidth() < 769) {
