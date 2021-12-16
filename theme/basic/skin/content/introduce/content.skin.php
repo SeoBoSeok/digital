@@ -65,7 +65,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <div class="cont ani active">
             <div class="img_box">
-              <div class="wrap">
+              <div class="wrap orange">
                 <img src="/common/img/newposter.jpg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
@@ -106,7 +106,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section>
-      <section class="sec1-1 ani active">
+      <section class="sec2 ani active">
         <div class="inner">
           <h2>목적 & 비전</h2>
           <div class="vision">
@@ -121,7 +121,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section>
-      <section class="sec1-1 ani active">
+      <section class="sec2 ani active">
         <div class="inner">
           <h2>기대효과</h2>
           <div class="vision">
