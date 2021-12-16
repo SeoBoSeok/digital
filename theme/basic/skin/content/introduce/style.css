@@ -78,3 +78,10 @@ section.sec1-1 .inner ul li.right {
   display: table;
   clear: both;
 }
+
+@media screen and (max-width: 767px) {
+  .digital .sec1-1 h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
