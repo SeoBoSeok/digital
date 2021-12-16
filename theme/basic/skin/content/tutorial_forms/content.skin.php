@@ -137,8 +137,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
                                 <div class="box6_01">
                                     <select class="minimal" name="rsv_date" id="rsv_date">
                                       <option value="2021-12-18">2021-12-18</option>
-                                      <option value="2021-12-19">2021-12-19</option>
-                                      <option value="2021-12-20">2021-12-20</option>
                                     </select>
                                 </div>
                             </td>
