@@ -129,7 +129,7 @@ tbody tr{text-align: center;}
         <td><?php echo $row["rsv_position"]?></td>
         <td><?php echo $row["rsv_date"]?></td>
         <td><?php echo $row["rsv_time"]?></td>
-        <td><?php echo date($row["create_time"], strtotime('+9 hours'))?></td>
+        <td><?php echo date('Y-m-d H:i:s', strtotime('+9 hours', strtotime($row["create_time"])))?></td>
     </tr>
     <?php
     }
