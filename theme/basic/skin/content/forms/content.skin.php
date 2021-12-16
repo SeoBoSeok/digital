@@ -290,7 +290,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                     <button type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">주소검색</button> -->
                                 <!-- </div> -->
                                 <!-- s:개인정보처리방침 -->
-                                    <span>유형</span>
+                                    <span>참가인원</span>
                                     <div>
                                         <label><input type="radio" name="rsv_types" value="개인" checked="checked">개인</label>
                                         <label><input type="radio" name="rsv_types" value="단체">단체</label>
@@ -413,7 +413,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
-            유형 : <span class="check_types"></span><br />
+            참가인원 : <span class="check_types"></span><br />
             개인정보 동의 : <span class="check_agree">Y</span><br />
           </div>
           <div class="modal-footer">
@@ -440,7 +440,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
             소속 : <span class="check_group"></span><br />
             직책 : <span class="check_position"></span><br />
             이메일 : <span class="check_email"></span><br />
-            유형 : <span class="check_types"></span><br />
+            참가인원 : <span class="check_types"></span><br />
             개인정보 동의 : <span class="check_agree">Y</span><br />
           </div>
           <div class="modal-footer">
