@@ -270,4 +270,7 @@ section.sec0 .inner table td:hover {
   .digital .sec2 .lists ul li {
     width: 50%;
   }
+  .sec2 .lists .right dl dd {
+    padding-left: 100px;
+  }
 }
