@@ -793,6 +793,9 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   .apply .form_wrap table tr td.box5 > div.box5_02 input[type=text] {max-width: 100%;}
   .apply .form_wrap table tr td.box5 > div {margin-top: 15px;}
   .apply .form_wrap .btn_box {padding-bottom: 0;}
+  .digital .sec2 .inner {
+    padding-bottom: 0px;
+  }
 }
 select.minimal {
   background-image: linear-gradient(
