@@ -271,4 +271,5 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   ::-webkit-scrollbar:horizontal { height: 15px; } 
   ::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 1px solid #ffffff; } 
   ::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
+  .wrap-tbl-calendar .tbl td {padding: 10px}
 }
