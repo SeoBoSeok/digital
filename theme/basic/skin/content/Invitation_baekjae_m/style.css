@@ -264,4 +264,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   .sec2 .lists .right dl dd {
     padding-left: 100px;
   }
+  .sec2 .lists .right dl dd a {
+    word-wrap: break-word;
+  }
 }
