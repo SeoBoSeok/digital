@@ -604,8 +604,14 @@ header h1 {
   .digital .sec2 .inner {
     padding-bottom: 90px;
   }
+  .digital .sec2 .lists {
+    padding-top: 42px !important;
+  }
+  .sec2 .lists .right h3 {
+    font-size: 24px !important;
+  }
   .digital .sec2 h2 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.4;
   }
   .digital .sec2 p {
