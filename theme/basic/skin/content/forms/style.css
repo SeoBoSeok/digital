@@ -675,6 +675,12 @@ label {
   .apply .form_wrap table tr td.box5 > div > span {
     display: none;
   }
+  .digital .sec2 {
+    padding-top: 30px !important;
+  }
+  .digital .sec2 .lists {
+    padding-top: 0px !important;
+  }
 }
 
 #reservation_check {
