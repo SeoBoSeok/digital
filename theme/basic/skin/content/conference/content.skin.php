@@ -111,7 +111,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
           </p> -->
-          <div class="lists">
+          <div class="lists pc">
             <ul>
               <li>
                 <!-- <a href="#"> -->
@@ -163,6 +163,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </li>
             </ul>
           </div>
+          
           <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
