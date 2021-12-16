@@ -646,7 +646,9 @@ table.comment-list td img {vertical-align:middle;}
     .faq_list > li .answer .a {width:30px; height: 30px; line-height:27px; font-size:18px;}
 
 }
-
+#bo_v_img {
+    text-align: center;
+}
 
 /* 320px 이하 */
 @media screen and (max-width:329px) {
