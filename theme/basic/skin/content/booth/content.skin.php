@@ -102,78 +102,78 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<th scope="row" rowspan="12">디지털문화유산<br>산업</th>
 										<!-- <td>A11</td> -->
 										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
-										<td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
+										<td></td>
 								</tr>
 								<tr>
                   <!-- <td>A12</td> -->
                   <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="so">소</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A09</td> -->
                   <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
-                  <td><span class="bok">복</span>&nbsp;</td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A03</td> -->
                   <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
-                  <td><span class="bok">복</span>&nbsp;</td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A10</td> -->
                   <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
-                  <td><span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A01</td> -->
                   <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
-                  <td><span class="so">소</span>&nbsp;<span class="sol">솔</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A08</td> -->
                   <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A02</td> -->
                   <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="sol">솔</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A13</td> -->
                   <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
-                  <td><span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A05</td> -->
                   <td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A04</td> -->
                   <td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="so">소</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td>A14</td> -->
                   <td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>연구개발</th>
 										<!-- <td></td> -->
 										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
-										<td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span></td>
+										<td></td>
 								</tr>
 								<tr>
                   <!-- <td></td> -->
                   <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
-                  <td><span class="ki">기</span>&nbsp;<span class="bok">복</span>&nbsp;<span class="sol">솔</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 								<tr>
                   <!-- <td></td> -->
                   <td class="link" onclick="go_open('/list/hmd.html');">한국전통문화대학교<br>문화유산산업학과</td>
-                  <td><span class="so">소</span>&nbsp;<span class="con">콘</span></td>
+                  <td></td>
 								</tr>
 						</tbody>
 					</table>
