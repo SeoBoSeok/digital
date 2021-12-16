@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>디지털문화유산 연구개발</li>
+            <li>연구개발</li>
           </ul>
         </div>
       </section>
@@ -53,22 +53,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org">
-                  <span class="subpage-link-text">디지털문화유산 산업</span>
+                  <span class="subpage-link-text">산업</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_dev">
-                  <span class="subpage-link-text">디지털문화유산 연구개발</span>
+                  <span class="subpage-link-text">연구개발</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_edu">
-                  <span class="subpage-link-text">디지털문화유산 미래교육</span>
+                  <span class="subpage-link-text">미래교육</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">문화유산상품 마켓</span>
+                  <span class="subpage-link-text">상품 마켓</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -83,7 +83,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>디지털문화유산 연구개발</h3>
+                <h3>연구개발</h3>
                 <div class="lists">
                   <p>
                   제4차 산업혁명 시대를 살아가는 지금, 문화유산 보존과 활용의 뉴패러다임은 디지털 연구개발에 있습니다. 다수의 기관과 대학들은 문화유산의 기록, 분석, 진단, 모니터링, 복원, 복제, 플랫폼, 빅데이터, AI 솔루션, 콘텐츠 기획·제작 등 다양한 연구를 진행하고 있습니다. 매년 관련 연구자들이 증가하고 있고, 다수의 기관에서 디지털 문화유산 관련 다양한 연구개발을 기획하고 진행하고 있는 만큼 미래가치를 위한 핵심기술 개발에 앞장서고자 합니다.

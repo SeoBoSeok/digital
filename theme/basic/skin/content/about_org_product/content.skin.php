@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>문화유산상품 마켓</li>
+            <li>상품 마켓</li>
           </ul>
         </div>
       </section>
@@ -53,22 +53,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org">
-                  <span class="subpage-link-text">디지털문화유산 산업</span>
+                  <span class="subpage-link-text">산업</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_dev">
-                  <span class="subpage-link-text">디지털문화유산 연구개발</span>
+                  <span class="subpage-link-text">연구개발</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_edu">
-                  <span class="subpage-link-text">디지털문화유산 미래교육</span>
+                  <span class="subpage-link-text">미래교육</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">문화유산상품 마켓</span>
+                  <span class="subpage-link-text">상품 마켓</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -83,7 +83,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>문화유산상품 마켓</h3>
+                <h3>상품 마켓</h3>
                 <div class="lists">
                   <p>
                   

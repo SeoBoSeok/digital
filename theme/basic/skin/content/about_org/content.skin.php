@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>디지털문화유산 산업</li>
+            <li>산업</li>
           </ul>
         </div>
       </section>
@@ -53,22 +53,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org">
-                  <span class="subpage-link-text">디지털문화유산 산업</span>
+                  <span class="subpage-link-text">산업</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_dev">
-                  <span class="subpage-link-text">디지털문화유산 연구개발</span>
+                  <span class="subpage-link-text">연구개발</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_edu">
-                  <span class="subpage-link-text">디지털문화유산 미래교육</span>
+                  <span class="subpage-link-text">미래교육</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">문화유산상품 마켓</span>
+                  <span class="subpage-link-text">상품 마켓</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -83,7 +83,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>디지털문화유산 산업</h3>
+                <h3>산업</h3>
                 <div class="lists">
                   <p>
                   제4차 산업혁명과 팬데믹 상황은 문화유산의 보존과 활용에 있어 디지털 기술의 개입이 매우 중요함을 보여줬습니다. 물리적으로 만나는 문화유산을 넘어 이제는 다양한 첨단 기술을 통해 디지털 환경에서 만나는 문화유산도 우리에게 소중한 보존과 활용 가치를 전해주고 있습니다. 3차원 스캐너 및 프린터 등의 디바이스, 빅데이터와 AI 기술을 이용한 솔루션, 가상·증강현실과 메타버스 등의 콘텐츠를 통해 문화유산의 새로운 가치를 느껴보시기 바랍니다.

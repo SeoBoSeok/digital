@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>디지털문화유산 미래교육</li>
+            <li>미래교육</li>
           </ul>
         </div>
       </section>
@@ -53,22 +53,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org">
-                  <span class="subpage-link-text">디지털문화유산 산업</span>
+                  <span class="subpage-link-text">산업</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_dev">
-                  <span class="subpage-link-text">디지털문화유산 연구개발</span>
+                  <span class="subpage-link-text">연구개발</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_edu">
-                  <span class="subpage-link-text">디지털문화유산 미래교육</span>
+                  <span class="subpage-link-text">미래교육</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">문화유산상품 마켓</span>
+                  <span class="subpage-link-text">상품 마켓</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -83,7 +83,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>디지털문화유산 미래교육</h3>
+                <h3>미래교육</h3>
                 <div class="lists">
                   <p>
                   미래의 디지털 문화유산은 일상생활 속에서 다양한 기술력으로 과거와 현재를 잇는 가치 창출과 문화유산 인프라 구축을 위한 신산업으로 확장될 것입니다. 이러한 문화유산의 지속성을 위해서는 MZ 세대들에게 우리의 역사와 최신 디지털 기술을 융합할 수 있는 하이브리드형 교육에 앞장서야 합니다. VR, AR, 게임 메이킹, 드론·로봇 코딩, 메타버스 등을 문화유산과 연결하면 우리의 문화유산은 다음 세대에 자연스럽게 전승될 수 있습니다.
