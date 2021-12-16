@@ -214,7 +214,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                 <div class="box5_02">
                                     <span>[프로그램] 시간선택</span>
                                     <div class="program_row">
-                                      <span style="padding-right: 10px;">[다빈치에듀]</span>
+                                      <span style="padding-right: 10px;" style="display: block;">[다빈치에듀]</span>
                                       <label><input type="radio" name="rsv_time" value="da10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="da11">11시</label>
                                       <label><input type="radio" name="rsv_time" value="da13">13시</label>
@@ -224,7 +224,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                       <label><input type="radio" name="rsv_time" value="da17">17시</label>
                                     </div>
                                     <div class="program_row">
-                                      <span style="padding-right: 10px;">[에듀크래프트(유료)]</span>
+                                      <span style="padding-right: 10px;" style="display: block;">[에듀크래프트(유료)]</span>
                                       <label><input type="radio" name="rsv_time" value="edu10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="edu11">11시</label>
                                       <label><input type="radio" name="rsv_time" value="edu13">13시</label>
@@ -234,7 +234,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                       <label><input type="radio" name="rsv_time" value="edu17">17시</label>
                                     </div>
                                     <div class="program_row">
-                                      <span style="padding-right: 10px;">[다빈치창의융합연구소]</span>
+                                      <span style="padding-right: 10px;" style="display: block;">[다빈치창의융합연구소]</span>
                                       <label><input type="radio" name="rsv_time" value="davin10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="davin11">11시</label>
                                       <label><input type="radio" name="rsv_time" value="davin13">13시</label>
@@ -244,7 +244,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                                       <label><input type="radio" name="rsv_time" value="davin17">17시</label>
                                     </div>
                                     <div class="program_row">
-                                      <span style="padding-right: 10px;">[생활과학교실]</span>
+                                      <span style="padding-right: 10px;" style="display: block;">[생활과학교실]</span>
                                       <label><input type="radio" name="rsv_time" value="science10">10시</label>
                                       <label><input type="radio" name="rsv_time" value="science11">11시</label>
                                       <label><input type="radio" name="rsv_time" value="science13">13시</label>
