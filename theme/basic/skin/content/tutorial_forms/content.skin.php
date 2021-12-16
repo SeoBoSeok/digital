@@ -91,26 +91,26 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</colgroup>
 						<thead>
 								<tr>
-										<th scope="col" class="point_bg">기업명</th>
-                    <th scope="col" class="point_bg">체험명</th>
-										<th scope="col" class="point_bg">체험내용</th>
-										<th scope="col" class="point_bg">체험비</th>
-                    <th scope="col" class="point_bg">운영기간</th>
+										<th scope="col" class="point_bg">주최</th>
+                    <th scope="col" class="point_bg">주관</th>
+										<th scope="col" class="point_bg">교육</th>
+										<th scope="col" class="point_bg">교육비</th>
+                    <th scope="col" class="point_bg">교육기간</th>
                     <th scope="col" class="point_bg">소요시간</th>
-                    <th scope="col" class="point_bg">체험인원</th>
+                    <th scope="col" class="point_bg">교육인원</th>
                     <th scope="col" class="point_bg">대상</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
-                  <td>웨이퍼마스터즈</td>
+                  <td>(사)한국문화재보존과학회</td>
                   <td>웨이퍼마스터즈</td>
                   <td>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</td>
                   <td>무료</td>
-                  <td>2021. 12. 18. (토) 15:00~17:00</td>
-                  <td>2시간</td>
+                  <td>2021. 12. 18. (토) 15:00~17:50</td>
+                  <td>3시간</td>
                   <td>15명</td>
-                  <td>디지털문화유산분야 전문가</td>
+                  <td>디지털 문화 유산분야<br>대학생 및 종사자</td>
 								</tr>
 						</tbody>
 					</table>
