@@ -681,6 +681,11 @@ label {
   .digital .sec2 .lists {
     padding-top: 0px !important;
   }
+  .apply .form_wrap table tr td.box5 > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #reservation_check {
