@@ -699,6 +699,10 @@ label {
   .apply .form_wrap table tr td:last-child {
     padding: 10px 0;
   }
+  .form_wrap table tr td select[name=rsv_tel1],.form_wrap table tr td select[name=rsv_tel2],.form_wrap table tr td select[name=rsv_tel3] {
+    width: 30%;
+  }
+  .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
 }
 
 #reservation_check {
