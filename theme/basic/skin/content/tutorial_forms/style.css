@@ -785,7 +785,18 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     font-size: 10px;
     margin-right: 10px;
   }
-  .apply .form_wrap table tr td input[type=radio] {font-size: 10px;}
+  .form_wrap table tr td select[name=rsv_tel1],.form_wrap table tr td select[name=rsv_tel2],.form_wrap table tr td select[name=rsv_tel3] {
+    width: 30%;
+  }
+  .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
+  .apply .form_wrap table tr td input[type=text] {
+    width: 100%;
+    padding: 10px;
+  }
+  .lists .form_wrap table tr td select {padding: 10px; width: 100%;}
+  .apply .form_wrap table tr td.box6 select {max-width: 100%; margin-right: 0;}
+  .apply .form_wrap table tr td.box5 > div.box5_02 input[type=text] {max-width: 100%;}
+  .apply .form_wrap table tr td.box5 > div {margin-top: 15px;}
 }
 select.minimal {
   background-image: linear-gradient(
