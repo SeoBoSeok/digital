@@ -171,17 +171,17 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>																
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>연구개발</th>
-										<td></td>
+										<td>C01</td>
 										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
 										<td>문화유산의 조사, 연구, 보존</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <td>C02</td>
                   <td class="link" onclick="go_open('/list/hmd.html');">한국전통문화대학교<br>Future Heritage Lab</td>
                   <td>가상박물관, 디지털 아카이브, 콘텐츠 기획</td>
 								</tr>
 								<tr>
-                  <td></td>
+                  <td>C03</td>
                   <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
                   <td>디지털 기술 기반 보존·활용 솔루션 개발</td>
 								</tr>								
@@ -197,14 +197,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
               <col style="width: 20%;">
-              <!-- <col style="width: 10%;"> -->
+              <col style="width: 10%;">
               <col style="width: 40%;">
               <col style="width: 30%;">
 						</colgroup>
 						<thead>
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
-                    <!-- <th scope="col" class="point_bg">부스</th> -->
+                    <th scope="col" class="point_bg">부스</th>
 										<th scope="col" class="point_bg">기관명</th>
 										<th scope="col" class="point_bg">교육 내용</th>
 								</tr>
@@ -212,7 +212,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
                   <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
-                  <!-- <td></td> -->
+                  <td>B02</td>
 										<td class="link" onclick="go_open('/list/csa.html');">충남과학협회</td>
 										<td>역사게임 만들기</td>
 								</tr>
@@ -222,7 +222,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>인공지능 드론 (문화재 도굴)</td>
 								</tr> -->
 								<tr>
-                  <!-- <td></td> -->
+                  <td>B12</td>
 										<td class="link" onclick="go_open('/list/edu.html');">에듀크래프트</td>
 										<td>LED 코딩</td>
 								</tr>
@@ -232,12 +232,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>역사토론, 퀴즈, 문화재 스피치</td>
 								</tr> -->
 								<tr>
-                  <!-- <td></td> -->
-										<td class="link" onclick="go_open('/list/robot.html');">엘리오 로봇틱스</td>
+                  <td>B01</td>
+										<td class="link" onclick="go_open('/list/robot.html');">(주)엘리오 로봇틱스</td>
 										<td>코딩을 통한 전시실 모델링</td>
 								</tr>
 								<tr>
-                  <!-- <td></td> -->
+                  <td>B07</td>
 										<td class="link" onclick="go_open('/list/gongju.html');">국립 공주대학교 생확과학교실</td>
 										<td>3D 펜을 이용한 문화재 만들기</td>
 								</tr>
@@ -247,12 +247,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>로봇코딩</td>
 								</tr> -->
 								<tr>
-                  <!-- <td></td> -->
+                  <td>B11</td>
 										<td class="link" onclick="go_open('/list/davinci.html');">다빈치에듀</td>
 										<td>로봇코딩</td>
 								</tr>
 								<tr>
-                  <!-- <td></td> -->
+                  <td>B06</td>
 										<td class="link" onclick="go_open('/list/davinci2.html');">다빈치창의융합연구소</td>
 										<td>3D 모델링, AR 콘텐츠 제작</td>
 								</tr>
