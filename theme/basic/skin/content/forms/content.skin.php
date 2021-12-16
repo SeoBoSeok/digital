@@ -3,7 +3,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
-echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
+echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
 $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' AND rsv_time = '$rsv_time'");
 ?>
 <script>
