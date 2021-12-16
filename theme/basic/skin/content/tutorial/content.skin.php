@@ -113,7 +113,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>준비물</dt>
-                <dd>개인 노트북 지참(필수사항 아님), 테스트 이미지는<br>튜토리얼 시작 시 USB 배포 or 사전 배포</dd>
+                <dd>노트북 필참<br>
+이미지분석 소프트웨어 1개월 사용권 증정<br>
+교육생 15명 제한</dd>
               </dl>
               <dl>
                 <dt>진행</dt>
