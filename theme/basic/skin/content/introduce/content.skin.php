@@ -106,7 +106,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section>
-      <section class="sec2 ani active">
+      <section class="sec1-1 ani active">
         <div class="inner">
           <h2>목적 & 비전</h2>
           <div class="vision">
@@ -121,7 +121,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section>
-      <section class="sec2 ani active">
+      <section class="sec1-1 ani active">
         <div class="inner">
           <h2>기대효과</h2>
           <div class="vision">
