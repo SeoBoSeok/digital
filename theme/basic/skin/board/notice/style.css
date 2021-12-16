@@ -1899,7 +1899,7 @@ section.sec2 {
 /* 검색 */
 .bd-srch-wrap.srch_wrap {display: flex; justify-content: end; align-items: center; margin-bottom: 30px;}
 .bd-srch-wrap .col {display: flex;}
-.bd-srch-wrap .row {display: flex;}
+.bd-srch-wrap .row {width: 100%;}
 .bd-srch-wrap .search_box {display: flex; border-bottom: 2px solid #cccccc;}
 .bd-srch-wrap .search_box .form-control {
   background-color: transparent;
