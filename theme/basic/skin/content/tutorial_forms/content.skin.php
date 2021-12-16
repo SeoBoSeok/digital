@@ -80,14 +80,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
 							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
 						</caption>
 						<colgroup>
-              <col style="width: 12%;">
               <col style="width: 15%;">
-              <col style="width: 30%;">
-              <col style="width: 5%;">
-              <col style="width: 20%;">
-              <col style="width: 5%;">
-              <col style="width: 5%;">
               <col style="width: 10%;">
+              <col style="width: 35%;">
+              <col style="width: 5%;">
+              <col style="width: 13%;">
+              <col style="width: 5%;">
+              <col style="width: 5%;">
+              <col style="width: 15%;">
 						</colgroup>
 						<thead>
 								<tr>
@@ -107,13 +107,18 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
                   <td>웨이퍼마스터즈</td>
                   <td>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</td>
                   <td>무료</td>
-                  <td>2021. 12. 18. (토) 15:00~17:50</td>
+                  <td>2021. 12. 18. (토)<br>15:00~17:50</td>
                   <td>3시간</td>
                   <td>15명</td>
                   <td>디지털 문화 유산분야<br>대학생 및 종사자</td>
 								</tr>
 						</tbody>
 					</table>
+          <div class="bottom_txt" style="padding-right: 20px;">
+          * 노트북 필참<br>
+          * 이미지분석 소프트웨어 1개월 사용권 증정<br>
+          * 교육생 15명 제한
+          </div>
 				</div>                 
 
                 <div class="lists apply">
