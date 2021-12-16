@@ -262,6 +262,11 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   height: 10px;
   background: url(/common/img/main_sec4_arrow.png) no-repeat;
 }
+@media (max-width: 1025px){
+  .sec2 .lists .right {
+    padding-left: 0;
+  }
+}
 @media (max-width: 768px){
   .sec2 .lists .right dl dd {
     padding-left: 100px;
