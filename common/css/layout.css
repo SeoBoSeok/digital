@@ -431,6 +431,12 @@ header h1 .m {
     width: 50%;
     float: left;
   }
+  #nav > ul > li > ul > li.magam_t {
+    padding-left: 10px;
+  }
+  #nav > ul > li > ul > li.magam_t::after{
+    left: -10px;
+  }
   #nav > ul > li > ul > li > a {
     font-size: 14px;
     display: block;
