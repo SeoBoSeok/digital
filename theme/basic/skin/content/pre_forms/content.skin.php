@@ -50,7 +50,7 @@ if (!empty($_REQUEST['program'])) {
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
             <!-- <span class="subpage-item each-line subpage_nav_item active">
-              <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
+              <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
                   <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
               </a>
             </span> -->
@@ -285,7 +285,7 @@ if (!empty($_REQUEST['program'])) {
                     </div>
                 </div>
             </div> 
-          <!-- <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
+          <!-- <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
             <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a> -->

@@ -190,7 +190,7 @@ if(G5_COMMUNITY_USE === false) {
             alt=""
           />
         </div>
-        <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
+        <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
           <b>사전신청하기</b>
           <span>12. 18(토) ~ 12. 20(월) 3일간</span>
         </a>
@@ -346,7 +346,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="/bbs/content.php?co_id=pre_forms"><span>사전 예약</span></a>
+              <a href="/bbs/content.php?co_id=tutorial_forms"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
