@@ -776,8 +776,8 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     align-items: center;
     /* line-height: 2.5; */
     margin-bottom: 0;
-    font-size: 10px;
-    margin-right: 10px;
+    font-size: 13px;
+    margin-right: 6px;
   }
   .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
 }
