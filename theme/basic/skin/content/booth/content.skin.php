@@ -99,7 +99,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<th scope="row" rowspan="12">디지털문화유산<br>산업</th>
+										<th scope="row" rowspan="14">디지털문화유산<br>산업</th>
 										<td>A11</td>
 										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
 										<td>3D 스캐닝 서비스, 디지털 아카이브</td>
