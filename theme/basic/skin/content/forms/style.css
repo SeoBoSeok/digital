@@ -784,6 +784,12 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     width: 30%;
   }
   .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
+  .apply .form_wrap table tr td input[type=text] {
+    width: 100%;
+    padding: 10px;
+  }
+  .lists .form_wrap table tr td select {padding: 10px; width: 100%;}
+  .apply .form_wrap table tr td.box6 select {max-width: 100%; margin-right: 0;}
 }
 select.minimal {
   background-image: linear-gradient(
