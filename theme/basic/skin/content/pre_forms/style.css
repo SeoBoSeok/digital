@@ -782,7 +782,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     width: 100%;
     padding: 10px;
   }
-  .lists .form_wrap table tr td select {padding: 10px; width: 100%;}
+  .lists .form_wrap table tr td select {width: 100%;}
   .apply .form_wrap table tr td.box6 select {max-width: 100%; margin-right: 0;}
   .apply .form_wrap table tr td.box5 > div.box5_02 input[type=text] {max-width: 100%;}
   .apply .form_wrap table tr td.box5 > div {margin-top: 15px;}
