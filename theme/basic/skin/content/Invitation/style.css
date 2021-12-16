@@ -273,4 +273,7 @@ section.sec0 .inner table td:hover {
   .sec2 .lists .right dl dd {
     padding-left: 100px;
   }
+  .subpage-item-lists {
+    justify-content: center;
+  }
 }
