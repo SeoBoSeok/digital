@@ -79,7 +79,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
 								<col style="width: 20%;">
-								<!-- <col style="width: 10%;"> -->
+								<col style="width: 10%;">
 								<col style="width: 40%;">
 								<col style="width: 30%;">
 						</colgroup>
@@ -92,7 +92,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
 										<th scope="col" class="point_bg">항목</th>
-										<!-- <th scope="col" class="point_bg">부스넘버</th> -->
+										<th scope="col" class="point_bg">부스 번호</th>
 										<th scope="col" class="point_bg">참여기관명</th>
 										<th scope="col" class="point_bg">해당분야</th>
 								</tr>
@@ -100,81 +100,91 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="12">디지털문화유산<br>산업</th>
-										<!-- <td>A11</td> -->
+										<td>A11</td>
 										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
-										<td></td>
+										<td>3D 스캐닝 서비스, 디지털 아카이브</td>
 								</tr>
 								<tr>
-                  <!-- <td>A12</td> -->
+                  <td>A12</td>
                   <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
-                  <td></td>
+                  <td>3D 스캐너, 프린터 및 소프트웨어</td>
 								</tr>
 								<tr>
-                  <!-- <td>A09</td> -->
+                  <td>A09</td>
                   <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
-                  <td></td>
+                  <td>컬러 및 대형 3D 프린터 개발</td>
 								</tr>
 								<tr>
-                  <!-- <td>A03</td> -->
+                  <td>A03</td>
                   <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
-                  <td></td>
+                  <td>대형 3D 프린터 개발</td>
 								</tr>
 								<tr>
-                  <!-- <td>A10</td> -->
+                  <td>A10</td>
                   <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
-                  <td></td>
+                  <td>매장문화재 전문 3D 소프트웨어 개발</td>
 								</tr>
 								<tr>
-                  <!-- <td>A01</td> -->
+                  <td>A01</td>
                   <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
-                  <td></td>
+                  <td>드론 및 AI 기반 문화재관리시스템 개발</td>
 								</tr>
 								<tr>
-                  <!-- <td>A08</td> -->
+                  <td>A08</td>
                   <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
-                  <td></td>
+                  <td>초분광 솔루션, 레이저 측량, 모바일 매핑</td>
 								</tr>
 								<tr>
-                  <!-- <td>A02</td> -->
+                  <td>A02</td>
                   <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
-                  <td></td>
+                  <td>이미지 프로세싱 소프트웨어 개발</td>
 								</tr>
 								<tr>
-                  <!-- <td>A13</td> -->
+                  <td>A13</td>
                   <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
-                  <td></td>
+                  <td>VR, AR 모바일 콘텐츠 제작</td>
 								</tr>
 								<tr>
-                  <!-- <td>A05</td> -->
+                  <td>A05</td>
                   <td class="link" onclick="go_open('/list/it.html');">충남문화교육협동조합 잇다</td>
-                  <td></td>
+                  <td>VR, AR 실감형 콘텐츠 제작</td>
 								</tr>
 								<tr>
-                  <!-- <td>A04</td> -->
+                  <td>A04</td>
                   <td class="link" onclick="go_open('/list/scoop.html');">㈜스쿱</td>
-                  <td></td>
+                  <td>3D 프린터 기반 디오라마 제작</td>
 								</tr>
 								<tr>
-                  <!-- <td>A14</td> -->
+                  <td>A14</td>
                   <td class="link" onclick="go_open('/list/ventavr.html');">벤타브이알</td>
-                  <td></td>
+                  <td>메타버스, 3D 실감 XR 콘텐츠</td>
 								</tr>
+								<tr>
+                  <td>A06</td>
+                  <td>국외소재문화재재단</td>
+                  <td>국외문화재에 대한 조사·연구, 환수·활용</td>
+								</tr>
+								<tr>
+                  <td>A07</td>
+                  <td>한국문화재디지털보존협회</td>
+                  <td>국외문화재의 디지털 귀향 및 보존</td>
+								</tr>																
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>연구개발</th>
-										<!-- <td></td> -->
-										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
 										<td></td>
+										<td class="link" onclick="go_open('/list/hanseo.html');">한서대학교<br>문화재보존과학연구센터</td>
+										<td>문화유산의 조사, 연구, 보존</td>
 								</tr>
 								<tr>
-                  <!-- <td></td> -->
+                  <td></td>
+                  <td class="link" onclick="go_open('/list/hmd.html');">한국전통문화대학교<br>Future Heritage Lab</td>
+                  <td>가상박물관, 디지털 아카이브, 콘텐츠 기획</td>
+								</tr>
+								<tr>
+                  <td></td>
                   <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
-                  <td></td>
-								</tr>
-								<tr>
-                  <!-- <td></td> -->
-                  <td class="link" onclick="go_open('/list/hmd.html');">한국전통문화대학교<br>문화유산산업학과</td>
-                  <td></td>
-								</tr>
+                  <td>디지털 기술 기반 보존·활용 솔루션 개발</td>
+								</tr>								
 						</tbody>
 					</table>
 				</div>
