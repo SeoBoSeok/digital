@@ -10,7 +10,7 @@ if ($is_nogood) $colspan++;
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
-echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css">';
+echo '<link rel="stylesheet" href="'.$board_skin_url.'/style.css?1">';
 // echo '<link rel="stylesheet" href="'.$board_skin_url.'/helper.css">';
 ?>
 
