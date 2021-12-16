@@ -317,3 +317,6 @@ td.link:hover {
   color: white;
   cursor: pointer;
 }
+.subpage-item-lists {
+  justify-content: center;
+}

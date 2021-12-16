@@ -260,3 +260,6 @@ section.sec0 .inner table td:hover {
 }
 .digital .sec1 .inner:after {display: none;}
 .digital .sec1 .inner:before {display: none;}
+.subpage-item-lists {
+  justify-content: center;
+}

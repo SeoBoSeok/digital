@@ -249,6 +249,9 @@ section.sec0 .inner table td:hover {
       width: auto;
       max-width: 100%;
   }
+  .subpage-item-lists {
+    justify-content: center;
+  }
 
   /*****##### active #####*****/
   .subpage-item-lists .subpage-item.active .subpage-link-text{

@@ -317,3 +317,6 @@ td.link:hover {
 .digital .sec1 .inner:before {display: none!important}
 .booth_pic {padding: 30px 0;}
 .booth_pic img {width:100%;}
+.subpage-item-lists {
+  justify-content: center;
+}

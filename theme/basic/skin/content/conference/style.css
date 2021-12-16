@@ -270,4 +270,7 @@ section.sec0 .inner table td:hover {
   .digital .sec2 .lists ul li {
     width: 50%;
   }
+  .subpage-item-lists {
+    justify-content: center;
+  }
 }
