@@ -634,6 +634,8 @@ header h1 {
   }
   .digital .sec2 .lists ul {
     margin: -20px -6px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .digital .sec2 .lists ul li {
     padding: 20px 6px;
