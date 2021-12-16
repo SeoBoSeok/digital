@@ -703,6 +703,7 @@ label {
     width: 30%;
   }
   .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
+  .apply .form_wrap table tr td.box6 select {max-width: 100%;}
 }
 
 #reservation_check {
@@ -712,6 +713,7 @@ label {
   font-size: 18px;
   border-radius: 10px;
   background-color: #000;
+  border: 0;
 }
 .digital .sec2 .lists {
   margin-top: 30px;
