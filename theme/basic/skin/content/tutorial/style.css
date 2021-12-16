@@ -275,7 +275,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
    .table-container table{
      width:auto;
   } 
-  .wrap-tbl-calendar .tbl td {padding: 10px}
+  .wrap-tbl-calendar .tbl td {padding: 10px; font-size: 15px;}
   ::-webkit-scrollbar:vertical { width: 12px; } 
   ::-webkit-scrollbar { -webkit-appearance: none; } 
   ::-webkit-scrollbar:horizontal { height: 15px; } 
