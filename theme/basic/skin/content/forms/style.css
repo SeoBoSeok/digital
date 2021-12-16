@@ -753,6 +753,45 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   width: 1200px;
   margin: 0 auto;
 }
+.magam.center {
+  text-align: center;
+}
+.magam .magam_txt1 {
+  width: 100%;
+  display: block;
+  /* height: 24px; */
+  font-family: GmarketSansTTF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  padding: 48px 0 38px;
+}
+.magam .magam_txt3 {
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  padding-top: 38px;
+  padding-bottom: 100px;
+}
+.magam .magam_image img {
+  max-width: 753px;
+  width: 100%;
+}
+.magam .magam_image2 img {
+  max-width: 336px;
+  /* width: 100%; */
+}
 @media screen and (max-width: 768px) and (min-width: 300px){
   .table-container{
      width:100%;	
@@ -796,6 +835,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   .digital .sec2 .inner {
     padding-bottom: 0px;
   }
+  .magam .magam_image2 img {width: 50%;}
 }
 select.minimal {
   background-image: linear-gradient(

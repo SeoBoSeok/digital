@@ -43,9 +43,9 @@
           <li>
             <a href="/bbs/content.php?co_id=tutorial_forms">관람안내</a>
             <ul>
-              <!-- <li><a href="/bbs/content.php?co_id=tutorial_forms">관람객 사전신청</a></li> -->
+              <li class="magam_t"><a href="/bbs/content.php?co_id=pre_forms">관람객 사전신청</a></li>
               <li><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전신청</a></li>
-              <!-- <li><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li> -->
+              <li class="magam_t"><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li>
               <li><a href="/bbs/content.php?co_id=formscheck">사전신청 확인</a></li>
             </ul>
           </li>              

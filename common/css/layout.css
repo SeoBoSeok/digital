@@ -458,7 +458,24 @@ header h1 .m {
     font-size: 18px;
   }
 }
-
+.magam_t {
+  position: relative;
+}
+.magam_t::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  width: 20px;
+  height: 20px;
+  content: "마감";
+  background-color: #111;
+  color: white;
+  top: 0;
+  left: -20px;
+  font-size: 10px;
+  border-radius: 50%;
+}
 /* footer */
 footer .f_sec1 {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
