@@ -1916,7 +1916,7 @@ section.sec2 {
 }
 .bd-srch-wrap .search_box .bd_srch_btn {background-color: transparent; padding: 0.8em 1em;}
 .tbl_head01 [data-type="num"], .tbl_head01 [data-type='date'], .tbl_head01 [data-type="count"] {
-  width: 10rem;
+  width: 6rem;
   text-align: center;
 }
 #bo_list tr.bo_notice {
