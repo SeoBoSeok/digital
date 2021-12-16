@@ -476,7 +476,7 @@ header h1 {
     color: #666666;
   }
 }
-
+.digital .sec1 .info .lists p {color: #666666 !important;}
 /* .digital .sec2 */
 .digital .sec2 {
   padding-bottom: 50px;
