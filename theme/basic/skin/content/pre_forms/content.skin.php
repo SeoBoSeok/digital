@@ -49,21 +49,21 @@ if (!empty($_REQUEST['program'])) {
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line subpage_nav_item active">
+            <!-- <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
                   <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
               </a>
-            </span>
+            </span> -->
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
                   <span class="subpage-link-text">튜토리얼 사전신청</span>
               </a>
             </span>            
-            <span class="subpage-item each-line subpage_nav_item ">
+            <!-- <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
                   <span class="subpage-link-text">미래교육 사전신청</span>
               </a>
-            </span>            
+            </span>             -->
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=formscheck">
                   <span class="subpage-link-text">사전신청 확인</span>
