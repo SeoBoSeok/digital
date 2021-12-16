@@ -1081,6 +1081,9 @@ section.sec2 {
   .if_date {color: #666666;}
   .pg_wrap {text-align: center; margin-top: 40px;}
   #bo_v_atc {padding: 1.875rem 1.25rem;width:100%;line-height:1.7em;min-height:200px;word-break:break-all;overflow:hidden}
+#bo_v_img {
+    text-align: center;
+}  
 @media (max-width: 768px){
     .bo_v_tit {
         font-size: 1.5rem;
