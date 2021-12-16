@@ -257,4 +257,18 @@ table caption p{margin: 0;line-height:0;font-size:0;}
   .sec2 .lists .right dl dd {
     padding-left: 100px;
   }
+  .table-container{
+    width:100%;	
+    overflow-x:auto;
+   white-space: nowrap;
+   }
+    
+   .table-container table{
+     width:auto;
+  } 
+  ::-webkit-scrollbar:vertical { width: 12px; } 
+  ::-webkit-scrollbar { -webkit-appearance: none; } 
+  ::-webkit-scrollbar:horizontal { height: 15px; } 
+  ::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, .5); border-radius: 10px; border: 1px solid #ffffff; } 
+  ::-webkit-scrollbar-track { border-radius: 10px; background-color: #ffffff; }
 }
