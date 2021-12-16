@@ -187,7 +187,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
                     <h4>청동거울, <br>과학을 비추다</h4>
-                    <span>백제세계유산센터</span>
+                    <span>국립공주대학교, 문화유산기술연구소, 국립중앙과학관</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
                     </div>
