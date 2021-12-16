@@ -73,7 +73,7 @@ tbody tr{text-align: center;}
 </form>
 <div class="local_ov01 local_ov">
     <?php echo $listall ?>
-	문의 수<?php echo number_format($total_count) ?>개
+	총 신청인원<?php echo number_format($total_count) ?>개
 </div>
 
 <form name="fsearch" id="fsearch"  action="./qna_update.php" class="local_sch01 local_sch" method="post" onsubmit="return fboardlist_submit(this);">
