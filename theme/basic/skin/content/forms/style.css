@@ -628,7 +628,7 @@ input[type=checkbox].-check:checked:not([disabled])+label:after, input[type=radi
 label {
   display: inline-block;
   cursor: pointer;
-  line-height: 2.5;
+  /* line-height: 2.5; */
   font-size: 1rem;
   margin-right: 10px;
 }
@@ -774,7 +774,7 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    line-height: 2.5;
+    /* line-height: 2.5; */
     margin-bottom: 0;
     font-size: 10px;
     margin-right: 10px;
