@@ -779,6 +779,9 @@ table caption p{margin: 0;line-height:0;font-size:0;}
     font-size: 13px;
     margin-right: 6px;
   }
+  .form_wrap table tr td select[name=rsv_tel1],.form_wrap table tr td select[name=rsv_tel2],.form_wrap table tr td select[name=rsv_tel3] {
+    width: 30%;
+  }
   .apply .form_wrap table tr td input[type=radio], .apply .form_wrap table tr td input[type=checkbox] {font-size: 13px; padding: 0;}
 }
 select.minimal {
