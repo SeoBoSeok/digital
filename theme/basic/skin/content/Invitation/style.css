@@ -139,6 +139,9 @@ section.sec0 .inner table td:hover {
   cursor: pointer;
   background-color: #c85912;
 }
+.btn:hover span::after {
+  background: url(/common/img/arrow_white.png) no-repeat;
+}
 .btn.close {
   background: #7a7a7a;
 }
@@ -258,6 +261,9 @@ section.sec0 .inner table td:hover {
       border-bottom: 2px solid #000000;
   }
 }
+/* .digital .sec2 .lists ul li a:hover .btn span::after {
+  background: url(/common/img/main_sec1_arrow.png) no-repeat;
+} */
 .digital .sec1 .inner:after {display: none;}
 .digital .sec1 .inner:before {display: none;}
 @media (max-width: 768px){
