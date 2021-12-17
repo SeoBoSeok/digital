@@ -288,7 +288,7 @@ if(G5_COMMUNITY_USE === false) {
           });
 
           e.preventDefault();
-      }, 1500);
+      }, 1000);
     </script>
     <?php
       }
