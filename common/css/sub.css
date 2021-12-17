@@ -649,6 +649,7 @@ header h1 {
     word-break: break-all;
     font-size: 11px;
     letter-spacing: 1px;
+    width: 100%;
   }
   .digital .sec2 .lists ul li .text h4 {
     margin-top: 5px;

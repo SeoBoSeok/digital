@@ -447,7 +447,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-                <iframe src="" width="100%" height="700px" frameborder="0" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation"
+                <iframe src="" width="100%" height="700px" frameborder="0" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation allow-popups-to-escape-sandbox allow-top-navigation"
                         allowtransparency="true"></iframe>
             </div>
         </div>
