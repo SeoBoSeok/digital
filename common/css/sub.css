@@ -645,6 +645,8 @@ header h1 {
     padding: 22px 0 15px;
   }
   .digital .sec2 .lists ul li .text span {
+    display: block;
+    word-break: break-all;
     font-size: 11px;
     letter-spacing: 1px;
   }
