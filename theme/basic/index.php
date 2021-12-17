@@ -246,6 +246,7 @@ if(G5_COMMUNITY_USE === false) {
       if(defined('_INDEX_')) { // index에서만 실행
           // include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     ?>
+    <a class="bla-1" href="#" style="height:0; display: none;"></a>
     <div id="hd_pop">
       <h2>팝업레이어</h2>
       <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
@@ -273,6 +274,21 @@ if(G5_COMMUNITY_USE === false) {
         $('#hd_pops_2').css('left', '5px');
         $('#hd_pops_2').css('top', '510px');
       }
+      setTimeout(() => {
+        $("body").append('<div class="YouTubePopUp-Wrap YouTubePopUp-animation"><div class="YouTubePopUp-Content"><span class="YouTubePopUp-Close"></span><iframe src="https://www.youtube.com/embed/G85x2umnGvE" allowfullscreen></iframe></div></div>');
+
+          if( $('.YouTubePopUp-Wrap').hasClass('YouTubePopUp-animation') ){
+              setTimeout(function() {
+                  $('.YouTubePopUp-Wrap').removeClass("YouTubePopUp-animation");
+              }, 600);
+          }
+
+          $(".YouTubePopUp-Wrap, .YouTubePopUp-Close").click(function(){
+              $(".YouTubePopUp-Wrap").addClass("YouTubePopUp-Hide").delay(515).queue(function() { $(this).remove(); });
+          });
+
+          e.preventDefault();
+      }, 1500);
     </script>
     <?php
       }
