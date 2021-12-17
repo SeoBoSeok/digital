@@ -196,7 +196,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </li>
             </ul>
           </div>
-          <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
+          <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요." class="reservation_btn">
             <b>사전신청하기</b>
             <span>12. 18(토) ~ 12. 20(월) 3일간</span>
           </a>

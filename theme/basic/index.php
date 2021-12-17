@@ -113,27 +113,27 @@ if(G5_COMMUNITY_USE === false) {
     <div id="hd_pop">
       <h2>팝업레이어</h2>
       <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
-      <a href="/bbs/content.php?co_id=tutorial_forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:470px">
-              <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div></a>
+      <div class="hd_pops_con" style="width:400px;height:470px">
+              <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div>
           <div class="hd_pops_footer">
               <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
               <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
       </div>
-      <!-- <div id="hd_pops_2" class="hd_pops" style="top:100px;left:420px">
-          <a href="/bbs/content.php?co_id=forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:400px">
-              <p><img src="https://gongju-digitage.co.kr/data/editor/2112/fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
+      <div id="hd_pops_2" class="hd_pops" style="top:100px;left:450px">
+          <a href="/bbs/content.php?co_id=tutorial_forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:470px">
+              <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
           <div class="hd_pops_footer">
               <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
               <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
-      </div> -->
+      </div>
     </div>
     <script>
       if ($(window).innerWidth() < 769) {
-        $('#hd_pops_1').css('left', '10px');
+        $('#hd_pops_1').css('left', '5px');
         $('#hd_pops_1').css('top', '10px');
-        $('#hd_pops_2').css('left', '10px');
+        $('#hd_pops_2').css('left', '5px');
         $('#hd_pops_2').css('top', '490px');
       }
     </script>
@@ -190,7 +190,7 @@ if(G5_COMMUNITY_USE === false) {
             alt=""
           />
         </div>
-        <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
+        <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요." class="reservation_btn">
           <b>사전신청하기</b>
           <span>12. 18(토) ~ 12. 20(월) 3일간</span>
         </a>
@@ -346,7 +346,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="/bbs/content.php?co_id=tutorial_forms"><span>사전 예약</span></a>
+              <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
