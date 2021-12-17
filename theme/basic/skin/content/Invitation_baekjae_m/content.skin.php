@@ -89,7 +89,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                국립공주대학교, 문화유산기술연구소, 국립중앙과학관
+              국립공주대학교·문화유산기술연구소·국립중앙과학관
               </h3>
               <dl>
                 <dt>소개</dt>
