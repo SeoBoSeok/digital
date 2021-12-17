@@ -105,6 +105,142 @@ if(G5_COMMUNITY_USE === false) {
 .hd_pops_footer button {padding:10px;border:0;color:#fff}
 .hd_pops_footer .hd_pops_reject {background:#000;text-align:left}
 .hd_pops_footer .hd_pops_close {background:#393939;position:absolute;top:0;right:0}
+
+.YouTubePopUp-Wrap{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    background-color:rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    z-index:9999999999999;
+}
+
+.YouTubePopUp-animation{
+    opacity: 0;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: YouTubePopUp;
+    animation-name: YouTubePopUp;
+}
+
+@-webkit-keyframes YouTubePopUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes YouTubePopUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.YouTubePopUp-Content{
+    max-width:680px;
+    display:block;
+    margin:0 auto;
+    height:100%;
+    position:relative;
+}
+
+.YouTubePopUp-Content iframe{
+    max-width:100% !important;
+    width:100% !important;
+    display:block !important;
+    height:480px !important;
+    border:none !important;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.YouTubePopUp-Hide{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: YouTubePopUpHide;
+    animation-name: YouTubePopUpHide;
+}
+
+@-webkit-keyframes YouTubePopUpHide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes YouTubePopUpHide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.YouTubePopUp-Close{
+    position:absolute;
+    top:0;
+    cursor:pointer;
+    bottom:528px;
+    right:0px;
+    margin:auto 0;
+    width:24px;
+    height:24px;
+    background:url(../images/close.png) no-repeat;
+    background-size:24px 24px;
+    -webkit-background-size:24px 24px;
+    -moz-background-size:24px 24px;
+    -o-background-size:24px 24px;
+}
+
+.YouTubePopUp-Close:hover{
+    opacity:0.5;
+}
+
+@media all and (max-width: 768px) and (min-width: 10px){
+    .YouTubePopUp-Content{
+        max-width:90%;
+    }
+}
+
+@media all and (max-width: 600px) and (min-width: 10px){
+    .YouTubePopUp-Content iframe{
+        height:320px !important;
+    }
+
+    .YouTubePopUp-Close{
+        bottom:362px;
+    }
+}
+
+@media all and (max-width: 480px) and (min-width: 10px){
+    .YouTubePopUp-Content iframe{
+        height:220px !important;
+    }
+
+    .YouTubePopUp-Close{
+        bottom:262px;
+    }
+}
     </style>
     <?php
       if(defined('_INDEX_')) { // index에서만 실행
@@ -112,14 +248,14 @@ if(G5_COMMUNITY_USE === false) {
     ?>
     <div id="hd_pop">
       <h2>팝업레이어</h2>
-      <!-- <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
+      <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
       <div class="hd_pops_con" style="width:400px;height:470px">
-              <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div>
+              <p><img src="/common/img/p.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png" alt="fb4b9488897987bc4163859f8c1ae739_1639462739_327.png"><br style="clear:both;">&nbsp;</p>        </div>
           <div class="hd_pops_footer">
               <button class="hd_pops_reject hd_pops_1 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
               <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
-      </div> -->
+      </div>
       <div id="hd_pops_2" class="hd_pops" style="top:100px;left:450px">
           <a href="/bbs/content.php?co_id=tutorial_forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:470px">
               <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
@@ -129,6 +265,7 @@ if(G5_COMMUNITY_USE === false) {
           </div>
       </div>
     </div>
+    
     <script>
       if ($(window).innerWidth() < 769) {
         $('#hd_pops_1').css('left', '5px');
@@ -465,6 +602,7 @@ $(function() {
     $("#hd").css("z-index", 1000);
 });
 </script>
+<script src="/common/js/youtubepopup.js"></script>
 <!-- } 팝업레이어 끝 -->      
     </footer>
   </body>
