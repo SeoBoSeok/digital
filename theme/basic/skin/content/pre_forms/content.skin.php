@@ -56,7 +56,7 @@ if (!empty($_REQUEST['program'])) {
             </span>
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text">튜토리얼 사전신청</span>
+                  <span class="subpage-link-text"><del>튜토리얼 사전신청(마감)</del></span>
               </a>
             </span>            
             <span class="subpage-item each-line subpage_nav_item ">
