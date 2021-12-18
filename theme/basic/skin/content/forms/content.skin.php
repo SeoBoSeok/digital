@@ -98,7 +98,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
             <div class="magam_image">
               <img src="/common/img/magam1.png" alt="사전신청 마감" >
             </div>
-            <div class="magam_txt1">미래교육 사전접수 마감 (행사방문시 현장등록가능합나다)</div>
+            <div class="magam_txt1">미래교육 사전접수 마감</div>
             <div class="magam_txt2 magam_image2">
               <img src="/common/img/magam2.png" alt="사전신청 마감" >
             </div>

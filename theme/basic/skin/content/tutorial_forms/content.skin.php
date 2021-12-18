@@ -71,7 +71,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
             <div class="magam_image">
               <img src="/common/img/magam1.png" alt="사전신청 마감" >
             </div>
-            <div class="magam_txt1">투토리얼 사전접수 마감 (행사방문시 현장등록가능합나다)</div>
+            <div class="magam_txt1">튜토리얼 사전접수 마감</div>
             <div class="magam_txt2 magam_image2">
               <img src="/common/img/magam2.png" alt="사전신청 마감" >
             </div>
