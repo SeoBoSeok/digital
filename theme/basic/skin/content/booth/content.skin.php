@@ -161,12 +161,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td>A06</td>
-                  <td>국외소재문화재재단</td>
+                  <td class="link" onclick="go_open('/list/overseaschf.html');">국외소재문화재재단</td>
                   <td>국외문화재에 대한 조사·연구, 환수·활용</td>
 								</tr>
 								<tr>
                   <td>A07</td>
-                  <td>한국문화재디지털보존협회</td>
+                  <td class="link" onclick="go_open('/list/hedico.html');">한국문화재디지털보존협회</td>
                   <td>국외문화재의 디지털 귀향 및 보존</td>
 								</tr>																
 								<tr>
