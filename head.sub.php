@@ -54,6 +54,24 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
+<link rel="canonical" href="https://gongju-digitage.co.kr/">
+<link rel="apple-touch-icon" sizes="57x57" href="common/img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="common/img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="common/img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="common/img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="common/img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="common/img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="common/img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="common/img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="common/img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="common/img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="common/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="common/img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="common/img/favicon-16x16.png">
+<link rel="manifest" href="common/img/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="common/img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <title><?php echo $g5_head_title; ?></title>
 <?php
 if (defined('G5_IS_ADMIN')) {
