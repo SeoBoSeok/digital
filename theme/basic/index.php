@@ -205,7 +205,7 @@ if(G5_COMMUNITY_USE === false) {
     margin:auto 0;
     width:24px;
     height:24px;
-    background:url(../images/close.png) no-repeat;
+    /* background:url(../images/close.png) no-repeat; */
     background-size:24px 24px;
     -webkit-background-size:24px 24px;
     -moz-background-size:24px 24px;
@@ -287,7 +287,7 @@ if(G5_COMMUNITY_USE === false) {
               $(".YouTubePopUp-Wrap").addClass("YouTubePopUp-Hide").delay(515).queue(function() { $(this).remove(); });
           });
 
-          e.preventDefault();
+          // e.preventDefault();
       }, 1000);
     </script>
     <?php
