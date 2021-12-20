@@ -31,6 +31,9 @@ else
 if(!$mb_id)
     alert('회원아이디 값이 없습니다. 올바른 방법으로 이용해 주십시오.');
 
+if (true)
+    alert('회원가입을 할 수 없습니다.', G5_URL);
+
 $mb_password    = isset($_POST['mb_password']) ? trim($_POST['mb_password']) : '';
 $mb_password_re = isset($_POST['mb_password_re']) ? trim($_POST['mb_password_re']) : '';
 $mb_name        = isset($_POST['mb_name']) ? trim($_POST['mb_name']) : '';
