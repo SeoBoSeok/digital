@@ -236,7 +236,7 @@ if(G5_COMMUNITY_USE === false) {
           // include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     ?>
     <a class="bla-1" href="#" style="height:0; display: none;"></a>
-    <div id="hd_pop">
+    <!-- <div id="hd_pop">
       <h2>팝업레이어</h2>
       <div id="hd_pops_1" class="hd_pops" style="top:100px;left:50px">
       <div class="hd_pops_con" style="width:400px;height:430px">
@@ -246,15 +246,15 @@ if(G5_COMMUNITY_USE === false) {
               <button class="hd_pops_close hd_pops_1">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
       </div>
-      <!-- <div id="hd_pops_2" class="hd_pops" style="top:100px;left:450px">
+      <div id="hd_pops_2" class="hd_pops" style="top:100px;left:450px">
           <a href="/bbs/content.php?co_id=tutorial_forms" style="display: block;"><div class="hd_pops_con" style="width:400px;height:470px">
               <p><img src="https://gongju-digitage.co.kr/common/img/popup_tutorial.jpg" title="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png" alt="fb4b9488897987bc4163859f8c1ae739_1639463702_7797.png"><br style="clear:both;">&nbsp;</p>        </div></a>
           <div class="hd_pops_footer">
               <button class="hd_pops_reject hd_pops_2 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
               <button class="hd_pops_close hd_pops_2">닫기 <i class="fa fa-times" aria-hidden="true"></i></button>
           </div>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
     
     <script>
       if ($(window).innerWidth() < 769) {
@@ -264,7 +264,7 @@ if(G5_COMMUNITY_USE === false) {
         $('#hd_pops_2').css('top', '510px');
       }
       setTimeout(() => {
-        $("body").append('<div class="YouTubePopUp-Wrap YouTubePopUp-animation"><div class="YouTubePopUp-Content"><span class="YouTubePopUp-Close"></span><iframe src="https://www.youtube.com/embed/G85x2umnGvE" allowfullscreen></iframe></div></div>');
+        $("body").append('<div class="YouTubePopUp-Wrap YouTubePopUp-animation"><div class="YouTubePopUp-Content"><span class="YouTubePopUp-Close"></span><iframe src="https://www.youtube.com/embed/yNwu8XSTPI4" allowfullscreen></iframe></div></div>');
 
           if( $('.YouTubePopUp-Wrap').hasClass('YouTubePopUp-animation') ){
               setTimeout(function() {
