@@ -50,7 +50,7 @@ body {
   right: -60px;
   bottom: 32px;
   padding: 16px 10px 5px 83px;
-  width: 280px;
+  width: 300px;
   height: 80px;
   background: #18130f;
   border-radius: 40px;
@@ -87,7 +87,7 @@ body {
   .reservation_btn {
     right: 80px;
     padding: 12px 10px 5px 67px;
-    width: 234px;
+    width: 300px;
     height: 67px;
     border-radius: 33.5px;
   }
@@ -119,7 +119,7 @@ body {
     right: 50%;
     transform: translateX(50%);
     padding: 12px 10px 5px 75px;
-    width: 240px;
+    width: 300px;
     height: 62px;
     border-radius: 31px;
   }
