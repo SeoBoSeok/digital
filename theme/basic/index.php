@@ -349,7 +349,7 @@ if(G5_COMMUNITY_USE === false) {
           <span></span>
         </div>
         <div class="wrap ani">
-          <h2><span>2022</span>Gongju Digital Heritage Festival</h2>
+          <h2><span>2022</span> Gongju Digital Heritage Festival</h2>
           <p>
             2022 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털
@@ -459,7 +459,7 @@ if(G5_COMMUNITY_USE === false) {
         <div class="inner">
           <h3>온라인 참가신청</h3>
           <p>
-            2022공주디지털문화유산전은 관람객 사전 등록을 받고 있습니다.<br />
+            2022 공주디지털문화유산전은 관람객 사전 등록을 받고 있습니다.<br />
             참가를 희망하시면 사전등록을 통해 빠르게 입장하실 수 있습니다. (업데이트 예정)
           </p>
           <div class="box">
@@ -501,7 +501,7 @@ if(G5_COMMUNITY_USE === false) {
           <div class="notice">
             <h3>공지사항</h3>
             <p>
-              2022공주디지털문화유산전의 뉴스 및 공지사항을 확인하실 수
+              2022 공주디지털문화유산전의 뉴스 및 공지사항을 확인하실 수
               있습니다.
             </p>
           </div>
