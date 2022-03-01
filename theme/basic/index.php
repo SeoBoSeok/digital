@@ -332,9 +332,10 @@ if(G5_COMMUNITY_USE === false) {
             alt=""
           />
         </div>
-        <a href="javascript:alert('2022 공주디지털문화유산전 준비중입니다. 많은 관심 부탁드립니다.')" class="reservation_btn">
-          <b>사전신청하기</b>
-          <span>12. 18(토) ~ 12. 20(월) 3일간</span>
+        <a href="javascript:alert('2022 공주디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
+          <!-- <b>사전신청하기</b> -->
+          <b>2022 공주디지털문화유산전</b>
+          <span>06. 03(금) ~ 06. 05(일) 3일간</span>
         </a>
       </div>
     </section>
@@ -488,7 +489,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')"><span>사전 예약</span></a>
+              <a href="javascript:alert('2022 공주디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
