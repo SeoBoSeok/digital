@@ -78,7 +78,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <div class="center">
                 <!-- <h2>사전신청 확인</h2>
                 <p>
-                2021 공주디지털문화유산전 사전신청 확인
+                2022디지털문화유산전 사전신청 확인
                 </p> -->
             </div>
                 <div class="lists apply">
@@ -88,23 +88,24 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="rv_check">
             <div class="inner_box">
                 <h3 class="dep_name type2 mt-5">사전신청 확인</h3>
-                <div class="txt_box">2021 공주디지털문화유산전 <br class="m_show"><span>신청자 정보를 입력</span>하시면 <br class="pc_show"> 상세정보를 확인해 볼 수 있습니다.</div>
-                <div class="info_chk">
+                <!-- <div class="txt_box">2022 디지털문화유산전 <br class="m_show"><span>신청자 정보를 입력</span>하시면 <br class="pc_show"> 상세정보를 확인해 볼 수 있습니다.</div> -->
+                <div class="txt_box">전시 준비중입니다. 많은 관심 부탁드립니다.</div>
+                <!-- <div class="info_chk">
                     <form action="check_view.php" method="POST" id="rsvForm" autocomplete="off">
                         <div class="info_form">
                             <div class="title">예약자 이름</div>
                             <div class="name_box">
                                 <input type="text" class="name" name="rsv_name">
-                                <!-- <div><input type="radio" id="p1" name="rsv_region" value="1" checked=""><label for="p1">내국인</label></div>
-                                <div><input type="radio" id="p2" name="rsv_region" value="2"><label for="p2">외국인</label></div> -->
+                                <div><input type="radio" id="p1" name="rsv_region" value="1" checked=""><label for="p1">내국인</label></div>
+                                <div><input type="radio" id="p2" name="rsv_region" value="2"><label for="p2">외국인</label></div>
                             </div>
                             <div class="title">연락처</div>
                             <div class="tel_box">
-                                <!-- <input type="text" class="tel1" name="rsv_tel1" maxlength="3">
+                                <input type="text" class="tel1" name="rsv_tel1" maxlength="3">
                                 <span>-</span>
                                 <input type="text" class="tel2" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
                                 <span>-</span>
-                                <input type="text" class="tel3" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                <input type="text" class="tel3" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)">
                                 <select name="rsv_tel1">
                                     <option value="010">010</option>
                                 </select>
@@ -125,7 +126,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <a class="reset_btn" id="reset_btn"><span>초기화</span></a>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -263,7 +264,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <h3>Contact</h3>
               <ul>
               <li>
-								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2022 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
@@ -295,7 +296,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section>
       <section class="f_sec2">
         <div class="inner">
-          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+          <p>Copyright ⓒ 2022 디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
     </footer>

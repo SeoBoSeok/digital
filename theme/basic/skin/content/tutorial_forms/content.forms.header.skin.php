@@ -35,7 +35,7 @@ if (file_exists($himg)) {
         <tbody>
           <tr>
             <td class="home">
-                <a href="<?php echo G5_URL;?>"><img src="/images/main/icon_home.png" alt="2021 공주문화재야행" /></a>
+                <a href="<?php echo G5_URL;?>"><img src="/images/main/icon_home.png" alt="2022문화재야행" /></a>
             </td>
             <td class="m">
               <div class="mon">

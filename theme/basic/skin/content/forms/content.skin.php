@@ -72,17 +72,17 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
-                  <span class="subpage-link-text"><del>관람객 사전신청(마감)</del></span>
+                  <span class="subpage-link-text">관람객 사전신청</span>
               </a>
             </span>
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text"><del>튜토리얼 사전신청(마감)</del></span>
+                  <span class="subpage-link-text">튜토리얼 사전신청</span>
               </a>
             </span>            
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
-                  <span class="subpage-link-text"><del>미래교육 사전신청(마감)</del></span>
+                  <span class="subpage-link-text">미래교육 사전신청</span>
               </a>
             </span>            
             <span class="subpage-item each-line subpage_nav_item ">
@@ -98,12 +98,13 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
             <div class="magam_image">
               <img src="/common/img/magam1.png" alt="사전신청 마감" >
             </div>
-            <div class="magam_txt1">미래교육 사전접수 마감</div>
+            <!-- <div class="magam_txt1">미래교육 사전접수 마감</div>
             <div class="magam_txt2 magam_image2">
               <img src="/common/img/magam2.png" alt="사전신청 마감" >
             </div>
             <div class="magam_txt3">12월 18일 (토)부터 적용되는 강력한 거리두기 방안이 시행됨에 따라 전시장 박람회 관람시에도 방역패스가 적용됩니다.<br>
-이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div>
+이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
+          <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div>
           </div>
             <!-- <div class="center">
                 <h2>미래교육 사전신청</h2>
@@ -460,7 +461,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
               <h3>Contact</h3>
               <ul>
               <li>
-								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2022 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
@@ -492,7 +493,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
       </section>
       <section class="f_sec2">
         <div class="inner">
-          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+          <p>Copyright ⓒ 2022 디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
     </footer>

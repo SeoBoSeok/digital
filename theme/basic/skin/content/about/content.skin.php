@@ -80,7 +80,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3>전시구성</h3>
                 <div class="lists">
                   <p>
-                  2021 공주 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘디지털문화유산 산업‘, ‘디지털문화유산 연구개발’, ‘디지털문화유산 미래교육', ‘문화유산상품 마켓’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
+                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘디지털문화유산 산업‘, ‘디지털문화유산 연구개발’, ‘디지털문화유산 미래교육', ‘문화유산상품 마켓’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <!-- <h2>2021 Gongju<br>Digital Heritage Festival</h2>
           <p>
-            2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
+            2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
@@ -174,7 +174,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <h3>Contact</h3>
               <ul>
               <li>
-								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2022 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
@@ -206,7 +206,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section>
       <section class="f_sec2">
         <div class="inner">
-          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+          <p>Copyright ⓒ 2022 디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
     </footer>

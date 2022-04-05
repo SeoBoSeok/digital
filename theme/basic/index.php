@@ -24,15 +24,15 @@ if(G5_COMMUNITY_USE === false) {
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="imagetoolbar" content="no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>2022 공주 디지털 문화 유산전</title>
+    <title>2022 디지털문화유산전</title>
     <meta name="robots" content="index,follow" />
-    <meta name="keywords" content="2022 공주 디지털 문화 유산전" />
-    <meta name="description" content="2022 공주 디지털 문화 유산전" />
+    <meta name="keywords" content="2022 디지털문화유산전" />
+    <meta name="description" content="2022 디지털문화유산전" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="2022 공주 디지털 문화 유산전" />
+    <meta property="og:title" content="2022 디지털문화유산전" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="/common/img/sns-thumbnail.jpg" />
-    <meta property="og:description" content="2022 공주 디지털 문화 유산전" />
+    <meta property="og:description" content="2022 디지털문화유산전" />
     <link rel="canonical" href="https://gongju-digitage.co.kr/">
     <link rel="apple-touch-icon" sizes="57x57" href="common/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="common/img/apple-icon-60x60.png">
@@ -299,13 +299,13 @@ if(G5_COMMUNITY_USE === false) {
           <img
             class="img2"
             src="common/img/main_sec1_img3_2_1.png"
-            alt="문화 2022 공주"
+            alt="2022 디지털문화유산전"
           />
           <img class="img3" src="common/img/main_sec1_img3_3.png" alt="유산전" />
           <img
             class="img4"
             src="common/img/main_sec1_img4_1.png"
-            alt="2022. 12. 18. SAT - 12. 20. MON 10:00 ~ 18:00 아트센터고마"
+            alt="2022. 06. 03. FRI - 06. 05. SUN 10:00 ~ 18:00 아트센터고마"
           />
           <img
             class="img5 layer"
@@ -332,9 +332,9 @@ if(G5_COMMUNITY_USE === false) {
             alt=""
           />
         </div>
-        <a href="javascript:alert('2022 공주디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
+        <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
           <!-- <b>사전신청하기</b> -->
-          <b>2022 공주디지털문화유산전</b>
+          <b>2022 디지털문화유산전</b>
           <span>06. 03(금) ~ 06. 05(일) 3일간</span>
         </a>
       </div>
@@ -349,9 +349,9 @@ if(G5_COMMUNITY_USE === false) {
           <span></span>
         </div>
         <div class="wrap ani">
-          <h2><span>2022</span> Gongju Digital Heritage Festival</h2>
+          <h2><span>2022</span> Digital Heritage Festival</h2>
           <p>
-            2022 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
+            2022 디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털
             문화를 형성하고, <br />학생·일반인· 관련 전문가·스타트업까지
             광범위한 관람층 구축을하고있습니다.
@@ -459,7 +459,7 @@ if(G5_COMMUNITY_USE === false) {
         <div class="inner">
           <h3>온라인 참가신청</h3>
           <p>
-            2022 공주디지털문화유산전은 관람객 사전 등록을 받고 있습니다.<br />
+            디지털문화유산전은 관람객 사전 등록을 받고 있습니다.<br />
             참가를 희망하시면 사전등록을 통해 빠르게 입장하실 수 있습니다. (업데이트 예정)
           </p>
           <div class="box">
@@ -489,7 +489,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="javascript:alert('2022 공주디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')"><span>사전 예약</span></a>
+              <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
@@ -501,7 +501,7 @@ if(G5_COMMUNITY_USE === false) {
           <div class="notice">
             <h3>공지사항</h3>
             <p>
-              2022 공주디지털문화유산전의 뉴스 및 공지사항을 확인하실 수
+              2022 디지털문화유산전의 뉴스 및 공지사항을 확인하실 수
               있습니다.
             </p>
           </div>
@@ -542,7 +542,7 @@ if(G5_COMMUNITY_USE === false) {
               <h3>Contact</h3>
               <ul>
                 <li>
-								2022 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2022 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
@@ -589,7 +589,7 @@ if(G5_COMMUNITY_USE === false) {
       </section>
       <section class="f_sec2">
         <div class="inner">
-          <p>Copyright ⓒ 2022공주디지털문화유산전. All rights reserved.</p>
+          <p>Copyright ⓒ 2022 디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
       <script>

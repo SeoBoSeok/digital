@@ -66,16 +66,16 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap orange">
-                <img src="/common/img/newposter.jpg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/newposter.jpg" alt="디지털 문화 유산전 2022.06.03.FRI - 06.05.SUN 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info orange">
               <div class="wrap">
-                <h3>2021공주<br>디지털문화유산전</h3>
+                <h3>2022<br>디지털문화유산전</h3>
                 <div class="lists">
                   <dl>
                     <dt>관람기간</dt>
-                    <dd>12.18(토) ~ 12.20(월), 3일간</dd>
+                    <dd>06.05(금) ~ 06.05(일), 3일간</dd>
                   </dl>
                   <dl>
                     <dt>관람시간</dt>
@@ -137,9 +137,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
       </section>
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>2021 Gongju<br>Digital Heritage Festival</h2>
+          <h2>2022 <br>Digital Heritage Festival</h2>
           <p>
-            2021 공주디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
+            2022 디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
@@ -217,7 +217,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               <h3>Contact</h3>
               <ul>
               <li>
-								2021 공주 디지털문화유산전<span></span>TEL. 041-840-8377
+								2022 디지털문화유산전<span></span>TEL. 041-840-8377
                 </li>
                 <li>(32552) 충청남도 공주시 봉황로1 공주시청 문화재과</li>
               </ul>
@@ -249,7 +249,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
       </section>
       <section class="f_sec2">
         <div class="inner">
-          <p>Copyright ⓒ 2021공주디지털문화유산전. All rights reserved.</p>
+          <p>Copyright ⓒ 2022 디지털문화유산전. All rights reserved.</p>
         </div>
       </section>
     </footer>
