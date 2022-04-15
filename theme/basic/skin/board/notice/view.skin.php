@@ -213,6 +213,7 @@ echo '<link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css"';
 </article>
 <!-- } 게시판 읽기 끝 -->        
 <?php if ($update_href) { ?><li><a href="<?php echo $update_href ?>">수정<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li><?php } ?>
+<?php if ($delete_href) { ?><li><a href="<?php echo $delete_href ?>" onclick="del(this.href); return false;">삭제<i class="fa fa-trash-o" aria-hidden="true"></i></a></li><?php } ?>
     </div>
 </section>
 
