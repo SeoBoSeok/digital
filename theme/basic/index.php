@@ -82,7 +82,7 @@ if(G5_COMMUNITY_USE === false) {
   </head>
   <body>
     <style>
-
+.sound_only {display: none;}
 /* 팝업레이어 */
 #hd_pop {z-index:1000;position:relative;margin:0 auto;height:0}
 #hd_pop h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
