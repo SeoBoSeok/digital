@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+/* Noto Sans KR */
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.eot);
+  src: url(../font/NotoSansKR-Light.eot?#iefix) format("embedded-opentype"),
+    url(../font/NotoSansKR-Light.woff2) format("woff2"),
+    url(../font/NotoSansKR-Lightwoff) format("woff");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.eot);
+  src: url(../font/NotoSansKR-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../font/NotoSansKR-Regular.woff2) format("woff2"),
+    url(../font/NotoSansKR-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.eot);
+  src: url(../font/NotoSansKR-Medium.eot?#iefix) format("embedded-opentype"),
+    url(../font/NotoSansKR-Medium.woff2) format("woff2"),
+    url(../font/NotoSansKR-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/NotoSansKR-Bold.eot);
+  src: url(../font/NotoSansKR-Bold.eot?#iefix) format("embedded-opentype"),
+    url(../font/NotoSansKR-Bold.woff2) format("woff2"),
+    url(../font/NotoSansKR-Bold.woff) format("woff");
+}
+
+/* GmarketSans */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #323537;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  word-wrap: break-word;
+  word-break: keep-all;
+  zoom: 1;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+ins {
+  background-color: #ff9;
+  color: #111;
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c7c7c7;
+  margin: 1em 0;
+  padding: 0;
+}
+
+img {
+  border: 0 none;
+  max-width: 100%;
+}
+
+.hidden {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+form {
+  min-width: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+button,
+input {
+  border: 0 none;
+}
+
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0 none;
+  padding: 0;
+}
+
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  display: inline-block;
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea {
+  -moz-user-select: auto;
+  -webkit-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+textarea:focus {
+  outline: none;
+}
+
+textarea,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+select {
+  padding: 0 25px 0 10px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select:focus {
+  border-color: #323537;
+}
+select::-ms-expand {
+  display: none;
+}
+
+address {
+  font-style: normal;
+}
