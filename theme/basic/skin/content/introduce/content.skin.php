@@ -49,7 +49,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>문화유산, 디지털과 만나다</h2>
+            <h2>문화유산, 디지털 DNA를 품다</h2>
           </div>
         </div>
       </section>
@@ -98,7 +98,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                     <dd>문화재청</dd>
                   </dl>
                 </div>
-                <a href="/common/img/digital_sec1_img1.png" class="down">
+                <a href="/common/img/newposter.png" class="down">
                   <span>브로슈어<br>다운로드</span>
                 </a>
               </div>
