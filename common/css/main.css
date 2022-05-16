@@ -52,16 +52,17 @@
 
 /* sec1 */
 .sec1 {
+  position: relative;
   height: 865px;
   color: #fff;
   background: linear-gradient(
     -30deg,
-    #b5c6d4,
-    #bec6cc,
-    #ccc3be,
-    #ccc3be,
-    #bec6cc,
-    #b5c6d4
+    #bac8c8,
+    #b4c6c5,
+    #489f9e,
+    #489f9e,
+    #b4c6c5,
+    #bac8c8
   );
   background-size: 700% 700%;
   animation: gradient 16s ease infinite;
@@ -70,6 +71,7 @@
   -o-animation: gradient 16s ease infinite;
 }
 .sec1 .inner {
+  position: relative;
   height: 100%;
 }
 .sec1 .inner:before {
@@ -79,8 +81,15 @@
   right: -16px;
   width: 131px;
   height: 672px;
-  background: url(../img/main_sec1_img5_1.png) no-repeat;
+  background: url(../img/main_sec2_img1.png) no-repeat;
   z-index: 2;
+}
+.sec1 .bg-box{
+  position: absolute;
+  opacity: .7;
+  width: 100vw;
+  height: 100%;
+  background: url('../img/visual-bg.png') center/cover no-repeat;
 }
 .sec1 .inner .wrap {
   position: relative;
@@ -110,44 +119,44 @@
   animation-delay: 0.3s;
 }
 .sec1 .inner .wrap .img2 {
-  top: 338px;
+  top: 265px;
   left: -2px;
   z-index: 3;
   animation: fadeIn 3s ease both;
   animation-delay: 0.8s;
 }
 .sec1 .inner .wrap .img3 {
-  top: 555px;
+  top: 470px;
   left: -2px;
   z-index: 3;
   animation: fadeIn 3s ease both;
   animation-delay: 1.3s;
 }
 .sec1 .inner .wrap .img4 {
-  top: 555px;
-  left: 573px;
+  top: 535px;
+  left: 520px;
   z-index: 3;
   animation: fadeIn 2.5s ease both;
   animation-delay: 2s;
 }
 .sec1 .inner .wrap .img5 {
-  left: -143px;
+  left: -160px;
   top: 151px;
   z-index: 2;
 }
 .sec1 .inner .wrap .img6 {
-  top: 538px;
+  top: 580px;
   left: 532px;
   z-index: 2;
 }
 .sec1 .inner .wrap .img7 {
-  top: 341px;
-  left: 908px;
+  top: 300px;
+  left: 945px;
   z-index: 2;
 }
 .sec1 .inner .wrap .img8 {
   left: 873px;
-  top: -165px;
+  top: -10px;
   z-index: 2;
 }
 @media screen and (max-width: 1900px) {
@@ -195,12 +204,12 @@
     transform: translateX(-50%);
   }
   .sec1 .inner .wrap .img2 {
-    top: 314px;
-    left: 50%;
+    top: 255px;
+    left: 46%;
     transform: translateX(-50%);
   }
   .sec1 .inner .wrap .img3 {
-    top: 542px;
+    top: 474px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -220,7 +229,7 @@
     top: 685px;
   }
   .sec1 .inner .wrap .img8 {
-    top: -233px;
+    top: -80px;
   }
 }
 @media screen and (max-width: 420px) {
@@ -570,7 +579,7 @@
   left: 0;
   width: calc(50% + 139px);
   height: 100%;
-  background: url(../img/main_sec3_img1.jpg) center no-repeat;
+  background: url(https://gongju-digitage.co.kr/common/img/main_sec3_img1.jpg) center no-repeat;
   background-size: cover;
 }
 .sec3 > img {
@@ -597,7 +606,8 @@
 .sec3 .apply h3 {
   font-family: "GmarketSansMedium";
   font-size: 30px;
-  color: #c85912;
+  font-weight: bold;
+  color: #489f9d;
 }
 .sec3 .apply.ani.active h3 {
   animation: posX-40-up 1.8s ease backwards 0.2s;
@@ -770,7 +780,7 @@
   right: calc(50% + 340px);
   width: 100%;
   height: 100%;
-  background: #c85912;
+  background: #489f9d;
 }
 .sec4:after {
   content: "";
@@ -805,7 +815,7 @@
   height: 100%;
   padding: 88px 50px 88px 0;
   color: #fff;
-  background: #c85912;
+  background: #489f9d;
 }
 .sec4 .notice h3 {
   font-family: "GmarketSansBold";
@@ -846,7 +856,8 @@
   font-family: "GmarketSansMedium";
   font-size: 15px;
   letter-spacing: 0.8px;
-  color: #b04500;
+  font-weight: bold;
+  color: #489f9d;
 }
 .sec4 .ani.active .new h4 {
   animation: posX-40-up 1.8s ease both 0.2s;
