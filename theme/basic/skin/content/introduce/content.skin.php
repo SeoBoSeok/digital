@@ -111,10 +111,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           <h2>목적 & 비전</h2>
           <div class="vision">
             <ul class="clearfix">
-              <li class="left">디지털 헤리티지 분야 최신기술 및 관련산업 소개</li>
-              <li class="left">문화유산의 보존 - 활용과 디지털 대전환 촉진 환경 마련</li>
-              <li class="left">산업 - 연구개발 - 미래교육 기반 디지털 헤리티지 생태계 구축</li>
-              <li class="left">디지털 헤리티지 사업 중심지로서 공주시의 위상증대</li>
+              <li class="left">디지털 문화유산 관련 최신 기술 및 동향 소개</li>
+              <li class="left">문화유산 보존·활용의 디지털 대전환 촉진 환경 마련</li>
+              <li class="left">디지털 문화유산 산업&교육&연구 생태계 구축</li>
+              <li class="left">디지털 문화유산 산업 중심지로서 공주시의 위상 증대</li>
             </ul>
             <!-- <ul class="clearfix">
             </ul> -->
@@ -127,10 +127,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           <div class="vision">
             <ul class="clearfix">
               <li class="left">문화유산의 새로운 가치 창출 및 비즈니스 모델 구축</li>
-              <li class="right">'문화유산, 디지털 대전환 시대'에 맞는 디지털 헤리티지 문화 형성</li>
-            </ul>
-            <ul class="clearfix">
               <li class="left">디지털 기술을 이용하여 인간과 문화유산의 초연결성 확대</li>
+              <li class="left">문화유산, 디지털 대전환 시대’ 에 맞는 디지털 문화 형성</li>
+              <li class="left">문화유산 보존 및 활용을 위한 최신 기술의 변화와 트렌드 이해</li>
             </ul>
           </div>
         </div>
