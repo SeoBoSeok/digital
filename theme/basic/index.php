@@ -47,10 +47,10 @@ if(G5_COMMUNITY_USE === false) {
     <link rel="icon" type="image/png" sizes="32x32" href="common/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="common/img/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="common/img/favicon-16x16.png">
-    <link rel="manifest" href="common/img/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="common/img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <!-- <link rel="manifest" href="common/img/manifest.json"> -->
+    <!-- <meta name="msapplication-TileColor" content="#ffffff"> -->
+    <!-- <meta name="msapplication-TileImage" content="common/img/ms-icon-144x144.png"> -->
+    <!-- <meta name="theme-color" content="#ffffff"> -->
     <link rel="stylesheet" type="text/css" href="common/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="common/css/layout.css" />
     <link
