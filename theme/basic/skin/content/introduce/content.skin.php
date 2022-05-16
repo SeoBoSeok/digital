@@ -66,7 +66,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap orange">
-                <img src="/common/img/newposter.jpg" alt="디지털 문화 유산전 2022.06.03.FRI - 06.05.SUN 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/newposter.png" alt="디지털 문화 유산전 2022.06.03.FRI - 06.05.SUN 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info orange">
@@ -203,7 +203,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           </div>
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
             <b>사전신청하기</b>
-            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
+            <span>06. 03(금) ~ 06. 05(일) 3일간</span>
           </a>
         </div>
       </section>
@@ -230,7 +230,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                 </li>
                 <li>
                   <span>주관.</span>
-                  <img src="/common/img/main_sec5_img2_new.png" alt="국립 공주대학교 공주학연구원">
+                  <img src="/common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
                   <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
                 </li>
                 <li>

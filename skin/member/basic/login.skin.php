@@ -25,7 +25,7 @@ echo '<link rel="stylesheet" href="'.$member_skin_url.'/style.css">';
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image" style="background-image: url('/common/img/newposter.jpg'); background-position: top"></div>
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image" style="background-image: url('/common/img/newposter.png'); background-position: top"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">

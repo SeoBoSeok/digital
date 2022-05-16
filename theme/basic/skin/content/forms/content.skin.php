@@ -475,7 +475,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
                 </li>
                 <li>
                   <span>주관.</span>
-                  <img src="/common/img/main_sec5_img2_new.png" alt="국립 공주대학교 공주학연구원">
+                  <img src="/common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
                   <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
                 </li>
                 <li>
