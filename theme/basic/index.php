@@ -409,7 +409,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=Invitation">
-                    <img src="common/img/m4.jpg" alt="" />
+                    <img src="common/img/m4.jpeg" alt="" />
                     <div class="text">
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
