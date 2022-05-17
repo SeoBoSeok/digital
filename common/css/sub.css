@@ -24,9 +24,9 @@ header h1 {
     padding-bottom: 20px;
   }
   header h1 {
-    top: -8px;
+    top: 0px;
     left: 0;
-    width: 90px;
+    width: 50px;
   }
   #menu_btn {
     right: 0;

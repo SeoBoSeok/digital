@@ -77,7 +77,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <img src="/common/img/m6.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/ss6.jpg" alt="디지털 문화 유산전 2022 아트센터고마">
               </div>
             </div>
             <div class="info">

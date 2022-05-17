@@ -316,9 +316,15 @@ if(G5_COMMUNITY_USE === false) {
             alt=""
           />
           <img
-            class="img6 layer"
+            class="img6 layer pc"
             data-speed="2.3"
             src="common/img/main_sec1_img7.png"
+            alt=""
+          />
+          <img
+            class="img6 layer mobile"
+            data-speed="2.3"
+            src="common/img/main_sec1_img7_m.png"
             alt=""
           />
           <img
