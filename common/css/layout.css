@@ -270,8 +270,10 @@ header.on #nav > ul > li > ul {
 }
 header h1 {
   position: absolute;
-  top: -20px;
+  top: 20px;
   right: -122px;
+  /* left: 20px; */
+  width: 60px;
   line-height: 0;
   z-index: 2;
   /* display: none; */
@@ -349,9 +351,9 @@ header h1 .m {
     font-size: 15px;
   }
   header h1 {
-    top: -8px;
-    right: 12px;
-    width: 90px;
+    top: 0;
+    right: 25px;
+    width: 60px;
   }
   #menu_btn {
     right: -28px;
@@ -429,6 +431,7 @@ header h1 .m {
   }
   header h1 .logo.m {
     display: block;
+    left: 0;
   }
   #menu_btn {
     top: 0;
