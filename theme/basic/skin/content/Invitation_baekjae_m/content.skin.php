@@ -89,17 +89,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-              국립공주대학교·문화유산기술연구소·국립중앙과학관
+              레이징덕(주)·랜덤박스(주)·충남문화교육협동조합 잇다
+              <!-- '빛, 역사, 기술' 주제로 제작된 미디어파사드 -->
               </h3>
               <dl>
-                <dt>소개</dt>
-                <dd>인간은 태어나면 노화되고 아프면 치료를 받습니다. 문화유산역시 만들어지는 순간부터 노화되기 때문에 과학적 관점에서 문화유산의 제작 및 부식 과정을 이해하고, 첨단 기술을 통해 처방하고 복원해야 합니다. 
-'청동거울, 과학을 비추다' 전시에서는 과학문화유산의 제작기술, 부식과정, 진단·처방, 처리·복원을 쉽고 직관적으로 이해할 수 있도록 시각 효과가 높은 미디어아트를 결합해 문화유산의 생애를 이해하는 메시지를 전달하고자 합니다.</dd>
+                <dt>기관</dt>
+                <dd>미래영상</dd>
               </dl>
               <dl>
+                <dt>소개</dt>
+                <dd>2022 디지털문화유산전에서 미디어아트 교육을 진행하고 11명 대학(원)생이 참여하여 직접 만든 '빛, 역사, 기술'주제 문화유산 미디어 파사드</dd>
+              </dl>
+              <!-- <dl>
                 <dt>홈페이지</dt>
                 <dd><a href="https://munbo.kongju.ac.kr/ZC0200/index.do" target="_blank">https://munbo.kongju.ac.kr/ZC0200/index.do</a></dd>
-              </dl>
+              </dl> -->
               <!-- <dl>
                 <dt>담당자</dt>
                 <dd>도미솔 팀장 (010-8704-2070)</dd>
@@ -122,9 +126,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
             </div>
           </div>
-          <div class="video_contents">
+          <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/9m52o3a8788' frameborder='0' allowfullscreen></iframe></div>
-          </div>
+          </div> -->
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
             <b>사전신청하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
