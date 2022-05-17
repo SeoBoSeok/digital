@@ -552,7 +552,7 @@ if(G5_COMMUNITY_USE === false) {
             <div class="lists">
               <ul>
                 <li>
-                  <span>주관.</span>
+                  <span>주최.</span>
                   <img src="common/img/main_sec5_img1.png" alt="공주시" />
                   <img
                     class="mo"
@@ -561,7 +561,7 @@ if(G5_COMMUNITY_USE === false) {
                   />
                 </li>
                 <li>
-                  <span>&nbsp;</span>
+                  <span>주관.</span>
                   <img
                     src="common/img/main_sec5_img2.png"
                     alt="국립 공주대학교 공주학연구원"
