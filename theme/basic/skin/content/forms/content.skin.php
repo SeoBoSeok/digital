@@ -106,7 +106,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
 이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
           <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div>
           </div>
-            <!-- <div class="center">
+            <div class="center">
                 <h2>미래교육 사전신청</h2>
             </div>
             <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
@@ -376,7 +376,7 @@ $da10 = sql_fetch("SELECT count(id) as cnt FROM apply WHERE token = 'education' 
 
                     </div>
                 </div>
-            </div> --> 
+            </div> 
         </div>
       </section>
     </div>

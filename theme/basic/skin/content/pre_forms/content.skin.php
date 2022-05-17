@@ -85,7 +85,7 @@ if (!empty($_REQUEST['program'])) {
 이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
           <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div>
           </div>
-            <!-- <div class="center">
+            <div class="center">
                 <h2><?php echo $_program; ?> 사전신청</h2>
             </div>
             <?php
@@ -277,7 +277,7 @@ if (!empty($_REQUEST['program'])) {
 
                     </div>
                 </div>
-            </div>  -->
+            </div> 
         </div>
       </section>
     </div>

@@ -220,7 +220,7 @@ header.on #nav {
   height: auto;
 }
 #nav > ul > li {
-  padding: 0 31px;
+  padding: 0 18px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
@@ -273,7 +273,7 @@ header h1 {
   right: -122px;
   line-height: 0;
   z-index: 2;
-  display: none;
+  /* display: none; */
 }
 header h1 a {
   width: 100%;

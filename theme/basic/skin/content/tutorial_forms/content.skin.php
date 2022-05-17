@@ -79,7 +79,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
 이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
           <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div>
           </div>
-            <!-- <div class="center">
+            <div class="center">
                 <h2>튜토리얼 사전신청</h2>
             </div>
 <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
@@ -257,7 +257,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
 
                     </div>
                 </div>
-            </div>  -->
+            </div> 
         </div>
       </section>
     </div>

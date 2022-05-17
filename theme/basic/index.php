@@ -31,9 +31,11 @@ if(G5_COMMUNITY_USE === false) {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="2022 디지털문화유산전" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="/common/img/sns-thumbnail.jpg" />
+    <meta property="og:image" content="/common/img/sns-thumbnail.png" />
     <meta property="og:description" content="2022 디지털문화유산전" />
     <link rel="canonical" href="https://gongju-digitage.co.kr/">
+    <link rel="shortcut icon" href="common/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="common/img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="57x57" href="common/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="common/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="common/img/apple-icon-72x72.png">
@@ -365,7 +367,7 @@ if(G5_COMMUNITY_USE === false) {
               <ul>
                 <li>
                   <a href="/bbs/content.php?co_id=about_org">
-                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
+                    <img src="common/img/m1.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 01</span>
                       <h3>산업</h3>
@@ -379,7 +381,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=about_org_dev">
-                    <img src="common/img/main_sec2_slide2.jpg" alt="" />
+                    <img src="common/img/m2.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 02</span>
                       <h3>연구개발</h3>
@@ -393,7 +395,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=about_org_edu">
-                    <img src="common/img/main_sec2_slide3.jpg" alt="" />
+                    <img src="common/img/m3.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 03</span>
                       <h3>미래교육</h3>
@@ -407,7 +409,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=Invitation">
-                    <img src="common/img/main_sec2_slide4.jpg" alt="" />
+                    <img src="common/img/m4.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
@@ -419,9 +421,9 @@ if(G5_COMMUNITY_USE === false) {
                     </div>
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="/bbs/content.php?co_id=conference">
-                    <img src="common/img/main_sec2_slide1.jpg" alt="" />
+                    <img src="common/img/m5.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
                       <h3>컨퍼런스</h3>
@@ -435,10 +437,10 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=about_org_product">
-                    <img src="common/img/about_org_market.png" alt="" />
+                    <img src="common/img/m6.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 06</span>
-                      <h3>문화유산상품 마켓</h3>
+                      <h3>체험마켓</h3>
                       <p>
                         3D프린터와 수공예품
                         문화유산상품 및 지역예술품 판매
@@ -446,7 +448,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="arrow"></span>
                     </div>
                   </a>
-                </li> -->
+                </li>
               </ul>
             </div>
           </div>
@@ -454,7 +456,7 @@ if(G5_COMMUNITY_USE === false) {
       </div>
     </section>
     <section class="sec3">
-      <img src="common/img/main_sec3_img1.jpg" alt="" />
+      <!-- <img src="common/img/main_sec3_img1.jpg" alt="" /> -->
       <div class="apply ani">
         <div class="inner">
           <h3>온라인 참가신청</h3>
@@ -550,7 +552,7 @@ if(G5_COMMUNITY_USE === false) {
             <div class="lists">
               <ul>
                 <li>
-                  <span>주최.</span>
+                  <span>주관.</span>
                   <img src="common/img/main_sec5_img1.png" alt="공주시" />
                   <img
                     class="mo"
@@ -559,7 +561,7 @@ if(G5_COMMUNITY_USE === false) {
                   />
                 </li>
                 <li>
-                  <span>주관.</span>
+                  <span>&nbsp;</span>
                   <img
                     src="common/img/main_sec5_img2.png"
                     alt="국립 공주대학교 공주학연구원"
