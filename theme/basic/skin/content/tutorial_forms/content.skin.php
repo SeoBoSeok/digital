@@ -48,7 +48,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
                   <span class="subpage-link-text">관람객 사전신청</span>
               </a>
             </span>
-            <span class="subpage-item each-line subpage_nav_item">
+            <!-- <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
                   <span class="subpage-link-text">튜토리얼 사전신청</span>
               </a>
@@ -57,7 +57,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
                   <span class="subpage-link-text">미래교육 사전신청</span>
               </a>
-            </span>            
+            </span>             -->
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=formscheck">
                   <span class="subpage-link-text">사전신청 확인</span>

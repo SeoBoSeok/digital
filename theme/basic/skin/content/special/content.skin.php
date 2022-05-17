@@ -20,7 +20,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>컨퍼런스</h2>
+            <h2>특별전</h2>
             <p>문화유산, 디지털 DNA를 품다</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="location">
         <div class="inner">
           <ul>
-            <li>컨퍼런스</li>
+            <li>특별전</li>
             <!-- <li>디지털문화유산 산업</li> -->
           </ul>
         </div>
@@ -60,12 +60,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <span class="subpage-link-text">초청전</span>
               </a>
             </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=special">
                   <span class="subpage-link-text">특별전</span>
               </a>
             </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item active">
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=conference">
                   <span class="subpage-link-text">컨퍼런스</span>
               </a>
@@ -77,15 +77,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <img src="/common/img/m6.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/special.jpg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>컨퍼런스</h3>
+                <h3>특별전</h3>
                 <div class="lists">
                   <p>
-                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘이미지 분석과 활용 튜토리얼‘, ‘디지털 문화유산 생태계 심포지엄’, ‘문화자원과 디지털아카이브 세미나’, ‘디지털 고고학 세미나’, ‘디지털 헤리티지 전문가 워크숍’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
+                  문화재청이 축적‧개방하고 있는 디지털문화유산 원천기록 데이터를 국민과 민간기업의 디지털 콘텐츠 소재로 널리 활용되도록 홍보하고, 그 저변을 확대하기 위해'디지털 콘텐츠로 만나는 문화유산' 이라는 주제로 '제1회 디지털문화유산 콘텐츠 경진대회'를 개최하였습니다. 입상작은 크게 디지털 기획‧콘텐츠와 문화유산 메타버스 관련 32개의 작품으로 공주 아트센터고마 2층 야외 전시실에서 특별전으로 진행합니다.
                   </p>
                 </div>
               </div>

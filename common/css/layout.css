@@ -224,6 +224,7 @@ header.on #nav {
   display: inline-block;
   vertical-align: top;
   text-align: left;
+  min-width: 100px;
 }
 #nav > ul > li > a {
   position: relative;

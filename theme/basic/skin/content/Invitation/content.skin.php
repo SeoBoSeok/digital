@@ -63,7 +63,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="/bbs/content.php?co_id=conference">
+              <a class="subpage-link" href="/bbs/content.php?co_id=special">
                   <span class="subpage-link-text">특별전</span>
               </a>
             </span>

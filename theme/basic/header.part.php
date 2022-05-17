@@ -31,24 +31,29 @@
           </ul>
         </li>
         <li>
-        <a href="/bbs/content.php?co_id=conference">특별전</a>
+        <a href="/bbs/content.php?co_id=special">특별전</a>
+        <ul>
+        <li><a href="/bbs/content.php?co_id=special">특별전</a></li>
+        </ul>
         </li>
         <li>
           <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>
-            <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li>
+            <li><a href="#;">초청강연</a></li>
+            <!-- <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li> -->
             <li><a href="/bbs/content.php?co_id=tutorial">튜토리얼</a></li>
+            <li><a href="#;">발표회</a></li>
           </ul>
         </li>
         <li>
           <a href="/bbs/content.php?co_id=tutorial_forms">관람안내</a>
           <ul>
             <li class=""><a href="/bbs/content.php?co_id=pre_forms">관람객 사전신청</a></li>
-            <li class=""><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전신청</a></li>
-            <li class=""><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li>
+            <!-- <li class=""><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전신청</a></li> -->
+            <!-- <li class=""><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li> -->
             <li><a href="/bbs/content.php?co_id=formscheck">사전신청 확인</a></li>
           </ul>
         </li>              
