@@ -147,7 +147,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
             <ul>
               <li>
                 <a href="/bbs/content.php?co_id=about_org">
-                  <img src="/common/img/main_sec2_slide1.jpg" alt="">
+                  <img src="/common/img/m1.jpg" alt="">
                   <div class="text">
                     <span>Program 01</span>
                     <h4>산업</h4>
@@ -156,7 +156,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=about_org_dev">
-                  <img src="/common/img/main_sec2_slide2.jpg" alt="">
+                  <img src="/common/img/m2.jpg" alt="">
                   <div class="text">
                     <span>Program 02</span>
                     <h4>연구개발</h4>
@@ -165,7 +165,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=about_org_edu">
-                  <img src="/common/img/main_sec2_slide3.jpg" alt="">
+                  <img src="/common/img/m3.jpg" alt="">
                   <div class="text">
                     <span>Program 03</span>
                     <h4>미래교육</h4>
@@ -174,7 +174,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=Invitation">
-                  <img src="/common/img/main_sec2_slide4.jpg" alt="">
+                  <img src="/common/img/m4.jpg" alt="">
                   <div class="text">
                     <span>Program 04</span>
                     <h4>초청전</h4>
@@ -183,7 +183,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=conference">
-                  <img src="/common/img/main_sec2_slide5.jpg" alt="">
+                  <img src="/common/img/m5.jpg" alt="">
                   <div class="text">
                     <span>Program 05</span>
                     <h4>컨퍼런스</h4>
@@ -192,7 +192,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               </li>
               <li>
                 <a href="/bbs/content.php?co_id=about_org_product">
-                  <img src="/common/img/main_sec2_slide6.jpg" alt="">
+                  <img src="/common/img/m6.jpg" alt="">
                   <div class="text">
                     <span>Program 06</span>
                     <h4>문화유산상품 마켓</h4>
