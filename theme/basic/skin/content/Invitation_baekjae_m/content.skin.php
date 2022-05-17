@@ -52,31 +52,31 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
+          <span class="subpage-item each-line display-2 subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae">
                   <span class="subpage-link-text">백제역사유적지구</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_a">
-                  <span class="subpage-link-text">공주 정지산 유적 고건축 AR</span>
+                  <span class="subpage-link-text">공주·수원화성·문화상품 AR콘텐츠</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_v">
-                  <span class="subpage-link-text">야간군사 훈련 VAR</span>
+                  <span class="subpage-link-text">공산성 VR·AR색칠·디지털 돋보기</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_m">
-                  <span class="subpage-link-text">청동거울, 과학을 비추다</span>
+                  <span class="subpage-link-text">문화유산 미디어파사드 클래스</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
       </div> 
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>청동거울, 과학을 비추다</h2>
+          <h2>문화유산 미디어파사드 클래스</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화

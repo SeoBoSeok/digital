@@ -113,7 +113,8 @@ section.sec0 .inner table td:hover {
   position: relative;
 }
 .digital .sec1 .info {
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
+  background: url(/common/img/cover.png) left top #f5f5f5 no-repeat;
   color: #18130f;
   box-shadow: none;
 }

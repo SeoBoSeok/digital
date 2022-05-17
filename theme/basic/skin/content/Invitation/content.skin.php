@@ -74,7 +74,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <!-- <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마"> -->
+                <img src="/common/img/m5.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -162,7 +162,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
-                    <h4>소실된 웅진백제기 공주 정지산<br>유적 고건축 AR </h4>
+                    <h4>공주 디지털 문화유산, 수원화성<br>문화상품 콘텐츠</h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
@@ -174,8 +174,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
-                    <h4>정조대왕의 수원화성<br>야간군사 훈련 VAR</h4>
-                    <span>한국전통문화대학교IDH연구소</span>
+                    <h4>공산성 VR라이더, AR색칠,<br>디지털 돋보기</h4>
+                    <span>레이징덕(주),랜덤박스(주),충남문화교육협동조합 잇다</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>
                     </div>
@@ -186,8 +186,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
-                    <h4>청동거울, <br>과학을 비추다</h4>
-                    <span>국립공주대학교·문화유산기술연구소·국립중앙과학관</span>
+                    <h4>미디어아트 교육 진행으로 제작된<br>'빛, 역사, 기술' 문화유산 미디어파사드 클래스</h4>
+                    <span>미래영상</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
                     </div>

@@ -72,7 +72,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <!-- <img src="/common/img/digital_sec1_img1.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마"> -->
+                <img src="/common/img/m6.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -133,18 +133,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <span>문화자원과 디지털 아카이브</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=seminar"><span></span></a>
-                    </div>
-                  </div>
-                <!-- </a> -->
-              </li>
-              <li>
-                <!-- <a href="#"> -->
-                  <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
-                  <div class="text">
-                    <h4>워크샵</h4>
-                    <span>디지털 헤리티지 전문가 워크숍 : 원형DB 고도화 방안</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=workshop"><span></span></a>
                     </div>
                   </div>
                 <!-- </a> -->
