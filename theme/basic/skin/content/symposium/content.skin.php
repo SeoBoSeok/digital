@@ -58,13 +58,23 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="#;">
+                  <span class="subpage-link-text">초청강연</span>
+              </a>
+            </span>
+            <!-- <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=seminar">
                   <span class="subpage-link-text">세미나</span>
               </a>
-            </span>
+            </span> -->
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
                   <span class="subpage-link-text">튜토리얼</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="#;">
+                  <span class="subpage-link-text">발표회</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->

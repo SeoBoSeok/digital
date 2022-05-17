@@ -126,8 +126,9 @@ section.sec0 .inner table td:hover {
   right: 0;
   bottom: 0;
   display: table;
-  width: 79px;
-  height: 79px;
+  /* width: 79px;
+  height: 79px; */
+  padding: 30px;
   text-align: center;
   background: #18130f;
 }
@@ -138,7 +139,7 @@ section.sec0 .inner table td:hover {
 }
 .btn:hover {
   cursor: pointer;
-  background-color: #c85912;
+  background-color: #489f9d;
 }
 .btn:hover span::after {
   background: url(/common/img/arrow_white.png) no-repeat;

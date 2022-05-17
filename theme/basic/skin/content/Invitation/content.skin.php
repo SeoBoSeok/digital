@@ -79,7 +79,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <img src="/common/img/m5.png" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/mm5.jpg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -191,7 +191,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
-                    <h4>미디어아트 교육 진행으로 제작된<br>'빛, 역사, 기술' 문화유산 미디어파사드 클래스</h4>
+                    <h4>야간 미디어파사드<br>국립공주대학교 공주학연구원</h4>
                     <span>미래영상</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>

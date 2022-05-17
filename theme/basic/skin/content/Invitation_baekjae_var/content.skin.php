@@ -89,15 +89,32 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+              레이징덕(주)‧랜덤박스(주)‧충남문화교육협동조합 잇다
               </h3>
               <dl>
                 <dt>기관·대학명</dt>
-                <dd>한국전통문화대학교</dd>
+                <dd>레이징덕(주)</dd>
               </dl>
               <dl>
                 <dt>소개</dt>
-                <dd>한국전통문화대학교(총장 김영모)는 조선 시대 기록화인 <화성원행도병(華城園幸圖屛)>의 8폭 병풍 중 군사훈련이 표현된 <서장대야조도(西將臺夜操圖)>를 바탕으로 복식·기물·지형·건축·훈련 절차를 고증하고 이를 3차원 입체(이하 3D)로 시각화한 증강현실(Augmented Reality, AR) 실감 콘텐츠를 개발하였다.</dd>
+                <dd>레이징덕 주식회사는 멀티플랫폼 Unity 엔진을 활용한 VR/AR 실감형 콘텐츠와 모바일 콘텐츠를 제작 및 유통하는 회사입니다. 초기 기획부터 디자인, 개발의 전 과정을 고객에게 맞춤화된 서비스를 제공하여 창의적이고 차별화된 콘텐츠를 만들고자 합니다.<br>- 홈페이지 주소 : <a href="https://www.raging-duck.com/" target="_blank">https://www.raging-duck.com/</a></dd>
+              </dl>
+              <dl>
+                <dt>기관·대학명</dt>
+                <dd>랜덤박스(주)</dd>
+              </dl>
+              <dl>
+                <dt>소개</dt>
+                <dd>랜덤박스 주식회사는 VR/AR 융합 기술을 바탕으로 모바일, 교육용, 게임 콘텐츠를 제작 및 유통하는 회사입니다. 콘텐츠 제작을 통해 4차 산업 교육뿐만 아니라 체험 프로그램을 고객과 배경에 맞춰 서비스를 제공하고 있습니다.</dd>
+              </dl>
+              <dl>
+                <dt>기관·대학명</dt>
+                <dd>충남문화교육협동조합 잇다</dd>
+              </dl>
+              <dl>
+                <dt>소개</dt>
+                <dd>“가치와 가치를 잇다” 잇다는 애플리케이션(APP)과 모바일 게임을 제작하고 4차 산업 교육 및 체험 프로그램을 운영하는 협동조합입니다. 다양한 4차 산업 관련 업체들로 이루어진 협동조합인 만큼 관련 컨설팅 및 멘토링을 진행하고 있습니다.
+<br>- 페이스북 주소 : <a href="https://www.facebook.com/Chungnamitda" target="_blank">https://www.facebook.com/Chungnamitda</a></dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -121,9 +138,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
             </div>
           </div>
-          <div class="video_contents">
+          <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/rnBv9CnKMto' frameborder='0' allowfullscreen></iframe></div>
-          </div>
+          </div> -->
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
             <b>사전신청하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>

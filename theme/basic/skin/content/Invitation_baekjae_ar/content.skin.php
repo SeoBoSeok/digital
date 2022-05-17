@@ -100,13 +100,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 한국전통문화대학교 IDH연구소
               </h3> -->
               <dl>
+                <dt>기관·대학명</dt>
+                <dd>한국전통문화대학교</dd>
+              </dl>
+              <dl>
+                <dt>소개</dt>
+                <dd>한국전통문화대학교(총장 김영모)는 조선 시대 기록화인 <화성원행도병(華城園幸圖屛)>의 8폭 병풍 중 군사훈련이 표현된 <서장대야조도(西將臺夜操圖)>를 바탕으로 복식·기물·지형·건축·훈련 절차를 고증하고 이를 3차원 입체(이하 3D)로 시각화한 증강현실(Augmented Reality, AR) 실감 콘텐츠를 개발하였다.</dd>
+              </dl>
+              <!-- <dl>
                 <dt>소개</dt>
                 <dd>백제역사유적지구의 국내외 연구기반 확대를 위해서 백제문화와 관련한 종합적인 학술자료들을 제공하고 있습니다. 또한 백제역사유적지구의 세계유산적 가치 및 우수성을 홍보하고, 유산의 대중적 향유를 위한 연구성과 체계를 구축하였습니다.</dd>
               </dl>
               <dl>
                 <dt>홈페이지</dt>
                 <dd><a href="http://archive.baekje-heritage.or.kr/site/kr/" target="_blank">http://archive.baekje-heritage.or.kr/site/kr/</a></dd>
-              </dl>
+              </dl> -->
               <!-- <dl>
                 <dt>담당자</dt>
                 <dd>도미솔 팀장 (010-8704-2070)</dd>

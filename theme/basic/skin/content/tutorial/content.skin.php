@@ -52,19 +52,29 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line display-2 subpage_nav_item">
+        <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=symposium">
                   <span class="subpage-link-text">심포지엄</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="#;">
+                  <span class="subpage-link-text">초청강연</span>
+              </a>
+            </span>
+            <!-- <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=seminar">
                   <span class="subpage-link-text">세미나</span>
               </a>
-            </span>
+            </span> -->
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
                   <span class="subpage-link-text">튜토리얼</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="#;">
+                  <span class="subpage-link-text">발표회</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -94,23 +104,21 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dt>대상</dt>
                 <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>주최</dt>
                 <dd>(사)한국문화재보존과학회</dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>주관</dt>
                 <dd>웨이퍼마스터즈</dd>
               </dl>                            
               <dl>
                 <dt>일시</dt>
-                <dd>12월 18일(토) 15:00~17:50</dd>
+                <dd>06월 05일(금) 10:00~12:00</dd>
               </dl>
               <dl>
                 <dt>준비물</dt>
-                <dd>노트북 필참<br>
-이미지분석 소프트웨어 1개월 사용권 증정<br>
-교육생 15명 제한</dd>
+                <dd>노트북 필참<br>교육생 15명 제한</dd>
               </dl>
               <dl>
                 <dt>진행</dt>
@@ -118,18 +126,64 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>              
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 3F 세미나실 7</dd>
+                <dd>아트센터고마 1F 컨퍼런스홀</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>사전신청</dt>
                 <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전신청하기</a></dd>
+              </dl> -->
+            </div>
+          </div>
+          <div class="lists clearfix" style="border-top: 0;">
+            <div class="left">
+              <img src="/common/img/tutorial.jpg" alt="정지산 유적">
+            </div>
+            <div class="right">
+              <h3>
+                문화유산의 3차원 스캐닝 및 모델링
+              </h3>
+              <dl>
+                <dt>목적</dt>
+                <dd>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</dd>
               </dl>
+              <dl>
+                <dt>대상</dt>
+                <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
+              </dl>
+              <!-- <dl>
+                <dt>주최</dt>
+                <dd>(사)한국문화재보존과학회</dd>
+              </dl> -->
+              <dl>
+                <dt>주관</dt>
+                <dd>DMCTECH·국립공주대학교 디지털보존솔루션연구실</dd>
+              </dl>                            
+              <dl>
+                <dt>일시</dt>
+                <dd>06월 05일(일) 13:00~17:00</dd>
+              </dl>
+              <dl>
+                <dt>준비물</dt>
+                <dd>노트북 필참</dd>
+              </dl>
+              <!-- <dl>
+                <dt>진행</dt>
+                <dd>김정곤(웨이퍼마스터즈 부장)</dd>
+              </dl>               -->
+              <dl>
+                <dt>장소</dt>
+                <dd>아트센터고마 1F 컨퍼런스홀</dd>
+              </dl>
+              <!-- <dl>
+                <dt>사전신청</dt>
+                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전신청하기</a></dd>
+              </dl> -->
             </div>
           </div>
           <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
           </div> -->
-          <div class="details">
+          <div class="details" style="display: none;">
           <div class="schedule">
 					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
 					<h3>12월 18일(토) 15:00~17:50</h3>
