@@ -25,9 +25,9 @@
           <a href="/bbs/content.php?co_id=Invitation">초청전</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae">백제역사유적지구</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">정지산유적</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">정조대왕 수원화성</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">국보 잔무늬거울</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">공주·수원화성·문화상품 AR콘텐츠</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">공산성 VR·AR색칠·디지털 돋보기</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">문화유산 미디어파사드 클래스</a></li>
           </ul>
         </li>
         <li>
@@ -36,7 +36,7 @@
             <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>
             <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li>
             <!-- <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li> -->
-            <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li>
+            <!-- <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li> -->
             <li><a href="/bbs/content.php?co_id=tutorial">튜토리얼</a></li>
           </ul>
         </li>

@@ -134,7 +134,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전등록하기</b>
-            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
+            <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>
       </section>

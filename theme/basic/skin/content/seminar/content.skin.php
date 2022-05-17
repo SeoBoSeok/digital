@@ -63,11 +63,6 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="/bbs/content.php?co_id=workshop">
-                  <span class="subpage-link-text">워크샵</span>
-              </a>
-            </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
                   <span class="subpage-link-text">튜토리얼</span>
               </a>
@@ -293,7 +288,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
             <b>사전신청하기</b>
-            <span>12. 18(토) ~ 12. 20(월) 3일간</span>
+            <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>
       </section>
