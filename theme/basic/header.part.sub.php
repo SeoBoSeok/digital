@@ -31,6 +31,9 @@
             </ul>
           </li>
           <li>
+            <a href="/bbs/content.php?co_id=conference">특별전</a>
+          </li>
+          <li>
             <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
             <ul>
               <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>

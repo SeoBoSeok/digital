@@ -103,7 +103,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>일시</dt>
-                <dd>12월 19일(일) 10:00~17:40</dd>
+                <dd>06월 04일(토) 13:00 ~</dd>
               </dl>
               <!-- <dl>
                 <dt>준비물</dt>
@@ -111,14 +111,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>
+                <dd>아트센터고마 1층 컨퍼런스홀</dd>
               </dl>
             </div>
           </div>
 
 <!-- contents -->
           
-<div class="details">
+<div class="details" style="display: none;">
           <div class="schedule">
 					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
 					<!-- <h3>12월 20일(월) 10:00~15:00</h3> -->

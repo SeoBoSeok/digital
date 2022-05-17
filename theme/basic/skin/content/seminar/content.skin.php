@@ -80,7 +80,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </p> -->
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/semina.png" alt="세미나">
+              <img src="/common/img/semina.jpg" alt="세미나">
             </div>
             <div class="right">
               <h3>
@@ -101,11 +101,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>일시</dt>
-                <dd>12월 19일(일) 16:00~18:00</dd>
+                <dd>06월 05일(일)</dd>
               </dl>
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 3F, 세미나실 3</dd>
+                <dd>아트센터고마 1층 컨퍼런스홀</dd>
               </dl>
             </div>
           </div>
