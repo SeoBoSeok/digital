@@ -79,7 +79,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                   </dl>
                   <dl>
                     <dt>관람시간</dt>
-                    <dd>10:00 ~ 21:00</dd>
+                    <dd>전시회 10:00~18:00<br>마켓·푸드트럭 등 11:00~21:00</dd>
                   </dl>
                   <dl>
                     <dt>장소</dt>
