@@ -478,11 +478,11 @@ if(G5_COMMUNITY_USE === false) {
             </dl>
             <dl>
               <dt>관람시간</dt>
-              <dd>업데이트 예정</dd>
+              <dd>전시회 10:00~18:00 / 마켓·푸드트럭 등 11:00~21:00</dd>
             </dl>
             <dl>
               <dt>장소</dt>
-              <dd>업데이트 예정</dd>
+              <dd>공주 아트센터고마</dd>
             </dl>
             <dl>
               <dt>주최</dt>
@@ -497,7 +497,7 @@ if(G5_COMMUNITY_USE === false) {
               <dd>문화재청</dd>
             </dl>
             <div class="btn">
-              <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')"><span>사전 예약</span></a>
+              <a href="/bbs/content.php?co_id=pre_forms"><span>사전 예약</span></a>
             </div>
           </div>
         </div>
