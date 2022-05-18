@@ -101,11 +101,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             </div>
                             <div class="title">연락처</div>
                             <div class="tel_box">
-                                <input type="text" class="tel1" name="rsv_tel1" maxlength="3">
+                                <!-- <input type="text" class="tel1" name="rsv_tel1" maxlength="3">
                                 <span>-</span>
                                 <input type="text" class="tel2" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
                                 <span>-</span>
-                                <input type="text" class="tel3" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)">
+                                <input type="text" class="tel3" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
                                 <select name="rsv_tel1">
                                     <option value="010">010</option>
                                 </select>
