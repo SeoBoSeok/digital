@@ -90,7 +90,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3 class="dep_name type2 mt-5">사전신청 확인</h3>
                 <!-- <div class="txt_box">2022 디지털문화유산전 <br class="m_show"><span>신청자 정보를 입력</span>하시면 <br class="pc_show"> 상세정보를 확인해 볼 수 있습니다.</div> -->
                 <div class="txt_box">전시 준비중입니다. 많은 관심 부탁드립니다.</div>
-                <!-- <div class="info_chk">
+                <div class="info_chk">
                     <form action="check_view.php" method="POST" id="rsvForm" autocomplete="off">
                         <div class="info_form">
                             <div class="title">예약자 이름</div>
@@ -126,17 +126,17 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             <a class="reset_btn" id="reset_btn"><span>초기화</span></a>
                         </div>
                     </form>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
                   </div>
                 </div>
             </div> 
-          <!-- <a href="/bbs/content.php?co_id=tutorial_forms" class="reservation_btn">
+          <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전신청하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
-          </a> -->
+          </a>
         </div>
       </section>
     </div>
