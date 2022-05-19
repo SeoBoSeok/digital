@@ -427,7 +427,7 @@ if(G5_COMMUNITY_USE === false) {
                 </li>
                 <li>
                   <a href="/bbs/content.php?co_id=conference">
-                    <img src="common/img/m5.jpg" alt="" />
+                    <img src="common/img/m7.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
                       <h3>특별전</h3>
