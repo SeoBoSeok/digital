@@ -59,17 +59,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_a">
-                  <span class="subpage-link-text">공주·수원화성·문화상품 AR콘텐츠</span>
+                  <span class="subpage-link-text">공주 정지산 유적 고건축 AR</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_v">
-                  <span class="subpage-link-text">공산성 VR·AR색칠·디지털 돋보기</span>
-              </a>
-            </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_m">
-                  <span class="subpage-link-text">문화유산 미디어파사드 클래스</span>
+                  <span class="subpage-link-text">공산성 VR·AR 콘텐츠</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->

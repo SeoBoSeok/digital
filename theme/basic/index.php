@@ -341,7 +341,7 @@ if(G5_COMMUNITY_USE === false) {
           />
         </div>
         <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
-          <!-- <b>사전신청하기</b> -->
+          <!-- <b>사전등록하기</b> -->
           <b>디지털문화유산전</b>
           <span>06.03(금) ~ 06.05(일) 3일간</span>
         </a>
@@ -378,8 +378,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 01</span>
                       <h3>산업</h3>
                       <p>
-                        3D스캐너·프린터,소프트웨어<br>
-                        디지털솔루션·콘텐츠, 메타버스등
+                      디지털 HW·SW, 드론, 솔루션, 메타버스,<br>
+                      빅데이터, BIM, AI, 디지털 트윈 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -392,8 +392,8 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 02</span>
                       <h3>연구개발</h3>
                       <p>
-                        디지털 기록 모델링,콘텐츠 기획·제작<br>
-                        형상분석, 복원·복제
+                      디지털 기록·모델링, 형상분석, 복원·복제,
+                      <br>콘텐츠 기획·제작, RTI, IoT 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -406,8 +406,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 03</span>
                       <h3>미래교육</h3>
                       <p>
-                        가상·증강현실 교육컨텐츠, 로봇코딩<br>
-                        게임 메이킹, 드론코딩
+                      핑퐁로봇, 박물관 온도 제어 코딩,<br>코스페이시스 에듀프로그램, 가상 박물관 디자인 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -420,8 +419,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
                       <p>
-                        백제역사유적지구,수원화성,공주정지산유적,
-                        청동거울
+                      문화유산 VR·AR·MR 체험콘텐츠,<br>인터랙티브 프로젝션매핑 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -432,10 +430,22 @@ if(G5_COMMUNITY_USE === false) {
                     <img src="common/img/m5.jpg" alt="" />
                     <div class="text">
                       <span class="top">Program 05</span>
+                      <h3>특별전</h3>
+                      <p>
+                        <제1회 디지털문화유산 콘텐츠 경진대회><br>입상작, 연구성과 전시
+                      </p>
+                      <span class="arrow"></span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/bbs/content.php?co_id=conference">
+                    <img src="common/img/m5.jpg" alt="" />
+                    <div class="text">
+                      <span class="top">Program 06</span>
                       <h3>컨퍼런스</h3>
                       <p>
-                        심포지엄, 세미나<br>
-                        워크샵, 튜토리얼
+                      디지털 문화유산 관련 심포지엄,<br>발표회, 튜토리얼
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -445,11 +455,10 @@ if(G5_COMMUNITY_USE === false) {
                   <a href="/bbs/content.php?co_id=about_org_product">
                     <img src="common/img/m6.jpg" alt="" />
                     <div class="text">
-                      <span class="top">Program 06</span>
-                      <h3>체험마켓</h3>
+                      <span class="top">Program 07</span>
+                      <h3>부대행사</h3>
                       <p>
-                        3D프린터와 수공예품
-                        문화유산상품 및 지역예술품 판매
+                      문화유산 상품마켓‧체험, 푸드트럭, 후원기업과 함께하는 이벤트, 무형문화재 및 버스킹 공연 등
                       </p>
                       <span class="arrow"></span>
                     </div>

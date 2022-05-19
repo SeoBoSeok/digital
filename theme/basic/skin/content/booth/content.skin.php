@@ -22,7 +22,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>전시구성</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산, 디지털과 만나다</p>
           </div>
         </div>
       </section>
@@ -99,46 +99,77 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<th scope="row" rowspan="14">디지털문화유산<br>산업</th>
-										<td>A11</td>
-										<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
-										<td>3D 스캐닝 서비스, 디지털 아카이브</td>
-								</tr>
-								<tr>
-                  <td>A12</td>
-                  <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
-                  <td>3D 스캐너, 프린터 및 소프트웨어</td>
-								</tr>
-								<tr>
-                  <td>A09</td>
-                  <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
-                  <td>컬러 및 대형 3D 프린터 개발</td>
-								</tr>
-								<tr>
-                  <td>A03</td>
-                  <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
-                  <td>대형 3D 프린터 개발</td>
-								</tr>
-								<tr>
-                  <td>A10</td>
-                  <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
-                  <td>매장문화재 전문 3D 소프트웨어 개발</td>
-								</tr>
-								<tr>
-                  <td>A01</td>
-                  <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
-                  <td>드론 및 AI 기반 문화재관리시스템 개발</td>
-								</tr>
-								<tr>
-                  <td>A08</td>
+									<th scope="row" rowspan="14">디지털문화유산<br>산업</th>
+									<td>A01</td>
                   <td class="link" onclick="go_open('/list/geostory.html');">㈜지오스토리</td>
-                  <td>초분광 솔루션, 레이저 측량, 모바일 매핑</td>
+                  <td>초분광 시스템, 드론, 3차원 모델링, 디지털 트윈, 디지털 아카이브</td>
 								</tr>
 								<tr>
                   <td>A02</td>
-                  <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
-                  <td>이미지 프로세싱 소프트웨어 개발</td>
+                  <td class="link" onclick="go_open('/list/nexpace.html');">㈜넥스페이스</td>
+                  <td>3D 스캐너·프린터, 3D 소프트웨어, 디지털 아카이브, 디지털 복원·복제</td>
 								</tr>
+								<!-- <tr>
+                  <td>A03</td>
+                  <td class="link" onclick="go_open('/list/stella.html');">㈜스텔라무브</td>
+                  <td>컬러 및 대형 3D 프린터 개발</td>
+								</tr> -->
+								<tr>
+                  <td>A03</td>
+                  <td class="link" onclick="go_open('/list/3d.html');">3D엔터</td>
+                  <td>산업용 대형 FDM 3D프린터</td>
+								</tr>
+								<tr>
+									<td>A04</td>
+									<td class="link" onclick="go_open('/list/wepco.html');"><span>위프코(주)</span></td>
+									<td>광대역 3D 스캐너, 디지털 트윈, 디지털 아카이브</td>
+								</tr>
+								<tr>
+                  <td>B01</td>
+                  <td class="link" onclick="go_open('/list/WaferMasters.html');">WaferMasters</td>
+                  <td>디지털 이미지 분석 소프트웨어 개발, 문화유산 영상분석 솔루션</td>
+								</tr>
+								<tr>
+                  <td>B02</td>
+                  <td class="link" onclick="go_open('/list/carrot.html');">㈜캐럿펀트</td>
+                  <td>디지털 실측 솔루션, 3D 스캐닝, 디지털 아카이브, 빅데이터, 디지털 트윈, 로봇, AI</td>
+								</tr>
+								<tr>
+                  <td>B03</td>
+                  <td class="link" onclick="go_open('/list/lihai.html');">㈜리하이</td>
+                  <td>드론, 인공지능, 통합 모니터링 플랫폼</td>
+								</tr>
+								<tr>
+									<td>B04</td>
+									<td class="link">㈜알엠소프트</td>
+									<td>NFT, 아카이빙시스템, 공공기관 기록물 관리</td>
+								</tr>
+								<tr>
+									<td>B05</td>
+									<td class="link">㈜디타스</td>
+									<td>3D 스캐닝, BIM, 디지털 트윈, 콘텐츠 기획, IoT</td>
+								</tr>			
+								<tr>
+									<td>C01</td>
+									<td class="link">㈜아우데나</td>
+									<td>디지털 아카이브, 디지털 복원, 디지털 트윈, AR/VR, 게임 개발</td>
+								</tr>			
+								<tr>
+									<td>C02</td>
+									<td class="link">㈜엑스알파운더리</td>
+									<td></td>
+								</tr>	
+								<tr>
+									<td>C03</td>
+									<td class="link">에이알룩</td>
+									<td>AR/VR/MR/XR, 메타버스</td>
+								</tr>	
+								<tr>
+									<td>C04</td>
+									<td class="link">레이징덕(주)‧랜덤박스‧충남교육협동조합 잇다</td>
+									<td></td>
+								</tr>																																					
+<!-- 								
 								<tr>
                   <td>A13</td>
                   <td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)</td>
@@ -184,7 +215,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <td>C03</td>
                   <td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교<br>디지털보존솔루션랩</td>
                   <td>디지털 기술 기반 보존·활용 솔루션 개발</td>
-								</tr>								
+								</tr>								 -->
 						</tbody>
 					</table>
 				</div>
@@ -211,10 +242,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-                  <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
-                  <td>B02</td>
-										<td class="link" onclick="go_open('/list/csa.html');">충남과학협회</td>
-										<td>역사게임 만들기</td>
+                  <th scope="row" rowspan="9">디지털문화유산<br>연구개발</th>
+                  <td>D01</td>
+										<td class="link" onclick="#;">하이테크</td>
+										<td>IoT 센서, IoT 통신장비, IoT 스마트펜스</td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -222,9 +253,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>인공지능 드론 (문화재 도굴)</td>
 								</tr> -->
 								<tr>
-                  <td>B12</td>
-										<td class="link" onclick="go_open('/list/edu.html');">에듀크래프트</td>
-										<td>LED 코딩</td>
+                  <td>D02</td>
+										<td class="link" onclick="#;">㈜아이팝</td>
+										<td></td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -232,14 +263,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>역사토론, 퀴즈, 문화재 스피치</td>
 								</tr> -->
 								<tr>
-                  <td>B01</td>
-										<td class="link" onclick="go_open('/list/robot.html');">(주)엘리오 로봇틱스</td>
-										<td>코딩을 통한 전시실 모델링</td>
+                  <td>D03</td>
+										<td class="link" onclick="#;">충남정보문화산업진흥원</td>
+										<td>XR, 실감콘텐츠, 메타버스</td>
 								</tr>
 								<tr>
-                  <td>B07</td>
-										<td class="link" onclick="go_open('/list/gongju.html');">국립 공주대학교 생확과학교실</td>
-										<td>3D 펜을 이용한 문화재 만들기</td>
+                  <td>D04</td>
+										<td class="link" onclick="#;">국립공주대학교 디지털보존솔루션랩</td>
+										<td>3D 스캐닝·프린팅, 디지털 복원·복제, 인터랙티브 콘텐츠, 보존솔루션 개발</td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -247,15 +278,86 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 										<td>로봇코딩</td>
 								</tr> -->
 								<tr>
-                  <td>B11</td>
-										<td class="link" onclick="go_open('/list/davinci.html');">다빈치에듀</td>
-										<td>로봇코딩</td>
+                  <td>D05</td>
+										<td class="link" onclick="#;">한국전통문화대학교 문화유산산업학과</td>
+										<td>문화유산 아카이브, HBIM, 디지털 큐레이션, 디지털 콘텐츠 기획, 디지털 스토리텔링</td>
 								</tr>
 								<tr>
+                  <td>D06</td>
+										<td class="link" onclick="#;">문화유산기술연구소</td>
+										<td>디지털 아카이브, AR/VR/MR/XR, 메타버스, 디지털 복원·복제·트윈, 실감콘텐츠 기획·제작</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>				
+
+				<div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+              <col style="width: 20%;">
+              <col style="width: 10%;">
+              <col style="width: 40%;">
+              <col style="width: 30%;">
+						</colgroup>
+						<thead>
+								<tr>
+										<th scope="col" class="point_bg">항목</th>
+                    <th scope="col" class="point_bg">부스</th>
+										<th scope="col" class="point_bg">기관명</th>
+										<th scope="col" class="point_bg">교육 내용</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+                  <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
+                  <td>E01</td>
+										<td class="link" onclick="#;">㈜에듀밋</td>
+										<td>메타버스 교육, 가상공간 체험교육, 문화유산과 스토리텔링</td>
+								</tr>
+								<!-- <tr>
+                  <td></td>
+										<td>한국인지과학산업협회</td>
+										<td>인공지능 드론 (문화재 도굴)</td>
+								</tr> -->
+								<tr>
+                  <td>E02</td>
+										<td class="link" onclick="#;">다빈치창의융합연구소</td>
+										<td>빅데이터·AI 코딩, 메이커 교육, VR·AR 교육</td>
+								</tr>
+								<!-- <tr>
+                  <td></td>
+                  <td>메타버스</td>
+										<td>역사토론, 퀴즈, 문화재 스피치</td>
+								</tr> -->
+								<tr>
+                  <td>E03</td>
+										<td class="link" onclick="#;">다빈치에듀</td>
+										<td>디지털 리터러시 교육, SW 코딩 교육, 핑퐁로봇, 모션메이커</td>
+								</tr>
+								<tr>
+                  <td>E04</td>
+										<td class="link" onclick="#;">충남과학협회</td>
+										<td>미디어 리터러시 교육, 드론 교육, 빅데이터 교육</td>
+								</tr>
+								<!-- <tr>
+                  <td></td>
+										<td>충남SW 미래채움센터</td>
+										<td>로봇코딩</td>
+								</tr> -->
+								<tr>
+                  <td>E05</td>
+										<td class="link" onclick="#;">SW충남남부미래채움</td>
+										<td>3D 입체 구조 학습, 언플러그드 코딩, 게임형 컨텐츠, 센서 모니터링, 디버깅 학습</td>
+								</tr>
+								<!-- <tr>
                   <td>B06</td>
 										<td class="link" onclick="go_open('/list/davinci2.html');">다빈치창의융합연구소</td>
 										<td>3D 모델링, AR 콘텐츠 제작</td>
-								</tr>
+								</tr> -->
 						</tbody>
 					</table>
 				</div>				
@@ -270,7 +372,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 
 <div class="schedule">
 					
-<h3> 2층 전시실 </h3>
+<h3> 2층 실내전시실 </h3>
 
 <div class="wrap-tbl-calendar mb-50 table-container">
 <table class="tbl">
@@ -287,27 +389,27 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<thead>
 								<tr>
                   <th scope="col" class="point_bg">항목</th>
-                  <!-- <th scope="col" class="point_bg">부스</th> -->
-                  <th scope="col" class="point_bg">기관·대학명</th>
-                  <th scope="col" class="point_bg">콘텐츠명</th>
+                  <th scope="col" class="point_bg">부스번호</th>
+                  <th scope="col" class="point_bg">참여 업체·기관</th>
+                  <th scope="col" class="point_bg">전시내용</th>
 								</tr>
 						</thead>
 						<tbody>
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>초청전</th>
-                    <!-- <td></td> -->
-										<td class="link" onclick="go_open('/list/baekjae.html');">백제세계유산센터</td>
+                    <td>F01</td>
+										<td class="link" onclick="#;">레이징덕(주)‧랜덤박스(주)‧충남협동조합 잇다</td>
 										<td>디지털로 만나는 백제역사유적지구</td>
 								</tr>
 								<tr>
-                  <!-- <td></td> -->
+                  <td>F02</td>
 										<td class="link" onclick="go_open('/list/IDH.html');">한국전통문화대학교 <br>IDH연구소</td>
-										<td>정조대왕의 수원화성 야간군사 훈련 VAR 콘텐츠<br>소실된 웅진백제기 공주 정지산 유적 고건축 AR 콘텐츠</td>
+										<td>고증 기반 디지털 복원, AR/VR, 3D 스캐닝·프린팅</td>
 								</tr>
 								<tr>
-                  <!-- <td></td> -->
-										<td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교·문화유산기술연구소·국립중앙과학관</td>
-										<td>청동거울, 과학을 비추다</td>
+                  <td>F03</td>
+										<td class="link" onclick="#;">(재)백제세계유산센터</td>
+										<td>VR/XR, 디지털 아카이브</td>
 								</tr>
 						</tbody>
 					</table>
@@ -414,7 +516,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 </li>
                 <li>
                   <span>주관.</span>
-                  <img src="/common/img/main_sec5_img2.png" alt="국립 공주대학교 공주학연구원">
+                  <img src="/common/img/main_sec5_img2_new.png" alt="국립 공주대학교 공주학연구원">
                   <img class="mo" src="/common/img/main_sec5_img2_m.png" alt="국립 공주대학교 공주학연구원">
                 </li>
                 <li>

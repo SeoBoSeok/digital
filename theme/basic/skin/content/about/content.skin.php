@@ -80,7 +80,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3>전시구성</h3>
                 <div class="lists">
                   <p>
-                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘디지털문화유산 산업‘, ‘디지털문화유산 연구개발’, ‘디지털문화유산 미래교육', ‘문화유산상품 마켓’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
+                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. 문화유산 분야의 ‘디지털문화유산 산업‘, ‘디지털문화유산 연구개발’, ‘디지털문화유산 미래교육', ‘부대행사’ 등 디지털 문화유산 산업·교육·연구 분야의 생태계를 구축하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
                   </p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
-                    <h4>문화유산상품 마켓</h4>
+                    <h4>부대행사</h4>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=about_org_product"><span></span></a>
                     </div>
@@ -160,7 +160,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </ul>
           </div>
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

@@ -9,11 +9,11 @@
           <ul>
             <li><a href="/bbs/content.php?co_id=introduce">전시소개</a></li>
             <li><a href="/bbs/content.php?co_id=booth">전시배치</a></li>
-            <li><a href="/bbs/content.php?co_id=schedule">전시구성</a></li>
+            <li><a href="/bbs/content.php?co_id=schedule">참여기관</a></li>
           </ul>
         </li>
         <li>
-          <a href="/bbs/content.php?co_id=about_org">참여기관</a>
+          <a href="/bbs/content.php?co_id=about_org">전시구성</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=about_org">산업</a></li>
             <li><a href="/bbs/content.php?co_id=about_org_dev">연구개발</a></li>
@@ -25,9 +25,8 @@
           <a href="/bbs/content.php?co_id=Invitation">초청전</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=Invitation_baekjae">백제역사유적지구</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">공주·수원화성·문화상품<br>AR콘텐츠</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">공산성 VR·AR색칠·디지털<br>돋보기</a></li>
-            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_m">문화유산 미디어파사드<br>클래스</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_a">공주 정지산 유적 고건축 AR</a></li>
+            <li><a href="/bbs/content.php?co_id=Invitation_baekjae_v">공산성 VR·AR 콘텐츠</a></li>
           </ul>
         </li>
         <li>
@@ -40,7 +39,6 @@
           <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>
-            <li><a href="#;">초청강연</a></li>
             <!-- <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li> -->
@@ -51,10 +49,10 @@
         <li>
           <a href="/bbs/content.php?co_id=tutorial_forms">관람안내</a>
           <ul>
-            <li class=""><a href="/bbs/content.php?co_id=pre_forms">관람객 사전신청</a></li>
-            <!-- <li class=""><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전신청</a></li> -->
-            <!-- <li class=""><a href="/bbs/content.php?co_id=forms">미래교육 사전신청</a></li> -->
-            <li><a href="/bbs/content.php?co_id=formscheck">사전신청 확인</a></li>
+            <li class=""><a href="/bbs/content.php?co_id=pre_forms">관람객 사전등록</a></li>
+            <!-- <li class=""><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전등록</a></li> -->
+            <!-- <li class=""><a href="/bbs/content.php?co_id=forms">미래교육 사전등록</a></li> -->
+            <li><a href="/bbs/content.php?co_id=formscheck">사전등록 확인</a></li>
           </ul>
         </li>              
         <li>

@@ -28,7 +28,7 @@ if (!empty($_REQUEST['program'])) {
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p><?php echo $_program; ?> 사전신청</p>
+            <p><?php echo $_program; ?> 사전등록</p>
           </div>
         </div>
       </section>
@@ -36,7 +36,7 @@ if (!empty($_REQUEST['program'])) {
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li><?php echo $_program; ?> 사전신청</li>
+            <li><?php echo $_program; ?> 사전등록</li>
           </ul>
         </div>
       </section>
@@ -51,22 +51,22 @@ if (!empty($_REQUEST['program'])) {
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text"><?php echo $_program; ?> 사전신청</span>
+                  <span class="subpage-link-text"><?php echo $_program; ?> 사전등록</span>
               </a>
             </span>
             <!-- <span class="subpage-item each-line subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text">튜토리얼 사전신청</span>
+                  <span class="subpage-link-text">튜토리얼 사전등록</span>
               </a>
             </span>            
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=forms">
-                  <span class="subpage-link-text">미래교육 사전신청</span>
+                  <span class="subpage-link-text">미래교육 사전등록</span>
               </a>
             </span>             -->
             <span class="subpage-item each-line subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=formscheck">
-                  <span class="subpage-link-text">사전신청 확인</span>
+                  <span class="subpage-link-text">사전등록 확인</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -75,18 +75,18 @@ if (!empty($_REQUEST['program'])) {
         <div class="inner">
           <div class="magam center">
             <!-- <div class="magam_image">
-              <img src="/common/img/magam1.png" alt="사전신청 마감" >
+              <img src="/common/img/magam1.png" alt="사전등록 마감" >
             </div> -->
             <!-- <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록가능합나다)</div>
             <div class="magam_txt2 magam_image2">
-              <img src="/common/img/magam2.png" alt="사전신청 마감" >
+              <img src="/common/img/magam2.png" alt="사전등록 마감" >
             </div>
             <div class="magam_txt3">12월 18일 (토)부터 적용되는 강력한 거리두기 방안이 시행됨에 따라 전시장 박람회 관람시에도 방역패스가 적용됩니다.<br>
 이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
           <!-- <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div> -->
           </div>
             <div class="center">
-                <h2><?php echo $_program; ?> 사전신청</h2>
+                <h2><?php echo $_program; ?> 사전등록</h2>
             </div>
             <?php
               if(!empty($_REQUEST['program'])) {
@@ -265,7 +265,7 @@ if (!empty($_REQUEST['program'])) {
 * 최근 14일 이내 해외 혹은 확진자 발생 지역을 다녀오신 경험이 있으시거나 37.5도 이상의 발열, 기침, 가래, 인후통과 같은 호흡기 증상이 있으신 분은 방문을 자제해 주세요.<br>
 * 코로나바이러스감염증-19 확산 예방을 위하여 모든 직원은 마스크와 장갑을 착용하고 근무하며, 정기적으로 방역을 진행합니다.<br>
 * 플래시, 삼각대 및 셀카봉을 이용한 촬영, 상업적 용도의 촬영, 동영상 촬영은 불가합니다.<br>
-* 예약정보 오기로 인한 사전신청 오류시에는 책임지지 않습니다.
+* 예약정보 오기로 인한 사전등록 오류시에는 책임지지 않습니다.
                     </div>
                         <div class="btn_box">
                         <button type="button" class="btn btn-primary" id="reservation_check">

@@ -54,7 +54,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p>사전신청 확인</p>
+            <p>사전등록 확인</p>
           </div>
         </div>
       </section>
@@ -62,7 +62,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li>사전신청 확인</li>
+            <li>사전등록 확인</li>
           </ul>
         </div>
       </section>
@@ -76,9 +76,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="sec2 ani active" style="">
         <div class="inner">
             <div class="center">
-                <!-- <h2>사전신청 확인</h2>
+                <!-- <h2>사전등록 확인</h2>
                 <p>
-                2022디지털문화유산전 사전신청 확인
+                2022디지털문화유산전 사전등록 확인
                 </p> -->
             </div>
                 <div class="lists apply">
@@ -87,7 +87,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <div id="contents">
         <div class="rv_check">
             <div class="inner_box">
-                <h3 class="dep_name type2 mt-5">사전신청 확인</h3>
+                <h3 class="dep_name type2 mt-5">사전등록 확인</h3>
                 <!-- <div class="txt_box">2022 디지털문화유산전 <br class="m_show"><span>신청자 정보를 입력</span>하시면 <br class="pc_show"> 상세정보를 확인해 볼 수 있습니다.</div> -->
                 <div class="txt_box">전시 준비중입니다. 많은 관심 부탁드립니다.</div>
                 <div class="info_chk">
@@ -134,7 +134,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 </div>
             </div> 
           <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

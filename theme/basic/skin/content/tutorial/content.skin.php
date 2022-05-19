@@ -129,8 +129,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dd>아트센터고마 1F 컨퍼런스홀</dd>
               </dl>
               <!-- <dl>
-                <dt>사전신청</dt>
-                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전신청하기</a></dd>
+                <dt>사전등록</dt>
+                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전등록하기</a></dd>
               </dl> -->
             </div>
           </div>
@@ -140,15 +140,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                문화유산의 3차원 스캐닝 및 모델링
+              3차원 스캐닝·프린팅 기술을 이용한 문화유산의 디지털 복제
               </h3>
               <dl>
                 <dt>목적</dt>
-                <dd>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</dd>
+                <dd>문화유산 디지털 3차원 스캐닝과 프린팅 기술<br>이해 및 디지털 복제 방법 교육</dd>
               </dl>
               <dl>
                 <dt>대상</dt>
-                <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
+                <dd>문화유산 디지털 스캐닝 및 프린팅 교육이 필요한 대학생 및 산업체</dd>
               </dl>
               <!-- <dl>
                 <dt>주최</dt>
@@ -162,10 +162,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dt>일시</dt>
                 <dd>06월 05일(일) 13:00~17:00</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>준비물</dt>
                 <dd>노트북 필참</dd>
-              </dl>
+              </dl> -->
               <!-- <dl>
                 <dt>진행</dt>
                 <dd>김정곤(웨이퍼마스터즈 부장)</dd>
@@ -175,8 +175,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dd>아트센터고마 1F 컨퍼런스홀</dd>
               </dl>
               <!-- <dl>
-                <dt>사전신청</dt>
-                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전신청하기</a></dd>
+                <dt>사전등록</dt>
+                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전등록하기</a></dd>
               </dl> -->
             </div>
           </div>
@@ -257,7 +257,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 				</div>
           </div>
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

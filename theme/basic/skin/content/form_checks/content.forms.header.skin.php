@@ -57,7 +57,7 @@ if (file_exists($himg)) {
             </td>
             <td class="m">
               <div class="mon">
-              사전신청
+              사전등록
               </div>
               <div class="drop-menu">
                 <ul class="m2">

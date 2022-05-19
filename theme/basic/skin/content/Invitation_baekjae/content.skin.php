@@ -59,24 +59,19 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_a">
-                  <span class="subpage-link-text">공주·수원화성·문화상품 AR콘텐츠</span>
+                  <span class="subpage-link-text">공주 정지산 유적 고건축 AR</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_v">
-                  <span class="subpage-link-text">공산성 VR·AR색칠·디지털 돋보기</span>
-              </a>
-            </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_m">
-                  <span class="subpage-link-text">문화유산 미디어파사드 클래스</span>
+                  <span class="subpage-link-text">공산성 VR·AR 콘텐츠</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
       </div>      
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>백제역사유적지구</h2>
+          <h2>百 to the 濟: 백제로 떠나는 디지털 여행</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
@@ -89,7 +84,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                백제세계유산센터
+                (재)백제세계유산센터
               </h3>
               <dl>
                 <dt>소개</dt>
@@ -125,7 +120,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/chrhW2ebCkg' frameborder='0' allowfullscreen></iframe></div>
           </div> -->
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

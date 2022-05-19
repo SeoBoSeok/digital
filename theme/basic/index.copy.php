@@ -333,7 +333,7 @@ if(G5_COMMUNITY_USE === false) {
           />
         </div>
         <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
-          <!-- <b>사전신청하기</b> -->
+          <!-- <b>사전등록하기</b> -->
           <b>2022 디지털문화유산전</b>
           <span>06. 03(금) ~ 06. 05(일) 3일간</span>
         </a>

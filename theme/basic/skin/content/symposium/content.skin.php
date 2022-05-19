@@ -128,7 +128,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 
 <!-- contents -->
           
-<div class="details" style="display: none;">
+<div class="details">
           <div class="schedule">
 					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
 					<!-- <h3>12월 20일(월) 10:00~15:00</h3> -->
@@ -159,85 +159,50 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<td><span>09:30 - 10:00</span></td>
-										<td><span>등  록</span></td>
-                    <td><span>사회:박진호(문화재디지털복원가)</span></td>
+										<td><span>13:20 ~ 13:30</span></td>
+										<td><span>개회사 : 유석호 (국립공주대학교 공주학연구원장)</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>10:00 - 10:20</span></td>
-										<td><span>개  회</span></td>
-                    <td><span>개회사:이찬희(국립공주대학교 공주학연구원장)<br>축 사:김정섭(공주시장)</span></td>
+										<td><span>13:30 ~ 14:00</span></td>
+										<td><span>[발제 1] 안호 (문화재청 디지털문화유산팀 팀장)<br>>디지털 문화유산 정책의 목표와 전략</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>10:20 - 11:00</span></td>
-										<td><span>문화재청, 디지털문화유산 비전과 전략</span></td>
-                    <td><span>[기조강연] 최연규(문화재청 디지털문화유산팀 사무관)</span></td>
+										<td><span>14:00 ~ 14:30</span></td>
+										<td><span>[발제 2] 안재홍 (한국과학기술원 문화기술대학원 초빙교수)<br>디지털 문화유산 연구와 정책의 방향: 디지털문화유산센터 기본계획으로부터의 시사점</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>11:00 - 11:30</span></td>
-										<td><span>디지털 문화유산 스타트업 활성화 방안 : 4차산업 기술 중심으로</span></td>
-                    <td><span>[발제1] 추혜성((주)리하이 대표)</span></td>
+										<td><span>14:30 ~ 15:00</span></td>
+										<td><span>[발제 3] 박상현 (한국지능정보사회진흥원 ICT융합본부장)<br>문화유산 분야에서 메타버스의 발전 방향과 활성화 전략</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>11:30 - 12:00</span></td>
-										<td><span>고고 유물의 디지털 기록 및 실측을 위한 디지털 솔루션 개발</span></td>
-                    <td><span>[발제2] 이건우((주)캐럿펀트 대표)</span></td>
+										<td class="gray"><span>15:00 ~ 15:20</span></td>
+										<td class="gray"><span>휴  식</span></td>
+                    <td class="gray"><span>-</span></td>
 								</tr>
 								<tr>
-										<td class="gray"><span>12:00 -13:00</span></td>
-										<td class="gray"><span>중 식</span></td>
-                    <td class="gray"></td>
+										<td><span>15:20 ~ 15:50</span></td>
+										<td><span>[발제 4] 장성각 (충남정보문화산업진흥원 실감클러스터 본부장)<br>충남 지역 디지털 문화유산의 현황과 활성화 방안</span></td>
+                    <td>-</td>
 								</tr>
                 <tr>
-										<td><span>13:00-13:30</span></td>
-										<td><span>세계유산 백제역사유적지구의 디지털 콘텐츠</span></td>
-                    <td><span>[발제3] 도미솔((재)백제세계유산센터 학예연구사)</span></td>
+										<td><span>15:50 ~ 16:20</span></td>
+										<td><span>[발제 5] 김동현 (전주대학교 소방안전공학과 교수)<br>문화유산 안전 및 보존을 위한 디지털 데이터 중요성</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>13:30-14:00</span></td>
-										<td><span>문화유산 메타버스</span></td>
-                    <td><span>[발제4] 전우열((주)벤타브이알 대표)</span></td>
+										<td><span>16:20 ~ 16:50</span></td>
+										<td><span>[발제 6] 최동훈 (RM소프트)<br>NFT를 활용한 기록유산 디지털 아카이빙</span></td>
+                    <td><span>-</span></td>
 								</tr>
 								<tr>
-										<td><span>14:00-14:30</span></td>
-										<td><span>디지털 문화유산을 이용한 미래 교육</span></td>
-                    <td><span>[발제5] 이수진(다빈치창의융합연구소장)</span></td>
-								</tr>
-								<tr>
-										<td><span>14:30-15:00</span></td>
-										<td><span>과학문화유산의 체험형 미디어아트 교육콘텐츠 개발 : 청동거울, 과학을 비추다</span></td>
-                    <td><span>[발제6] 조영훈(국립공주대학교 문화재보존과학과 교수)</span></td>
-								</tr>                
-                <tr>
-										<td class="gray"><span>15:00-15:10</span></td>
-										<td class="gray"><span>휴 식</span></td>
-                    <td class="gray"></td>
-								</tr> 
-								<tr>
-										<td><span>15:10-15:40</span></td>
-										<td><span>훼손 도자기 보존을 위한 3차원 디지털 기술의 적용</span></td>
-                    <td><span>[발제7] 오승준(한서대학교 문화재보존과학연구센터 연구교수)</span></td>
-								</tr>
-								<tr>
-										<td><span>15:40-16:10</span></td>
-										<td><span>확장현실 기반 디지털 헤리티지 연구의 발전방향</span></td>
-                    <td><span>[발제8] 유정민(한국전통문화대학교 문화유산산업학과 교수)</span></td>
-								</tr>	
-								<tr>
-										<td><span>16:10-16:40</span></td>
-										<td><span>해외 유출 문화재의 디지털 귀향 캠페인</span></td>
-                    <td><span>[발제9] 남상민((사)한국문화재디지털보존협회장)</span></td>
-								</tr>    
-                <tr>
-										<td><span>16:10-16:40</span></td>
-										<td><span>세계유산 수원화성 미디어아트쇼와 실경 미디어 퍼포먼스</span></td>
-                    <td><span>[발제10] 안지형(세컨드윈드 스테이지 예술감독, 수원화성 미디어아트쇼 콘텐츠디렉터)</span></td>
-								</tr>                            							
-								<tr>
-										<td><span>17:00-17:40</span></td>
-										<td><span>패널 토론</span></td>
-                    <td><span>이찬희(국립공주대학교 공주학연구원장)</span></td>
-								</tr>                                                                            								                                                           								
+										<td><span>16:50 ~ 17:30</span></td>
+										<td><span>[패널 토론] 이찬희 (2022 디지털문화유산전 조직위원장)<br>안호, 안쟁홍, 박상현, 장성각, 김동현, 최광훈</span></td>
+                    <td><span>-</span></td>
+								</tr>                                                                       								                                                           								
 						</tbody>
 					</table>
 				</div>
@@ -250,7 +215,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
           </div> -->
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>        

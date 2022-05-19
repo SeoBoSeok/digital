@@ -51,7 +51,7 @@ $result = sql_query($sql);
 
 $listall = '<a href="'.$_SERVER['PHP_SELF'].'" class="ov_listall">전체목록</a>';
 
-$g5['title'] = '사전신청 명단';
+$g5['title'] = '사전등록 명단';
 include_once('./admin.head.php');
 
 $colspan = 9;

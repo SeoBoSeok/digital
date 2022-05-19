@@ -59,17 +59,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_a">
-                  <span class="subpage-link-text">공주·수원화성·문화상품 AR콘텐츠</span>
+                  <span class="subpage-link-text">공주 정지산 유적 고건축 AR</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_v">
-                  <span class="subpage-link-text">공산성 VR·AR색칠·디지털 돋보기</span>
-              </a>
-            </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="/bbs/content.php?co_id=Invitation_baekjae_m">
-                  <span class="subpage-link-text">문화유산 미디어파사드 클래스</span>
+                  <span class="subpage-link-text">공산성 VR·AR 콘텐츠</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -142,7 +137,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/rnBv9CnKMto' frameborder='0' allowfullscreen></iframe></div>
           </div> -->
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

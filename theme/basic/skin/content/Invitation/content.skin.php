@@ -155,8 +155,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img1.png" alt=""> -->
                   <div class="text">
-                    <h4>디지털로 만나는<br>백제역사유적지구</h4>
-                    <span>백제세계유산센터</span>
+                    <h4>백제역사유적지구</h4>
+                    <span>(재)백제세계유산센터</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae"><span></span></a>
                     </div>
@@ -167,7 +167,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
-                    <h4>공주 디지털 문화유산, 수원화성<br>문화상품 콘텐츠</h4>
+                    <h4>공주 정지산 고건축 AR</h4>
                     <span>한국전통문화대학교IDH연구소</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
@@ -179,7 +179,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
-                    <h4>공산성 VR라이더, AR색칠,<br>디지털 돋보기</h4>
+                    <h4>공산성 VR·AR 콘텐츠</h4>
                     <span>레이징덕(주),랜덤박스(주),충남문화교육협동조합 잇다</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>
@@ -187,9 +187,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   </div>
                 <!-- </a> -->
               </li>
-              <li>
-                <!-- <a href="#"> -->
-                  <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
+              <!-- <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img4.jpg" alt="">
                   <div class="text">
                     <h4>야간 미디어파사드<br>국립공주대학교 공주학연구원</h4>
                     <span>미래영상</span>
@@ -197,12 +197,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                       <a href="/bbs/content.php?co_id=Invitation_baekjae_m"><span></span></a>
                     </div>
                   </div>
-                <!-- </a> -->
-              </li>
+                </a>
+              </li> -->
             </ul>
           </div>
           <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
-            <b>사전신청하기</b>
+            <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
         </div>

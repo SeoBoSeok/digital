@@ -94,6 +94,84 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </div>
             </div>
           </div>
+          <div class="details">
+          <div class="schedule">
+					<!-- <img src="/common/img/booth_plan_3.jpg" alt="전시배치" /> -->
+					<!-- <h3>12월 20일(월) 10:00~15:00</h3> -->
+					
+					<div class="wrap-tbl-calendar mb-50 table-container">
+					<table class="tbl">
+						<caption>
+							<!-- <strong>세계유산축전 백제 프로그램 행사일정표</strong>
+							<p>세계유산축전 백제 프로그램 행사일정표를 항목, 세부프로그램명, 구분, 날짜로 나누어 안내하는 표입니다.</p> -->
+						</caption>
+						<colgroup>
+								<col style="width: 20%;">
+								<col style="width: 40%;">
+                <col style="width: 20%;">
+                <col style="width: 20%;">
+						</colgroup>
+						<thead>
+								<!-- <tr>
+										<th scope="col" colspan="3" class="point_bg"></th>
+										<th scope="col" colspan="3" class="point_bg">8월 2주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 3주차</th>
+										<th scope="col" colspan="7" class="point_bg">8월 4주차</th>
+								</tr> -->
+								<tr>
+										<th scope="col" class="point_bg">프로그램</th>
+										<th scope="col" class="point_bg">내용</th>
+                    <th scope="col" class="point_bg">운영시간</th>
+                    <th scope="col" class="point_bg">운영장소</th>
+								</tr>
+						</thead>
+						<tbody>
+								<tr>
+										<td><span>문화유산상품마켓•체험(17개팀)</span></td>
+										<td><span>누구나 체험하고 즐길 수 있는 문화유산 활용 체험 및 문화유산 상품마켓</span></td>
+                    <td><span>06.03.(금)<br>13:00~21:00<br>06.04.(토)~06.05.(일) 10:00~21:00</span></td>
+                    <td rowspan="8">아트센터고마<br>야외</td>
+								</tr>
+								<tr>
+										<td><span>공주시 관광안내소</span></td>
+										<td><span>공주시관광진흥협회에서 운영하는 이벤트 및<br>공주시 관광 명소 안내</span></td>
+                    <td><span>06.03.(금)~06.05.(일)<br>10:00~18:00</span></td>
+								</tr>
+								<tr>
+										<td><span>맛있는 푸드트럭(7대)</span></td>
+										<td><span>시원한 커피한잔을 시켜놓고~<br>스테이크부터 타코야끼까지 종류별로 즐길 수 있는 먹거리</span></td>
+                    <td><span>06.03.(금)~06.05.(일)<br>11:00~21:00</span></td>
+								</tr>
+								<tr>
+										<td><span>무형문화재공연</span></td>
+										<td><span>충청남도 무형문화재 제37호<br>공주선학리지게놀이 한마당</span></td>
+                    <td><span>06.04.(토)<br>17:00~18:00</span></td>
+								</tr>
+								<tr>
+										<td><span>한 여름의 꿈,<br>버스킹 공연</span></td>
+										<td><span>다양한 음악공연이 가득한 버스킹 공연</span></td>
+                    <td><span>06.03.(금)~06.05.(일)<br>13:00~19:00</span></td>
+								</tr>
+								<tr>
+										<td><span>야간 미디어파사드</span></td>
+										<td><span>국립공주대학교·한국전통문화대학교<br>대학(원)생이 제작한 ‘빛·역사·기술’<br>미디어파사드</span></td>
+                    <td>06.03.(금)~06.04.(토)<br>20:00~21:00</td>
+								</tr>
+                <tr>
+										<td><span>선물 팡팡 이벤트</span></td>
+										<td><span>디지털문화유산전에서 이정도는 기본이지!
+<br>후원기업과 함께하는 상품이 가득한 이벤트
+<br>아이패드 가지고 싶으면 일단 참가하기~</span></td>
+                    <td><span>06.03.(금)
+<br>14:00
+<br>06.04.(토)~06.05.(일)
+<br>14:00, 19:00</span></td>
+								</tr>                                                                   								                                                           								
+						</tbody>
+					</table>
+				</div>
+				</div>
+        </div>
         </div>
       </section>
     </div>

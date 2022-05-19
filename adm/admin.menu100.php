@@ -21,4 +21,4 @@ if(version_compare(phpversion(), '5.3.0', '>=') && defined('G5_BROWSCAP_USE') &&
 
 $menu['menu100'][] = array('100410', 'DB업그레이드', G5_ADMIN_URL.'/dbupgrade.php', 'db_upgrade');
 $menu['menu100'][] = array('100400', '부가서비스', G5_ADMIN_URL.'/service.php', 'cf_service');
-$menu['menu100'][] = array('100500', '사전신청', G5_ADMIN_URL.'/qna_list.php', 'cf_qnalist');
+$menu['menu100'][] = array('100500', '사전등록', G5_ADMIN_URL.'/qna_list.php', 'cf_qnalist');
