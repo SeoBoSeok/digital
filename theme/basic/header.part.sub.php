@@ -18,7 +18,7 @@
               <li><a href="/bbs/content.php?co_id=about_org">산업</a></li>
               <li><a href="/bbs/content.php?co_id=about_org_dev">연구개발</a></li>
               <li><a href="/bbs/content.php?co_id=about_org_edu">미래교육</a></li>
-              <li><a href="/bbs/content.php?co_id=about_org_product">상품 마켓</a></li>
+              <li><a href="/bbs/content.php?co_id=about_org_product">부대행사</a></li>
             </ul>
           </li>
           <li>

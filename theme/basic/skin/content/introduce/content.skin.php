@@ -195,7 +195,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                   <img src="/common/img/m6.jpg" alt="">
                   <div class="text">
                     <span>Program 06</span>
-                    <h4>문화유산상품 마켓</h4>
+                    <h4>부대행사</h4>
                   </div>
                 </a>
               </li>

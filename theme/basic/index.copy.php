@@ -335,7 +335,7 @@ if(G5_COMMUNITY_USE === false) {
         <a href="javascript:alert('2022 디지털문화유산전 준비중입니다.\n많은 관심 부탁드립니다.')" class="reservation_btn">
           <!-- <b>사전신청하기</b> -->
           <b>2022 디지털문화유산전</b>
-          <span>06.03(금) ~ 06.05(일) 3일간</span>
+          <span>06. 03(금) ~ 06. 05(일) 3일간</span>
         </a>
       </div>
     </section>
@@ -438,10 +438,11 @@ if(G5_COMMUNITY_USE === false) {
                     <img src="common/img/about_org_market.png" alt="" />
                     <div class="text">
                       <span class="top">Program 06</span>
-                      <h3>문화유산상품 마켓</h3>
+                      <h3>부대행사</h3>
                       <p>
-                        3D프린터와 수공예품
-                        문화유산상품 및 지역예술품 판매
+                        문화유산 상품마켓·체험,<br>
+                        푸드트럭, 무형문화재 공연,<br>
+                        버스킹공연, 야간 미디어파사드 등
                       </p>
                       <span class="arrow"></span>
                     </div>

@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>참여기관</li>
-            <li>상품 마켓</li>
+            <li>부대행사</li>
           </ul>
         </div>
       </section>
@@ -68,7 +68,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">상품 마켓</span>
+                  <span class="subpage-link-text">부대행사</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -83,10 +83,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="info">
               <div class="wrap">
-                <h3>상품 마켓</h3>
+                <h3>부대행사</h3>
                 <div class="lists">
                   <p>
-                  3D프린터와 수공예를 이용한 문화유산 상품 및 지역계술품 전시 판매
+                  문화유산 상품마켓·체험,<br>
+                  푸드트럭, 무형문화재 공연,<br>
+                  버스킹공연, 야간 미디어파사드 등
                   </p>
                 </div>
               </div>
