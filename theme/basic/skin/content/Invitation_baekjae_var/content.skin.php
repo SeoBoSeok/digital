@@ -136,7 +136,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/rnBv9CnKMto' frameborder='0' allowfullscreen></iframe></div>
           </div> -->
-          <a href="javascript:alert('온라인 사전예약이 마감되었습니다.\n행사장에 방문해서 현장등록으로 참여해주세요.')" class="reservation_btn">
+          <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>
           </a>
