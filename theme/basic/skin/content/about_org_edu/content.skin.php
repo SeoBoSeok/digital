@@ -68,7 +68,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=about_org_product">
-                  <span class="subpage-link-text">상품 마켓</span>
+                  <span class="subpage-link-text">부대행사</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
