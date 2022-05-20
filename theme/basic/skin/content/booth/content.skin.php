@@ -382,7 +382,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</caption>
 						<colgroup>
               <col style="width: 20%;">
-              <!-- <col style="width: 10%;"> -->
+              <col style="width: 10%;">
               <col style="width: 40%;">
               <col style="width: 30%;">
 						</colgroup>
