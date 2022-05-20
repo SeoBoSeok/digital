@@ -163,11 +163,11 @@ if (!empty($_REQUEST['program'])) {
                             <td class="box6 ride_count">
                                 <div class="box6_01">
                                     <select class="minimal" name="rsv_date" id="rsv_date">
-                                      <option value="2022-06-03">2022-06-02</option>
                                       <option value="2022-06-03">2022-06-03</option>
                                       <option value="2022-06-04">2022-06-04</option>
                                       <option value="2022-06-05">2022-06-05</option>
                                     </select>
+                                    <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>
                                 </div>
                             </td>
                         </tr>
