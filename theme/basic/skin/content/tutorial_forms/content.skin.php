@@ -67,7 +67,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?2">';
       </div>
       <section class="sec2 ani active" style="padding-top: 100px;">
         <div class="inner">
-        <div class="magam center">
+        <div class="magam center" style="display: none;">
             <div class="magam_image">
               <img src="/common/img/magam1.png" alt="사전등록 마감" >
             </div>
