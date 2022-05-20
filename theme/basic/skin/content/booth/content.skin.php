@@ -147,7 +147,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 									<td>B05</td>
 									<td class="link">㈜디타스</td>
-									<td>3D 스캐닝, BIM, 디지털 트윈, 콘텐츠 기획, IoT</td>
+									<td>3D 스캐닝, BIM, 디지털 트윈,<br>콘텐츠 기획, IoT</td>
 								</tr>			
 								<tr>
 									<td>C01</td>
@@ -316,7 +316,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
                   <td>E01</td>
 										<td class="link" onclick="#;">㈜에듀밋</td>
-										<td>메타버스 교육, 가상공간 체험교육, 문화유산과 스토리텔링</td>
+										<td>메타버스 교육, 가상공간 체험교육,<br>문화유산과 스토리텔링</td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -341,7 +341,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <td>E04</td>
 										<td class="link" onclick="#;">충남과학협회</td>
-										<td>미디어 리터러시 교육, 드론 교육, 빅데이터 교육</td>
+										<td>미디어 리터러시 교육, 드론 교육,<br>빅데이터 교육</td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -404,7 +404,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <td>F02</td>
 										<td class="link" onclick="go_open('/list/IDH.html');">한국전통문화대학교 <br>IDH연구소</td>
-										<td>고증 기반 디지털 복원, AR/VR, 3D 스캐닝·프린팅</td>
+										<td>고증 기반 디지털 복원,<br>AR/VR, 3D 스캐닝·프린팅</td>
 								</tr>
 								<tr>
                   <td>F03</td>
