@@ -170,13 +170,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
 										<td><span>14:00 ~ 14:30</span></td>
-										<td><span>[발제 2] 안재홍 (한국과학기술원 문화기술대학원 초빙교수)<br>디지털 문화유산 연구와 정책의 방향: 디지털문화유산센터 기본계획으로부터의 시사점</span></td>
-                    <td><span>-</span></td>
+										<td><span>[발제 2] 디지털 문화유산 연구와 정책의 방향: 디지털문화유산센터 기본계획으로부터의 시사점</span></td>
+                    <td><span>안재홍 (한국과학기술원 문화기술대학원 초빙교수)</span></td>
 								</tr>
 								<tr>
 										<td><span>14:30 ~ 15:00</span></td>
-										<td><span>[발제 3] 박상현 (한국지능정보사회진흥원 ICT융합본부장)<br>문화유산 분야에서 메타버스의 발전 방향과 활성화 전략</span></td>
-                    <td><span>-</span></td>
+										<td><span>[발제 3] 문화유산 분야에서 메타버스의 발전 방향과 활성화 전략</span></td>
+                    <td><span>박상현 (한국지능정보사회진흥원 ICT융합본부장)</span></td>
 								</tr>
 								<tr>
 										<td class="gray"><span>15:00 ~ 15:20</span></td>
@@ -185,23 +185,23 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
 										<td><span>15:20 ~ 15:50</span></td>
-										<td><span>[발제 4] 장성각 (충남정보문화산업진흥원 실감클러스터 본부장)<br>충남 지역 디지털 문화유산의 현황과 활성화 방안</span></td>
-                    <td>-</td>
+										<td><span>[발제 4] 충남 지역 디지털 문화유산의 현황과 활성화 방안</span></td>
+                    <td>장성각 (충남정보문화산업진흥원 실감클러스터 본부장)</td>
 								</tr>
                 <tr>
 										<td><span>15:50 ~ 16:20</span></td>
-										<td><span>[발제 5] 김동현 (전주대학교 소방안전공학과 교수)<br>문화유산 안전 및 보존을 위한 디지털 데이터 중요성</span></td>
-                    <td><span>-</span></td>
+										<td><span>[발제 5] 문화유산 안전 및 보존을 위한 디지털 데이터 중요성</span></td>
+                    <td><span>김동현 (전주대학교 소방안전공학과 교수)</span></td>
 								</tr>
 								<tr>
 										<td><span>16:20 ~ 16:50</span></td>
-										<td><span>[발제 6] 최동훈 (RM소프트)<br>NFT를 활용한 기록유산 디지털 아카이빙</span></td>
-                    <td><span>-</span></td>
+										<td><span>[발제 6] NFT를 활용한 기록유산 디지털 아카이빙</span></td>
+                    <td><span>최광훈 (RM소프트)</span></td>
 								</tr>
 								<tr>
 										<td><span>16:50 ~ 17:30</span></td>
-										<td><span>[패널 토론] 이찬희 (2022 디지털문화유산전 조직위원장)<br>안호, 안쟁홍, 박상현, 장성각, 김동현, 최광훈</span></td>
-                    <td><span>-</span></td>
+										<td><span>[패널 토론] </span></td>
+                    <td><span>이찬희 (2022 디지털문화유산전 조직위원장<br>안호, 안재홍, 박상현, 장성각, 김동현, 최광훈</span></td>
 								</tr>                                                                       								                                                           								
 						</tbody>
 					</table>
