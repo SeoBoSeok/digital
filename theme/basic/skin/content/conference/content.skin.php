@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>컨퍼런스</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
       </section>
@@ -124,43 +124,43 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <div class="text">
                     <h4>심포지엄</h4>
                     <span>디지털 문화유산의 현재와 미래</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=symposium"><span></span></a>
-                    </div>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=symposium" class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
                 <!-- </a> -->
               </li>
-              <!-- <li> -->
-                <!-- <a href="#"> -->
-                  <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
-                  <!-- <div class="text">
-                    <h4>세미나</h4>
-                    <span>문화자원과 디지털 아카이브</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=seminar"><span></span></a>
-                    </div>
-                  </div> -->
-                <!-- </a> -->
-              <!-- </li> -->
+              <li>
+                <a href="#">
+                  <img src="/common/img/digital_sec2_img2.jpg" alt="">
+                  <div class="text">
+                    <h4>초청특강</h4>
+                    <span>그림 속의 역사 콘텐츠</span>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=lecture" class="btn"><span></span></a>
+                    <!-- </div> -->
+                  </div>
+                </a>
+              </li>
               <li>
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
                   <div class="text">
                     <h4>튜토리얼</h4>
-                    <span>문화유산의 BTI 기술 소개</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=tutorial"><span></span></a>
-                    </div>
+                    <span>문화유산의 RTI 기술 소개</span>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=tutorial" class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
                 <!-- </a> -->
               </li>
               <li>
                 <div class="text">
                     <h4>발표회</h4>
-                    <!-- <span>문화유산의 BTI 기술 소개</span> -->
-                    <div class="btn">
-                      <a href="#;"><span></span></a>
-                    </div>
+                    <!-- <span>문화유산의 RTI 기술 소개</span> -->
+                    <!-- <div class="btn"> -->
+                      <a href="#;"  class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
               </li>
             </ul>

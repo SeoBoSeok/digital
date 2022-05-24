@@ -49,15 +49,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>문화유산, 디지털 DNA를 품다</h2>
+            <h2>문화유산,<br>디지털 DNA를 품다</h2>
           </div>
         </div>
       </section>
       <section class="location">
         <div class="inner">
           <ul>
-            <li>디지털 박람회</li>
-            <li>행사소개</li>
+            <li>디지털 문화유산전</li>
+            <li>전시소개</li>
           </ul>
         </div>
       </section>
@@ -75,7 +75,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                 <div class="lists">
                   <dl>
                     <dt>관람기간</dt>
-                    <dd>06.03(금) ~ 06.05(일), 3일간</dd>
+                    <dd>2022.06.03(금) ~ 06.05(일), 3일간</dd>
                   </dl>
                   <dl>
                     <dt>관람시간</dt>
@@ -128,7 +128,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
             <ul class="clearfix">
               <li class="left">문화유산의 새로운 가치 창출 및 비즈니스 모델 구축</li>
               <li class="left">디지털 기술을 이용하여 인간과 문화유산의 초연결성 확대</li>
-              <li class="left">문화유산, 디지털 대전환 시대’ 에 맞는 디지털 문화 형성</li>
+              <li class="left">문화유산, '디지털 대전환 시대' 에 맞는 디지털 문화 형성</li>
               <li class="left">문화유산 보존 및 활용을 위한 최신 기술의 변화와 트렌드 이해</li>
             </ul>
           </div>
@@ -139,8 +139,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
           <h2>2022 <br>Digital Heritage Festival</h2>
           <p>
             2022 디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
-            문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
-            <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
+            문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화 형성
+            <br>학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
           </p>
           <div class="lists">

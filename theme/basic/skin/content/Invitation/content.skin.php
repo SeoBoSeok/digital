@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>초청전</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
       </section>
@@ -157,9 +157,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <div class="text">
                     <h4>백제역사유적지구</h4>
                     <span>(재)백제세계유산센터</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=Invitation_baekjae"><span></span></a>
-                    </div>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae" class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
                 <!-- </a> -->
               </li>
@@ -169,9 +169,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <div class="text">
                     <h4>공주 정지산 고건축 AR</h4>
                     <span>한국전통문화대학교IDH연구소</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=Invitation_baekjae_a"><span></span></a>
-                    </div>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae_a" class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
                 <!-- </a> -->
               </li>              
@@ -181,9 +181,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <div class="text">
                     <h4>공산성 VR·AR 콘텐츠</h4>
                     <span>레이징덕(주),랜덤박스(주),충남문화교육협동조합 잇다</span>
-                    <div class="btn">
-                      <a href="/bbs/content.php?co_id=Invitation_baekjae_v"><span></span></a>
-                    </div>
+                    <!-- <div class="btn"> -->
+                      <a href="/bbs/content.php?co_id=Invitation_baekjae_v" class="btn"><span></span></a>
+                    <!-- </div> -->
                   </div>
                 <!-- </a> -->
               </li>

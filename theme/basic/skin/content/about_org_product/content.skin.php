@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>참여기관</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
       </section>
@@ -127,7 +127,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						</thead>
 						<tbody>
 								<tr>
-										<td><span>문화유산상품마켓•체험(17개팀)</span></td>
+										<td><span>문화유산상품마켓•체험</span></td>
 										<td><span>누구나 체험하고 즐길 수 있는 문화유산 활용 체험 및 문화유산 상품마켓</span></td>
                     <td><span>06.03.(금)<br>13:00~21:00<br>06.04.(토)~06.05.(일) 10:00~21:00</span></td>
                     <td rowspan="8">아트센터고마<br>야외</td>
@@ -138,7 +138,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <td><span>06.03.(금)~06.05.(일)<br>10:00~18:00</span></td>
 								</tr>
 								<tr>
-										<td><span>맛있는 푸드트럭(7대)</span></td>
+										<td><span>맛있는 푸드트럭</span></td>
 										<td><span>시원한 커피한잔을 시켜놓고~<br>스테이크부터 타코야끼까지 종류별로 즐길 수 있는 먹거리</span></td>
                     <td><span>06.03.(금)~06.05.(일)<br>11:00~21:00</span></td>
 								</tr>
@@ -150,11 +150,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<td><span>한 여름의 꿈,<br>버스킹 공연</span></td>
 										<td><span>다양한 음악공연이 가득한 버스킹 공연</span></td>
-                    <td><span>06.03.(금)~06.05.(일)<br>13:00~19:00</span></td>
+                    <td><span>06.03.(금)~06.05.(일)<br>17:00~19:00</span></td>
 								</tr>
 								<tr>
 										<td><span>야간 미디어파사드</span></td>
-										<td><span>국립공주대학교·한국전통문화대학교<br>대학(원)생이 제작한 ‘빛·역사·기술’<br>미디어파사드</span></td>
+										<td><span>대학(원)생·초청작가들과 함께하는<br>‘빛·역사·기술’ 미디어파사드</span></td>
                     <td>06.03.(금)~06.04.(토)<br>20:00~21:00</td>
 								</tr>
                 <tr>

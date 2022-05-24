@@ -20,7 +20,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             <span></span>
           </div>
           <div class="wrap">
-            <h2>컨퍼런스</h2>
+            <h2>특별전</h2>
             <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
@@ -28,8 +28,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       <section class="location">
         <div class="inner">
           <ul>
-            <li>컨퍼런스</li>
-            <li>콜로키움</li>
+            <li>특별전</li>
+            <li>한양도성 타임머신을 타고 600년 역사공간 속으로!</li>
           </ul>
         </div>
       </section>
@@ -50,27 +50,56 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
         </div>
       </section> -->
-      
+      <div class="subpage-more-wrap">
+        <span class="subpage-item-lists subpage_nav_lists">
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=special1">
+                  <span class="subpage-link-text">디지털 콘텐츠로 만나는 문화유산</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=special2">
+                  <span class="subpage-link-text">과거, 현재, 미래 공존의 가치를 디지털로 담다.</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
+              <a class="subpage-link" href="/bbs/content.php?co_id=special3">
+                  <span class="subpage-link-text">한양도성 타임머신을 타고 600년 역사공간 속으로!</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=special4">
+                  <span class="subpage-link-text">그들이 꿈꾸었던 나라 – 주미대한제국공사관</span>
+              </a>
+            </span>
+        </span><!--/.subpage-item-lists-->
+      </div>      
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>콜로키움</h2>
-          <p>
+          <h2>“한양도성 타임머신을 타고 600년 역사공간 속으로!”</h2>
+          <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
-          </p>
+          </p> -->
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/AKR2021.jpg" alt="정지산 유적">
+              <img src="/common/img/special4.png" alt="정지산 유적">
             </div>
             <div class="right">
               <h3>
-                한국전통문화대학교 IDH연구소
+                <제1회 디지털문화유산 콘텐츠 경진대회> 수상작
               </h3>
               <dl>
-                <dt>기관·대학명</dt>
-                <dd>백제세계유산센터</dd>
+                <dt>소개</dt>
+                <dd>
+                한양도성 타임머신은 한양도성 600년 역사와 문화유산의 디지털 및 선도형 실감 콘텐츠화를 목적으로 한 프로젝트입니다. 실측, 복원, 재현 등 3가지 타입의 3차원 데이터를 구축한 뒤, 현존하는 문화유산 및 소실된 문화유산을 구현해, 한양도성의 4차원 공간정보를 제공하는 서비스 플랫폼을 구축하였습니다.
+                </dd>
+              </dl>
+              <dl>
+                <dt>기획</dt>
+                <dd>PCN</dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
@@ -94,9 +123,9 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
             </div>
           </div>
-          <div class="video_contents">
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
-          </div>
+          <!-- <div class="video_contents">
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 1200px; width: 100%; margin: 30px auto;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/chrhW2ebCkg' frameborder='0' allowfullscreen></iframe></div>
+          </div> -->
           <a href="/bbs/content.php?co_id=pre_forms" class="reservation_btn">
             <b>사전등록하기</b>
             <span>06.03(금) ~ 06.05(일) 3일간</span>

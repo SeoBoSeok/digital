@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>초청전</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
       </section>
@@ -71,7 +71,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </div>
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>공산성 VR·AR색칠·디지털 돋보기</h2>
+          <h2>공산성 VR라이더·문화유산AR색칠하기·디지털 돋보기</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
@@ -92,7 +92,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>소개</dt>
-                <dd>레이징덕 주식회사는 멀티플랫폼 Unity 엔진을 활용한 VR/AR 실감형 콘텐츠와 모바일 콘텐츠를 제작 및 유통하는 회사입니다. 초기 기획부터 디자인, 개발의 전 과정을 고객에게 맞춤화된 서비스를 제공하여 창의적이고 차별화된 콘텐츠를 만들고자 합니다.<br>- 홈페이지 주소 : <a href="https://www.raging-duck.com/" target="_blank">https://www.raging-duck.com/</a></dd>
+                <dd>‘레이징덕 주식회사’는 멀티플랫폼 Unity 엔진을 활용한 VR/AR 실감형 콘텐츠와 모바일 콘텐츠를 제작 및 유통하는 회사입니다. 초기 기획부터 디자인, 개발의 전 과정을 고객에게 맞춤화된 서비스를 제공하여 창의적이고 차별화된 콘텐츠를 만들고자 합니다.<br>- 홈페이지 주소 : <a href="https://www.raging-duck.com/" target="_blank">https://www.raging-duck.com/</a></dd>
               </dl>
               <dl>
                 <dt>기관·대학명</dt>
@@ -100,7 +100,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>소개</dt>
-                <dd>랜덤박스 주식회사는 VR/AR 융합 기술을 바탕으로 모바일, 교육용, 게임 콘텐츠를 제작 및 유통하는 회사입니다. 콘텐츠 제작을 통해 4차 산업 교육뿐만 아니라 체험 프로그램을 고객과 배경에 맞춰 서비스를 제공하고 있습니다.</dd>
+                <dd>‘랜덤박스 주식회사’는 VR/AR 융합 기술을 바탕으로 모바일, 교육용, 게임 콘텐츠를 제작 및 유통하는 회사입니다. 콘텐츠 제작을 통해 4차 산업 교육뿐만 아니라 체험 프로그램을 고객과 배경에 맞춰 서비스를 제공하고 있습니다.</dd>
               </dl>
               <dl>
                 <dt>기관·대학명</dt>
@@ -109,14 +109,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <dl>
                 <dt>소개</dt>
                 <dd>“가치와 가치를 잇다” 잇다는 애플리케이션(APP)과 모바일 게임을 제작하고 4차 산업 교육 및 체험 프로그램을 운영하는 협동조합입니다. 다양한 4차 산업 관련 업체들로 이루어진 협동조합인 만큼 관련 컨설팅 및 멘토링을 진행하고 있습니다.
-<br>- 페이스북 주소 : <a href="https://www.facebook.com/Chungnamitda" target="_blank">https://www.facebook.com/Chungnamitda</a></dd>
+                <br>- 페이스북 주소 : <a href="https://www.facebook.com/Chungnamitda" target="_blank">https://www.facebook.com/Chungnamitda</a></dd>
               </dl>
               <!-- <dl>
                 <dt>담당자</dt>
                 <dd>도미솔 팀장 (010-8704-2070)</dd>
               </dl> -->
               <!-- <dl>
-                <dt>장소</dt>
+              <dt>장소</dt>
                 <dd>아트센터 고마 (충남 공주시 고마나루길 90)</dd>
               </dl>
               <dl>

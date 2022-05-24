@@ -378,8 +378,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 01</span>
                       <h3>산업</h3>
                       <p>
-                      디지털 HW·SW, 드론, 솔루션, 메타버스,<br>
-                      빅데이터, BIM, AI, 디지털 트윈 등
+                      디지털 HW·SW, 드론, 솔루션, 메타버스, 빅데이터, BIM, AI, 디지털 트윈 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -392,8 +391,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 02</span>
                       <h3>연구개발</h3>
                       <p>
-                      디지털 기록·모델링, 형상분석, 복원·복제,
-                      <br>콘텐츠 기획·제작, RTI, IoT 등
+                      디지털 기록·모델링, 형상분석, 복원·복제, 콘텐츠 기획·제작, RTI, IoT 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -406,7 +404,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 03</span>
                       <h3>미래교육</h3>
                       <p>
-                      핑퐁로봇, 박물관 온도 제어 코딩,<br>코스페이시스 에듀프로그램, 가상 박물관 디자인 등
+                      핑퐁로봇, 박물관 온도 제어 코딩, 코스페이시스 에듀프로그램, 가상 박물관 디자인 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -419,7 +417,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 04</span>
                       <h3>초청전</h3>
                       <p>
-                      문화유산 VR·AR·MR 체험콘텐츠,<br>인터랙티브 프로젝션매핑 등
+                      문화유산 VR·AR·MR 체험콘텐츠, 인터랙티브 프로젝션매핑 등
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -432,7 +430,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 05</span>
                       <h3>특별전</h3>
                       <p>
-                        <제1회 디지털문화유산 콘텐츠 경진대회><br>입상작, 연구성과 전시
+                        <제1회 디지털문화유산 콘텐츠 경진대회> 입상작, 수행성과 전시
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -445,7 +443,7 @@ if(G5_COMMUNITY_USE === false) {
                       <span class="top">Program 06</span>
                       <h3>컨퍼런스</h3>
                       <p>
-                      디지털 문화유산 관련 심포지엄,<br>발표회, 튜토리얼
+                      디지털 문화유산 관련 심포지엄, 발표회, 튜토리얼
                       </p>
                       <span class="arrow"></span>
                     </div>
@@ -477,13 +475,13 @@ if(G5_COMMUNITY_USE === false) {
           <h3>온라인 참가신청</h3>
           <p>
             디지털문화유산전은 관람객 사전 등록을 받고 있습니다.<br />
-            참가를 희망하시면 사전등록을 통해 빠르게 입장하실 수 있습니다. (업데이트 예정)
+            참가를 희망하시면 사전등록을 통해 빠르게 입장하실 수 있습니다.
           </p>
           <div class="box">
             <b>관람정보</b>
             <dl>
               <dt>관람기간</dt>
-              <dd>06.03(금) ~ 06.05(일) 3일간</dd>
+              <dd>2022.06.03(금) ~ 06.05(일) 3일간</dd>
             </dl>
             <dl>
               <dt>관람시간</dt>

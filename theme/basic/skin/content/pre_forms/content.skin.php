@@ -4,12 +4,12 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
-$_program = "";
-if (!empty($_REQUEST['program'])) {
-  $_program = "관람객";
-} else {
-  $_program = "관람객";
-}
+// $_program = "";
+// if (!empty($_REQUEST['program'])) {
+//   $_program = "관람객";
+// } else {
+//   $_program = "관람객";
+// }
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
@@ -28,7 +28,7 @@ if (!empty($_REQUEST['program'])) {
           </div>
           <div class="wrap">
             <h2>관람안내</h2>
-            <p><?php echo $_program; ?> 사전등록</p>
+            <p>관람객 사전등록</p>
           </div>
         </div>
       </section>
@@ -36,7 +36,7 @@ if (!empty($_REQUEST['program'])) {
         <div class="inner">
           <ul>
             <li>관람안내</li>
-            <li><?php echo $_program; ?> 사전등록</li>
+            <li>관람객 사전등록</li>
           </ul>
         </div>
       </section>
@@ -50,8 +50,8 @@ if (!empty($_REQUEST['program'])) {
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line subpage_nav_item">
-              <a class="subpage-link" href="/bbs/content.php?co_id=tutorial_forms">
-                  <span class="subpage-link-text"><?php echo $_program; ?> 사전등록</span>
+              <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
+                  <span class="subpage-link-text">관람객 사전등록</span>
               </a>
             </span>
             <!-- <span class="subpage-item each-line subpage_nav_item">

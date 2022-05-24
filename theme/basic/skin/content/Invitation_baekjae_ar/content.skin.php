@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>초청전</h2>
-            <p>문화유산, 디지털 DNA를 품다.</p>
+            <p>문화유산,<br>디지털 DNA를 품다.</p>
           </div>
         </div>
       </section>
@@ -71,7 +71,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </div>      
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>공주·수원화성·문화상품 AR콘텐츠</h2>
+          <h2>공산성 왕궁 및 정지산 유적·숙종대왕 태실 3D 콘텐츠<br>조선시대 야간군사훈련 재현 콘텐츠</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
@@ -94,13 +94,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <h3>
                 한국전통문화대학교 IDH연구소
               </h3> -->
-              <dl>
+              <!-- <dl>
                 <dt>기관·대학명</dt>
                 <dd>한국전통문화대학교</dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>소개</dt>
-                <dd>한국전통문화대학교(총장 김영모)는 조선 시대 기록화인 <화성원행도병(華城園幸圖屛)>의 8폭 병풍 중 군사훈련이 표현된 <서장대야조도(西將臺夜操圖)>를 바탕으로 복식·기물·지형·건축·훈련 절차를 고증하고 이를 3차원 입체(이하 3D)로 시각화한 증강현실(Augmented Reality, AR) 실감 콘텐츠를 개발하였다.</dd>
+                <dd>문화유산 전문지식과 첨단 ICT 기술융합을 바탕으로 유무형 문화유산 디지털 기록-가상복원-콘텐츠 서비스 플랫폼 연구개발을 하고 있습니다.<br>고증 기반 디지털 복원 및 증강현실(AR)/가상현실(VR) 등 실감 3D 기술을 통해 개발된 공주시 문화유적 콘텐츠 3종과 더불어 조선시대 수원화성 야간군사훈련 등을 체험할 수 있습니다.</dd>
               </dl>
               <!-- <dl>
                 <dt>소개</dt>

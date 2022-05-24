@@ -39,6 +39,7 @@
           <a href="/bbs/content.php?co_id=conference">컨퍼런스</a>
           <ul>
             <li><a href="/bbs/content.php?co_id=symposium">심포지엄</a></li>
+            <li><a href="/bbs/content.php?co_id=lecture">초청특강</a></li>
             <!-- <li><a href="/bbs/content.php?co_id=seminar">세미나</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li> -->
             <!-- <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li> -->

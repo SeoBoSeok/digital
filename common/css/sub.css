@@ -561,7 +561,7 @@ header h1 {
   float: left;
 }
 .digital .sec2 .lists ul li a {
-  width: 100%;
+  /* width: 100%; */
 }
 .digital .sec2 .lists ul li .text {
   position: relative;

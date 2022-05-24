@@ -156,7 +156,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>			
 								<tr>
 									<td>C02</td>
-									<td class="link">㈜엑스알파운더리</td>
+									<td class="link" onclick="go_open('/list/xr.html');">㈜엑스알파운더리</td>
 									<td></td>
 								</tr>	
 								<tr>

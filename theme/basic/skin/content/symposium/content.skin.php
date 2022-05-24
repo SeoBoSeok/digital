@@ -21,7 +21,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>컨퍼런스</h2>
-            <p>문화유산, 디지털 DNA를 품다</p>
+            <p>문화유산,<br>디지털 DNA를 품다</p>
           </div>
         </div>
       </section>
@@ -58,8 +58,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="#;">
-                  <span class="subpage-link-text">초청강연</span>
+              <a class="subpage-link" href="/bbs/content.php?co_id=lecture">
+                  <span class="subpage-link-text">초청특강</span>
               </a>
             </span>
             <!-- <span class="subpage-item each-line display-2 subpage_nav_item ">
@@ -195,13 +195,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
 										<td><span>16:20 ~ 16:50</span></td>
-										<td><span>[발제 6] NFT를 활용한 기록유산 디지털 아카이빙</span></td>
-                    <td><span>최광훈 (RM소프트)</span></td>
+										<td><span>[발제6] 블록체인 기술을 활용한 기록유산 디지털 아카이빙</span></td>
+                    <td><span>최광훈 (RM소프트 대표)</span></td>
 								</tr>
 								<tr>
 										<td><span>16:50 ~ 17:30</span></td>
 										<td><span>[패널 토론] </span></td>
-                    <td><span>이찬희 (2022 디지털문화유산전 조직위원장<br>안호, 안재홍, 박상현, 장성각, 김동현, 최광훈</span></td>
+                    <td><span>이찬희 (2022 디지털문화유산전 조직위원장)<br>안호, 안재홍, 박상현, 장성각, 김동현, 최광훈</span></td>
 								</tr>                                                                       								                                                           								
 						</tbody>
 					</table>
