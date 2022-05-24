@@ -94,7 +94,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                디지털 문화유산 생태계 : 산업&교육&연구
+                디지털 문화유산의 현재와 미래
               </h3>
               <dl>
                 <dt>목적</dt>
@@ -121,7 +121,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 1층 컨퍼런스홀</dd>
+                <dd>아트센터고마 1층 컨퍼런스룸</dd>
               </dl>
             </div>
           </div>
@@ -160,13 +160,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<tbody>
 								<tr>
 										<td><span>13:20 ~ 13:30</span></td>
-										<td><span>개회사 : 유석호 (국립공주대학교 공주학연구원장)</span></td>
-                    <td><span>-</span></td>
+										<td><span>개회사</span></td>
+                    <td><span>유석호 (국립공주대학교 공주학연구원장)</span></td>
 								</tr>
 								<tr>
 										<td><span>13:30 ~ 14:00</span></td>
-										<td><span>[발제 1] 안호 (문화재청 디지털문화유산팀 팀장)<br>>디지털 문화유산 정책의 목표와 전략</span></td>
-                    <td><span>-</span></td>
+										<td><span>[발제 1] 디지털 문화유산 정책의 목표와 전략</span></td>
+                    <td><span>안호 (문화재청 디지털문화유산팀 팀장)</span></td>
 								</tr>
 								<tr>
 										<td><span>14:00 ~ 14:30</span></td>

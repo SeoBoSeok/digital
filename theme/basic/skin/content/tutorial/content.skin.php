@@ -94,35 +94,35 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                문화재 분야에서의 이미지 분석과 활용
+                문화유산의 BTI 기술 소개
               </h3>
-              <dl>
+              <!-- <dl>
                 <dt>목적</dt>
                 <dd>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>대상</dt>
-                <dd>문화유산 영상분석 적용이 필요한 대학생 및 산업체</dd>
+                <dd>대학생 및 산업체</dd>
               </dl>
               <!-- <dl>
                 <dt>주최</dt>
                 <dd>(사)한국문화재보존과학회</dd>
               </dl> -->
-              <dl>
+              <!-- <dl>
                 <dt>주관</dt>
                 <dd>웨이퍼마스터즈</dd>
-              </dl>                            
+              </dl>                             -->
               <dl>
                 <dt>일시</dt>
-                <dd>06월 05일(금) 10:00~12:00</dd>
+                <dd>06월 04일(토) 10:00~12:00</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>준비물</dt>
                 <dd>노트북 필참<br>교육생 15명 제한</dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>진행</dt>
-                <dd>김정곤(웨이퍼마스터즈 부장)</dd>
+                <dd>안재홍(한국과학기술원 문화기술대학원 초빙교수)</dd>
               </dl>              
               <dl>
                 <dt>장소</dt>
@@ -140,12 +140,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-              3차원 스캐닝·프린팅 기술을 이용한 문화유산의 디지털 복제
+              3차원 스캐닝·프린팅 기술을 활용한 문화유산 복제
               </h3>
-              <dl>
+              <!-- <dl>
                 <dt>목적</dt>
                 <dd>문화유산 디지털 3차원 스캐닝과 프린팅 기술<br>이해 및 디지털 복제 방법 교육</dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>대상</dt>
                 <dd>문화유산 디지털 스캐닝 및 프린팅 교육이 필요한 대학생 및 산업체</dd>
@@ -156,7 +156,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
               <dl>
                 <dt>주관</dt>
-                <dd>DMCTECH·국립공주대학교 디지털보존솔루션연구실</dd>
+                <dd>DMC테크·국립공주대학교 디지털보존솔루션연구실</dd>
               </dl>                            
               <dl>
                 <dt>일시</dt>
@@ -172,7 +172,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>               -->
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 1F 컨퍼런스홀</dd>
+                <dd>아트센터고마 1F 컨퍼런스룸</dd>
               </dl>
               <!-- <dl>
                 <dt>사전등록</dt>

@@ -22,7 +22,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </div>
           <div class="wrap">
             <h2>전시구성</h2>
-            <p>디지털 문화유산 생태계 : 산업&교육&연구</p>
+            <p>디지털 문화유산의 현재와 미래</p>
           </div>
         </div>
       </section>
