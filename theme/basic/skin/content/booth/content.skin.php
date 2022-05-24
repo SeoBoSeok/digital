@@ -151,7 +151,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>			
 								<tr>
 									<td>C01</td>
-									<td class="link">㈜아우데나</td>
+									<td class="link" onclick="go_open('/list/audena.html');">㈜아우데나</td>
 									<td>디지털 아카이브, 디지털 복원, 디지털 트윈, AR/VR, 게임 개발</td>
 								</tr>			
 								<tr>
