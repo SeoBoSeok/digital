@@ -141,12 +141,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
 									<td>B04</td>
-									<td class="link">㈜알엠소프트</td>
+									<td class="link" onclick="go_open('/list/rmsoft.html');">㈜알엠소프트</td>
 									<td>NFT, 아카이빙시스템, 공공기관 기록물 관리</td>
 								</tr>
 								<tr>
 									<td>B05</td>
-									<td class="link">㈜디타스</td>
+									<td class="link" onclick="go_open('/list/detas.html');">㈜디타스</td>
 									<td>3D 스캐닝, BIM, 디지털 트윈,<br>콘텐츠 기획, IoT</td>
 								</tr>			
 								<tr>

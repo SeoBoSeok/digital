@@ -85,7 +85,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <h3>컨퍼런스</h3>
                 <div class="lists">
                   <p>
-                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. '빛·역사·기술, 미디어파사드 발표회', 'RTI 기술을 이용한 문화유산의 디지털 가시화 튜토리얼', '3차원 스캐닝·프린팅 기술을 활용한 문화유산 복제 튜토리얼', '디지털 문화유산의 현재와 미래 심포지엄' 등을 운영하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
+                  2022 디지털문화유산전은 우리나라의 문화유산의 디지털 기술 발전 현황을 조명해 볼 수 있는 자리입니다. '빛·역사·기술, 미디어파사드 발표회', 'RTI 기술을 이용한 문화유산의 디지털 가시화 튜토리얼', '3차원 스캐닝·프린팅 기술을 이용한 문화유산의 디지털 복제 튜토리얼', '디지털 문화유산의 현재와 미래 심포지엄' 등을 운영하고, 디지털 대전환을 촉진하는 환경을 마련하고자 합니다.
                   </p>
                 </div>
               </div>
@@ -130,18 +130,18 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   </div>
                 <!-- </a> -->
               </li>
-              <li>
+              <!-- <li> -->
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
-                  <div class="text">
+                  <!-- <div class="text">
                     <h4>세미나</h4>
                     <span>문화자원과 디지털 아카이브</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=seminar"><span></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 <!-- </a> -->
-              </li>
+              <!-- </li> -->
               <li>
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img4.jpg" alt=""> -->
@@ -153,6 +153,15 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     </div>
                   </div>
                 <!-- </a> -->
+              </li>
+              <li>
+                <div class="text">
+                    <h4>발표회</h4>
+                    <!-- <span>문화유산의 BTI 기술 소개</span> -->
+                    <div class="btn">
+                      <a href="#;"><span></span></a>
+                    </div>
+                  </div>
               </li>
             </ul>
           </div>
