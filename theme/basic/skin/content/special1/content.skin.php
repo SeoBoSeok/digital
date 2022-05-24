@@ -54,22 +54,22 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <span class="subpage-item-lists subpage_nav_lists">
             <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=special1">
-                  <span class="subpage-link-text">디지털 콘텐츠로 만나는 문화유산</span>
+                  <span class="subpage-link-text">디지털 콘텐츠 문화유산</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=special2">
-                  <span class="subpage-link-text">과거, 현재, 미래 공존의 가치를 디지털로 담다.</span>
+                  <span class="subpage-link-text">공존의 가치를 디지털로 담다</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=special3">
-                  <span class="subpage-link-text">한양도성 타임머신을 타고 600년 역사공간 속으로!</span>
+                  <span class="subpage-link-text">한양도성 역사공간 속으로!</span>
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
               <a class="subpage-link" href="/bbs/content.php?co_id=special4">
-                  <span class="subpage-link-text">그들이 꿈꾸었던 나라 – 주미대한제국공사관</span>
+                  <span class="subpage-link-text">주미대한제국공사관</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->

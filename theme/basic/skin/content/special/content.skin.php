@@ -77,7 +77,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           <div class="cont ani active">
             <div class="img_box">
               <div class="wrap invitation_one">
-                <img src="/common/img/special1.jpeg" alt="디지털 문화 유산전 2021.12.18.SAT - 12.20.MON 10:00 - 18:00 아트센터고마">
+                <img src="/common/img/special.png" alt="디지털 문화 유산전 2022.06.03.FRI - 06.05.SUN 10:00 - 18:00 아트센터고마">
               </div>
             </div>
             <div class="info">
@@ -123,7 +123,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img1.png" alt=""> -->
                   <div class="text">
-                    <h4>디지털 콘텐츠로 만나는 문화유산</h4>
+                    <h4>디지털 콘텐츠로<br>만나는 문화유산</h4>
                     <span>프로젝트이안</span>
                     <!-- <div class="btn"> -->
                       <a href="/bbs/content.php?co_id=special1" class="btn"><span></span></a>
@@ -135,7 +135,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img3.jpg" alt=""> -->
                   <div class="text">
-                    <h4>과거, 현재, 미래 공존의 가치를 디지털로 담다.</h4>
+                    <h4>과거, 현재, 미래<br>공존의 가치를 디지털로 담다.</h4>
                     <span>NDS컨소시엄</span>
                     <!-- <div class="btn"> -->
                       <a href="/bbs/content.php?co_id=special2" class="btn"><span></span></a>
@@ -147,7 +147,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <!-- <a href="#"> -->
                   <!-- <img src="/common/img/digital_sec2_img2.jpg" alt=""> -->
                   <div class="text">
-                    <h4>한양도성 타임머신을 타고 600년 역사공간 속으로!</h4>
+                    <h4>한양도성 타임머신을 타고<br>600년 역사공간 속으로!</h4>
                     <span>PCN</span>
                     <!-- <div class="btn"> -->
                       <a href="/bbs/content.php?co_id=special3" class="btn"><span></span></a>
@@ -159,7 +159,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <a href="#">
                   <img src="/common/img/digital_sec2_img4.jpg" alt="">
                   <div class="text">
-                    <h4>그들이 꿈꾸었던 나라 – 주미대한제국공사관</h4>
+                    <h4>그들이 꿈꾸었던 나라<br>– 주미대한제국공사관</h4>
                     <span>포스트미디어</span>
                     <div class="btn">
                       <a href="/bbs/content.php?co_id=special4"><span></span></a>
