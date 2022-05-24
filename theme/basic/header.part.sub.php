@@ -32,7 +32,10 @@
           <li>
             <a href="/bbs/content.php?co_id=special">특별전</a>
             <ul>
-              <li><a href="/bbs/content.php?co_id=special">특별전</a></li>
+            <li><a href="/bbs/content.php?co_id=special1">디지털 콘텐츠 문화유산</a></li>
+            <li><a href="/bbs/content.php?co_id=special2">공존의 가치를 디지털로 담다</a></li>
+            <li><a href="/bbs/content.php?co_id=special3">한양도성 역사공간 속으로!</a></li>
+            <li><a href="/bbs/content.php?co_id=special4">주미대한제국공사관</a></li>
             </ul>
           </li>
           <li>
