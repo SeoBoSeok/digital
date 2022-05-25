@@ -254,7 +254,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>D02</td>
-										<td class="link" onclick="#;">㈜아이팝</td>
+										<td class="link" onclick="go_open('/list/ipop.html');">㈜아이팝</td>
 										<td></td>
 								</tr>
 								<!-- <tr>
