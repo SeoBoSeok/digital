@@ -340,7 +340,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td>E04</td>
-										<td class="link" onclick="#;">충남과학협회</td>
+										<td class="link" onclick="go_open('/list/csa.html');">충남과학협회</td>
 										<td>미디어 리터러시 교육, 드론 교육,<br>빅데이터 교육</td>
 								</tr>
 								<!-- <tr>
