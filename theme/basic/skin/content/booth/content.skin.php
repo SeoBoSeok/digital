@@ -166,7 +166,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>	
 								<tr>
 									<td>C04</td>
-									<td class="link">레이징덕(주)‧랜덤박스‧충남교육협동조합 잇다</td>
+									<td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)‧랜덤박스‧충남교육협동조합 잇다</td>
 									<td></td>
 								</tr>																																					
 <!-- 								
