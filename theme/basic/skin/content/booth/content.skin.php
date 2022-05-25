@@ -398,7 +398,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<th scope="row" rowspan="3">디지털문화유산<br>초청전</th>
                     <td>F01</td>
-										<td class="link" onclick="#;">레이징덕(주)‧랜덤박스(주)‧충남협동조합 잇다</td>
+										<td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)‧랜덤박스(주)‧충남협동조합 잇다</td>
 										<td>디지털로 만나는 백제역사유적지구</td>
 								</tr>
 								<tr>
