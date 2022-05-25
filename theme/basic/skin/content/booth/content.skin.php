@@ -161,7 +161,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>	
 								<tr>
 									<td>C03</td>
-									<td class="link">에이알룩</td>
+									<td class="link" onclick="go_open('/list/arlook.html');">에이알룩</td>
 									<td>AR/VR/MR/XR, 메타버스</td>
 								</tr>	
 								<tr>
@@ -244,7 +244,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <th scope="row" rowspan="9">디지털문화유산<br>연구개발</th>
                   <td>D01</td>
-										<td class="link" onclick="#;">하이테크</td>
+										<td class="link" onclick="go_open('/list/hightech.html');">하이테크</td>
 										<td>IoT 센서, IoT 통신장비, IoT 스마트펜스</td>
 								</tr>
 								<!-- <tr>
