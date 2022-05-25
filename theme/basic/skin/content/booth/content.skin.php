@@ -408,7 +408,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td>F03</td>
-										<td class="link" onclick="#;">(재)백제세계유산센터</td>
+										<td class="link" onclick="go_open('/list/baekjae.html');">(재)백제세계유산센터</td>
 										<td>VR/XR, 디지털 아카이브</td>
 								</tr>
 						</tbody>
