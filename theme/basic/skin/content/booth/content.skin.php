@@ -269,7 +269,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr>
 								<tr>
                   <td>D04</td>
-										<td class="link" onclick="#;">국립공주대학교 디지털보존솔루션랩</td>
+										<td class="link"  onclick="go_open('/list/dsl.html');">국립공주대학교 디지털보존솔루션랩</td>
 										<td>3D 스캐닝·프린팅, 디지털 복원·복제, 인터랙티브 콘텐츠, 보존솔루션 개발</td>
 								</tr>
 								<!-- <tr>
