@@ -325,7 +325,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>E02</td>
-										<td class="link" onclick="#;">다빈치창의융합연구소</td>
+										<td class="link" onclick="go_open('/list/davinci2.html');">다빈치창의융합연구소</td>
 										<td>빅데이터·AI 코딩, 메이커 교육, VR·AR 교육</td>
 								</tr>
 								<!-- <tr>
@@ -335,7 +335,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>E03</td>
-										<td class="link" onclick="#;">다빈치에듀</td>
+										<td class="link" onclick="go_open('/list/davinci.html');">다빈치에듀</td>
 										<td>디지털 리터러시 교육, SW 코딩 교육, 핑퐁로봇, 모션메이커</td>
 								</tr>
 								<tr>
