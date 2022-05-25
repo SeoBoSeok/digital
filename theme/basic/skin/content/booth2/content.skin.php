@@ -72,20 +72,20 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 						<h2>전시배치</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth003.png" alt="전시배치">
+						<img src="/common/img/building.png" alt="전시배치">
 					</div>
 					<div class="booth_tite second">
 						<h2>층별 상세 안내도</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth002.png" alt="전시배치">
+						<img src="/common/img/building.png" alt="전시배치">
 					</div>
-					<div class="booth_pic">
+					<!-- <div class="booth_pic">
 						<img src="/common/img/booth001.png" alt="전시배치">
 					</div>
 					<div class="booth_pic">
 						<img src="/common/img/booth004.png" alt="전시배치">
-					</div>										
+					</div>										 -->
           </div>	
 
         </div>
