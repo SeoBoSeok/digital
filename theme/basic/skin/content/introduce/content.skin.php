@@ -225,8 +225,8 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               <ul>
                 <li>
                   <span>주최.</span>
-                  <img src="/common/img/main_sec5_img1.png" alt="공주시">
-                  <img class="mo" src="/common/img/main_sec5_img1_m.png" alt="공주시">
+                  <img src="/common/img/main_sec5_img1.png?v=1" alt="공주시">
+                  <img class="mo" src="/common/img/main_sec5_img1_m.png?v=1" alt="공주시">
                 </li>
                 <li>
                   <span>주관.</span>

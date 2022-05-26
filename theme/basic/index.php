@@ -566,10 +566,10 @@ if(G5_COMMUNITY_USE === false) {
               <ul>
                 <li>
                   <span>주최.</span>
-                  <img src="common/img/main_sec5_img1.png" alt="공주시" />
+                  <img src="common/img/main_sec5_img1.png?v=1" alt="공주시" />
                   <img
                     class="mo"
-                    src="common/img/main_sec5_img1_m.png"
+                    src="common/img/main_sec5_img1_m.png?v=1"
                     alt="공주시"
                   />
                 </li>
