@@ -527,6 +527,7 @@ footer .f_sec1 .lists ul li img {
   position: absolute;
   bottom: 0;
   left: 0;
+  max-height: 30px;
 }
 footer .f_sec1 .lists ul li img.mo {
   display: none;
