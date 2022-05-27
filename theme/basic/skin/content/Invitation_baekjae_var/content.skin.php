@@ -71,7 +71,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </div>
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>공산성 VR라이더·문화유산AR색칠하기·디지털 돋보기</h2>
+          <h2>공산성 VR 라이더·문화유산 AR 색칠하기·VR 공산성을 지켜라</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화

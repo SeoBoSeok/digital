@@ -157,7 +157,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 									<td>C02</td>
 									<td class="link" onclick="go_open('/list/xr.html');">㈜엑스알파운더리</td>
-									<td></td>
+									<td>지역 전통예술 기반 XR 콘텐츠</td>
 								</tr>	
 								<tr>
 									<td>C03</td>
@@ -167,7 +167,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 									<td>C04</td>
 									<td class="link" onclick="go_open('/list/ragingduck.html');">레이징덕(주)‧랜덤박스‧충남교육협동조합 잇다</td>
-									<td></td>
+									<td>VR/AR, 콘텐츠 기획 및 제작,<br>디자인, 교육, 체험 운영</td>
 								</tr>																																					
 <!-- 								
 								<tr>
@@ -255,7 +255,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <td>D02</td>
 										<td class="link" onclick="go_open('/list/ipop.html');">㈜아이팝</td>
-										<td></td>
+										<td>모션 캡쳐, XR, 메타버스</td>
 								</tr>
 								<!-- <tr>
                   <td></td>
@@ -350,7 +350,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>E05</td>
-										<td class="link" onclick="#;">SW충남남부미래채움</td>
+										<td class="link" onclick="#;">충남남부 SW미래채움</td>
 										<td>3D 입체 구조 학습, 언플러그드 코딩, 게임형 컨텐츠, 센서 모니터링, 디버깅 학습</td>
 								</tr>
 								<!-- <tr>
