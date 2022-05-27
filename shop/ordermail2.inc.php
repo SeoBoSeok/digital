@@ -12,7 +12,7 @@ include G5_SHOP_PATH.'/mail/orderupdate1.mail.php';
 $content = ob_get_contents();
 ob_end_clean();
 
-mailer($od_name, $od_email, $config['cf_admin_email'], $subject, $content, 1);
+// mailer($od_name, $od_email, $config['cf_admin_email'], $subject, $content, 1);
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -88,6 +88,6 @@ for ($i=0; $row=sql_fetch_array($result); $i++)
     $content = ob_get_contents();
     ob_end_clean();
 
-    mailer($config['cf_admin_email_name'], $config['cf_admin_email'],  $row['it_sell_email'], $subject, $content, 1);
+    // mailer($config['cf_admin_email_name'], $config['cf_admin_email'],  $row['it_sell_email'], $subject, $content, 1);
 }
 //==============================================================================;
