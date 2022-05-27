@@ -187,13 +187,20 @@ jQuery(function($){
       
                                   // echo run_replace('thumb_image_tag', $img_content, $thumb);
                                   ?>
-                                <span class="pic" style="background: url(<?php echo $thumb['src']?>) center center no-repeat; background-size: cover;">
-                                    <!-- <img src="/_files/board/20210621/thumb/54433d6d22da10f6a1d85a872fd776b2_crop_auto_fix_600_866.88.png" alt=""> -->
-                                </span>
-                                <span class="txtW">
-                                    <strong class="txt_t"><?php echo $list[$i]['subject'] ?></strong>
-                                    <span class="date tr"><b>작성일</b> <?php echo $list[$i]['datetime2'] ?></span>
-                                </span>
+																	<?php
+																	if($thumb['src']) { ?>
+																	<span class="pic" style="background: url(<?php echo $thumb['src']?>) center center no-repeat; background-size: cover;"></span>
+																	<?php
+																	} else {
+																	?>
+																	<span class="pic" style="background: url('/common/img/newposter.png') center center no-repeat; background-size: cover;"></span>
+																	<?php
+																	}
+																	?>
+																	<span class="txtW">
+																			<strong class="txt_t"><?php echo $list[$i]['subject'] ?></strong>
+																			<span class="date tr"><b>작성일</b> <?php echo $list[$i]['datetime2'] ?></span>
+																	</span>
                             </a>
                           </li>
                           <?php } ?>
