@@ -4,12 +4,17 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 // add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">', 0);
 echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
-// $_program = "";
-// if (!empty($_REQUEST['program'])) {
-//   $_program = "관람객";
-// } else {
-//   $_program = "관람객";
-// }
+$_program = "";
+$_program_name = array(
+  'lecture' => '초청특강',
+  'tutorial' => '튜토리얼',
+  'class' => '클래스'
+);
+if (!empty($_REQUEST['program'])) {
+  $_program = $_program_name[($_REQUEST['program'])];
+} else {
+  $_program = "전시회 등록";
+}
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php
@@ -49,7 +54,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
       </section> -->
       <div class="subpage-more-wrap">
         <span class="subpage-item-lists subpage_nav_lists">
-            <span class="subpage-item each-line subpage_nav_item">
+            <span class="subpage-item each-line subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=pre_forms">
                   <span class="subpage-link-text">관람객 사전등록</span>
               </a>
@@ -92,7 +97,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
               if(!empty($_REQUEST['program'])) {
               ?>
 <div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
-					<table class="tbl">
+					<!-- <table class="tbl">
 						<caption>
 						</caption>
 						<colgroup>
@@ -129,7 +134,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                   <td>디지털문화유산분야 전문가</td>
 								</tr>
 						</tbody>
-					</table>
+					</table> -->
 				</div>                 
               <?php
               }
@@ -165,6 +170,48 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css?1">';
                                     <select class="minimal" name="rsv_date" id="rsv_date">
                                       <option value="2022-06-03">2022-06-03</option>
                                       <option value="2022-06-04">2022-06-04</option>
+                                      <option value="2022-06-05">2022-06-05</option>
+                                    </select>
+                                    <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <?php
+                        } else if ($_REQUEST['program'] == "lecture") {
+                        ?>
+                        <tr>
+                            <td class="ttl">참관일시</td>
+                            <td class="box6 ride_count">
+                                <div class="box6_01">
+                                    <select class="minimal" name="rsv_date" id="rsv_date">
+                                      <option value="2022-06-05">2022-06-05</option>
+                                    </select>
+                                    <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <?php
+                        } else if ($_REQUEST['program'] == "tutorial") {
+                        ?>
+                        <tr>
+                            <td class="ttl">참관일시</td>
+                            <td class="box6 ride_count">
+                                <div class="box6_01">
+                                    <select class="minimal" name="rsv_date" id="rsv_date">
+                                      <option value="2022-06-04">2022-06-04</option>
+                                    </select>
+                                    <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <?php
+                        } else if ($_REQUEST['program'] == "class") {
+                        ?>
+                        <tr>
+                            <td class="ttl">참관일시</td>
+                            <td class="box6 ride_count">
+                                <div class="box6_01">
+                                    <select class="minimal" name="rsv_date" id="rsv_date">
                                       <option value="2022-06-05">2022-06-05</option>
                                     </select>
                                     <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>

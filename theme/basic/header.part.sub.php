@@ -47,11 +47,12 @@
               <!-- <li><a href="/bbs/content.php?co_id=colloquium">콜로키움</a></li> -->
               <!-- <li><a href="/bbs/content.php?co_id=workshop">워크샵</a></li> -->
               <li><a href="/bbs/content.php?co_id=tutorial">튜토리얼</a></li>
-              <li><a href="#;">발표회</a></li>
+              <li><a href="/bbs/content.php?co_id=announcement">발표회</a></li>
+              <li><a href="/bbs/content.php?co_id=class">클래스</a></li>
             </ul>
           </li>
           <li>
-            <a href="/bbs/content.php?co_id=tutorial_forms">관람안내</a>
+            <a href="/bbs/content.php?co_id=pre_forms">관람안내</a>
             <ul>
               <li class=""><a href="/bbs/content.php?co_id=pre_forms">관람객 사전등록</a></li>
               <!-- <li class=""><a href="/bbs/content.php?co_id=tutorial_forms">튜토리얼 사전등록</a></li> -->

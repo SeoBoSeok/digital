@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>컨퍼런스</li>
-            <li>튜토리얼</li>
+            <li>클래스</li>
           </ul>
         </div>
       </section>
@@ -67,7 +67,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <span class="subpage-link-text">세미나</span>
               </a>
             </span> -->
-            <span class="subpage-item each-line display-2 subpage_nav_item active">
+            <span class="subpage-item each-line display-2 subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
                   <span class="subpage-link-text">튜토리얼</span>
               </a>
@@ -77,7 +77,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <span class="subpage-link-text">발표회</span>
               </a>
             </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=class">
                   <span class="subpage-link-text">클래스</span>
               </a>
@@ -85,64 +85,62 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         </span><!--/.subpage-item-lists-->
       </div>      
       <section class="sec2 ani active">
-        <div class="inner">
-          <h2>튜토리얼</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
             <br>형성 학생, 일반인, 관련 전문가, 스타트업까지 광범위한 관람층
             구축을하고 있습니다
           </p> -->
+        <div class="inner">
+          <h2>클래스</h2>
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/tutorial.jpg" alt="정지산 유적">
+              <img src="/common/img/class.jpg" alt="정지산 유적">
             </div>
             <div class="right">
               <h3>
-                문화유산의 RTI 기술 소개
+              청년크리에이터를 위한 디지털유산 맞춤형 3차원 모델링
               </h3>
               <!-- <dl>
                 <dt>목적</dt>
-                <dd>문화유산 디지털 이미지의 이해와 영상분석 적용 방법 교육<br>영상분석 맞춤형 소프트웨어 소개 및 사용법 교육</dd>
+                <dd>문화유산 디지털 3차원 스캐닝과 프린팅 기술<br>이해 및 디지털 복제 방법 교육</dd>
               </dl> -->
               <dl>
                 <dt>대상</dt>
-                <dd>대학생 및 산업체</dd>
+                <dd>문화유산 디지털 스캐닝 및 프린팅 교육이 필요한 대학생 및 산업체</dd>
               </dl>
               <!-- <dl>
                 <dt>주최</dt>
                 <dd>(사)한국문화재보존과학회</dd>
               </dl> -->
-              <!-- <dl>
+              <dl>
                 <dt>주관</dt>
-                <dd>웨이퍼마스터즈</dd>
-              </dl>                             -->
+                <dd>DMC테크·국립공주대학교 디지털보존솔루션연구실</dd>
+              </dl>                            
               <dl>
                 <dt>일시</dt>
-                <dd>06월 04일(토) 10:00~12:00</dd>
+                <dd>06월 05일(일) 14:00~16:00</dd>
               </dl>
               <!-- <dl>
                 <dt>준비물</dt>
-                <dd>노트북 필참<br>교육생 15명 제한</dd>
+                <dd>노트북 필참</dd>
               </dl> -->
-              <dl>
+              <!-- <dl>
                 <dt>진행</dt>
-                <dd>안재홍(한국과학기술원 문화기술대학원 초빙교수)</dd>
-              </dl>              
+                <dd>김정곤(웨이퍼마스터즈 부장)</dd>
+              </dl>               -->
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 1F 컨퍼런스홀</dd>
+                <dd>아트센터고마 1F 컨퍼런스룸</dd>
               </dl>
               <dl>
                 <dt>사전신청</dt>
                 <dd>
                   06월 02일(목)까지 가능<br>현장 접수 가능<br><br>
-                  <a href="/bbs/content.php?co_id=pre_forms&program=tutorial">사전신청하기</a></dd>
+                  <a href="/bbs/content.php?co_id=pre_forms&program=class">사전신청하기</a></dd>
               </dl>
             </div>
           </div>
-        </div>
-        <div class="inner">
           <!-- <div class="video_contents">
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//dnDe70-xrHw' frameborder='0' allowfullscreen></iframe></div>
           </div> -->

@@ -73,8 +73,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="#;">
+              <a class="subpage-link" href="/bbs/content.php?co_id=announcement">
                   <span class="subpage-link-text">발표회</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=class">
+                  <span class="subpage-link-text">클래스</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -126,12 +131,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>              
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 1F 컨퍼런스홀</dd>
+                <dd>아트센터고마 1F 컨퍼런스룸</dd>
               </dl>
-              <!-- <dl>
-                <dt>사전등록</dt>
-                <dd><a href="javascript:alert('온라인 사전예약이 마감되었습니다.')">사전등록하기</a></dd>
-              </dl> -->
+              <dl>
+                <dt>사전신청</dt>
+                <dd>
+                  06월 02일(목)까지 가능<br>현장 접수 가능<br><br>
+                  <a href="/bbs/content.php?co_id=pre_forms&program=lecture">사전신청하기</a></dd>
+              </dl>
             </div>
           </div>
         </div>

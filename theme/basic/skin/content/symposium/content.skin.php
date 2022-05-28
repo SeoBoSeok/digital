@@ -73,8 +73,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </a>
             </span>
             <span class="subpage-item each-line display-2 subpage_nav_item ">
-              <a class="subpage-link" href="#;">
+              <a class="subpage-link" href="/bbs/content.php?co_id=announcement">
                   <span class="subpage-link-text">발표회</span>
+              </a>
+            </span>
+            <span class="subpage-item each-line display-2 subpage_nav_item ">
+              <a class="subpage-link" href="/bbs/content.php?co_id=class">
+                  <span class="subpage-link-text">클래스</span>
               </a>
             </span>
         </span><!--/.subpage-item-lists-->
@@ -96,13 +101,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               <h3>
                 디지털 문화유산의 현재와 미래
               </h3>
-              <dl>
+              <!-- <dl>
                 <dt>목적</dt>
                 <dd>
  디지털 문화유산 분야 최신 기술(디바이스·솔루션·콘텐츠 등) 및 관련 사례 소개<br>
  디지털 문화유산 산업·교육·연구개발 생태계 구축 및 문화유산 디지털 대전환 촉진 환경 마련
 </dd>
-              </dl>
+              </dl> -->
               <dl>
                 <dt>주최</dt>
                 <dd>공주시</dd>
@@ -113,7 +118,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>
               <dl>
                 <dt>일시</dt>
-                <dd>06월 04일(토) 13:00 ~</dd>
+                <dd>06월 04일(토) 13:20 ~ 17:30</dd>
               </dl>
               <!-- <dl>
                 <dt>준비물</dt>

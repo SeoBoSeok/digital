@@ -29,7 +29,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
         <div class="inner">
           <ul>
             <li>컨퍼런스</li>
-            <li>튜토리얼</li>
+            <li>발표회</li>
           </ul>
         </div>
       </section>
@@ -67,12 +67,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                   <span class="subpage-link-text">세미나</span>
               </a>
             </span> -->
-            <span class="subpage-item each-line display-2 subpage_nav_item active">
+            <span class="subpage-item each-line display-2 subpage_nav_item">
               <a class="subpage-link" href="/bbs/content.php?co_id=tutorial">
                   <span class="subpage-link-text">튜토리얼</span>
               </a>
             </span>
-            <span class="subpage-item each-line display-2 subpage_nav_item ">
+            <span class="subpage-item each-line display-2 subpage_nav_item active">
               <a class="subpage-link" href="/bbs/content.php?co_id=announcement">
                   <span class="subpage-link-text">발표회</span>
               </a>
@@ -86,7 +86,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </div>      
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>튜토리얼</h2>
+          <h2>발표회</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
@@ -95,11 +95,11 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
           </p> -->
           <div class="lists clearfix">
             <div class="left">
-              <img src="/common/img/tutorial.jpg" alt="정지산 유적">
+              <img src="/common/img/lecture.jpg" alt="정지산 유적">
             </div>
             <div class="right">
               <h3>
-                문화유산의 RTI 기술 소개
+                '빛·역사·기술' 미디어파사드
               </h3>
               <!-- <dl>
                 <dt>목적</dt>
@@ -107,7 +107,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl> -->
               <dl>
                 <dt>대상</dt>
-                <dd>대학생 및 산업체</dd>
+                <dd>미디어아트 클래스</dd>
               </dl>
               <!-- <dl>
                 <dt>주최</dt>
@@ -119,26 +119,26 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
               </dl>                             -->
               <dl>
                 <dt>일시</dt>
-                <dd>06월 04일(토) 10:00~12:00</dd>
+                <dd>06월 03일(금) 13:30~15:00<br>VSLAB</dd>
               </dl>
               <!-- <dl>
                 <dt>준비물</dt>
                 <dd>노트북 필참<br>교육생 15명 제한</dd>
               </dl> -->
-              <dl>
+              <!-- <dl>
                 <dt>진행</dt>
-                <dd>안재홍(한국과학기술원 문화기술대학원 초빙교수)</dd>
-              </dl>              
+                <dd>문경호(국립공주대학교 역사교육과 교수)</dd>
+              </dl>               -->
               <dl>
                 <dt>장소</dt>
-                <dd>아트센터고마 1F 컨퍼런스홀</dd>
+                <dd>아트센터고마 1F 컨퍼런스룸</dd>
               </dl>
-              <dl>
+              <!-- <dl>
                 <dt>사전신청</dt>
                 <dd>
                   06월 02일(목)까지 가능<br>현장 접수 가능<br><br>
-                  <a href="/bbs/content.php?co_id=pre_forms&program=tutorial">사전신청하기</a></dd>
-              </dl>
+                  <a href="/bbs/content.php?co_id=pre_forms&program=announcement">사전신청하기</a></dd>
+              </dl> -->
             </div>
           </div>
         </div>
