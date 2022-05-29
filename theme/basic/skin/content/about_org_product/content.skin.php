@@ -129,13 +129,13 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<td><span>문화유산상품마켓•체험</span></td>
 										<td><span>누구나 체험하고 즐길 수 있는 문화유산 활용 체험 및 문화유산 상품마켓</span></td>
-                    <td><span>06.03.(금)<br>13:00~21:00<br>06.04.(토)~06.05.(일) 10:00~21:00</span></td>
+                    <td><span>06.03.(금)<br>13:00~21:00<br>06.04.(토)~06.05.(일) 11:00~21:00</span></td>
                     <td rowspan="8">아트센터고마<br>야외</td>
 								</tr>
 								<tr>
 										<td><span>공주시 관광안내소</span></td>
 										<td><span>공주시관광진흥협회에서 운영하는 이벤트 및<br>공주시 관광 명소 안내</span></td>
-                    <td><span>06.03.(금)~06.05.(일)<br>10:00~18:00</span></td>
+                    <td><span>06.03.(금)~06.05.(일)<br>11:00~18:00</span></td>
 								</tr>
 								<tr>
 										<td><span>맛있는 푸드트럭</span></td>
@@ -150,7 +150,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
 										<td><span>한 여름의 꿈,<br>버스킹 공연</span></td>
 										<td><span>다양한 음악공연이 가득한 버스킹 공연</span></td>
-                    <td><span>06.03.(금)~06.05.(일)<br>17:00~19:00</span></td>
+                    <td><span>06.04.(토)~06.05.(일)<br>17:00~19:00</span></td>
 								</tr>
 								<tr>
 										<td><span>야간 미디어파사드</span></td>
@@ -158,18 +158,19 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                     <td>06.03.(금)~06.04.(토)<br>20:00~21:00</td>
 								</tr>
                 <tr>
-										<td><span>선물 팡팡 이벤트</span></td>
+										<td><span>깜짝선물 이벤트</span></td>
 										<td><span>디지털문화유산전에서 이정도는 기본이지!
 <br>후원기업과 함께하는 상품이 가득한 이벤트
-<br>아이패드 가지고 싶으면 일단 참가하기~</span></td>
+<br>갤럭시탭 가지고 싶으면 일단 참가하기~</span></td>
                     <td><span>06.03.(금)
-<br>14:00
+<br>14:00, 18:00
 <br>06.04.(토)~06.05.(일)
 <br>14:00, 19:00</span></td>
 								</tr>                                                                   								                                                           								
 						</tbody>
 					</table>
 				</div>
+        <span>* 행사일정은 변경될 수 있습니다.</span>
 				</div>
         </div>
         </div>

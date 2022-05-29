@@ -113,14 +113,14 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                 <dt>주최</dt>
                 <dd>(사)한국문화재보존과학회</dd>
               </dl> -->
-              <!-- <dl>
-                <dt>주관</dt>
-                <dd>웨이퍼마스터즈</dd>
-              </dl>                             -->
               <dl>
                 <dt>일시</dt>
-                <dd>06월 03일(금) 13:30~15:00<br>VSLAB</dd>
+                <dd>06월 03일(금) 13:30~15:00</dd>
               </dl>
+              <dl>
+                <dt>주관</dt>
+                <dd>VSLAB</dd>
+              </dl>                            
               <!-- <dl>
                 <dt>준비물</dt>
                 <dd>노트북 필참<br>교육생 15명 제한</dd>
