@@ -264,12 +264,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>D03</td>
-										<td class="link" onclick="#;">충남정보문화산업진흥원</td>
+										<td class="link" onclick="go_open('/list/cinfo.html');">충남정보문화산업진흥원</td>
 										<td>XR, 실감콘텐츠, 메타버스</td>
 								</tr>
 								<tr>
                   <td>D04</td>
-										<td class="link"  onclick="go_open('/list/dsl.html');">국립공주대학교 디지털보존솔루션랩</td>
+										<td class="link" onclick="go_open('/list/dsl.html');">국립공주대학교 디지털보존솔루션랩</td>
 										<td>3D 스캐닝·프린팅, 디지털 복원·복제, 인터랙티브 콘텐츠, 보존솔루션 개발</td>
 								</tr>
 								<!-- <tr>
@@ -279,12 +279,12 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>D05</td>
-										<td class="link" onclick="#;">한국전통문화대학교 문화유산산업학과</td>
+										<td class="link" onclick="go_open('/list/univ.html');">한국전통문화대학교 문화유산산업학과</td>
 										<td>문화유산 아카이브, HBIM, 디지털 큐레이션, 디지털 콘텐츠 기획, 디지털 스토리텔링</td>
 								</tr>
 								<tr>
                   <td>D06</td>
-										<td class="link" onclick="#;">문화유산기술연구소</td>
+										<td class="link" onclick="go_open('/list/tric.html');">문화유산기술연구소</td>
 										<td>디지털 아카이브, AR/VR/MR/XR, 메타버스, 디지털 복원·복제·트윈, 실감콘텐츠 기획·제작</td>
 								</tr>
 						</tbody>
@@ -315,7 +315,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								<tr>
                   <th scope="row" rowspan="9">디지털문화유산<br>미래교육</th>
                   <td>E01</td>
-										<td class="link" onclick="#;">㈜에듀밋</td>
+										<td class="link" onclick="go_open('/list/edumeet.html');">㈜에듀밋</td>
 										<td>메타버스 교육, 가상공간 체험교육,<br>문화유산과 스토리텔링</td>
 								</tr>
 								<!-- <tr>
@@ -350,7 +350,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 								</tr> -->
 								<tr>
                   <td>E05</td>
-										<td class="link" onclick="#;">충남남부 SW미래채움</td>
+										<td class="link" onclick="go_open('/list/swa.html');">충남남부 SW미래채움</td>
 										<td>3D 입체 구조 학습, 언플러그드 코딩, 게임형 컨텐츠, 센서 모니터링, 디버깅 학습</td>
 								</tr>
 								<!-- <tr>
