@@ -152,6 +152,9 @@ if (!empty($_REQUEST['program'])) {
                       <input type="hidden" name="token" value="<?php if(!empty($_REQUEST['program'])) {echo 'tutorial';} else {echo 'basic';} ?>" >
                         <table>
                         <tbody>
+                        <?php
+                        if(!empty($_REQUEST['program'])) {
+                        ?>
                         <tr>
                             <td class="ttl">프로그램</td>
                             <td class="box6 ride_count">
@@ -159,7 +162,27 @@ if (!empty($_REQUEST['program'])) {
                                     <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program; ?>" readonly />
                                 </div>
                             </td>
-                        </tr> 
+                        </tr>
+                        <?php
+                        } else {
+                        ?>
+                        <tr>
+                            <td class="ttl">프로그램</td>
+                            <td class="box6 ride_count">
+                                <div class="box6_01">
+                                    <!-- <input type="text" id="rsv_program" class="rsv_program" name="rsv_program" value="<?php echo $_program; ?>" readonly /> -->
+                                    <select class="minimal" name="rsv_program" id="rsv_program" onchange="onDateSelect(this)">
+                                      <option value="전시회 등록">전시회 등록</option>
+                                      <option value="튜토리얼">튜토리얼</option>
+                                      <option value="초청특강">초청특강</option>
+                                      <option value="클래스">클래스</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <?php
+                        }
+                        ?>
                         <?php
                         if(empty($_REQUEST['program'])) {
                         ?>
@@ -518,6 +541,17 @@ if (!empty($_REQUEST['program'])) {
             });
         });
     });
+function onDateSelect(el) {
+  console.log('change');
+  console.log($(el).val());
+  if ($(el).val() == "튜토리얼") {
+    $("#rsv_date").val("2022-06-04").prop("selected", true);
+  } else if($(el).val() == "초청특강") {
+    $("#rsv_date").val("2022-06-05").prop("selected", true);
+  } else if($(el).val() == "클래스") {
+    $("#rsv_date").val("2022-06-05").prop("selected", true);
+  }
+}    
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
