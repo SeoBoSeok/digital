@@ -546,10 +546,15 @@ function onDateSelect(el) {
   console.log($(el).val());
   if ($(el).val() == "튜토리얼") {
     $("#rsv_date").val("2022-06-04").prop("selected", true);
+    $("#rsv_date").attr('disabled', true);
   } else if($(el).val() == "초청특강") {
     $("#rsv_date").val("2022-06-05").prop("selected", true);
+    $("#rsv_date").attr('disabled', true);
   } else if($(el).val() == "클래스") {
     $("#rsv_date").val("2022-06-05").prop("selected", true);
+    $("#rsv_date").attr('disabled', true);
+  } else {
+    $("#rsv_date").attr('disabled', false);
   }
 }    
 </script>
