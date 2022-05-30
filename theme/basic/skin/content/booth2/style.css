@@ -310,7 +310,7 @@ td.link:hover {
   cursor: pointer;
 }
 .booth_tite {width: 100%;padding: 10px 20px; background-color: #5E9D9D; color: white; font-size: 18px;}
-.booth_tite h2 {font-size: 15px; margin-bottom: 0;
+.booth_tite h2 {font-size: 20px; margin-bottom: 0;
 }
 .booth_tite.second {margin-top: 100px;}
 .digital .sec1 .inner:after {display: none!important}
