@@ -116,9 +116,10 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
                             </div>
                             <div class="title">신청 프로그램</div>
                             <select class="minimal" name="program" id="program">
-                                <option>관람객</option>
+                                <option>전시회 등록</option>
                                 <option>튜토리얼</option>
-                                <option>미래교육</option>
+                                <option>초청특강</option>
+                                <option>클래스</option>
                             </select>
                         </div>
                         <div class="btn_box">
