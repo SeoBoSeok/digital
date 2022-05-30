@@ -195,7 +195,7 @@ if (!empty($_REQUEST['program'])) {
                                       <option value="2022-06-04">2022-06-04</option>
                                       <option value="2022-06-05">2022-06-05</option>
                                     </select>
-                                    <span style="color: #f44336;">※ 6월 2일까지 사전등록 가능</span>
+                                    <span style="color: #f44336;">※ 6월 2일 (18:00)까지 사전등록 가능<br>* 현장접수도 가능</span>
                                 </div>
                             </td>
                         </tr>
