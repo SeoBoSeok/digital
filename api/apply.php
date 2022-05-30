@@ -154,7 +154,7 @@ if ($token == "basic") {
   //     exit;
   //   }
   // }
-}
+// }
 // $cnt2 = sql_fetch("
 // SELECT sum(ride_adult_cnt) as cnt FROM apply WHERE token = '$token'
 // ");
