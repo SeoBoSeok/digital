@@ -69,23 +69,29 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
 
           <div class="cont ani active schedule">
 					<div class="booth_tite">
-						<h2>전시배치</h2>
+						<h2>층별 안내도</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/building.png" alt="전시배치">
+						<img src="/common/img/booth4.jpeg?v1" alt="전시배치">
 					</div>
 					<div class="booth_tite second">
-						<h2>층별 상세 안내도</h2>
+						<h2>디지털문화유산 산업·교육·연구 전시장</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/building.png" alt="전시배치">
+						<img src="/common/img/booth3.jpeg?v1" alt="전시배치">
 					</div>
-					<!-- <div class="booth_pic">
-						<img src="/common/img/booth001.png" alt="전시배치">
+          <div class="booth_tite second">
+						<h2>디지털문화유산 초청전</h2>
 					</div>
 					<div class="booth_pic">
-						<img src="/common/img/booth004.png" alt="전시배치">
-					</div>										 -->
+						<img src="/common/img/booth2.jpeg?v1" alt="전시배치">
+					</div>
+          <div class="booth_tite second">
+						<h2>디지털문화유산 특별전</h2>
+					</div>
+					<div class="booth_pic">
+						<img src="/common/img/booth1.jpeg?v1" alt="전시배치">
+					</div>										
           </div>	
 
         </div>
