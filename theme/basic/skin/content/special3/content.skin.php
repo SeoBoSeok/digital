@@ -89,7 +89,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
             </div>
             <div class="right">
               <h3>
-                <제1회 디지털문화유산 콘텐츠 경진대회> 수상작
+                <한양도성 타임머신> 디지털 실감콘텐츠 수상작
               </h3>
               <dl>
                 <dt>소개</dt>
