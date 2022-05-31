@@ -76,7 +76,7 @@ echo '<link rel="stylesheet" href="'.$content_skin_url.'/style.css">';
       </div>      
       <section class="sec2 ani active">
         <div class="inner">
-          <h2>디지털 콘텐츠로 만나는 문화유산</h2>
+          <h2>문화유산 원형기록 디지털로 담다</h2>
           <!-- <p>
             2022디지털문화유산전은 차별화된 디지털 헤리티지 체험, 교육,
             문화 소통의 장으로 최신 기술의 변화와 트렌드 이해를 통한 디지털 문화
