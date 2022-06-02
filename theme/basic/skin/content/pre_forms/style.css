@@ -838,3 +838,7 @@ select.minimal {
         background-size: 5px 5px, 5px 5px, 1px 2em;
         background-repeat: no-repeat;
 }
+.digital .magambackground {
+  background: url('/common/img/magam_background.png') center center no-repeat!important;
+  background-size: cover;
+}

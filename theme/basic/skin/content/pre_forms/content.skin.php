@@ -76,27 +76,27 @@ if (!empty($_REQUEST['program'])) {
             </span>
         </span><!--/.subpage-item-lists-->
       </div>
-      <section class="sec2 ani active" style="padding-top: 100px;">
+      <section class="sec2 ani active magambackground" style="padding-top: 100px;">
         <div class="inner">
           <div class="magam center">
-            <!-- <div class="magam_image">
-              <img src="/common/img/magam1.png" alt="사전등록 마감" >
-            </div> -->
-            <!-- <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록가능합나다)</div>
-            <div class="magam_txt2 magam_image2">
-              <img src="/common/img/magam2.png" alt="사전등록 마감" >
+            <div class="magam_image">
+              <!-- <img src="/common/img/magam1.png" alt="사전등록 마감" > -->
             </div>
+            <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록가능합나다)</div>
+            <div class="magam_txt2 magam_image2">
+              <!-- <img src="/common/img/magam2.png" alt="사전등록 마감" > -->
+            <!--</div>
             <div class="magam_txt3">12월 18일 (토)부터 적용되는 강력한 거리두기 방안이 시행됨에 따라 전시장 박람회 관람시에도 방역패스가 적용됩니다.<br>
 이에 입장시 확인 절차가 진행되오니 양해부탁드립니다.</div> -->
           <!-- <div class="magam_txt1">전시 준비중입니다. 많은 기대 부탁드립니다.</div> -->
           </div>
-            <div class="center">
+            <div class="center" style="display: none;">
                 <h2><?php echo $_program; ?> 사전등록</h2>
             </div>
             <?php
               if(!empty($_REQUEST['program'])) {
               ?>
-<div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px;">
+<div class="wrap-tbl-calendar mb-50 table-container" style="padding-top: 40px; display: none;">
 					<!-- <table class="tbl">
 						<caption>
 						</caption>
@@ -139,7 +139,7 @@ if (!empty($_REQUEST['program'])) {
               <?php
               }
               ?>
-                <div class="lists apply">
+                <div class="lists apply" style="display: none;">
                 <div class="form_wrap">
                     <form id="reserveForm" action="/api/apply.php" method="POST" enctype="multipart/form-data">
                     <?php
