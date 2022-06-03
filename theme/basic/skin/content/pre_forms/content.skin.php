@@ -82,7 +82,7 @@ if (!empty($_REQUEST['program'])) {
             <div class="magam_image">
               <!-- <img src="/common/img/magam1.png" alt="사전등록 마감" > -->
             </div>
-            <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록가능합나다)</div>
+            <div class="magam_txt1">사전접수 마감 (행사방문시 현장등록 가능합니다)</div>
             <div class="magam_txt2 magam_image2">
               <!-- <img src="/common/img/magam2.png" alt="사전등록 마감" > -->
             <!--</div>
